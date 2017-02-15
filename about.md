@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "About me"
-date: 2017-1-15
+layout: page
+title: About
+permalink: /about/
 ---
 
 I'm Sergio Basurco, a software developer based in Barcelona.
