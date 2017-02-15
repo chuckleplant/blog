@@ -3,3 +3,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 title: Chuck LePlant
 description: Reticulum vitae
+
+theme: jekyll-theme-time-machine
