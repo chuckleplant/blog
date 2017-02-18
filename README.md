@@ -1,6 +1,6 @@
 # [Chuck LePlant](https://chuckleplant.github.io/)
 
-This blog is hosted in GitHub pages, using Jekyll underneath. I'm using Webjeda's theme: [Krishnai](http://webjeda.com/krishna/). 
+This blog is hosted in GitHub pages, using [Jekyll](https://jekyllrb.com/) underneath. I'm using Webjeda's theme: [Krishna](http://webjeda.com/krishna/). 
 
 Have fun!
 
