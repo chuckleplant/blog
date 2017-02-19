@@ -1,12 +1,10 @@
 ---
 layout: post
-title: A method
+title: Methodical selection
 date: 2017-01-29
 icon: wpexplorer
 ---
 
-
-## Methodical selection##
 
 Software development has too many edges and it can be a completely different thing for two slightly different teams. Even within a single company, the methodology between teams might not be the same.
 
