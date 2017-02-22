@@ -8,9 +8,9 @@ icon: wpexplorer
 
 Software development has too many edges and it can be a completely different thing for two slightly different teams. Even within a single company, the methodology between teams might not be the same.
 
-As it happens with programming languages, there isn't one that fits all needs. In some cases you have to choose; and sometimes your choice does not matter at all as long as the thing works. You get to know a programming language a lot better once you know how it's compiled and loaded to memory, this is what I'm trying to do with methodologies. Consider this as an introspection of my somewhat limited experience.
+As it happens with programming languages, there's no *one size fits all*. You get to know a programming language a lot better once you know how it's compiled, loaded to memory and executed. This is what I'm trying to do with methodologies. Consider this as an introspection of my somewhat limited experience.
 
-In order to understand the nature of software development, what helped me was a comparison a colleague of mine made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tell us something about this is that we'll have some weird mutants before we can have a well defined specimen.
+In order to understand the nature of software development, what helped me was a comparison a colleague of mine made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tells us something about this is that we'll have some weird mutants before we can have a well defined specimen.
 
 ## Same old, same old
 
