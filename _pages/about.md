@@ -3,6 +3,8 @@ layout: post
 title: About
 permalink: /about/
 ---
+[<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>](https://www.linkedin.com/in/sergiobasurco/) 
+[<i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i>](http://stackoverflow.com/users/story/2628257)
 
 I'm Sergio Basurco, a software developer based in Barcelona.
 

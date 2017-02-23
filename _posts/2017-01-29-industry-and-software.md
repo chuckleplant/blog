@@ -10,7 +10,7 @@ Software development has too many edges and it can be a completely different thi
 
 As it happens with programming languages, there's no *one size fits all*. You get to know a programming language a lot better once you know how it's compiled, loaded to memory and executed. This is what I'm trying to do with methodologies. Consider this as an introspection of my somewhat limited experience.
 
-In order to understand the nature of software development, what helped me was a comparison a colleague of mine made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tells us something about this is that we'll have some weird mutants before we can have a well defined specimen.
+In order to understand the nature of software development, what helped me was a comparison a colleague from [Happy Computing](http://happycomputing.cat/)[^1] made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tells us something about this is that we'll have some weird mutants before we can have a well defined specimen.
 
 ## Same old, same old
 
@@ -23,8 +23,10 @@ Early on, people tried to apply hardware production chains to software. It was t
 * See if it works
 * Sell it
 
+
 Sounds familiar? 
 
+![waterfall]({{site.baseurl}}/images/waterfall-method.png)
 
 Behold the [waterfall software model](https://en.wikipedia.org/wiki/Waterfall_model). This is the one I learnt during my years in university. I actually thought that's how all companies would be making software, because why would you not?
 
@@ -48,6 +50,7 @@ I remember wondering whether I wanted to be a programmer, the hardworking guy wr
 
 Now I just thought of my job as *developer*, the guy doing software development whatever it takes. And I believe that's what these roles have turned into.
 
+![iterative]({{site.baseurl}}/images/iterative-method.png)
 
 ## A new contender
 
@@ -55,7 +58,9 @@ I believe it was the guys tired of hitting nails, who came up with this revoluti
 
 Newborn companies are famous for giving developers commodities, levelling the various roles in a project. Tech leads get their hands dirty with the team.
 
-The key concept is treating development as a creative process, beyond labels and roles, new methodologies give somewhat more freedom to the developer to just code and deploy things that work.
+The key concept is treating development as a creative process, beyond labels and roles, new methodologies give somewhat more freedom to the developer to just code and deploy things that work. 
+
+
 
 ## Aftermath
 
@@ -65,3 +70,5 @@ What can I say, I'm quite okay with agile development. It gives me a comfortable
 
 The last one that caught my eye was, [Programming, Motherfucker. Do you speak it?](http://programming-motherfucker.com/)
 
+
+[^1]: *All credits for the post diagrams and core idea go to my folks at Happy Computing*
