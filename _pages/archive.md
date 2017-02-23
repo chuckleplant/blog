@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Archive
 permalink: /archive/
 ---
