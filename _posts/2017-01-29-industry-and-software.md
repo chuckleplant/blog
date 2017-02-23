@@ -26,7 +26,7 @@ Early on, people tried to apply hardware production chains to software. It was t
 
 Sounds familiar? 
 
-![waterfall]({{site.baseurl}}/images/waterfall-method.png)
+![waterfall-diagram]({{site.baseurl}}/images/waterfall.png)
 
 Behold the [waterfall software model](https://en.wikipedia.org/wiki/Waterfall_model). This is the one I learnt during my years in university. I actually thought that's how all companies would be making software, because why would you not?
 
@@ -40,7 +40,7 @@ Now let's find the conflict in our story. Why would the solid Waterfall...well, 
 
 ## The artist
 
-![dontmindme]({{site.baseurl}}/images/goethe-big-sleeve.jpg)
+![mindingme]({{site.baseurl}}/images/dat-sleeve.jpg)
 
 Ask Apple who's more important when making the iPhone, is it the designers from California, or the assemblers from China?
 
@@ -50,7 +50,7 @@ I remember wondering whether I wanted to be a programmer, the hardworking guy wr
 
 Now I just thought of my job as *developer*, the guy doing software development whatever it takes. And I believe that's what these roles have turned into.
 
-![iterative]({{site.baseurl}}/images/iterative-method.png)
+![iterative-diagram]({{site.baseurl}}/images/iterative.png)
 
 ## A new contender
 
