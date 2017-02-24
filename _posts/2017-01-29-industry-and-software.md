@@ -10,7 +10,7 @@ Software development has too many edges and it can be a completely different thi
 
 As it happens with programming languages, there's no *one size fits all*. You get to know a programming language a lot better once you know how it's compiled, loaded to memory and executed. This is what I'm trying to do with methodologies. Consider this as an introspection of my somewhat limited experience.
 
-In order to understand the nature of software development, what helped me was a comparison a colleague from [Happy Computing](http://happycomputing.cat/)[^1] made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tells us something about this is that we'll have some weird mutants before we can have a well defined specimen.
+In order to understand the nature of software development, what helped me was a comparison Albert Gil, a colleague from [Happy Computing](http://happycomputing.cat/) made between software products and hardware products. Hardware products are old, and it's to be expected that with the years comes knowledge and expertise. Software is new, but spreads quickly. If evolution tells us something about this is that we'll have some weird mutants before we can have a well defined specimen.
 
 ## Same old, same old
 
@@ -69,6 +69,3 @@ I'm no-one to say which methodology is the best to stick to. Waterfall works, sa
 What can I say, I'm quite okay with agile development. It gives me a comfortable pace of work and helps me tie business and technical ends together. Seeing there has been an evolution of methodologies, I also wonder what manifesto will hit the bell next.
 
 The last one that caught my eye was, [Programming, Motherfucker. Do you speak it?](http://programming-motherfucker.com/)
-
-
-[^1]: *All credits for the post diagrams and core idea go to my folks at Happy Computing*
