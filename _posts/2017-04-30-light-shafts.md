@@ -13,6 +13,8 @@ Lately I found myself doing the same thing while playing The Witcher 3, I just f
 
 For the sake of me actually playing videogames instead of just being mesmerized by technical feats, I decided to understand how light shafts are generated and what's the theory behind it.
 
+My hope here is to give any reader a shallow but thorough overview of computer graphics rendering and physically based rendering effects. These two concepts are rather tangent, in the sense that computer graphics will not use the actual physical formulae, but hacky approximations.
+
 # Rendering equation review
 
 $$
@@ -24,13 +26,17 @@ $$
 \definecolor{gold}{RGB}{255,206,63} %FFCE3F
 \definecolor{bleu}{RGB}{73,214,255} %49D6FF
 \definecolor{pistacho}{RGB}{118,163,39} %76A327
+\definecolor{sea}{RGB}{41,153,124}  %29997C 
 
-\color{steadyblue}{L_{\text{o}}(\mathbf x,\, \omega_{\text{o}})} \color{black}{\,=\,} \color{mars}{L_e(\mathbf x,\, \omega_{\text{o}})} \color{black}{\ +\,} \color{bleu}{\int_\Omega} \color{gold}{f_r(\mathbf x,\, \omega_{\text{i}},\, \omega_{\text{o}})\,} \color{rosamund}{L_{\text{i}}(\mathbf x,\, \omega_{\text{i}})\,} \color{pistacho}{(\omega_{\text{i}}\,\cdot\,\mathbf n)\,} \color{bleu}{\operatorname d \omega_{\text{i}}}$$
+\color{steadyblue}{L_{\text{o}}(\mathbf x,\, \omega_{\text{o}})} \color{black}{\,=\,} \color{mars}{L_e(\mathbf x,\, \omega_{\text{o}})} \color{black}{\ +\,} \color{bleu}{\int_\Omega} \color{sea}{f_r(\mathbf x,\, \omega_{\text{i}},\, \omega_{\text{o}})\,} \color{rosamund}{L_{\text{i}}(\mathbf x,\, \omega_{\text{i}})\,} \color{pistacho}{(\omega_{\text{i}}\,\cdot\,\mathbf n)\,} \color{bleu}{\operatorname d \omega_{\text{i}}}$$
 
-To find <font color="#004CD4">the light towards the viewer from a specific point</font>, we sum the <font color="#FFA52C">light emitted from such point</font> plus <font color="#49D6FF">the integral within the unit hemisphere</font> of <font color="#C649FF">the light coming from a any given direction</font> multiplied by the <font color="#FFCE3F">chances of such light rays bouncing towards the viewer</font> and also by <font color="#76A327">the irradiance factor over the normal at the point</font>.[^1]$$^,$$[^2]
+To find <font color="#004CD4">the light towards the viewer from a specific point</font>, we sum the <font color="#FFA52C">light emitted from such point</font> plus <font color="#49D6FF">the integral within the unit hemisphere</font> of <font color="#C649FF">the light coming from a any given direction</font> multiplied by the <font color="#29997C">chances of such light rays bouncing towards the viewer</font>[^100] and also by <font color="#76A327">the irradiance factor over the normal at the point</font>.[^1]$$^,$$[^2]
 
 Note how <font color="C649FF">incoming light</font> is also computed by that very formula, which makes this exhaustingly recursive.
 
+So, think about the pixel you're reading right now, your screen is probably emitting more light than it transmits from other sources, if you have a glossy screen, then you see your own reflection. Meaning that for every point in your screen, light is reflected along the surface normal (perpendicular to your screen) in a **specular** fashion. 
+
+If you have a non-glossy screen, then the light bouncing from other light sources is more evenly distributed over the reflection hemisphere, hence not forming a clear image as a result, but a **diffuse** image instead.
 
 DRAWING HERE, OR ABOVE, HAND DRAWN BUT WITH SOME SENSE OF STYLE, SERGIO PLS
 
@@ -41,11 +47,23 @@ Light, as the electromagnetic radiation it is, interacts with matter mainly in t
 * Absorption (The photons disappear)
 * Scattering (The photons change their direction)
 
-In both cases the **transmitted intensity** decreases exponentially. Being $$\tau$$ the extinction constant composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse. And, as all things that grow or shrink[^3], we beautifully represent it as:
+In both cases the **transmitted intensity** decreases exponentially. Being $$\tau$$ the extinction constant composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse. And, as all things that grow or shrink[^3], we represent with an exponential function over $$e$$:
 
 $$I=I_0 · e^{-\tau s}$$
 
 This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^4].
+
+$$
+\definecolor{steadyblue}{RGB}{0,76,212} %004CD4
+\definecolor{lobster}{RGB}{185,138,162} %B98AA2
+\definecolor{mars}{RGB}{255,165,44} %FFA52C
+\definecolor{rosamund}{RGB}{198,73,255} %C649FF
+\definecolor{gold}{RGB}{255,206,63} %FFCE3F
+\definecolor{bleu}{RGB}{73,214,255} %49D6FF
+\definecolor{pistacho}{RGB}{118,163,39} %76A327
+\definecolor{sea}{RGB}{41,153,124}  %29997C 
+
+\color{red}{L(s,\theta)} \color{black}{=} \color{steadyblue}{L_0} \color{rosamund}{e^{-\tau s}} \color{black}{+} \frac{1}{\tau} E_{sun} S(\theta)(1 - \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
 
 * Rayleigh and Mie, the wavelength (frequency) of the scattered light is the same as the incident light. 
 
@@ -69,3 +87,5 @@ Physically unrealistic, only good for distant lights that are in screen space.
 [^2]: [Colorful equations with MathJax](http://adereth.github.io/blog/2013/11/29/colorful-equations/)
 [^3]: [Why number $$e$$ is so sexy](https://www.youtube.com/watch?v=AuA2EAgAegE)
 [^4]: [Light Scattering Demystified - Theory and Practice, Lars Øgendal](http://www.nbi.dk/~ogendal/personal/lho/lightscattering_theory_and_practice.pdf)
+[^100]: [Bidirectional reflectance distribution function](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function)
+* http://www.gamasutra.com/blogs/BartlomiejWronski/20141208/226295/Atmospheric_scattering_and_volumetric_fog_algorithm__part_1.php
