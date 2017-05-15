@@ -47,7 +47,7 @@ Light, as the electromagnetic radiation it is, interacts with matter mainly in t
 * Absorption (The photons disappear)
 * Scattering (The photons change their direction)
 
-In both cases the **transmitted intensity** decreases exponentially. Being $$\tau$$ the extinction constant composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse. And, as all things that grow or shrink[^3], we represent with an exponential function over $$e$$:
+In both cases the **transmitted intensity** $$I$$ decreases exponentially. Being $$\tau$$ the extinction coefficient composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse. And, as all things that grow or shrink[^3], we represent with an exponential function over $$e$$:
 
 $$I=I_0 · e^{-\tau s}$$
 
@@ -62,10 +62,16 @@ $$
 \definecolor{bleu}{RGB}{73,214,255} %49D6FF
 \definecolor{pistacho}{RGB}{118,163,39} %76A327
 \definecolor{sea}{RGB}{41,153,124}  %29997C 
+\definecolor{greenbean}{RGB}{76,153,0}  %4C9900 
 
-\color{red}{L(s,\theta)} \color{black}{=} \color{steadyblue}{L_0} \color{rosamund}{e^{-\tau s}} \color{black}{+} \frac{1}{\tau} E_{sun} S(\theta)(1 - \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
+\color{red}{L(s,\theta)} \color{black}{=} \color{steadyblue}{L_0} \color{rosamund}{e^{-\tau s}} \color{black}{+} \frac{1}{\tau} \color{orange}{E_{sun}} \color{greenbean}{S(\theta)} \color{black}{(1 - } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
 
-* Rayleigh and Mie, the wavelength (frequency) of the scattered light is the same as the incident light. 
+The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> (using the rendering equation above) and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
+
+Rayleigh and Mie scattering describes how light scatters off of molecules in a medium depending on the size of those molecules. Smaller molecules respond to Mie scattering more than Rayleigh and viceversa.[^32]
+
+
+{% include image.html file="rayleigh-meow.png" description="Image based on [Hyperphysics scattering post](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html) and derived from [Sharayanan's work](https://commons.wikimedia.org/wiki/File:Mie_scattering.svg) hence under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licence." %}
 
 # The GLSL approach
 
@@ -77,8 +83,6 @@ But, should games aim for physical realism? I don't think so. As a means to tran
 
 # Sample application - Wallpaper generator
 
-Physically unrealistic, only good for distant lights that are in screen space. 
-
 # References
 
 
@@ -88,4 +92,4 @@ Physically unrealistic, only good for distant lights that are in screen space.
 [^3]: [Why number $$e$$ is so sexy](https://www.youtube.com/watch?v=AuA2EAgAegE)
 [^4]: [Light Scattering Demystified - Theory and Practice, Lars Øgendal](http://www.nbi.dk/~ogendal/personal/lho/lightscattering_theory_and_practice.pdf)
 [^100]: [Bidirectional reflectance distribution function](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function)
-* http://www.gamasutra.com/blogs/BartlomiejWronski/20141208/226295/Atmospheric_scattering_and_volumetric_fog_algorithm__part_1.php
+[^32]: [Rayleigh and Mie scattering](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html)
