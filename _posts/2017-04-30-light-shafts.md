@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Rendering equation, blue skies and cool wallpapers
+title: Isaac Hayes Wallpaper Generator - Volumetric light scattering, 1 of 2
 date: 2017-04-30
 icon: sun-o
 comments: true
 disqus_identifier: McShafty
 ---
+
+> This post is greatly based on the [Nvidia GPU Gem on volumetric light scattering](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch13.html). Here I walk you through the formulae and core concepts. I highly recommend reading that one instead, and come back only if you couldn't follow, or for fun.
 
 Often there's one rendering effect that has me in awe everytime I see it. The first one I remember was normal mapping. While playing videogames I used to walk towards a wall that had a light bulb nearby, and then I spent a good 10 minutes just moving near the wall, seeing how the light behaved. 
 
@@ -14,6 +16,9 @@ Lately I found myself doing the same thing while playing The Witcher 3, I just f
 For the sake of me actually playing videogames instead of just being mesmerized by technical feats, I decided to understand how light shafts are generated and what's the theory behind it.
 
 My hope here is to give any reader a shallow but thorough overview of computer graphics rendering and physically based rendering effects. These two concepts are rather tangent, in the sense that computer graphics will not use the actual physical formulae, but hacky approximations.
+
+
+{% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2." %}
 
 # Rendering equation review
 
@@ -42,7 +47,7 @@ DRAWING HERE, OR ABOVE, HAND DRAWN BUT WITH SOME SENSE OF STYLE, SERGIO PLS
 
 # Volumetric light scattering equations
 
-Light, as the electromagnetic radiation it is, interacts with matter mainly in two ways:
+Light, as the electromagnetic radiation it is, interacts with matter mainly in two ways[^4]:
 
 * Absorption (The photons disappear)
 * Scattering (The photons change their direction)
@@ -51,7 +56,7 @@ In both cases the **transmitted intensity** $$I$$ decreases exponentially. Being
 
 $$I=I_0 · e^{-\tau s}$$
 
-This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^4].
+This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^7].
 
 $$
 \definecolor{steadyblue}{RGB}{0,76,212} %004CD4
@@ -66,22 +71,15 @@ $$
 
 \color{red}{L(s,\theta)} \color{black}{=} \color{steadyblue}{L_0} \color{rosamund}{e^{-\tau s}} \color{black}{+} \frac{1}{\tau} \color{orange}{E_{sun}} \color{greenbean}{S(\theta)} \color{black}{(1 - } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
 
-The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> (using the rendering equation above) and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
+The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> (eq. 1) and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
+
+## Rayleigh and Mie scattering
 
 Rayleigh and Mie scattering describes how light scatters off of molecules in a medium depending on the size of those molecules. Smaller molecules respond to Mie scattering more than Rayleigh and viceversa.[^32]
 
 
-{% include image.html file="rayleigh-meow.png" description="Image based on [Hyperphysics scattering post](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html) and derived from [Sharayanan's work](https://commons.wikimedia.org/wiki/File:Mie_scattering.svg) hence under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licence." %}
+{% include image.html file="rayleigh-meow.png" description="Image based on [Hyperphysics scattering post](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html) and derived from [Sharayanan's work](https://commons.wikimedia.org/wiki/File:Mie_scattering.svg). Under the [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licence." %}
 
-# The GLSL approach
-
-# Application in games
-
-This technique is quite easy to implement, and to the uneducated viewer it will be an amusing effect. This is why many games have overused it, and still do. It is based on physical effects, but is not by any means physically realistic. The effect is only valid when the light is very distant, and in screen space. The effect disappears completely when the light is either out of view or completely occluded.
-
-But, should games aim for physical realism? I don't think so. As a means to transmitting emotions to the player, game developers should use any possible trick to do so, visual illusions such as this rather simplistic radial blur are very effective.
-
-# Sample application - Wallpaper generator
 
 # References
 
@@ -93,3 +91,4 @@ But, should games aim for physical realism? I don't think so. As a means to tran
 [^4]: [Light Scattering Demystified - Theory and Practice, Lars Øgendal](http://www.nbi.dk/~ogendal/personal/lho/lightscattering_theory_and_practice.pdf)
 [^100]: [Bidirectional reflectance distribution function](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function)
 [^32]: [Rayleigh and Mie scattering](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html)
+[^7]: [Nvidia GPU Gems, Chapter 13. Volumetric Light Scattering as a Post-Process](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch13.html)
