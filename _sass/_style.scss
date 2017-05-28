@@ -93,8 +93,25 @@ pre {
 
 
 
+/* http://stackoverflow.com/a/19206463 */
+.Container
+{
+    text-align: center;
+}
 
+    .Container:before
+    {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
 
+.Content
+{
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
