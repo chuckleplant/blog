@@ -9,7 +9,7 @@ disqus_identifier: McShafty
 
 > This post is greatly based on the [Nvidia GPU Gem on volumetric light scattering](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch13.html). Here I walk you through the formulae and core concepts. I highly recommend reading that one instead, and come back only if you couldn't follow, or for fun.
 
-{% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2." %}
+{% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2 concept art." %}
 
 
 Often there's one rendering effect that has me in awe everytime I see it. The first one I remember was normal mapping. While playing videogames I used to walk towards a wall that had a light bulb nearby, and then I spent a good 10 minutes just moving near the wall, seeing how the light behaved. 
@@ -42,7 +42,7 @@ $$
 
 To find <font color="#004CD4">the light towards the viewer from a specific point</font>, we sum the <font color="#FFA52C">light emitted from such point</font> plus <font color="#49D6FF">the integral within the unit hemisphere</font> of <font color="#C649FF">the light coming from a any given direction</font> multiplied by the <font color="#FF5595">chances of such light rays bouncing towards the viewer</font>[^100] and also by <font color="#76A327">the irradiance factor over the normal at the point</font>.[^1]$$^,$$[^2]
 
-Note how <font color="C649FF">incoming light</font> is also computed by that very formula, which makes this exhaustingly recursive.
+Note that <font color="C649FF">incoming light</font> is also computed by that very formula, which makes this exhaustingly recursive.
 
 So, think about the pixel you're reading right now, your screen is probably emitting more light than it transmits from other sources, if you have a glossy screen, then you see your own reflection. Meaning that for every point in your screen, light is reflected along the surface normal (perpendicular to your screen) in a **specular** fashion. 
 
@@ -56,7 +56,7 @@ Light, as the electromagnetic radiation it is, interacts with matter mainly in t
 * Absorption (The photons disappear)
 * Scattering (The photons change their direction)
 
-In both cases the **transmitted intensity** $$I$$ decreases exponentially. Being $$\tau$$ the extinction coefficient composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse. And, as all things that grow or shrink[^3], we represent with an exponential function over $$e$$:
+In both cases the **transmitted intensity** $$I$$ decreases exponentially. Being $$\tau$$ the extinction coefficient composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse, we use an exponential function over $$e$$ to represent the extinction coefficient[^3]:
 
 $$I=I_0 · e^{-\tau s}$$
 
@@ -94,15 +94,17 @@ This covers a shallow walk through the theory of visible light and atmospheric s
 
 In the next entry I will demonstrate these concepts implementing volumetric shafts of light with GLSL, completely dismissing all we learnt here and just hacking our way to rendered images.
 
-{::comment}
+
+{% comment %}
 [Continue to part 2]({% post_url 2017-05-03-light-shafts-pt-2 %})
-{:/comment}
+{% endcomment %}
+
 -------------
 
 
 [^1]: [Rendering equation](https://en.wikipedia.org/wiki/Rendering_equation)
 [^2]: [Colorful equations with MathJax](http://adereth.github.io/blog/2013/11/29/colorful-equations/)
-[^3]: [Why the number $$e$$ is so sexy](https://www.youtube.com/watch?v=AuA2EAgAegE)
+[^3]: [Why number $$e$$?](https://www.youtube.com/watch?v=AuA2EAgAegE)
 [^4]: [Light Scattering Demystified - Theory and Practice, Lars Øgendal](http://www.nbi.dk/~ogendal/personal/lho/lightscattering_theory_and_practice.pdf)
 [^100]: [Bidirectional reflectance distribution function](https://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function)
 [^32]: [Rayleigh and Mie scattering](http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html)
