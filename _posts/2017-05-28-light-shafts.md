@@ -73,11 +73,15 @@ $$
 \definecolor{sea}{RGB}{41,153,124}  %29997C 
 \definecolor{greenbean}{RGB}{76,153,0}  %4C9900 
 
-\color{red}{L(s,\theta)} \color{black}{=} \color{steadyblue}{L_0} \color{rosamund}{e^{-\tau s}} \color{black}{+} \frac{1}{\tau} \color{orange}{E_{sun}} \color{greenbean}{S(\theta)} \color{black}{(1 - } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
+\color{red}{L(s,\,\theta)} \color{black}{\,=\,} \color{steadyblue}{L_0} \color{rosamund}{\,e^{-\tau s}} \color{black}{\,+\,} \frac{1}{\tau} \color{orange}{\,E_{sun}} \color{greenbean}{\,S(\theta)} \color{black}{\,(1 \,-\, } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
 
 The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
 
+Let's talk a bit about the <font color="4C9900">Rayleigh and Mie term</font>, it's a function of particle size, shape and composition of the medium we traverse. This component and the extinction coefficient model the atmosphere or space through which light scatters. 
 
+In a nutshell, smaller particles scatter according to the Rayleigh model, and larger particles according to Mie. In this context we consider smaller particles the ones much smaller than the wavelength of incoming light. 
+
+This means Rayleigh scattering bounces off smaller wavelengths, such as the blue spectrum. Mie on the other hand, is not dependent on wavelength, and it scatters the whole spectrum of light. Clouds are white because sunlight is white.
 
 {% include image.html file="rayleigh-meow.png" description="Rayleigh and Mie scattering describes how light scatters off of molecules in a medium depending on the size of those molecules. Smaller molecules respond to Mie scattering more than Rayleigh and viceversa.[^44]" %}
 
@@ -85,7 +89,7 @@ The <font color="FF0000">light accounting for volumetric scattering</font> is a 
 
 Last but not least, we need to take occluders into the equation. Let $$\phi$$ represent the ray from the light emitter towards the observed point:
 
-$$L(s,\theta,\phi) = (1 - \color{orange}{D(\phi)}\color{black}{)} \color{red}{L(s,\theta)}$$
+$$L(s,\,\theta,\,\phi) = (1 \,-\, \color{orange}{D(\phi)}\color{black}{)} \color{red}{\,L(s,\,\theta)}$$
 
 Is the light accounting for both <font color="FF0000">volumetric light scattering</font> and <font color="FFA600">the opacity term of all occluders</font>, which is the total opacity of the ocluders along the ray.
 

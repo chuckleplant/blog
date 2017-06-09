@@ -12,7 +12,7 @@ disqus_identifier: Shaft!
 > If you're unfamiliar with computer graphics, I highly recommend you to watch [John Carmack's talk on lighting and rendering](https://youtu.be/IyUgHPs86XM).
 
 
-{::comment}
+
 ## Formulae summary
 
 Rendring equation:
@@ -53,7 +53,7 @@ The $$decay$$ term is a falloff, that attenuates the energy based on the distanc
 
 # The GLSL approach
 
-
+Remembering eq. 3 from the previous post, we will sum the scene light term, and the light scattering term. For the scene's light, we will use our mainstream render 
 
 # Application in games
 
