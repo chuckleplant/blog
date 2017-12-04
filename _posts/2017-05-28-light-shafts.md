@@ -8,6 +8,8 @@ disqus_identifier: McShafty
 ---
 
 > This post is greatly based on the [Nvidia GPU Gem on volumetric light scattering](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch13.html). Here I walk you through the formulae and core concepts. I highly recommend reading that one instead, and come back only if you couldn't follow, or for fun.
+> 
+> If you're unfamiliar with computer graphics, I highly recommend you to watch [John Carmack's talk on lighting and rendering](https://youtu.be/IyUgHPs86XM).
 
 {% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2 concept art." %}
 
@@ -58,9 +60,11 @@ Light, as the electromagnetic radiation it is, interacts with matter mainly in t
 
 In both cases the **transmitted intensity** $$I$$ decreases exponentially. Being $$\tau$$ the extinction coefficient composed of light absortion and out-scattering, and $$s$$ the thickness of the medium we traverse, we use an exponential function over $$e$$ to represent the extinction coefficient[^3]:
 
-$$I=I_0 · e^{-\tau s}$$
+$$I=I_\text{o} · e^{-\tau s}$$
 
-This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^7]. Let $$s$$ be the distance through the media and $$\theta$$ the angle between the ray and the sun:
+This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^7]. Let $$s$$ be the distance through the media and $$\theta$$ the angle between the viewer and the light beam:
+
+![scattering-terms]({{site.baseurl}}/images/rendering-scatter-terms.png)
 
 $$
 \definecolor{steadyblue}{RGB}{0,76,212} %004CD4
@@ -73,7 +77,7 @@ $$
 \definecolor{sea}{RGB}{41,153,124}  %29997C 
 \definecolor{greenbean}{RGB}{76,153,0}  %4C9900 
 
-\color{red}{L(s,\,\theta)} \color{black}{\,=\,} \color{steadyblue}{L_0} \color{rosamund}{\,e^{-\tau s}} \color{black}{\,+\,} \frac{1}{\tau} \color{orange}{\,E_{sun}} \color{greenbean}{\,S(\theta)} \color{black}{\,(1 \,-\, } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
+\color{red}{L(s,\,\theta)} \color{black}{\,=\,} \color{steadyblue}{L_\text{o}} \color{rosamund}{\,e^{-\tau s}} \color{black}{\,+\,} \frac{1}{\tau} \color{orange}{\,E_{sun}} \color{greenbean}{\,S(\theta)} \color{black}{\,(1 \,-\, } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
 
 The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
 
@@ -91,8 +95,11 @@ Last but not least, we need to take occluders into the equation. Let $$\phi$$ re
 
 $$L(s,\,\theta,\,\phi) = (1 \,-\, \color{orange}{D(\phi)}\color{black}{)} \color{red}{\,L(s,\,\theta)}$$
 
-Is the light accounting for both <font color="FF0000">volumetric light scattering</font> and <font color="FFA600">the opacity term of all occluders</font>, which is the total opacity of the ocluders along the ray.
+Is the light accounting for both <font color="FF0000">volumetric light scattering</font> and <font color="FFA600">the opacity term of all occluders</font>, which is the total opacity of the ocluders along the ray. 
 
+This term accumulates objects' opacity. If there's a solid object between light source and observer all light energy will be zeroed, however we must account for indirect light as well as seen in eq. 1.
+
+## Wrap up
 
 This covers a shallow walk through the theory of visible light and atmospheric scattering. With the information above we should be able to compute the light _energy_ towards the viewer for any point in space, note that we left out things like light wavelength for simplicity. I hope you have enough to get started.
 
