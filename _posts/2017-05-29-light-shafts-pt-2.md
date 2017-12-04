@@ -63,14 +63,22 @@ It is based on physical effects, but is not by any means physically realistic. T
 
 But, should games aim for physical realism? I don't think so. As a means to transmitting emotions to the player, game developers should use any possible trick to do so, visual illusions such as this rather simplistic radial blur are very effective.
 
-# Sample application - Wallpaper generator
+# Sample application: Isaac Hayes Wallpaper generator
 
-{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 635 340 /images/red-dead-shaft.png %}
 
-Whithout further ado I present the [Isaac Hayes Wallpaper Generator](https://youtu.be/IyUgHPs86XM). It was coded using [openFrameworks](https://github.com/openframeworks/openFrameworks) and the GLSL inspiration from [Julien Moreau-Mathis](https://medium.com/community-play-3d/god-rays-whats-that-5a67f26aeac2).
+<video autoplay="autoplay" loop="loop" width="635" height="340">
+    <source src="/videos/rdrgif.mp4" type="video/mp4">
+</video>
 
-It was also an experiment using Emscripten to port C++ code to JavaScript, the toughest was loading files from disk and saving them agian. Apparently browsers are not cool with you merrily accessing the file system!
+Whithout further ado I present the [Isaac Hayes Wallpaper Generator](/emscripten/isaac_hayes_wg/IsaacWallpaper.html)[^2]. You can tweak light intensity, background color. You can also upload your own image (with transparency) to play with it and pierce your own eyes with the power of the sun, or not, your call.[^3][^4]
 
-Find all the relevant code in the
+It was also an experiment using Emscripten to port C++ code to JavaScript, the toughest was loading files from disk and saving them back. Apparently browsers are not cool with you merrily accessing the file system!
+
+Find all the relevant in the github [repository](https://github.com/chuckleplant/IsaacHayesWG). 
+
+-------------
 
 [^1]: Note that we've dropped the exposure term use in Nvidia's formulation, it just provides more granularity on the $$weight$$ term. For the sample application we chose a fixed 0.4 exposure.
+[^2]: [Recommended soundtrack](https://www.youtube.com/watch?v=nFvRvSxsW-I)
+[^3]: [Coded using openFrameworks.](https://github.com/openframeworks/openFrameworks)
+[^4]: [Based on Julien Moreau-Mathis: God Rays? What’s that?](https://medium.com/community-play-3d/god-rays-whats-that-5a67f26aeac2)
