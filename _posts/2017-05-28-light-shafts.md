@@ -11,8 +11,8 @@ disqus_identifier: McShafty
 > 
 > If you're unfamiliar with computer graphics, I highly recommend you to watch [John Carmack's talk on lighting and rendering](https://youtu.be/IyUgHPs86XM).
 
-{% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2 concept art." %}
 
+{% include image.html file="red-dead-shaft.png" description="Light shafts sample image, generated with the *Isaac Hayes Wallpaper Generator* tool, available in the second part of this entry. The image is from Rockstar's Red Dead Redemption 2 concept art." %}
 
 Often there's one rendering effect that has me in awe everytime I see it. The first one I remember was normal mapping. While playing videogames I used to walk towards a wall that had a light bulb nearby, and then I spent a good 10 minutes just moving near the wall, seeing how the light behaved. 
 
@@ -106,9 +106,8 @@ This covers a shallow walk through the theory of visible light and atmospheric s
 In the next entry I will demonstrate these concepts implementing volumetric shafts of light with GLSL, completely dismissing all we learnt here and just hacking our way to rendered images.
 
 
-{% comment %}
-[Continue to part 2]({% post_url 2017-05-03-light-shafts-pt-2 %})
-{% endcomment %}
+[Continue to part 2]({% post_url 2017-12-04-light-shafts-pt-2 %})
+
 
 -------------
 
