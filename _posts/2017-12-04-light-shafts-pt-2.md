@@ -72,7 +72,7 @@ But, should games aim for physical realism? I don't think so. As a means to tran
     <source src="/videos/rdrgif.mp4" type="video/mp4">
 </video>
 
-Whithout further ado I present the [Isaac Hayes Wallpaper Generator](/emscripten/isaac_hayes_wg/IsaacWallpaper.html)[^2]. You can tweak light intensity, background color. You can also upload your own image (with transparency) to play with it and pierce your own eyes with the power of the sun, or not, your call.[^3][^4]
+Whithout further ado I present the [Isaac Hayes Wallpaper Generator](/emscripten/isaac_hayes_wg/IsaacWallpaper.html)[^2]. You can tweak light intensity, background color. You can also upload your own image (with transparency) to play with it and pierce your own eyes with the power of the sun, or not, your call.[^3]$$^,$$[^4]
 
 It was also an experiment using Emscripten to port C++ code to JavaScript, the toughest was loading files from disk and saving them back. Apparently browsers are not cool with you merrily accessing the file system!
 
