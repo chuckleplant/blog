@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Gallery
+title: Galleryg
 permalink: /gallery/
 ---
 
