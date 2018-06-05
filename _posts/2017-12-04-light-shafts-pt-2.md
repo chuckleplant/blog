@@ -68,7 +68,7 @@ But, should games aim for physical realism? I don't think so. As a means to tran
 # Isaac Hayes Wallpaper Generator
 
 
-<video autoplay="autoplay" loop="loop" width="635" height="340">
+<video autoplay="autoplay" loop="loop" width="100%">
     <source src="/videos/rdrgif.mp4" type="video/mp4">
 </video>
 

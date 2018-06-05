@@ -1,54 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} - {{site.title}}</title>
-  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-  <!--   Syntax highlighting is only needed for posts -->
-  {% if page.layout == 'post' %}
-  <link rel="stylesheet" href="{{site.baseurl}}/css/syntax-highlighter.css">
-  {% endif %}
-  <link href="//fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Light:700" rel="stylesheet">
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
-  MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } }});
-</script>
 
-</head>
-<body>
+  {% include head.html %}
 
-<input type="checkbox" id="hamburger" name="hamburger">
-<label id="label-ham" for="hamburger"></label>
-<div class="menu-container">
-  <div class="menu"></div>
-  <div class="links">
-      <a href="{{site.baseurl}}/"><i class="fa fa-home"></i>&nbsp;Home</a>
-      <a href="{{site.baseurl}}/gallery/"><i class="fa fa-image"></i>&nbsp;Gallery</a>
-      <a href="{{site.baseurl}}/about/"><i class="fa fa-user"></i>&nbsp;About</a>
-      <a href="{{site.baseurl}}/archive/"><i class="fa fa-file-zip-o"></i>&nbsp;Archive</a>
-      <a href="{{site.baseurl}}/contact/"><i class="fa fa-address-book-o"></i>&nbsp;Contact</a>
-      <a href="https://github.com/chuckleplant/chuckleplant.github.io"><i class="fa fa-code-fork"></i>&nbsp;Project</a>
-  </div>
-</div>
+  <body>
 
-<div class="content">
-<header>
-     <a href="{{site.baseurl}}/"><h1 class="site-title">{{site.title}}</h1></a>
-</header>
-  {{ content }}
-  
-  
+    {% include header.html %}
 
-    <footer>
-      <i class="fa fa-copyright" aria-hidden="true"></i> Sergio Basurco {{ site.time | date: '%Y' }}
-  </footer>
-</div>
-  <!-- Calling Fontawesome at the end to avoid delay in loading --> 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-</body>
+    {% include footer.html %}
+
+  </body>
+
+  <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+  <script src="{{ site.url }}/js/plugins/jquery.justifiedGallery.min.js"></script>
 </html>

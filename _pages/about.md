@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: About
 permalink: /about/
 ---
@@ -12,7 +12,5 @@ I'm currently creating next-gen experiences for video surveillance. I was previo
 
 Future goals are videogame development, deeper understanding of storytelling and experiences from any media. For long I've devoured comic books, games and movies. Now, I'm trying to digest them.
 
-This is my portfolio and my creative getaway.
+This is my portfolio and creative getaway.
 
-<!--<a class="github-button" href="https://github.com/sharu725/krishna" data-style="mega" data-count-href="/sharu725/krishna/stargazers" data-count-api="/repos/sharu725/krishna#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/krishna on GitHub">Star</a>
-<script async defer src="https://buttons.github.io/buttons.js"></script>-->

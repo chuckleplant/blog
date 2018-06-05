@@ -1,26 +1,18 @@
 ---
-layout: single
-title: Galleryg
+layout: post
+title: Gallery Test
 permalink: /gallery/
 ---
 
-<section id="archive">
-<h2><i class="fa fa-file-archive-o"></i>&nbsp;GALLERY TODO</h2>
-{% for post in site.posts %}
-  {% unless post.next %}
+<section id="gallery-test">
+<h2><i class="fa fa-file-image"></i>&nbsp;Gallery test</h2>
 
-  <ul class="this">
-  {% else %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-  {% if year != nyear %}
-  </ul>
-  <h2>{{ post.date | date: '%Y' }}</h2>
+Well this seems to work. However thumbnails may be too big. Let's see.
 
-  <ul class="past">
-  {% endif %}
-  {% endunless %}
- <li class="arch-list"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>&nbsp;<time>{{ post.date | date:"%d %b" }}</time></li>
-{% endfor %}
-  </ul>
+
+
+<hr>
+
+{% includeGallery UsaSommer2015 %}
+
 </section>

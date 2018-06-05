@@ -1,8 +1,10 @@
 ### your site title here
 
 title: Chuck LePlant
-
-#baseurl:
+github_username: chuckleplant
+description: > # this means to ignore newlines until "baseurl:"
+    Sergio Basurco's personal portfolio. I'm a software developer based in Barcelona. Have fun browsing my little projects.
+email: sergio.basurco@gmail.com
 sass: 
     style: compressed
 
@@ -14,3 +16,20 @@ exclude:
 
 include: 
 - _pages
+
+#Jekyll-Photo-Gallery Settings
+exiftag:
+ sources:
+   - images/photography #Set to location of photos
+
+#MiniMagick
+#https://github.com/zroger/jekyll-minimagick
+mini_magick:
+    photography:
+        source: images/photography
+        destination: images/photography/thumbnails
+        resize: "600x400"
+    headers:
+        source: images/headers
+        destination: images/headers/thumbnails
+        resize: "400x250"

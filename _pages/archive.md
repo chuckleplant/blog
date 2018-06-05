@@ -1,11 +1,11 @@
 ---
-layout: single
+layout: page
 title: Archive
 permalink: /archive/
 ---
 
 <section id="archive">
-<h2><i class="fa fa-file-archive-o"></i>&nbsp;Articles from this year</h2>
+
 {% for post in site.posts %}
   {% unless post.next %}
 
