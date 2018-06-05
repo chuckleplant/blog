@@ -3,6 +3,14 @@ import argparse
 import Tkinter as tk
 from PIL import ImageTk, Image
 
+#fits image inside window
+def fitImage(image, window):
+    rect.x = 0
+    rect.y = 0
+    rect.w = 0
+    rect.h = 0
+    return rect
+
 parser = argparse.ArgumentParser(description='Pack images for web deployment')
 parser.add_argument('-d', '--dir', help='Folder with the images', required=True)
 parser.add_argument('-o', '--output', help='Output YAML file', required=True)
