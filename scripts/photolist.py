@@ -12,14 +12,6 @@ image_height = 0
 
 
 
-#fits image inside window
-def fitImage(image, window):
-    rect.x = 0
-    rect.y = 0
-    rect.w = 0
-    rect.h = 0
-    return rect
-
 def prevButtonPressed():
     print 'Previous image'
 
@@ -50,6 +42,7 @@ def load_image_resized(path):
         image_height = image_layout_height
         image_width = image_height * aspect
     temp_image = temp_image.resize((int(image_width),int(image_height)), Image.ANTIALIAS)
+    return temp_image
 
 
 
