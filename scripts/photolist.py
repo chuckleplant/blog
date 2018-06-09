@@ -62,6 +62,11 @@ panel = Label(root, image = img)
 main_frame = Frame(root)
 image_frame = Frame(main_frame)
 input_frame = Frame(main_frame)
+title_frame = Frame(input_frame)
+country_frame = Frame(input_frame)
+album_frame = Frame(input_frame)
+
+
 bottom_frame = Frame(root)
 #
 # buttons
@@ -73,27 +78,38 @@ discard_button = Button(input_frame, text='Discard', command=discardButtonPresse
 #
 # Text input
 #
-title_input = Entry(input_frame)
-country_input = Entry(input_frame)
-album_input = Entry(input_frame)
+title_entry = Entry(input_frame)
+country_entry = Entry(input_frame)
+album_entry = Entry(input_frame)
 #
 # Labels
 #
 image_label = Label(image_frame, text="Image", bg="green", fg="white")
 
+title_label = Label(input_frame, text="Title")
+country_label = Label(input_frame, text="Title")
+album_label = Label(input_frame, text="Title")
 
 main_frame.pack(fill=BOTH, expand=1)
 image_frame.pack(side=LEFT, fill=BOTH, expand=1)
 input_frame.pack(side=RIGHT)
+title_frame.pack()
+country_frame.pack()
+album_frame.pack()
 bottom_frame.pack(side=BOTTOM, fill=BOTH)
 
 next_button.pack(side=RIGHT)
 prev_button.pack(side=LEFT)
 save_button.pack()
 discard_button.pack()
-title_input.pack()
-country_input.pack()
-album_input.pack()
+
+title_label.pack(side=LEFT)
+country_label.pack(side=LEFT)
+album_label.pack(side=LEFT)
+title_entry.pack(side=RIGHT)
+country_entry.pack(side=RIGHT)
+album_entry.pack(side=RIGHT)
+
 image_label.pack(fill=BOTH,expand=1)
 
 #save_button.pack()
