@@ -8,9 +8,6 @@ email: sergio.basurco@gmail.com
 sass: 
     style: compressed
 
-
-
-
 exclude:
 - README.md
 
@@ -22,14 +19,3 @@ exiftag:
  sources:
    - images/photography #Set to location of photos
 
-#MiniMagick
-#https://github.com/zroger/jekyll-minimagick
-mini_magick:
-    photography:
-        source: images/photography
-        destination: images/photography/thumbnails
-        resize: "600x400"
-    headers:
-        source: images/headers
-        destination: images/headers/thumbnails
-        resize: "400x250"
