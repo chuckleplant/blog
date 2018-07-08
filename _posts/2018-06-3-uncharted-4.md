@@ -7,4 +7,4 @@ categories: uncharted games photo-gallery
 
 I've been lucky to play all of the Uncharted games at the time they came out. The sense of adventure is really 
 
-{% includeGallery Uncharted4 %}
+{% includeGallery uniqueAlbumina %}
