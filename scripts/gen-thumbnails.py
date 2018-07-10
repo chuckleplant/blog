@@ -8,6 +8,8 @@ import PIL
 from PIL import Image
 from PIL import ExifTags
 
+
+
 cur_path = os.path.dirname(os.path.realpath(__file__))
 photo_path = os.path.join(cur_path,"../images/photography")
 thumbnail_path = os.path.join(photo_path,"thumbnails")
@@ -24,7 +26,6 @@ for folder, subs, files in os.walk(photo_path):
                 comn_path = os.path.commonprefix([photo_path, abs_file])
                 target_path = thumbnail_path + abs_file.replace(comn_path, "")
                 img = Image.open(abs_file)
-
                 # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
                 if hasattr(img, '_getexif'):
                     orientation = 0x0112

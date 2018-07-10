@@ -3,6 +3,18 @@
 require 'find'
 require 'yaml'
 
+def get_all_photos()
+  allPics = []
+  Dir.glob('_data/photos/*.yaml') do |y_file, index|
+    auxHash = YAML.load_file(y_file)
+    tmpHash = auxHash["photos"]
+    allPics.push(*tmpHash)
+  end
+  picsObj = {"photos" => allPics}
+  puts picsObj.inspect
+  return picsObj
+end
+
 module Jekyll
   class PhotoPage < Page
     def initialize(site, base, dir, photo_url, previous_pic, next_pic, title, description)
@@ -41,17 +53,6 @@ module Jekyll
   class PhotoPageGenerator < Generator
     safe true
 
-    def get_all_photos()
-      allPics = []
-      Dir.glob('_data/photos/*.yaml') do |y_file, index|
-        auxHash = YAML.load_file(y_file)
-        tmpHash = auxHash["photos"]
-        allPics.push(*tmpHash)
-      end
-      picsObj = {"photos" => allPics}
-      puts picsObj.inspect
-      return picsObj
-    end
 
     def generate(site)
       
@@ -125,17 +126,7 @@ Liquid::Template.register_filter(TextFilter)
 
 module Jekyll
   class IncludeGalleryTag < Liquid::Tag
-    def get_all_photos()
-      allPics = []
-      Dir.glob('_data/photos/*.yaml') do |y_file, index|
-        auxHash = YAML.load_file(y_file)
-        tmpHash = auxHash["photos"]
-        allPics.push(*tmpHash)
-      end
-      picsObj = {"photos" => allPics}
-      puts picsObj.inspect
-      return picsObj
-    end
+
 
     def initialize(tag_name, text, tokens)
       super
