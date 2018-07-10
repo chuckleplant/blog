@@ -1,6 +1,7 @@
 #Jekyll-Photo-Gallery generates a HTML page for every photo specified in _data/photos.yaml
 #Author: Theo Winter (https://github.com/aerobless)
 require 'find'
+require 'yaml'
 
 module Jekyll
   class PhotoPage < Page
@@ -41,34 +42,15 @@ module Jekyll
     safe true
 
     def get_all_photos()
-      yaml_files = []
-      Find.find('_data/photos') do |path|
-        yaml_files << path if path =~ /.*\.yaml$/
+      allPics = []
+      Dir.glob('_data/photos/*.yaml') do |y_file, index|
+        auxHash = YAML.load_file(y_file)
+        tmpHash = auxHash["photos"]
+        allPics.push(*tmpHash)
       end
-
-      yaml_objs = []
-      yaml_files.each{ |yaml_file|
-        puts yaml_file
-        yaml_objs << YAML::load_file(yaml_file)
-      }
-
-
-      TODO: iterate hash 'photos' and append to a new hash
-
-      var = 1
-      merged_photos = []
-      yaml_objs.each{ |obj|
-        if var > 0
-          var = 0
-          merged_photos = obj
-          puts 'first step'
-        else
-          puts 'second step pls'
-          merged_photos.merge!(obj){ |key, important, default| important }
-        end
-      }
-      puts merged_photos
-      return merged_photos
+      picsObj = {"photos" => allPics}
+      puts picsObj.inspect
+      return picsObj
     end
 
     def generate(site)
@@ -143,6 +125,17 @@ Liquid::Template.register_filter(TextFilter)
 
 module Jekyll
   class IncludeGalleryTag < Liquid::Tag
+    def get_all_photos()
+      allPics = []
+      Dir.glob('_data/photos/*.yaml') do |y_file, index|
+        auxHash = YAML.load_file(y_file)
+        tmpHash = auxHash["photos"]
+        allPics.push(*tmpHash)
+      end
+      picsObj = {"photos" => allPics}
+      puts picsObj.inspect
+      return picsObj
+    end
 
     def initialize(tag_name, text, tokens)
       super
