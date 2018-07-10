@@ -1,8 +1,9 @@
 photos:
-    - title: Descent into the Grand Canyon III
-      img: foto
-      country: United States of America
-      album: uniqueAlbumina
-    - title: Sunrise in Monument Valley III
-      img: foto2
-      country: United States of America
+    - title: Uncharted foto 3
+      img: uncharted/foto3
+      country: PlayStation
+      album: uncharted
+    - title: uncharted foto 4
+      img: uncharted/foto4
+      country: PlayStation
+      album: uncharted

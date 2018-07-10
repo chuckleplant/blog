@@ -1,5 +1,6 @@
 #Jekyll-Photo-Gallery generates a HTML page for every photo specified in _data/photos.yaml
 #Author: Theo Winter (https://github.com/aerobless)
+require 'find'
 
 module Jekyll
   class PhotoPage < Page
@@ -34,11 +35,46 @@ module Jekyll
     end
   end
 
+  
+
   class PhotoPageGenerator < Generator
     safe true
 
+    def get_all_photos()
+      yaml_files = []
+      Find.find('_data/photos') do |path|
+        yaml_files << path if path =~ /.*\.yaml$/
+      end
+
+      yaml_objs = []
+      yaml_files.each{ |yaml_file|
+        puts yaml_file
+        yaml_objs << YAML::load_file(yaml_file)
+      }
+
+
+      TODO: iterate hash 'photos' and append to a new hash
+
+      var = 1
+      merged_photos = []
+      yaml_objs.each{ |obj|
+        if var > 0
+          var = 0
+          merged_photos = obj
+          puts 'first step'
+        else
+          puts 'second step pls'
+          merged_photos.merge!(obj){ |key, important, default| important }
+        end
+      }
+      puts merged_photos
+      return merged_photos
+    end
+
     def generate(site)
-      photos = YAML::load_file('_data/photos.yaml')
+      
+      #photos = YAML::load_file('_data/photos.yaml')
+      photos = get_all_photos()
       dir = site.config['photo_dir'] || 'photography'
 
       site.pages << PhotoList.new(site, site.source, File.join(dir), photos["photos"], "Photography")
@@ -111,7 +147,8 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @result = '<div id="gallery" style="display:none; margin-bottom: 20px;">'
-      photos = YAML::load_file('_data/photos.yaml')
+      #photos = YAML::load_file('_data/photos.yaml')
+      photos = get_all_photos()
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           if(curr["album"] == text.strip)
