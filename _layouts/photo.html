@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    img.rot90 {
+     transform: rotate(90deg);
+    }
+    img.rot180 {
+     transform: rotate(180deg);
+    }
+    img.rot270 {
+      transform: rotate(270deg);
+    }
+  </style>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
   {% if page.excerpt %}
@@ -129,13 +140,38 @@
 
 {% include footer.html %}
 
+
 <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
 <script src="{{ site.url }}/js/plugins/jquery.animsition.min.js"></script>
 <script src="https://use.fontawesome.com/fd9429b8e3.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+
+<script>
+    window.onload = getExif;
+    var newimg = document.getElementById('picture');
+
+    function getExif() {
+      EXIF.getData(newimg, function() {
+        var orientation = EXIF.getTag(this, "Orientation");
+        if (orientation == 6) {
+          newimg.className = "entry-feature-image rot90";
+        } else if (orientation == 8) {
+          newimg.className = "entry-feature-image rot270";
+        } else if (orientation == 3) {
+          newimg.className = "entry-feature-image rot180";
+        }
+      });
+    };
+
+    getExif();
+
+  </script>
 
 <script>
   var photo = $("#photo");
   var picture = $("#picture");
+
+
   photo.click(function (e) {
     var pWidth = $(this).innerWidth();
     var pOffset = $(this).offset();
@@ -170,8 +206,10 @@
       photo.marginLeft = "auto";
       photo.height = picture.height;
     }
+
   }
   fitImageSize();
+
 
   //window.addEventListener('resize', fitImageSize(), true);
   window.onresize = function(event) {
