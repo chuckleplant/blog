@@ -1,3 +1,6 @@
+---
+comments: true
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -108,7 +111,7 @@
             {% endif %}
             <!-- Enable/Disable comments here. To change the disqus thread, go to the Jekyll _config.yml -->
             <div style="margin-top: 50px;">
-              {% if page.comments == true %}{% include comments.html %}{% endif %}
+                {% if page.comments %} {% include disqus.html %} {% endif %}
             </div>
           </div>
         </div>

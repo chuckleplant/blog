@@ -8,6 +8,13 @@ email: sergio.basurco@gmail.com
 sass: 
     style: compressed
 
+
+owner:
+    disqus-shortname: sergiobasurco
+    name: Sergio Basurco
+    email: sergio.basurco@gmail.com
+    github: chuckleplant
+
 exclude:
 - README.md
 
