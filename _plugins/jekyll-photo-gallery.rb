@@ -1,5 +1,6 @@
 #Jekyll-Photo-Gallery generates a HTML page for every photo specified in _data/photos.yaml
 #Author: Theo Winter (https://github.com/aerobless)
+# Mods by: Sergio Basurco & Julian Ramos
 require 'find'
 require 'yaml'
 
@@ -88,30 +89,30 @@ module Jekyll
       end
       site.data['photoSlugs'] = photoSlugs
 
-      #Create a array containing all countries
-      countryArray = Array.new
-      photos.each do |photo,details|
-        [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-          photoCountry = curr["country"]
-          countryArray.push(photoCountry)
-        }
-      end
-      countryArray = countryArray.uniq
-
-      countryArray.each do |name|
-        photosPerCountry = Array.new
-        countrySlug = name.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-        photos.each do |photo, details|
-          [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-            if(curr["country"] == name)
-              photosPerCountry.push(curr)
-            end
-          }
-        end
-
-        #Make page
-        site.pages << PhotoList.new(site, site.source, File.join('photography', countrySlug), photosPerCountry, name)
-      end
+      ##Create a array containing all countries
+      #countryArray = Array.new
+      #photos.each do |photo,details|
+      #  [nil, *details, nil].each_cons(3){|prev, curr, nxt|
+      #    photoCountry = curr["country"]
+      #    countryArray.push(photoCountry)
+      #  }
+      #end
+      #countryArray = countryArray.uniq
+#
+      #countryArray.each do |name|
+      #  photosPerCountry = Array.new
+      #  countrySlug = name.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+      #  photos.each do |photo, details|
+      #    [nil, *details, nil].each_cons(3){|prev, curr, nxt|
+      #      if(curr["country"] == name)
+      #        photosPerCountry.push(curr)
+      #      end
+      #    }
+      #  end
+#
+      #  #Make page
+      #  site.pages << PhotoList.new(site, site.source, File.join('photography', countrySlug), #photosPerCountry, name)
+      #end
     end
   end
 end

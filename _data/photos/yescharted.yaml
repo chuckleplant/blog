@@ -5,5 +5,7 @@ photos:
       album: yescharted
     - title: yescharted foto Z
       img: yescharted/fotoZ
-      country: Spain
+      album: yescharted
+    - title: special
+      img: A special album/a special foto
       album: yescharted
