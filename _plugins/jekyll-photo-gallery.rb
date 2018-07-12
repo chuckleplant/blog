@@ -12,7 +12,6 @@ def get_all_photos()
     allPics.push(*tmpHash)
   end
   picsObj = {"photos" => allPics}
-  puts picsObj.inspect
   return picsObj
 end
 

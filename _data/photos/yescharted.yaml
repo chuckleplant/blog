@@ -1,11 +1,7 @@
 photos:
-    - title: yescharted foto 0
-      img: yescharted/foto0
-      country: PlayStation
-      album: yescharted
-    - title: yescharted foto Z
-      img: yescharted/fotoZ
-      album: yescharted
-    - title: special
-      img: A special album/a special foto
-      album: yescharted
+- album: yescharted
+  img: yescharted/foto0
+  title: foto0
+- album: yescharted
+  img: yescharted/zebrote
+  title: zebrote

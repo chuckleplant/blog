@@ -1,9 +1,7 @@
 photos:
-    - title: Uncharted foto 3
-      img: uncharted/foto3
-      country: PlayStation
-      album: uncharted
-    - title: uncharted foto 4
-      img: uncharted/foto4
-      country: PlayStation
-      album: uncharted
+- album: uncharted
+  img: uncharted/foto3
+  title: foto3
+- album: uncharted
+  img: uncharted/foto4
+  title: foto4
