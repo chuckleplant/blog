@@ -6,7 +6,7 @@ categories: uncharted games photo-gallery
 comments: true
 ---
 
-> Spoiler alert: The images may ruin your game experience.
+> Spoiler alert: The images below may ruin your game experience.
 
 I hated how much I loved the photography feature in Uncharted 4. The problem is that I spent way more time taking pictures than actually playing the game. Jokes aside, I think it's an actual problem and game designers should look into it. I think the new God of War does also have a photo mode. I think you can either play or take pictures, not both. It's a bit like recording fireworks with your phone, just don't. 
 
