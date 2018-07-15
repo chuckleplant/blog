@@ -8,7 +8,7 @@ permalink: /about/
 
 I'm Sergio Basurco, a software developer based in Barcelona.
 
-I'm currently creating next-gen experiences for video surveillance. I was previously working with touchless interfaces for neural networks (actual brains) visualization. I'm interested in all there is. Fond of c++ and recently in a relationship with python.
+I'm currently creating next-gen experiences for video surveillance. I was previously working with touchless interfaces for neural networks (actual brains) visualization. I'm interested in all there is. Fond of C++ and recently in a relationship with python.
 
 Future goals are videogame development, deeper understanding of storytelling and experiences from any media. For long I've devoured comic books, games and movies. Now, I'm trying to digest them.
 

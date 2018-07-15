@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uncharted 4: A Thief's End (Spolier alert)"
+title:  "Uncharted 4: A Thief's End"
 date:   2018-07-15
 categories: uncharted games photo-gallery
 comments: true
@@ -14,8 +14,7 @@ Maybe the mode could be unlocked once you complete the game for the first time. 
 
 I am launching a brand new image gallery. I used aerobless' [Jekyll photo gallery](https://github.com/aerobless/jekyll-photo-gallery). It lets you have a static site for each image which is nice for comments or sharing. 
 
-Here's a selection of some of the pictures I took while playing Uncherted 4: A Thief's End. 
-
+Here's a selection of some of the pictures I took while playing Uncherted 4: A Thief's End. I really enjoyed creating false narratives with each picture, specially when characters were facing each other, or capturing a secondary character making it look like there was a story behind them.
 
 
 {% includeGallery Uncharted %}
