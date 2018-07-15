@@ -50,7 +50,7 @@ for album_path in albums:
 photo_path = os.path.join(cur_path,"../images/photography")
 thumbnail_path = os.path.join(photo_path,"thumbnails")
 extensions = ['jpg', 'JPG', 'JPEG', 'png', 'PNG', 'jpeg']
-target_width = 500
+target_width = 720
 
 for folder, subs, files in os.walk(photo_path):
     for filename in files:
