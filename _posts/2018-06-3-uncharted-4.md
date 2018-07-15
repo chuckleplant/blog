@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Uncharted 4: A Thief's End"
+date:   2018-07-15
+categories: uncharted games photo-gallery
+comments: true
+---
+
+> Spoiler alert: The images may ruin your game experience.
+
+I hated how much I loved the photography feature in Uncharted 4. The problem is that I spent way more time taking pictures than actually playing the game. Jokes aside, I think it's an actual problem and game designers should look into it. I think the new God of War does also have a photo mode. I think you can either play or take pictures, not both. It's a bit like recording fireworks with your phone, just don't. 
+
+Maybe the mode could be unlocked once you complete the game for the first time. Of course there are many players that play only once... And the feature is great for sharing and marketing. Anyways, those are my 2cts on the topic.
+
+I am launching a brand new image gallery. I used aerobless' [Jekyll photo gallery](https://github.com/aerobless/jekyll-photo-gallery). It lets you have a static site for each image which is nice for comments or sharing. 
+
+Here's a selection of some of the pictures I took while playing Uncherted 4: A Thief's End. I really enjoyed creating false narratives with each picture, specially when characters were facing each other, or capturing a secondary character making it look like there was a story behind them.
+
+
+{% includeGallery Uncharted %}

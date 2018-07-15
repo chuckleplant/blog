@@ -1,34 +1,25 @@
 ---
-title: Welcome
 layout: default
 ---
 
-
-{% for post in site.posts %}
-<div class="list">
-<div class="post-index">
-    <div class="post-image">
-        <a href="{{post.url}}">
+<div class="home">
+    
+    <h1 class="page-heading">Posts</h1>
+    
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.layout != 'album' %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             
-              <i class="fa fa-{{post.icon}} fa-fw"></i>
-            
-        </a>
-    </div>
-    <div class="post-content">
-        <p class="post-index-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></p>
-        <p>
-            
-                <span class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 90 }}</span>
-            
-        </p>
-        <p class="post-detail">{{ post.date | date: '%B %d, %Y' }}
-             
-             <a href="{{site.baseurl}}{{post.url}}/index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
-        </p>
-    </div>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    
+    <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+    
 </div>
-</div>
-
-
-
-{% endfor %}
