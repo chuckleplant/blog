@@ -158,9 +158,9 @@ module Jekyll
       @result = @result + '<script>
                               window.onload=function(){
                                   $("#gallery").justifiedGallery({
-                                      rowHeight : 220,
-                                      maxRowHeight: 340,
-                                      margins : 5,
+                                      rowHeight : 180,
+                                      maxRowHeight: 0,
+                                      margins : 3,
                                       border : 0,
                                       fixedHeight: false,
                                       lastRow : \'nojustify\',
