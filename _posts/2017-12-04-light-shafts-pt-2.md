@@ -80,7 +80,7 @@ Find all the relevant in the github [repository](https://github.com/chuckleplant
 
 -------------
 
-[^1]: Note that we've dropped the exposure term use in Nvidia's formulation, it just provides more granularity on the $$weight$$ term. For the sample application we chose a fixed 0.4 exposure.
+[^1]: Note that we've dropped the exposure term use in Nvidia's formulation, it just provides more granularity on the $$weight$$ term.
 [^2]: [Recommended soundtrack](https://www.youtube.com/watch?v=nFvRvSxsW-I)
 [^3]: [Coded using openFrameworks.](https://github.com/openframeworks/openFrameworks)
 [^4]: [Based on Julien Moreau-Mathis: God Rays? What’s that?](https://medium.com/community-play-3d/god-rays-whats-that-5a67f26aeac2)
