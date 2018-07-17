@@ -16,5 +16,4 @@ I am launching a brand new image gallery. I used aerobless' [Jekyll photo galler
 
 Here's a selection of some of the pictures I took while playing Uncherted 4: A Thief's End. I really enjoyed creating false narratives with each picture, specially when characters were facing each other, or capturing a secondary character making it look like there was a story behind them.
 
-
 {% includeGallery Uncharted %}

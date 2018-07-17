@@ -8,6 +8,7 @@ email: sergio.basurco@gmail.com
 sass: 
     style: compressed
 
+url: https://chuckleplant.github.io
 
 owner:
     disqus-shortname: sergiobasurco
@@ -26,3 +27,4 @@ exiftag:
  sources:
    - images/photography #Set to location of photos
 
+destination: _deploy
