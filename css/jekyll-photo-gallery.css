@@ -26,7 +26,7 @@
 }
 
 .photoInfoContainer {
-    display: flex;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -35,12 +35,17 @@
 
 .photoInfo1 {
     flex: 1;
+    float: top;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .photoInfo2 {
-    margin-left: 30px;
-    width: 20%;
+    margin-top: 20px;
+
     list-style-type: none;
+    float: bottom;
+    margin-bottom: 50px;
 }
 
 div.photoInfo2 ul {
