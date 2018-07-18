@@ -105,14 +105,10 @@ comments: true
             {{page.description}}<br>
             {% else %}
             Shot on {{photo_date | date_to_long_string }} with {{camera}}<br>
-            <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/"
-                                                                          title="About {{ site.owner.name }}">{{
-              site.owner.name }}</a></span></span>
+            <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
             {% endif %}
             <!-- Enable/Disable comments here. To change the disqus thread, go to the Jekyll _config.yml -->
-            <div style="margin-top: 50px;">
-                {% if page.comments %} {% include disqus.html %} {% endif %}
-            </div>
+            
           </div>
         </div>
         <div class="photoInfo2">
@@ -137,9 +133,13 @@ comments: true
           </ul>
         </div>
       </div>
-    </div>
+      <div style="margin-top: 50px;">
+       {% if page.comments %} {% include disqus.html %} {% endif %}
+      </div>
+      </div>
   </article>
 </div>
+
 
 {% include footer.html %}
 
@@ -150,25 +150,25 @@ comments: true
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
 
 <script>
-    window.onload = getExif;
-    var newimg = document.getElementById('picture');
+  window.onload = getExif;
+  var newimg = document.getElementById('picture');
 
-    function getExif() {
-      EXIF.getData(newimg, function() {
-        var orientation = EXIF.getTag(this, "Orientation");
-        if (orientation == 6) {
-          newimg.className = "entry-feature-image rot90";
-        } else if (orientation == 8) {
-          newimg.className = "entry-feature-image rot270";
-        } else if (orientation == 3) {
-          newimg.className = "entry-feature-image rot180";
-        }
-      });
-    };
+  function getExif() {
+    EXIF.getData(newimg, function() {
+      var orientation = EXIF.getTag(this, "Orientation");
+      if (orientation == 6) {
+        newimg.className = "entry-feature-image rot90";
+      } else if (orientation == 8) {
+        newimg.className = "entry-feature-image rot270";
+      } else if (orientation == 3) {
+        newimg.className = "entry-feature-image rot180";
+      }
+    });
+  };
 
-    getExif();
+  getExif();
 
-  </script>
+</script>
 
 <script>
   var photo = $("#photo");
@@ -246,6 +246,8 @@ comments: true
     });
   });
 </script>
+
+
 
 </body>
 
