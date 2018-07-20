@@ -40,23 +40,36 @@
 }
 
 
-.photoInfoContainer {
-    
+.photoInfoContainer {    
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
-.photoInfo1 {
+.photoInfo1 {    
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    flex-grow: 1;
 }
 
 .photoInfo2 {
     margin-top: 20px;
     list-style-type: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;  
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .photoInfoContainer {        
+        flex-direction: column;
+    }
+
+    .photoInfo2 {        
+        width: 100%;
+    }
 }
 
 div.photoInfo2 ul {
