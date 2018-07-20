@@ -21,4 +21,4 @@ repo = git.Repo(search_parent_directories=True)
 sha = repo.head.object.hexsha
 
 os.chdir(site_dir)
-call(['git','cma','"'+sha+' deployment requested"'])
+print 'return code' + call(['git','cma','"deploying from '+sha+'"'])
