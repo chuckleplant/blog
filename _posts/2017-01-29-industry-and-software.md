@@ -4,6 +4,7 @@ title: Methodical selection
 date: 2017-01-29
 icon: wpexplorer
 comments: true
+disqus_identifier: IndustrySoftware
 ---
 
 

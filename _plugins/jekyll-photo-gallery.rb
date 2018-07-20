@@ -32,6 +32,7 @@ module Jekyll
       self.data['title'] = title
       self.data['description'] = description
       self.data['comments'] = true
+      self.data['disqus_identifier'] = album+ '-' +title
     end
   end
 
