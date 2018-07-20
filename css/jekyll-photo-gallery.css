@@ -26,25 +26,23 @@
 }
 
 .photoPageContainer {
-    background-color:#000000;        
-    display: flex;    
-    max-height: 800px;
+    background-color:#000000;                
+    object-fit: fill;     
 }
 
 .photoPageContainer img {
     margin-left: auto;
     margin-right: auto;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+    max-height: 850px;
+    max-width: 100%;    
+    display: block;
 }
 
 
 .photoInfoContainer {    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 20px;    
     display: flex;
     flex-direction: row;
 }
