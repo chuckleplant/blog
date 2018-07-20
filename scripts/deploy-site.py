@@ -21,7 +21,7 @@ sha = repo.head.object.hexsha
 
 os.chdir(site_dir)
 
-git_commit_ret = call(['git','cma','"deploying from '+sha+'"'])
+git_commit_ret = call(['git','cma','deploying from '+sha])
 if git_commit_ret is 0:
     if call(['git','push']) is 0:
         print 'Deployment success'
