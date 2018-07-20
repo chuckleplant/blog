@@ -55,36 +55,34 @@ comments: true
 <body id="js-body">
 
 <div id="page-content" class="animsition">
-  <article>
+  <article style="overflow: hidden;">
     <div>
       <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
 
-      <!-- Schema.org BlogPost Invisible Meta-Data -->
-      <meta itemprop="author" content="{{ site.owner.name }}"/>
-      <meta itemprop="inLanguage" content="en-US"/>
-      <meta itemprop="isFamilyFriendly" content="true"/>
-      <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
-      <meta itemprop="name" content="{{page.title}}"/>
-      <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
-      <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
-      <meta itemprop="description" content="{{page.description}}"/>
-      <!-- todo: content location -->
+        <!-- Schema.org BlogPost Invisible Meta-Data -->
+        <meta itemprop="author" content="{{ site.owner.name }}"/>
+        <meta itemprop="inLanguage" content="en-US"/>
+        <meta itemprop="isFamilyFriendly" content="true"/>
+        <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
+        <meta itemprop="name" content="{{page.title}}"/>
+        <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
+        <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
+        <meta itemprop="description" content="{{page.description}}"/>
+        <!-- todo: content location -->
 
-      <div id="photo" class="photoContent">        
-        <img id="picture" style="max-height:100%; max-width:100%; " src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" class="entry-feature-image"
-             alt="{{ page.title }}">
-
+        <div id="photo" class="photoContent">        
+          <img id="picture" 
+               src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
+               alt="{{ page.title }}">
+        </div>
 
       </div>
+    </div>
 
-      <!--<div>
-        <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
-           href="{{ site.url }}/photography/{{page.previous_pic}}" style="float: left;">Newer</a>
-        <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
-           href="{{ site.url }}/photography/{{page.next_pic}}" style="float: right;">Older</a>
-      </div>-->
-      
 
+
+  </article>
+  <div class="wrapper">
       <div class="photoInfoContainer">
         <div class="photoInfo1">
           <div>
@@ -139,16 +137,10 @@ comments: true
           </a>
         </div>
       </div>
-
-
+      <div style="margin-top: 50px;">
+       {% if page.comments %} {% include disqus.html %} {% endif %}
       </div>
-    </div>
-    <div class="wrapper">
-          <div style="margin-top: 50px;">
-           {% if page.comments %} {% include disqus.html %} {% endif %}
-          </div>
-    </div>
-  </article>
+  </div>
   
 </div>
 
