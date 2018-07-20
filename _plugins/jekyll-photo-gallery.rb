@@ -132,7 +132,7 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @result = '<div id="gallery" style="display:none; margin-bottom: 20px;">'
+      @result = '<div id="gallery" style="display:none; margin-top: 20px; margin-bottom: 20px;">'
       #photos = YAML::load_file('_data/photos.yaml')
       photos = get_all_photos()
       photos.each do |photo, details|

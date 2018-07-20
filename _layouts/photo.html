@@ -131,7 +131,7 @@ comments: true
           {% capture photo_longitude %}
           {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
           {% endcapture %}
-          {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}          
+          {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
           {% else %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude}},{{photo_longitude}}" target="_blank">
             <img 
