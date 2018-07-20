@@ -56,7 +56,8 @@ comments: true
 
 <div id="page-content" class="animsition">
   <article>
-    <div class="wrapper" itemscope itemtype="http://schema.org/Photograph">
+    <div>
+      <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
 
       <!-- Schema.org BlogPost Invisible Meta-Data -->
       <meta itemprop="author" content="{{ site.owner.name }}"/>
@@ -69,17 +70,20 @@ comments: true
       <meta itemprop="description" content="{{page.description}}"/>
       <!-- todo: content location -->
 
-      <div id="photo" style="text-align: center;">
+      <div id="photo" class="photoContent">        
         <img id="picture" style="max-height:100%; max-width:100%; " src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" class="entry-feature-image"
              alt="{{ page.title }}">
+
+
       </div>
+
       <!--<div>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
            href="{{ site.url }}/photography/{{page.previous_pic}}" style="float: left;">Newer</a>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
            href="{{ site.url }}/photography/{{page.next_pic}}" style="float: right;">Older</a>
       </div>-->
-      <br><br>
+      
 
       <div class="photoInfoContainer">
         <div class="photoInfo1">
@@ -135,11 +139,17 @@ comments: true
           </a>
         </div>
       </div>
-      <div style="margin-top: 50px;">
-       {% if page.comments %} {% include disqus.html %} {% endif %}
+
+
       </div>
-      </div>
+    </div>
+    <div class="wrapper">
+          <div style="margin-top: 50px;">
+           {% if page.comments %} {% include disqus.html %} {% endif %}
+          </div>
+    </div>
   </article>
+  
 </div>
 
 
