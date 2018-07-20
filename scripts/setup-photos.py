@@ -52,6 +52,7 @@ thumbnail_path = os.path.join(photo_path,"thumbnails")
 extensions = ['jpg', 'JPG', 'JPEG', 'png', 'PNG', 'jpeg']
 target_width = 420
 
+
 for folder, subs, files in os.walk(photo_path):
     for filename in files:
         abs_file = os.path.join(folder,filename)
