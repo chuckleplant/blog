@@ -55,33 +55,30 @@ comments: true
 <body id="js-body">
 
 <div id="page-content" class="animsition">
-  <article style="overflow: hidden;">
-    <div>
-      <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
+  
+  <div class="wrapper">
+    <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
 
-        <!-- Schema.org BlogPost Invisible Meta-Data -->
-        <meta itemprop="author" content="{{ site.owner.name }}"/>
-        <meta itemprop="inLanguage" content="en-US"/>
-        <meta itemprop="isFamilyFriendly" content="true"/>
-        <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
-        <meta itemprop="name" content="{{page.title}}"/>
-        <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
-        <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
-        <meta itemprop="description" content="{{page.description}}"/>
-        <!-- todo: content location -->
+      <!-- Schema.org BlogPost Invisible Meta-Data -->
+      <meta itemprop="author" content="{{ site.owner.name }}"/>
+      <meta itemprop="inLanguage" content="en-US"/>
+      <meta itemprop="isFamilyFriendly" content="true"/>
+      <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
+      <meta itemprop="name" content="{{page.title}}"/>
+      <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
+      <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
+      <meta itemprop="description" content="{{page.description}}"/>
+      <!-- todo: content location -->
 
-        <div id="photo" class="photoContent">        
-          <img id="picture" 
-               src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
-               alt="{{ page.title }}">
-        </div>
+      
+        <img id="picture" 
+             src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
+             alt="{{ page.title }}">
+      
 
-      </div>
     </div>
-
-
-
-  </article>
+  </div>
+  
   <div class="wrapper">
       <div class="photoInfoContainer">
         <div class="photoInfo1">
