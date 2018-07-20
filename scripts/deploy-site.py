@@ -13,12 +13,20 @@ setup_photos_script = os.path.join(root_dir, 'scripts/setup-photos.py')
 
 
 os.chdir(root_dir)
-#shutil.rmtree(thumbnail_dir, ignore_errors=True)
-#execfile(setup_photos_script)
-#call(['jekyll', 'build', '--destination','_site'])
-
+shutil.rmtree(thumbnail_dir, ignore_errors=True)
+execfile(setup_photos_script)
+call(['jekyll', 'build', '--destination','_site'])
 repo = git.Repo(search_parent_directories=True)
 sha = repo.head.object.hexsha
 
 os.chdir(site_dir)
-print 'return code' + call(['git','cma','"deploying from '+sha+'"'])
+
+git_commit_ret = call(['git','cma','"deploying from '+sha+'"'])
+if git_commit_ret is 0:
+    if call(['git','push']) is 0:
+        print 'Deployment success'
+    else:
+        print 'Deployment failed, could not push'
+else:
+    print 'Deployment failed, could not commit _site'
+
