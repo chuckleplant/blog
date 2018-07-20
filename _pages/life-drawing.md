@@ -8,8 +8,8 @@ permalink: /life-drawing/
 disqus_identifier: LifeDrawing
 ---
 
-Drawing has always been one of my hobbies and I usually spend some time in the week going to life drawing sessions. Some of them have the time spent noted in the sketch. I'm trying to explore new mediums such as charcoal and dark paper.
+Drawing has always been one of my hobbies and I usually spend some time in the week going to life drawing sessions. I'm trying to explore new mediums such as charcoal and dark paper.
 
-Here's a collection of some of my recent sketches. 
+Here's a collection of some of my recent sketches. Some of them have the time spent noted.
 
 {% includeGallery Life Drawing %}
