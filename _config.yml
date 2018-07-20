@@ -15,6 +15,7 @@ owner:
     name: Sergio Basurco
     email: sergio.basurco@gmail.com
     github: chuckleplant
+    twitter: SergioBasurco
 
 exclude:
 - README.md
