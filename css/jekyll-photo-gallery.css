@@ -59,10 +59,10 @@
     margin-top: 20px;
     list-style-type: none;
     margin-bottom: 20px;  
-    width: 20%;
+    width: 20%;    
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .photoInfoContainer {        
         flex-direction: column;
     }

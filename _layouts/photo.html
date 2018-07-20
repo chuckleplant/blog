@@ -88,7 +88,7 @@ comments: true
             {% capture camera %}
             {% exiftag model, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {% endcapture %}
-            {% capture exposure %}
+            {% capture exposure %}        
             {% exiftag exposure_time, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {% endcapture %}
             {% capture f_number %}
@@ -108,14 +108,12 @@ comments: true
             
           </div>
         </div>
-        
+
         <div class="photoInfo2">
 
           <ul>
-            <li>{% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> {% else %} <i
-              class="fa fa-camera-retro"></i> {% endif %} {{camera}}
-            </li>
-            <li><i class="fa fa-clock-o"></i> {{exposure}}</li>
+            <li>{% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> {% else %} <i class="fa fa-camera-retro"></i> {% endif %} {{camera}}</li>
+            {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure | compact}}</li> {% endif %}
             <li><b>F</b> {{f_number}}</li>
             <li><b>ISO</b> {{iso}}</li>
             <li>{% include share-this-links.html %}</li>
@@ -127,10 +125,13 @@ comments: true
           {% capture photo_longitude %}
           {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
           {% endcapture %}
+          {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}          
+          {% else %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude}},{{photo_longitude}}" target="_blank">
-            <img
+            <img 
               src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=300x220&markers=color:blue%7Clabel:S%7C{{photo_latitude}},{{photo_longitude}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
+          {% endif %}
         </div>
       </div>
       <div style="margin-top: 50px;">
