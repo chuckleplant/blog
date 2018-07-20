@@ -17,7 +17,7 @@ end
 
 module Jekyll
   class PhotoPage < Page
-    def initialize(site, base, dir, photo_url, previous_pic, next_pic, title, description)
+    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description)
       @site = site
       @base = base
       @dir = dir
@@ -26,6 +26,7 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'photo.html')
       self.data['photo_url'] = photo_url
+      self.data['album'] = album
       self.data['previous_pic'] = previous_pic
       self.data['next_pic'] = next_pic
       self.data['title'] = title
@@ -56,7 +57,6 @@ module Jekyll
 
     def generate(site)
       
-      #photos = YAML::load_file('_data/photos.yaml')
       photos = get_all_photos()
       dir = site.config['photo_dir'] || 'photography'
 
@@ -68,10 +68,12 @@ module Jekyll
       photos.each do |photo,details|
         #Iterate through array & return previous, current & next
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
+          pic_album = curr["album"]
           photo_url = curr["img"]
           title = curr["title"]
           description = curr["description"]
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
+          title_stub = pic_album+'/'+title_stub
           if(prev != nil)
             previous_pic = prev["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')
           else
@@ -83,7 +85,7 @@ module Jekyll
             next_pic = ""
           end
           photoSlugs << photo_url
-          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, previous_pic, next_pic, title, description)
+          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description)
         }
       end
       site.data['photoSlugs'] = photoSlugs
@@ -135,15 +137,15 @@ module Jekyll
       photos = get_all_photos()
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-          if(curr["album"] == text.strip)
+        if(curr["album"] == text.strip)
             @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
-                                      <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
+                                      <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["album"]+'/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
                                         <img alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
                                         <meta itemprop="name" content="'+curr["title"]+'" />
                                         <meta itemprop="isFamilyFriendly" content="true" />
                                         <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
-                                          <div itemprop="sameAs" href="http://theowinter.ch/about">
-                                            <meta itemprop="name" content="Theo Winter"/>
+                                          <div itemprop="sameAs" href="https://chuckleplant.github.io/about">
+                                            <meta itemprop="name" content="Sergio Basurco"/>
                                           </div>
                                         </div>
                                       </a>

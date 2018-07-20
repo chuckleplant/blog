@@ -187,20 +187,20 @@ comments: true
     var pOffset = $(this).offset();
     var x = e.pageX - pOffset.left;
     if (pWidth / 2 > x) {
-      window.location.href = '{{ site.url }}/photography/{{page.previous_pic}}';
+      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
     }
     else {
-      window.location.href = '{{ site.url }}/photography/{{page.next_pic}}';
+      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
     }
   });
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
       case 37: //left click
-        window.location.href = '{{ site.url }}/photography/{{page.previous_pic}}';
+        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
         break;
       case 39: //right click
-        window.location.href = '{{ site.url }}/photography/{{page.next_pic}}';
+        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
         break;
     }
   };
