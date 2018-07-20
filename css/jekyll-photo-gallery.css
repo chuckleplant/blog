@@ -26,17 +26,17 @@
 }
 
 .photoPageContainer {
-    background-color:#000000;    
-    overflow: hidden;
+    background-color:#000000;        
     display: flex;    
+    max-height: 800px;
 }
 
 .photoPageContainer img {
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 
