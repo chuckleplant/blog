@@ -31,7 +31,8 @@ comments: true
 
   <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
   <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/brands.css" integrity="sha384-SYNjKRRe+vDW0KSn/LrkhG++hqCLJg9ev1jIh8CHKuEA132pgAz+WofmKAhPpTR7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" crossorigin="anonymous">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,15 +89,15 @@ comments: true
             {% capture camera %}
             {% exiftag model, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {% endcapture %}
-            {% capture exposure %}        
+            {%- capture exposure -%}                 
             {% exiftag exposure_time, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-            {% capture f_number %}
+            {%- endcapture -%}
+            {%- capture f_number -%}
             {% exiftag f_number, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-            {% capture iso %}
+            {%- endcapture -%}
+            {%- capture iso -%}
             {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
+            {%- endcapture -%}
             <!-- TODO: insert better text, atm duplicate information .. -->
             {% if page.description %}
             {{page.description}}<br>
@@ -112,10 +113,15 @@ comments: true
         <div class="photoInfo2">
 
           <ul>
-            <li>{% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> {% else %} <i class="fa fa-camera-retro"></i> {% endif %} {{camera}}</li>
-            {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure | compact}}</li> {% endif %}
-            <li><b>F</b> {{f_number}}</li>
-            <li><b>ISO</b> {{iso}}</li>
+            <li>
+              {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
+              {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
+              {% else %} <i class="fa fa-camera-retro"></i> 
+              {% endif %} {{camera}}
+            </li>
+            {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure}}</li>{% endif %}
+            {% if f_number.size > 0 %} <li><b>F</b> {{f_number}}</li>{% endif %}
+            {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
             <li>{% include share-this-links.html %}</li>
           </ul>
 
