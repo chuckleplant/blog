@@ -8,6 +8,8 @@ import time
 import bisect
 from bisect import bisect_left, bisect_right
 from PIL import Image
+from json import JSONEncoder
+from pexif import JpegFile
 
 class Location(object):
     def __init__(self, d={}):
@@ -55,29 +57,41 @@ args = vars(parser.parse_args())
 locations_file = args['json']
 image_file = args['photo']
 
-print 'Loading data...\n'
+print 'Loading data...'
 with open(locations_file) as f:
     location_data = json.load(f)
 
 location_array = location_data['locations']
-print 'Found %s locations\n' % len(location_array)
+print 'Found %s locations' % len(location_array)
 
 print 'Creating sorted list of objects'
 my_locations = []
 for location in location_array:
     a_location = Location(location)
-    bisect.insort(my_locations, a_location)
+    my_locations.append(a_location)
 
+my_locations = list(reversed(my_locations))
 
-time_exif = Image.open(image_file)._getexif()[36867]
+image = Image.open(image_file)
+time_exif = image._getexif()[36867]
 time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
 
+curr_loc = Location()
+curr_loc.timestamp = int(time_jpeg_unix)
+aprox_location = find_closest_in_time(my_locations, curr_loc)
 
-nihon_loc = Location()
-nihon_loc.timestamp = int(time_jpeg_unix)
-aprox_location = find_closest_in_time(my_locations, nihon_loc)
+lat_f = float(aprox_location.latitude) / 10000000.0
+lon_f = float(aprox_location.longitude) / 10000000.0
+hours_away = abs(aprox_location.timestamp - time_jpeg_unix) / 3600
 
-print 'Found location...'
-print aprox_location.timestamp
-print aprox_location.latitude
-print aprox_location.longitude
+print 'Found approximate location, %s hours away' % hours_away
+
+if(hours_away < 4):
+    #
+    # Add exif gps data while keeping all other data
+    #
+    ef = JpegFile.fromFile(image_file)
+    ef.set_geo(lat_f, lon_f)
+    ef.writeFile(image_file)
+else:
+    print 'Location confidence too low'
