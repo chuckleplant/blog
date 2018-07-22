@@ -4,8 +4,10 @@ import argparse
 import json
 from pprint import pprint
 import datetime
+import time
 import bisect
 from bisect import bisect_left, bisect_right
+from PIL import Image
 
 class Location(object):
     def __init__(self, d={}):
@@ -31,52 +33,51 @@ class Location(object):
         return self.timestamp != other.timestamp
 
 
-def takeClosest(myList, myNumber):
-    """
-    Assumes myList is sorted. Returns closest value to myNumber.
-
-    If two numbers are equally close, return the smallest number.
-    """
-    pos = bisect_left(myList, myNumber)
+def find_closest_in_time(locations, a_location):
+    print 'Finding closest element'
+    pos = bisect_left(locations, a_location)
     if pos == 0:
-        return myList[0]
-    if pos == len(myList):
-        return myList[-1]
+        return locations[0]
+    if pos == len(locations):
+        return locations[-1]
     
-    before = myList[pos - 1]
-    after = myList[pos]
-    if after.timestamp - myNumber.timestamp < myNumber.timestamp - before.timestamp:
+    before = locations[pos - 1]
+    after = locations[pos]
+    if after.timestamp - a_location.timestamp < a_location.timestamp - before.timestamp:
        return after
     else:
        return before
 
-            
 parser = argparse.ArgumentParser()
 parser.add_argument('-j','--json', help='The JSON file containing your location history.', required=True)
-
+parser.add_argument('-p','--photo', help='The image file.', required=True)
 args = vars(parser.parse_args())
 locations_file = args['json']
+image_file = args['photo']
 
-print 'Loading data...'
+print 'Loading data...\n'
 with open(locations_file) as f:
     location_data = json.load(f)
 
 location_array = location_data['locations']
-print 'Found %s locations' % len(location_array)
+print 'Found %s locations\n' % len(location_array)
 
+print 'Creating sorted list of objects'
 my_locations = []
 for location in location_array:
-    timestamp = int(location['timestampMs']) / 1000
-
-    print (datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S --- ' + str(timestamp)))
     a_location = Location(location)
-    my_locations.append(a_location)
-    #bisect.insort(my_locations, a_location)
+    bisect.insort(my_locations, a_location)
 
 
+time_exif = Image.open(image_file)._getexif()[36867]
+time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
 
-custom_ts = 1532122067 #would be second element
-input_location = Location()
-input_location.timestamp = custom_ts
 
-print takeClosest(my_locations, input_location).timestamp
+nihon_loc = Location()
+nihon_loc.timestamp = int(time_jpeg_unix)
+aprox_location = find_closest_in_time(my_locations, nihon_loc)
+
+print 'Found location...'
+print aprox_location.timestamp
+print aprox_location.latitude
+print aprox_location.longitude
