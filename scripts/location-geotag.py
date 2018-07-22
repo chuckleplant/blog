@@ -70,8 +70,8 @@ for location in location_array:
 
     print (datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S --- ' + str(timestamp)))
     a_location = Location(location)
-    #my_locations.append(a_location)
-    bisect.insort(my_locations, a_location)
+    my_locations.append(a_location)
+    #bisect.insort(my_locations, a_location)
 
 
 
