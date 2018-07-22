@@ -14,16 +14,14 @@ thumbnail_dir = os.path.join(root_dir, 'images/photography/thumbnails')
 site_dir = os.path.join(root_dir,'_site')
 setup_photos_script = os.path.join(root_dir, 'scripts/setup-photos.py')
 
-
-
 os.chdir(root_dir)
 shutil.rmtree(thumbnail_dir, ignore_errors=True)
 execfile(setup_photos_script)
-call(['jekyll', 'build', '--destination','_site'])
-repo = git.Repo(search_parent_directories=True)
-sha = repo.head.object.hexsha
 
 if args.push:
+    call(['jekyll', 'build', '--destination','_site'])
+    repo = git.Repo(search_parent_directories=True)
+    sha = repo.head.object.hexsha
     os.chdir(site_dir)
     git_commit_ret = call(['git','cma','deploying from '+sha])
     if git_commit_ret is 0:
