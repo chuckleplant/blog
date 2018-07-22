@@ -34,7 +34,6 @@ class Location(object):
     def __ne__( self, other ):
         return self.timestamp != other.timestamp
 
-
 def find_closest_in_time(locations, a_location):
     print 'Finding closest element'
     pos = bisect_left(locations, a_location)
@@ -53,9 +52,11 @@ def find_closest_in_time(locations, a_location):
 parser = argparse.ArgumentParser()
 parser.add_argument('-j','--json', help='The JSON file containing your location history.', required=True)
 parser.add_argument('-p','--photo', help='The image file.', required=True)
+parser.add_argument('-t','--time', help='Hours of tolerance', default=4, required=False)
 args = vars(parser.parse_args())
 locations_file = args['json']
 image_file = args['photo']
+hours_threshold = int(args['time'])
 
 print 'Loading data...'
 with open(locations_file) as f:
@@ -64,34 +65,29 @@ with open(locations_file) as f:
 location_array = location_data['locations']
 print 'Found %s locations' % len(location_array)
 
-print 'Creating sorted list of objects'
 my_locations = []
 for location in location_array:
     a_location = Location(location)
     my_locations.append(a_location)
 
+print 'Reversing locations list'
 my_locations = list(reversed(my_locations))
 
+print 'Searching for approximage location'
 image = Image.open(image_file)
 time_exif = image._getexif()[36867]
 time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
-
 curr_loc = Location()
 curr_loc.timestamp = int(time_jpeg_unix)
-aprox_location = find_closest_in_time(my_locations, curr_loc)
-
-lat_f = float(aprox_location.latitude) / 10000000.0
-lon_f = float(aprox_location.longitude) / 10000000.0
-hours_away = abs(aprox_location.timestamp - time_jpeg_unix) / 3600
+approx_location = find_closest_in_time(my_locations, curr_loc)
+lat_f = float(approx_location.latitude) / 10000000.0
+lon_f = float(approx_location.longitude) / 10000000.0
+hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
 
 print 'Found approximate location, %s hours away' % hours_away
-
-if(hours_away < 4):
-    #
-    # Add exif gps data while keeping all other data
-    #
+if(hours_away < hours_threshold):
     ef = JpegFile.fromFile(image_file)
     ef.set_geo(lat_f, lon_f)
     ef.writeFile(image_file)
 else:
-    print 'Location confidence too low'
+    print 'Time threshold surpassed'
