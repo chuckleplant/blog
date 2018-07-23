@@ -27,7 +27,6 @@ def generate_yaml(album_name, album_path):
     with open(get_yaml_path(album_name), 'w') as outfile:
         yaml.dump(photo_yaml, outfile, default_flow_style=False)
 
-
 def generate_yaml_for_album(album_path):
     images = []
     types = ('*.jpg', '*.png', '*.jpeg', '*.JPG', '*.JPEG')
@@ -59,9 +58,14 @@ for folder, subs, files in os.walk(photo_path):
         if "thumbnails" not in abs_file:
             name,ext = os.path.splitext(abs_file)
             if any(filename.endswith(ext) for ext in extensions):
+                
+
                 comn_path = os.path.commonprefix([photo_path, abs_file])
                 target_path = thumbnail_path + abs_file.replace(comn_path, "")
                 img = Image.open(abs_file)
+
+                
+
                 # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
                 if hasattr(img, '_getexif'):
                     orientation = 0x0112

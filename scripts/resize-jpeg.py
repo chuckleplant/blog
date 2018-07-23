@@ -16,6 +16,7 @@ import time
 from bisect import bisect_left, bisect_right
 from PIL import Image
 from pexif import JpegFile
+import math
 
 class Location(object):
     def __init__(self, d={}):
@@ -54,29 +55,18 @@ def find_closest_in_time(locations, a_location):
     else:
        return before
 
+def res_for_pix_count(width, height, pixcount):
+    aspect = float(width) / float(height)
+    h = math.sqrt(float(pixcount) / aspect)
+    w = aspect * h
+    return int(w), int(h)
+
 parser = argparse.ArgumentParser()
-parser.add_argument('-j','--json', help='The JSON file containing your location history.', required=True)
 parser.add_argument('-d','--dir', help='Images folder.', required=True)
-parser.add_argument('-t','--time', help='Hours of tolerance.', default=2, required=False)
 args = vars(parser.parse_args())
-locations_file = args['json']
 image_dir = args['dir']
-hours_threshold = int(args['time'])
 
-print 'Loading data (takes a while)...'
-with open(locations_file) as f:
-    location_data = json.load(f)
-
-location_array = location_data['locations']
-print 'Found %s locations' % len(location_array)
-
-my_locations = []
-for location in location_array:
-    a_location = Location(location)
-    my_locations.append(a_location)
-
-print 'Reversing locations list'
-my_locations = list(reversed(my_locations))
+max_pix_count = 2500000
 
 included_extenstions = ['jpg', 'JPG', 'jpeg', 'JPEG']
 file_names = [fn for fn in os.listdir(image_dir) if any(fn.endswith(ext) for ext in included_extenstions)]
@@ -84,18 +74,14 @@ file_names = [fn for fn in os.listdir(image_dir) if any(fn.endswith(ext) for ext
 for image_file in file_names:
     image_file = os.path.join(image_dir, image_file)
     image = Image.open(image_file)
-    time_exif = image._getexif()[36867]
-    time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
-    curr_loc = Location()
-    curr_loc.timestamp = int(time_jpeg_unix)
-    approx_location = find_closest_in_time(my_locations, curr_loc)
-    lat_f = float(approx_location.latitude) / 10000000.0
-    lon_f = float(approx_location.longitude) / 10000000.0
-    hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
+    exif = image.info['exif']
 
-    if(hours_away < hours_threshold):
-        ef = JpegFile.fromFile(image_file)
-        ef.set_geo(lat_f, lon_f)
-        ef.writeFile(image_file)
-    else:
-        print 'Time threshold surpassed'
+    width, height = image.size
+    numpix = width * height
+
+    if numpix > max_pix_count:
+        w, h = res_for_pix_count(width, height, max_pix_count)
+        image.thumbnail((w,h), Image.ANTIALIAS)
+        image.save(image_file, exif=exif)
+        print 'saved %s' % image_file
+    
