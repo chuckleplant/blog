@@ -1,6 +1,7 @@
 import glob, os, sys, yaml
 import PIL
 from PIL import ImageTk, Image, ExifTags
+import math
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
 yaml_path = os.path.join(cur_path, '../_data/photos')
@@ -42,10 +43,17 @@ def generate_yaml_for_album(album_path):
     types = ('*.jpg', '*.png', '*.jpeg', '*.JPG', '*.JPEG')
     generate_yaml(album_name, album_path)
 
+def res_for_pix_count(width, height, pixcount):
+    aspect = float(width) / float(height)
+    h = math.sqrt(float(pixcount) / aspect)
+    w = aspect * h
+    return int(w), int(h)
+
 albums = glob.glob(cur_path+'/../images/photography/*/')
 for album_path in albums:
     generate_yaml_for_album(album_path)
 
+max_pix_count = 3000000
 photo_path = os.path.join(cur_path,"../images/photography")
 thumbnail_path = os.path.join(photo_path,"thumbnails")
 extensions = ['jpg', 'JPG', 'JPEG', 'png', 'PNG', 'jpeg']
@@ -57,14 +65,19 @@ for folder, subs, files in os.walk(photo_path):
         abs_file = os.path.join(folder,filename)
         if "thumbnails" not in abs_file:
             name,ext = os.path.splitext(abs_file)
-            if any(filename.endswith(ext) for ext in extensions):
-                
+            if any(filename.endswith(ext) for ext in extensions):                
 
                 comn_path = os.path.commonprefix([photo_path, abs_file])
                 target_path = thumbnail_path + abs_file.replace(comn_path, "")
                 img = Image.open(abs_file)
-
-                
+                exif = img.info['exif']
+                width, height = img.size
+                numpix = width * height
+                if numpix > max_pix_count:
+                    w, h = res_for_pix_count(width, height, max_pix_count)
+                    img.thumbnail((w,h), Image.ANTIALIAS)
+                    print 'Resized %s' % filename
+                    img.save(abs_file, exif=exif)
 
                 # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
                 if hasattr(img, '_getexif'):
