@@ -1,14 +1,20 @@
+#
+# Geotagging using Google location history.
+#
+# Input parameters:
+# 
+#   -j JSON, --json JSON  The JSON file containing your location history.
+#   -d DIR, --dir DIR     Images folder.
+#   -t TIME, --time TIME  Hours of tolerance.
+
 import os
-from subprocess import call
+import glob
 import argparse
 import json
-from pprint import pprint
 import datetime
 import time
-import bisect
 from bisect import bisect_left, bisect_right
 from PIL import Image
-from json import JSONEncoder
 from pexif import JpegFile
 
 class Location(object):
@@ -35,7 +41,6 @@ class Location(object):
         return self.timestamp != other.timestamp
 
 def find_closest_in_time(locations, a_location):
-    print 'Finding closest element'
     pos = bisect_left(locations, a_location)
     if pos == 0:
         return locations[0]
@@ -51,14 +56,14 @@ def find_closest_in_time(locations, a_location):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-j','--json', help='The JSON file containing your location history.', required=True)
-parser.add_argument('-p','--photo-dir', help='Images folder.', required=True)
-parser.add_argument('-t','--time', help='Hours of tolerance', default=4, required=False)
+parser.add_argument('-d','--dir', help='Images folder.', required=True)
+parser.add_argument('-t','--time', help='Hours of tolerance.', default=2, required=False)
 args = vars(parser.parse_args())
 locations_file = args['json']
-image_file = args['photo']
+image_dir = args['dir']
 hours_threshold = int(args['time'])
 
-print 'Loading data...'
+print 'Loading data (takes a while)...'
 with open(locations_file) as f:
     location_data = json.load(f)
 
@@ -73,21 +78,25 @@ for location in location_array:
 print 'Reversing locations list'
 my_locations = list(reversed(my_locations))
 
-print 'Searching for approximage location'
-image = Image.open(image_file)
-time_exif = image._getexif()[36867]
-time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
-curr_loc = Location()
-curr_loc.timestamp = int(time_jpeg_unix)
-approx_location = find_closest_in_time(my_locations, curr_loc)
-lat_f = float(approx_location.latitude) / 10000000.0
-lon_f = float(approx_location.longitude) / 10000000.0
-hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
+relevant_path = "[path to folder]"
+included_extenstions = ['jpg', 'JPG', 'jpeg', 'JPEG']
+file_names = [fn for fn in os.listdir(image_dir) if any(fn.endswith(ext) for ext in included_extenstions)]
 
-print 'Found approximate location, %s hours away' % hours_away
-if(hours_away < hours_threshold):
-    ef = JpegFile.fromFile(image_file)
-    ef.set_geo(lat_f, lon_f)
-    ef.writeFile(image_file)
-else:
-    print 'Time threshold surpassed'
+for image_file in file_names:
+    image_file = os.path.join(image_dir, image_file)
+    image = Image.open(image_file)
+    time_exif = image._getexif()[36867]
+    time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
+    curr_loc = Location()
+    curr_loc.timestamp = int(time_jpeg_unix)
+    approx_location = find_closest_in_time(my_locations, curr_loc)
+    lat_f = float(approx_location.latitude) / 10000000.0
+    lon_f = float(approx_location.longitude) / 10000000.0
+    hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
+
+    if(hours_away < hours_threshold):
+        ef = JpegFile.fromFile(image_file)
+        ef.set_geo(lat_f, lon_f)
+        ef.writeFile(image_file)
+    else:
+        print 'Time threshold surpassed'
