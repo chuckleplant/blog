@@ -166,16 +166,16 @@ comments: true
   var newimg = document.getElementById('picture');
 
   function getExif() {
-    EXIF.getData(newimg, function() {
-      var orientation = EXIF.getTag(this, "Orientation");
-      if (orientation == 6) {
-        newimg.className = "entry-feature-image rot90";
-      } else if (orientation == 8) {
-        newimg.className = "entry-feature-image rot270";
-      } else if (orientation == 3) {
-        newimg.className = "entry-feature-image rot180";
-      }
-    });
+    //EXIF.getData(newimg, function() {
+    //  var orientation = EXIF.getTag(this, "Orientation");
+    //  if (orientation == 6) {
+    //    newimg.className = "entry-feature-image rot90";
+    //  } else if (orientation == 8) {
+    //    newimg.className = "entry-feature-image rot270";
+    //  } else if (orientation == 3) {
+    //    newimg.className = "entry-feature-image rot180";
+    //  }
+    //});
   };
 
   getExif();

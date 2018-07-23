@@ -1,6 +1,6 @@
 import glob, os, sys, yaml
-import PIL
-from PIL import ImageTk, Image, ExifTags
+
+from PIL import Image, ExifTags
 import math
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
@@ -70,16 +70,18 @@ for folder, subs, files in os.walk(photo_path):
                 comn_path = os.path.commonprefix([photo_path, abs_file])
                 target_path = thumbnail_path + abs_file.replace(comn_path, "")
                 img = Image.open(abs_file)
-                exif = img.info['exif']
+                iexif = img.info['exif']
                 width, height = img.size
                 numpix = width * height
+
+                touched = False
+
                 if numpix > max_pix_count:
                     w, h = res_for_pix_count(width, height, max_pix_count)
                     img.thumbnail((w,h), Image.ANTIALIAS)
                     print 'Resized %s' % filename
-                    img.save(abs_file, exif=exif)
+                    touched = True
 
-                # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
                 if hasattr(img, '_getexif'):
                     orientation = 0x0112
                     exif = img._getexif()
@@ -92,8 +94,15 @@ for folder, subs, files in os.walk(photo_path):
                         }
                         if orientation in rotations:
                             img = img.transpose(rotations[orientation])
+                            touched = True
 
-                img.thumbnail((target_width, target_width), PIL.Image.ANTIALIAS)
+                if touched:
+                    img.save(abs_file, exif=iexif)
+                # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
+
+
+
+                img.thumbnail((target_width, target_width), Image.ANTIALIAS)
                 target_dir = os.path.dirname(target_path)
                 if not os.path.exists(target_dir):
                     os.makedirs(target_dir)
