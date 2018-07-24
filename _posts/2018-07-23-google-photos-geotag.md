@@ -18,7 +18,7 @@ python location-geotag.py --dir {your photos directory} --json {your location hi
 
 Do **backup** your photos before doing this, you may lose them.
 
-## Where I've been
+## Somebody's watching me
 
 I use Google Photos for keeping the thousands if not hundreds of thousands of pictures I've taken over the years. Unlimited storage (I love unlimited stuff) for the price of image compression and probably Google using your photos for machine learning, ads and other orwellian ends.
 
