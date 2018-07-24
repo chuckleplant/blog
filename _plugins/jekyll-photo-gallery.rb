@@ -3,6 +3,7 @@
 # Mods by: Sergio Basurco & Julian Ramos
 require 'find'
 require 'yaml'
+require 'dimensions'
 
 def get_all_photos()
   allPics = []
@@ -139,9 +140,10 @@ module Jekyll
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
         if(curr["album"] == text.strip)
+            width, height = Dimensions.dimensions(Dir.pwd + '/images/photography/thumbnails/'+curr["img"]+'.jpg')
             @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
                                       <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["album"]+'/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
-                                        <img alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
+                                        <img  width="'+width.to_s+'" height="'+height.to_s+'" alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
                                         <meta itemprop="name" content="'+curr["title"]+'" />
                                         <meta itemprop="isFamilyFriendly" content="true" />
                                         <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
@@ -167,7 +169,8 @@ module Jekyll
                                       border : 0,
                                       fixedHeight: false,
                                       lastRow : \'nojustify\',
-                                      captions: true
+                                      captions: true,
+                                      waitThumbnailsLoad: false
                                   });
                                   $("#gallery").fadeIn(500);
                               }

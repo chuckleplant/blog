@@ -9,6 +9,15 @@ disqus_identifier: geotagPython
 
 > Who controls the past controls the future. Who controls the present controls the past.
 
+
+[Here](https://github.com/chuckleplant/blog/blob/master/scripts/location-geotag.py)'s a script that runs on Python that can add GPS tags to your photos (jpg) given your Google location history. You have to download the location history from [https://takeout.google.com/](https://takeout.google.com/) and run:
+
+~~~ bash
+python location-geotag.py --dir {your photos directory} --json {your location history}
+~~~
+
+Do **backup** your photos before doing this, you may lose them.
+
 ## Where I've been
 
 I use Google Photos for keeping the thousands if not hundreds of thousands of pictures I've taken over the years. Unlimited storage (I love unlimited stuff) for the price of image compression and probably Google using your photos for machine learning, ads and other orwellian ends.
@@ -60,6 +69,8 @@ The Google export looks like this:
 
 I loaded the JSON and created a custom `Location` class which just registered the GPS info and the timestamp. I converted the timestamps to seconds when loading them. I also defined some operators to be able to sort and search the locations list.
 
+> *Update:* The current implementation omits altitude because I only cared for the 2D map. I will update the script to include as much GPS information as possible.
+
 ~~~ python
 #
 # Note I construct directly from the JSON dictionary
@@ -109,16 +120,34 @@ def find_closest_in_time(locations, a_location):
        return before
 ~~~
 
-In order to add the GPS information I used the [pexif](https://github.com/bennoleslie/pexif) module. Which was designed with geotagging in mind. I also added a time threshold of a couple of hours, any location out of that threshold would be considered inaccurate.
+In order to add the GPS information I used the [pexif](https://github.com/bennoleslie/pexif) module at first. But I found that the Exif data written by the module was sometimes broken. I switched to [piexif](https://pypi.org/project/piexif/), which does basically the same. The documentation however was a bit harder to bite, luckily I found [this gist](https://gist.github.com/c060604/8a51f8999be12fc2be498e9ca56adc72) that showed how to embed GPS data via exif.
+
+I also added a time threshold of a couple of hours, any location out of that threshold would be considered inaccurate.
 
 ~~~ python
-    if(hours_away < hours_threshold):
-        ef = JpegFile.fromFile(image_file)
-        ef.set_geo(lat_f, lon_f)
-        ef.writeFile(image_file)
-    else:
-        print 'Time threshold surpassed'
+#
+# piexif library usage to add GPS info to an image
+#
+if(hours_away < hours_threshold):
+    exif_dict = piexif.load(image_file)    
+    exif_dict["GPS"][piexif.GPSIFD.GPSVersionID] = (2, 0, 0, 0)
+    exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 1
+    exif_dict["GPS"][piexif.GPSIFD.GPSLatitudeRef] = 'S' if lat_f < 0 else 'N'
+    exif_dict["GPS"][piexif.GPSIFD.GPSLongitudeRef] = 'W' if lon_f < 0 else 'E'
+
+    lat_deg = to_deg(lat_f, ["S", "N"])
+    lng_deg = to_deg(lon_f, ["W", "E"])
+    exiv_lat = (change_to_rational(lat_deg[0]), change_to_rational(lat_deg[1]), change_to_rational(lat_deg[2]))
+    exiv_lng = (change_to_rational(lng_deg[0]), change_to_rational(lng_deg[1]), change_to_rational(lng_deg[2]))
+
+    exif_dict["GPS"][piexif.GPSIFD.GPSLatitude] = exiv_lat
+    exif_dict["GPS"][piexif.GPSIFD.GPSLongitude] = exiv_lng
+    
+    exif_bytes = piexif.dump(exif_dict)
+    image.save(image_file, exif=exif_bytes)
+else:
+    print 'Time threshold surpassed'
 ~~~
 
-The full script can be found [here](https://gist.github.com/chuckleplant/84b48f5c2cb743013462b6cb5f598f01). Make sure to make a backup of your images before running the script!
+The full script can be found [here](https://github.com/chuckleplant/blog/blob/master/scripts/location-geotag.py). Make sure to make a backup of your images before running the script!
 
