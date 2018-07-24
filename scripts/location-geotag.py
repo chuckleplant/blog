@@ -16,6 +16,8 @@ import time
 from bisect import bisect_left, bisect_right
 from PIL import Image
 from pexif import JpegFile
+import piexif
+from fractions import Fraction
 
 class Location(object):
     def __init__(self, d={}):
@@ -53,6 +55,38 @@ def find_closest_in_time(locations, a_location):
        return after
     else:
        return before
+
+
+# https://gist.github.com/c060604/8a51f8999be12fc2be498e9ca56adc72
+
+def to_deg(value, loc):
+    """convert decimal coordinates into degrees, munutes and seconds tuple
+    Keyword arguments: value is float gps-value, loc is direction list ["S", "N"] or ["W", "E"]
+    return: tuple like (25, 13, 48.343 ,'N')
+    """
+    if value < 0:
+        loc_value = loc[0]
+    elif value > 0:
+        loc_value = loc[1]
+    else:
+        loc_value = ""
+    abs_value = abs(value)
+    deg =  int(abs_value)
+    t1 = (abs_value-deg)*60
+    min = int(t1)
+    sec = round((t1 - min)* 60, 5)
+    return (deg, min, sec, loc_value)
+
+
+def change_to_rational(number):
+    """convert a number to rantional
+    Keyword arguments: number
+    return: tuple like (1, 2), (numerator, denominator)
+    """
+    f = Fraction(str(number))
+    return (f.numerator, f.denominator)
+
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-j','--json', help='The JSON file containing your location history.', required=True)
@@ -94,8 +128,22 @@ for image_file in file_names:
     hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
 
     if(hours_away < hours_threshold):
-        ef = JpegFile.fromFile(image_file)
-        ef.set_geo(lat_f, lon_f)
-        ef.writeFile(image_file)
+        exif_dict = piexif.load(image_file)
+        
+        exif_dict["GPS"][piexif.GPSIFD.GPSVersionID] = (2, 0, 0, 0)
+        exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 1
+        exif_dict["GPS"][piexif.GPSIFD.GPSLatitudeRef] = 'S' if lat_f < 0 else 'N'
+        exif_dict["GPS"][piexif.GPSIFD.GPSLongitudeRef] = 'W' if lon_f < 0 else 'E'
+
+        lat_deg = to_deg(lat_f, ["S", "N"])
+        lng_deg = to_deg(lon_f, ["W", "E"])
+        exiv_lat = (change_to_rational(lat_deg[0]), change_to_rational(lat_deg[1]), change_to_rational(lat_deg[2]))
+        exiv_lng = (change_to_rational(lng_deg[0]), change_to_rational(lng_deg[1]), change_to_rational(lng_deg[2]))
+
+        exif_dict["GPS"][piexif.GPSIFD.GPSLatitude] = exiv_lat
+        exif_dict["GPS"][piexif.GPSIFD.GPSLongitude] = exiv_lng
+        
+        exif_bytes = piexif.dump(exif_dict)
+        image.save(image_file, exif=exif_bytes)
     else:
         print 'Time threshold surpassed'

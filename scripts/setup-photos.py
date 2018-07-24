@@ -1,7 +1,7 @@
 import glob, os, sys, yaml
-
 from PIL import Image, ExifTags
 import math
+import piexif
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
 yaml_path = os.path.join(cur_path, '../_data/photos')
@@ -70,11 +70,33 @@ for folder, subs, files in os.walk(photo_path):
                 comn_path = os.path.commonprefix([photo_path, abs_file])
                 target_path = thumbnail_path + abs_file.replace(comn_path, "")
                 img = Image.open(abs_file)
-                iexif = img.info['exif']
-                width, height = img.size
-                numpix = width * height
 
                 touched = False
+
+                exif_dict = piexif.load(abs_file)
+                exif_bytes = piexif.dump(exif_dict)
+                if piexif.ImageIFD.Orientation in exif_dict["0th"]:    
+                    touched = True
+                    orientation = exif_dict["0th"].pop(piexif.ImageIFD.Orientation)
+                    exif_bytes = piexif.dump(exif_dict)
+                    if orientation == 2:
+                        img = img.transpose(Image.FLIP_LEFT_RIGHT)
+                    elif orientation == 3:
+                        img = img.rotate(180)
+                    elif orientation == 4:
+                        img = img.rotate(180).transpose(Image.FLIP_LEFT_RIGHT)
+                    elif orientation == 5:
+                        img = img.rotate(-90, expand=True).transpose(Image.FLIP_LEFT_RIGHT)
+                    elif orientation == 6:
+                        img = img.rotate(-90, expand=True)
+                    elif orientation == 7:
+                        img = img.rotate(90, expand=True).transpose(Image.FLIP_LEFT_RIGHT)
+                    elif orientation == 8:
+                        img = img.rotate(90, expand=True)
+
+
+                width, height = img.size
+                numpix = width * height
 
                 if numpix > max_pix_count:
                     w, h = res_for_pix_count(width, height, max_pix_count)
@@ -82,22 +104,8 @@ for folder, subs, files in os.walk(photo_path):
                     print 'Resized %s' % filename
                     touched = True
 
-                if hasattr(img, '_getexif'):
-                    orientation = 0x0112
-                    exif = img._getexif()
-                    if exif is not None:
-                        orientation = exif[orientation]
-                        rotations = {
-                        3: Image.ROTATE_180,
-                        6: Image.ROTATE_270,
-                        8: Image.ROTATE_90
-                        }
-                        if orientation in rotations:
-                            img = img.transpose(rotations[orientation])
-                            touched = True
-
                 if touched:
-                    img.save(abs_file, exif=iexif)
+                    img.save(abs_file, exif=exif_bytes)
                 # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
 
 
