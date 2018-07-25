@@ -48,10 +48,22 @@
     display: inline-block;
 }
 
+.photo-buttons:hover .button-stripe-left,
+.photo-buttons:hover .button-stripe-right{
+    display: block;
+}
+
+.button-stripe-left,
+.button-stripe-right{
+    display: none;
+}
+
+
 .photo-buttons img{
     max-height: 80vh;
     max-width: 100%;    
 }
+
 
 .button-stripe-right{
     height: 100%;
@@ -79,12 +91,16 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px;
-    color: white;
+    font-size: 40px;
+    
+}
+
+.arrow-icon{
+    text-decoration: none !important;
 }
 
 .arrow-icon .far{
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .arrow-icon .fas,
@@ -96,8 +112,9 @@
 .button-stripe-right:hover .fas,
 .button-stripe-left:hover .fas {
     display: inline;
-    color: white;
-    font-size: 32px;   
+    font-size: 40px;   
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .button-stripe-left,

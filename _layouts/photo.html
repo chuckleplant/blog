@@ -76,18 +76,18 @@ comments: true
               src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
               alt="{{ page.title }}">
 
-        <div class="button-stripe-right"> <!-- vertical stripe -->
+        <div id="next-button" class="button-stripe-right"> <!-- vertical stripe -->
           <div class="but-container"><!-- button -->
-            <a href="{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}" class="arrow-icon">
-              <i class="far fa-arrow-alt-circle-right"></i>
-              <i class="fas fa-arrow-alt-circle-right"></i>
-            </a>
+              <a href="#" class="arrow-icon">
+                <i class="far fa-arrow-alt-circle-right"></i>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+              </a>            
           </div>
         </div>
            
-        <div class="button-stripe-left"> <!-- vertical stripe -->
+        <div id="prev-button" class="button-stripe-left"> <!-- vertical stripe -->
           <div class="but-container"><!-- button -->
-            <a href="{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}" class="arrow-icon">
+            <a href="#" class="arrow-icon">
               <i class="far fa-arrow-alt-circle-left"></i>
               <i class="fas fa-arrow-alt-circle-left"></i>
             </a>
@@ -214,9 +214,19 @@ comments: true
 <script>
   var photo = $("#photo");
   var picture = $("#picture");
+  var prevButton = $("#prev-button");
+  var nextButton = $("#next-button");
 
 
-  picture.click(function (e) {
+  prevButton.click(function (e) {
+    window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
+  });
+
+  nextButton.click(function (e) {
+    window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+  });
+
+ /* picture.click(function (e) {
     var pWidth = $(this).innerWidth();
     var pOffset = $(this).offset();
     var x = e.pageX - pOffset.left;
@@ -226,7 +236,7 @@ comments: true
     else {
       window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
     }
-  });
+  });*/
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
