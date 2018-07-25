@@ -75,35 +75,23 @@ comments: true
         <img id="picture" 
               src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
               alt="{{ page.title }}">
-
-        <div id="next-button" class="button-stripe-right"> <!-- vertical stripe -->
-          <div class="but-container"><!-- button -->
+        <div id="next-button" class="button-stripe-right"> 
+          <div class="but-container">
               <a href="#" class="arrow-icon">
                 <i class="far fa-arrow-alt-circle-right"></i>
                 <i class="fas fa-arrow-alt-circle-right"></i>
               </a>            
           </div>
         </div>
-           
-        <div id="prev-button" class="button-stripe-left"> <!-- vertical stripe -->
-          <div class="but-container"><!-- button -->
+        <div id="prev-button" class="button-stripe-left"> 
+          <div class="but-container">
             <a href="#" class="arrow-icon">
               <i class="far fa-arrow-alt-circle-left"></i>
               <i class="fas fa-arrow-alt-circle-left"></i>
             </a>
           </div>
         </div>
-
       </div>  
-
-<!--
-        <a href="{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}" class="img-next">
-          <i class="far fa-arrow-alt-circle-right"></i>
-          <i class="fas fa-arrow-alt-circle-right"></i>          
-        </a>
-     -->
-      
-
     </div>
   </article>
   <div class="wrapper">
@@ -226,24 +214,12 @@ comments: true
     window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
   });
 
- /* picture.click(function (e) {
-    var pWidth = $(this).innerWidth();
-    var pOffset = $(this).offset();
-    var x = e.pageX - pOffset.left;
-    if (pWidth / 2 > x) {
-      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
-    }
-    else {
-      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
-    }
-  });*/
-
   document.onkeydown = function (e) {
     switch (e.keyCode) {
-      case 37: //left click
+      case 37: //left
         window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
         break;
-      case 39: //right click
+      case 39: //right
         window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
         break;
     }
