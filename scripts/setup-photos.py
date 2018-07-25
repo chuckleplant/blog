@@ -12,7 +12,7 @@ def get_yaml_path(album_name):
 def generate_yaml(album_name, album_path):
     print 'Generating YAML'
     photos_in_album = []
-    for file in glob.glob(album_path+'/*'):
+    for file in sorted(glob.glob(album_path+'/*')):
         photo_title = os.path.splitext(os.path.basename(file))[0]
         photo_img = album_name + '/' + photo_title
         photo_album = album_name
