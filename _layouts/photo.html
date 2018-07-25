@@ -31,6 +31,7 @@ comments: true
 
   <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
   <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/brands.css" integrity="sha384-SYNjKRRe+vDW0KSn/LrkhG++hqCLJg9ev1jIh8CHKuEA132pgAz+WofmKAhPpTR7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" crossorigin="anonymous">
   <meta name="HandheldFriendly" content="True">
@@ -59,20 +60,37 @@ comments: true
   <article>
     <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
 
-      <!-- Schema.org BlogPost Invisible Meta-Data -->
-      <meta itemprop="license" content="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-      <meta itemprop="author" content="{{ site.owner.name }}"/>
-      <meta itemprop="inLanguage" content="en-US"/>
-      <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
-      <meta itemprop="name" content="{{page.title}}"/>
-      <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
-      <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
-      <meta itemprop="description" content="{{page.description}}"/>
+      <div class="photo-buttons">
 
-      
-      <img id="picture" 
-            src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
-            alt="{{ page.title }}">
+
+        <!-- Schema.org BlogPost Invisible Meta-Data -->
+        <meta itemprop="license" content="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <meta itemprop="author" content="{{ site.owner.name }}"/>
+        <meta itemprop="inLanguage" content="en-US"/>
+        <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
+        <meta itemprop="name" content="{{page.title}}"/>
+        <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
+        <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
+        <meta itemprop="description" content="{{page.description}}"/>
+        <img id="picture" 
+              src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
+              alt="{{ page.title }}">
+
+        <div class="prev-but-container">
+          <a href="{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}" class="img-prev">
+            <i class="far fa-arrow-alt-circle-right"></i>
+            <i class="fas fa-arrow-alt-circle-right"></i>
+          </a>
+        </div>
+           
+      </div>  
+
+<!--
+        <a href="{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}" class="img-next">
+          <i class="far fa-arrow-alt-circle-right"></i>
+          <i class="fas fa-arrow-alt-circle-right"></i>          
+        </a>
+     -->
       
 
     </div>

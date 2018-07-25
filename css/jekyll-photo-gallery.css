@@ -28,8 +28,10 @@
 .photoPageContainer {
     background-color:#131313;                
     object-fit: fill;     
+    text-align: center;
 }
 
+/*
 .photoPageContainer img {
     margin-left: auto;
     margin-right: auto;
@@ -37,6 +39,51 @@
     max-width: 100%;    
     display: block;
 }
+*/
+
+.photo-buttons{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;    
+    display: inline-block;
+}
+
+.photo-buttons img{
+    max-height: 80vh;
+    max-width: 100%;    
+}
+
+.prev-but-container{    
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img-prev{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    color: white;
+}
+
+.img-prev .far{
+    color: white;
+}
+
+.img-prev .fas,
+.img-prev:hover .far {
+    display: none;    
+}
+
+.img-prev:hover .fas {
+    display: inline;
+    color: white;
+    font-size: 32px;
+}
+
+
 
 
 .photoInfoContainer {    
