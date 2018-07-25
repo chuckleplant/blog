@@ -142,7 +142,7 @@ module Jekyll
         if(curr["album"] == text.strip)
             width, height = Dimensions.dimensions(Dir.pwd + '/images/photography/thumbnails/'+curr["img"]+'.jpg')
             @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
-                                      <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["album"]+'/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
+                                      <a target="_blank" itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["album"]+'/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
                                         <img  width="'+width.to_s+'" height="'+height.to_s+'" alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
                                         <meta itemprop="name" content="'+curr["title"]+'" />
                                         <meta itemprop="isFamilyFriendly" content="true" />
