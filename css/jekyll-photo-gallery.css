@@ -61,19 +61,21 @@
     width: 12%;
 }
 
-.prev-but-container{    
-  /*  height: 100%;
+.button-stripe-left{
+    height: 100%;
     position: absolute;
-    right: 0;
     top: 0;
-    width: 12%;*/
+    width: 12%;
+}
+
+.but-container{    
     width: 100%;
     height: 100%;
-    position:relative;
+    position: relative;
 }
 
 
-.img-prev{
+.arrow-icon{
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -81,16 +83,16 @@
     color: white;
 }
 
-.img-prev .far{
+.arrow-icon .far{
     color: white;
 }
 
-.img-prev .fas,
-.img-prev:hover .far {
+.arrow-icon .fas,
+.arrow-icon:hover .far {
     display: none;    
 }
 
-.img-prev:hover .fas {
+.arrow-icon:hover .fas {
     display: inline;
     color: white;
     font-size: 32px;
