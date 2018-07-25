@@ -88,17 +88,22 @@
 }
 
 .arrow-icon .fas,
-.arrow-icon:hover .far {
+.button-stripe-right:hover .far,
+.button-stripe-left:hover .far {
     display: none;    
 }
 
-.arrow-icon:hover .fas {
+.button-stripe-right:hover .fas,
+.button-stripe-left:hover .fas {
     display: inline;
     color: white;
-    font-size: 32px;
+    font-size: 32px;   
 }
 
-
+.button-stripe-left,
+.button-stripe-right {
+    cursor: pointer;
+}
 
 
 .photoInfoContainer {    
