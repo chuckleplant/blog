@@ -53,17 +53,30 @@
     max-width: 100%;    
 }
 
-.prev-but-container{    
+.button-stripe-right{
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
+    width: 12%;
 }
+
+.prev-but-container{    
+  /*  height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12%;*/
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+
 
 .img-prev{
     position: absolute;
     top: 50%;
-    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 32px;
     color: white;
 }
