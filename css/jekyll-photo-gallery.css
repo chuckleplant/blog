@@ -46,6 +46,7 @@
     margin-left: auto;
     margin-right: auto;    
     display: inline-block;
+    width: 100%;
 }
 
 .photo-buttons:hover .button-stripe-left,
@@ -70,14 +71,14 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 12%;
+    width: 20%;
 }
 
 .button-stripe-left{
     height: 100%;
     position: absolute;
     top: 0;
-    width: 12%;
+    width: 20%;
 }
 
 .but-container{    
@@ -114,7 +115,7 @@
     display: inline;
     font-size: 40px;   
     text-decoration: none !important;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.829);
 }
 
 .button-stripe-left,
