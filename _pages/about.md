@@ -14,3 +14,10 @@ Future goals are videogame development, deeper understanding of storytelling and
 
 This is my portfolio and creative getaway.
 
+## License
+
+<div style="height:400px;width:100%;overflow:auto;">
+<pre>
+{% include_relative LICENSE %}
+</pre>
+</div>

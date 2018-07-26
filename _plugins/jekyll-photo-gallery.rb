@@ -76,12 +76,12 @@ module Jekyll
           description = curr["description"]
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
           title_stub = pic_album+'/'+title_stub
-          if(prev != nil)
+          if(prev != nil && prev["album"] == curr["album"])
             previous_pic = prev["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')
           else
             previous_pic = ""
           end
-          if(nxt != nil)
+          if(nxt != nil  && nxt["album"] == curr["album"])
             next_pic = nxt["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')
           else
             next_pic = ""

@@ -75,22 +75,28 @@ comments: true
         <img id="picture" 
               src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
               alt="{{ page.title }}">
+
+        {% if page.next_pic != ""%}
         <div id="next-button" class="button-stripe-right"> 
           <div class="but-container">
-              <a href="#" class="arrow-icon arrow-right">
+              <span class="arrow-icon arrow-right">
                 <i class="far fa-arrow-alt-circle-right"></i>
                 <i class="fas fa-arrow-alt-circle-right"></i>
-              </a>            
+              </span>            
           </div>
         </div>
+        {% endif %}
+
+        {% if page.previous_pic != ""%}
         <div id="prev-button" class="button-stripe-left"> 
           <div class="but-container">
-            <a href="#" class="arrow-icon arrow-left">
+            <span class="arrow-icon arrow-left">
               <i class="far fa-arrow-alt-circle-left"></i>
               <i class="fas fa-arrow-alt-circle-left"></i>
-            </a>
+            </span>
           </div>
         </div>
+        {% endif %}
       </div>  
     </div>
   </article>
@@ -206,13 +212,19 @@ comments: true
   var nextButton = $("#next-button");
 
 
-  prevButton.click(function (e) {
-    window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
-  });
-
-  nextButton.click(function (e) {
-    window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
-  });
+  if(prevButton != null)
+  {
+    prevButton.click(function (e) {
+        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';    
+    });
+  }
+  
+  if(nextButton != null)
+  {
+    nextButton.click(function (e) {
+      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+    });
+  }
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
