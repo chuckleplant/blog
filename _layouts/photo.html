@@ -229,10 +229,15 @@ comments: true
   document.onkeydown = function (e) {
     switch (e.keyCode) {
       case 37: //left
-        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
+        if('{{page.previous_pic}}' !="")
+        {
+          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
+        }
         break;
       case 39: //right
-        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+        if('{{page.next_pic}}' !=""){ 
+          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+        }
         break;
     }
   };
