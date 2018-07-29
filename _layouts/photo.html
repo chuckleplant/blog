@@ -124,7 +124,7 @@ comments: true
             {% if page.description %}
             {{page.description}}<br>
             {% else %}
-            Shot on {{photo_date | date_to_long_string }} with {{camera}}<br>
+            Shot on {{photo_date | date_to_long_string }}<br>
             <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
             {% endif %}
             <div style="margin-top: 20px;">
@@ -152,7 +152,11 @@ comments: true
             {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
             <li>{% include share-this-links.html %}</li>
           </ul>
+        </div>
 
+
+
+        <div>
           {% capture photo_latitude %}
           {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
           {% endcapture %}
@@ -161,9 +165,8 @@ comments: true
           {% endcapture %}
           {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
           {% else %}
-          <a href="https://www.google.ch/maps/place/{{photo_latitude}},{{photo_longitude}}" target="_blank">
-            <img 
-              src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=300x220&markers=color:blue%7Clabel:S%7C{{photo_latitude}},{{photo_longitude}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+          <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
+            <img class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=550x200&markers=color:blue%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=1&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>

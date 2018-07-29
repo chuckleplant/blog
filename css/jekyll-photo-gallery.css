@@ -144,6 +144,11 @@ right: 15px;
     width: 20%;    
 }
 
+.gmap-photo{
+    max-width: 400px;
+    height: auto;
+}
+
 @media only screen and (max-width: 600px) {
     .photoInfoContainer {        
         flex-direction: column;
@@ -152,6 +157,11 @@ right: 15px;
     .photoInfo2 {        
         width: 100%;
     }
+
+    .gmap-photo{
+        max-width: 100%;
+    }
+
 }
 
 div.photoInfo2 ul {
