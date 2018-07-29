@@ -21,6 +21,11 @@ from fractions import Fraction
 
 class Location(object):
     def __init__(self, d={}):
+        self.timestamp = None
+        self.latitude = None
+        self.longitude = None
+        self.altitude = 0
+
         for key in d:
             if key == 'timestampMs':
                 self.timestamp = int(d[key]) / 1000
@@ -28,6 +33,8 @@ class Location(object):
                 self.latitude = d[key]
             elif key == 'longitudeE7':
                 self.longitude = d[key]
+            elif key == 'altitude':
+                self.altitude = d[key]
 
     def __eq__( self, other ):
         return self.timestamp == other.timestamp
@@ -123,15 +130,16 @@ for image_file in file_names:
     curr_loc = Location()
     curr_loc.timestamp = int(time_jpeg_unix)
     approx_location = find_closest_in_time(my_locations, curr_loc)
-    lat_f = float(approx_location.latitude) / 10000000.0
-    lon_f = float(approx_location.longitude) / 10000000.0
     hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
 
     if(hours_away < hours_threshold):
-        exif_dict = piexif.load(image_file)
+        lat_f = float(approx_location.latitude) / 10000000.0
+        lon_f = float(approx_location.longitude) / 10000000.0
         
+        exif_dict = piexif.load(image_file)        
         exif_dict["GPS"][piexif.GPSIFD.GPSVersionID] = (2, 0, 0, 0)
-        exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 1
+        exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 0 if approx_location.altitude > 0 else 1        
+        exif_dict["GPS"][piexif.GPSIFD.GPSAltitude] = change_to_rational(abs(approx_location.altitude))
         exif_dict["GPS"][piexif.GPSIFD.GPSLatitudeRef] = 'S' if lat_f < 0 else 'N'
         exif_dict["GPS"][piexif.GPSIFD.GPSLongitudeRef] = 'W' if lon_f < 0 else 'E'
 
@@ -139,7 +147,6 @@ for image_file in file_names:
         lng_deg = to_deg(lon_f, ["W", "E"])
         exiv_lat = (change_to_rational(lat_deg[0]), change_to_rational(lat_deg[1]), change_to_rational(lat_deg[2]))
         exiv_lng = (change_to_rational(lng_deg[0]), change_to_rational(lng_deg[1]), change_to_rational(lng_deg[2]))
-
         exif_dict["GPS"][piexif.GPSIFD.GPSLatitude] = exiv_lat
         exif_dict["GPS"][piexif.GPSIFD.GPSLongitude] = exiv_lng
         
