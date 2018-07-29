@@ -101,8 +101,8 @@ comments: true
     </div>
   </article>
   <div class="wrapper">
-      <div class="photoInfoContainer">
-        <div class="photoInfo1">
+      <div class="photoinfo-col-wrapper">
+        <div class="photoinfo-col photoinfo-col-1">
           <div>
             <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
             {% capture photo_date %}
@@ -124,10 +124,12 @@ comments: true
             {% if page.description %}
             {{page.description}}<br>
             {% else %}
-            Shot on {{photo_date | date_to_long_string }} with {{camera}}<br>
+            Shot on {{photo_date | date_to_long_string }}<br>
             <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
             {% endif %}
-            <div style="margin-top: 20px;">
+
+
+            <div class="cc40-div">
               <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                 <img 
                   alt="Creative Commons Licence" 
@@ -138,7 +140,7 @@ comments: true
           </div>
         </div>
 
-        <div class="photoInfo2">
+        <div class="photoinfo-col photoinfo-col-2 photoInfo2">
 
           <ul>
             <li>
@@ -152,7 +154,11 @@ comments: true
             {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
             <li>{% include share-this-links.html %}</li>
           </ul>
+        </div>
 
+
+
+        <div class="photoinfo-col photoinfo-col-3">
           {% capture photo_latitude %}
           {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
           {% endcapture %}
@@ -161,9 +167,8 @@ comments: true
           {% endcapture %}
           {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
           {% else %}
-          <a href="https://www.google.ch/maps/place/{{photo_latitude}},{{photo_longitude}}" target="_blank">
-            <img 
-              src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=300x220&markers=color:blue%7Clabel:S%7C{{photo_latitude}},{{photo_longitude}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+          <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
+            <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>
