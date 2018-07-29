@@ -166,7 +166,7 @@ comments: true
           {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
           {% else %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-            <img width="600" height="210" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=600x210&markers=color:blue%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=1&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            <img width="600" height="210" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>
