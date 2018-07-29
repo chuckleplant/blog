@@ -101,8 +101,8 @@ comments: true
     </div>
   </article>
   <div class="wrapper">
-      <div class="photoInfoContainer">
-        <div class="photoInfo1">
+      <div class="photoinfo-col-wrapper">
+        <div class="footer-col footer-col-1">
           <div>
             <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
             {% capture photo_date %}
@@ -138,7 +138,7 @@ comments: true
           </div>
         </div>
 
-        <div class="photoInfo2">
+        <div class="footer-col footer-col-2 photoInfo2">
 
           <ul>
             <li>
@@ -156,7 +156,7 @@ comments: true
 
 
 
-        <div>
+        <div class="footer-col footer-col-3">
           {% capture photo_latitude %}
           {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
           {% endcapture %}
@@ -166,7 +166,7 @@ comments: true
           {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
           {% else %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-            <img class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=550x200&markers=color:blue%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=1&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            <img width="600" height="210" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=12&size=600x210&markers=color:blue%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=1&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>
