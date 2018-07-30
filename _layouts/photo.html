@@ -101,6 +101,20 @@ comments: true
     </div>
   </article>
   <div class="wrapper">
+
+      <!-- Find out whether we have gps info on this picture -->
+      {% capture photo_latitude %}
+      {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
+      {% endcapture %}
+      {% capture photo_longitude %}
+      {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
+      {% endcapture %}
+      {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
+      {% assign map_available = false %}
+      {% else %}
+      {% assign map_available = true %}
+      {% endif %}
+
       <div class="photoinfo-col-wrapper">
         <div class="photoinfo-col photoinfo-col-1">
           <div>
@@ -124,24 +138,28 @@ comments: true
             {% if page.description %}
             {{page.description}}<br>
             {% else %}
-            Shot on {{photo_date | date_to_long_string }}<br>
+            <div style="margin-top:10px;">  
+              Shot on {{photo_date | date_to_long_string }}<br>
+            </div>
             <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
             {% endif %}
-
-
-            <div class="cc40-div">
-              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                <img 
-                  alt="Creative Commons Licence" 
-                  style="border-width:0" 
-                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-              </a>
-            </div>
+          </div>
+          <div class="cc40-div">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <img 
+                alt="Creative Commons Licence" 
+                style="border-width:0" 
+                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a>
           </div>
         </div>
 
-        <div class="photoinfo-col photoinfo-col-2 photoInfo2">
 
+        {% if map_available %}
+        <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-map">
+        {% else %}
+        <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-nomap">
+        {% endif %}
           <ul>
             <li>
               {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
@@ -155,20 +173,12 @@ comments: true
             <li>{% include share-this-links.html %}</li>
           </ul>
         </div>
-
-
+        
 
         <div class="photoinfo-col photoinfo-col-3">
-          {% capture photo_latitude %}
-          {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-          {% endcapture %}
-          {% capture photo_longitude %}
-          {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-          {% endcapture %}
-          {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
-          {% else %}
+          {% if map_available %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-            <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            <img width="600" height="160" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>

@@ -32,17 +32,19 @@
     text-align: center;
 }
 
-.cc40-div{
-    position:relative;
-    margin-top: 20px;
-    height: 96px;
-}
 
+
+.cc40-div{
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+/*
 .cc40-div a{
+    
     position: absolute;
     bottom: 0;
 }
-
+*/
 
 .photo-buttons{
     position: relative;
@@ -137,6 +139,7 @@ right: 15px;
 
 
 .gmap-photo{
+    border-radius: 4px 4px 4px 4px;
     object-fit: cover;
     overflow: hidden;
     flex-grow: 1;
