@@ -135,14 +135,12 @@ comments: true
             {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {%- endcapture -%}
             <!-- TODO: insert better text, atm duplicate information .. -->
-            {% if page.description %}
-            {{page.description}}<br>
-            {% else %}
+
             <div style="margin-top:10px;">  
               Shot on {{photo_date | date_to_long_string }}<br>
             </div>
             <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
-            {% endif %}
+
           </div>
           <div class="cc40-div">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
