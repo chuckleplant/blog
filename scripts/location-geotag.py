@@ -19,6 +19,11 @@ from pexif import JpegFile
 import piexif
 from fractions import Fraction
 
+
+# Exif copyright data, modify it here and it'll be written to every picture
+#
+#
+
 class Location(object):
     def __init__(self, d={}):
         self.timestamp = None

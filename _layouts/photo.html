@@ -4,17 +4,6 @@ comments: true
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    img.rot90 {
-     transform: rotate(90deg);
-    }
-    img.rot180 {
-     transform: rotate(180deg);
-    }
-    img.rot270 {
-      transform: rotate(270deg);
-    }
-  </style>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
   {% if page.excerpt %}
@@ -26,9 +15,7 @@ comments: true
   {% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
   {% endif %}
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-
   <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
   <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -46,275 +33,259 @@ comments: true
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
   <link rel="stylesheet" type="text/css" href="{{site.url}}/css/animsition.css">
   <link rel="stylesheet" type="text/css" href="{{site.url}}/css/jekyll-photo-gallery.css">
-  <!-- HTML5 Shiv and Media Query Support for IE -->
-  <!--[if lt IE 9]>
-  <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-  <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-  <![endif]-->
-
 </head>
-
 <body id="js-body">
-
-<div id="page-content" class="animsition">
-  <article>
-    <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
-      
-      <div class="photo-buttons">
-
-
-        <!-- Schema.org BlogPost Invisible Meta-Data -->
-        <meta itemprop="license" content="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-        <meta itemprop="author" content="{{ site.owner.name }}"/>
-        <meta itemprop="inLanguage" content="en-US"/>
-        <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
-        <meta itemprop="name" content="{{page.title}}"/>
-        <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
-        <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
-        <meta itemprop="description" content="{{page.description}}"/>
-        <img id="picture" 
-              src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
-              alt="{{ page.title }}">
-
-        {% if page.next_pic != ""%}
-        <div id="next-button" class="button-stripe-right"> 
-          <div class="but-container">
-              <span class="arrow-icon arrow-right">
-                <i class="far fa-arrow-alt-circle-right"></i>
-                <i class="fas fa-arrow-alt-circle-right"></i>
-              </span>            
-          </div>
-        </div>
-        {% endif %}
-
-        {% if page.previous_pic != ""%}
-        <div id="prev-button" class="button-stripe-left"> 
-          <div class="but-container">
-            <span class="arrow-icon arrow-left">
-              <i class="far fa-arrow-alt-circle-left"></i>
-              <i class="fas fa-arrow-alt-circle-left"></i>
-            </span>
-          </div>
-        </div>
-        {% endif %}
-      </div>  
-    </div>
-  </article>
-  <div class="wrapper">
-
-      <!-- Find out whether we have gps info on this picture -->
-      {% capture photo_latitude %}
-      {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-      {% endcapture %}
-      {% capture photo_longitude %}
-      {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-      {% endcapture %}
-      {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
-      {% assign map_available = false %}
-      {% else %}
-      {% assign map_available = true %}
-      {% endif %}
-
-      <div class="photoinfo-col-wrapper">
-        <div class="photoinfo-col photoinfo-col-1">
-          <div>
-            <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
-            {% capture photo_date %}
-            {% exiftag date_time_original, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-            {% capture camera %}
-            {% exiftag model, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-            {%- capture exposure -%}                 
-            {% exiftag exposure_time, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {%- endcapture -%}
-            {%- capture f_number -%}
-            {% exiftag f_number, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {%- endcapture -%}
-            {%- capture iso -%}
-            {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {%- endcapture -%}
-
-            {% capture lens %}
-            {% exiftag lens_model, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-
-            {% capture focal %}
-            {% exiftag focal_length, %}{{ page.photo_url }}.jpg{% endexiftag %}
-            {% endcapture %}
-
-            <!-- TODO: insert better text, atm duplicate information .. -->
-
-            <div style="margin-top:10px;">  
-              Shot on {{photo_date | date_to_long_string }}<br>
-            </div>
-            <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
-
-          </div>
-          <div class="cc40-div">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-              <img 
-                alt="Creative Commons Licence" 
-                style="border-width:0" 
-                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-            </a>
-          </div>
-        </div>
-
-
-        {% if map_available %}
-        <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-map">
-        {% else %}
-        <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-nomap">
-        {% endif %}
-          <ul>
-            <li>
-              {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
-              {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
-              {% else %} <i class="fa fa-camera-retro"></i> 
-              {% endif %} {{camera}} / {{lens}}
-            </li>
-            {% if focal.size > 0 %}      <li><b>Focal</b> {{focal}}</li>{% endif %}
-            {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure}}</li>{% endif %}
-            {% if f_number.size > 0 %} <li><b>F</b> {{f_number}}</li>{% endif %}
-            {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
-
-            <li>{% include share-this-links.html %}</li>
-          </ul>
-        </div>
+  <div id="page-content" class="animsition">
+    <article>
+      <div class="photoPageContainer" itemscope itemtype="http://schema.org/Photograph">
         
+        <div class="photo-buttons">
 
-        <div class="photoinfo-col photoinfo-col-3">
-          {% if map_available %}
-          <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-            <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
-          </a>
+
+          <!-- Schema.org BlogPost Invisible Meta-Data -->
+          <meta itemprop="license" content="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          <meta itemprop="author" content="{{ site.owner.name }}"/>
+          <meta itemprop="inLanguage" content="en-US"/>
+          <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
+          <meta itemprop="name" content="{{page.title}}"/>
+          <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
+          <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
+          <meta itemprop="description" content="{{page.description}}"/>
+          <img id="picture" 
+                src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
+                alt="{{ page.title }}">
+
+          {% if page.next_pic != ""%}
+          <div id="next-button" class="button-stripe-right"> 
+            <div class="but-container">
+                <span class="arrow-icon arrow-right">
+                  <i class="far fa-arrow-alt-circle-right"></i>
+                  <i class="fas fa-arrow-alt-circle-right"></i>
+                </span>            
+            </div>
+          </div>
           {% endif %}
+
+          {% if page.previous_pic != ""%}
+          <div id="prev-button" class="button-stripe-left"> 
+            <div class="but-container">
+              <span class="arrow-icon arrow-left">
+                <i class="far fa-arrow-alt-circle-left"></i>
+                <i class="fas fa-arrow-alt-circle-left"></i>
+              </span>
+            </div>
+          </div>
+          {% endif %}
+        </div>  
+      </div>
+    </article>
+    <div class="wrapper">
+
+        <!-- Find out whether we have gps info on this picture -->
+        {% capture photo_latitude %}
+        {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
+        {% endcapture %}
+        {% capture photo_longitude %}
+        {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
+        {% endcapture %}
+        {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
+        {% assign map_available = false %}
+        {% else %}
+        {% assign map_available = true %}
+        {% endif %}
+
+        <div class="photoinfo-col-wrapper">
+          <div class="photoinfo-col photoinfo-col-1">
+            <div>
+              <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
+              {% capture photo_date %}
+              {% exiftag date_time_original, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {% endcapture %}
+              {% capture camera %}
+              {% exiftag model, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {% endcapture %}
+              {%- capture exposure -%}                 
+              {% exiftag exposure_time, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {%- endcapture -%}
+              {%- capture f_number -%}
+              {% exiftag f_number, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {%- endcapture -%}
+              {%- capture iso -%}
+              {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {%- endcapture -%}
+              {% capture lens %}
+              {% exiftag lens_model, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {% endcapture %}
+              {% capture focal %}
+              {% exiftag focal_length, %}{{ page.photo_url }}.jpg{% endexiftag %}
+              {% endcapture %}
+
+              <!-- TODO: insert better text, atm duplicate information .. -->
+
+              <div style="margin-top:10px;">  
+                Shot on {{photo_date | date_to_long_string }}<br>
+              </div>
+              <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
+
+            </div>
+            <div class="cc40-div">
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img 
+                  alt="Creative Commons Licence" 
+                  style="border-width:0" 
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+              </a>
+            </div>
+          </div>
+
+
+          {% if map_available %}
+          <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-map">
+          {% else %}
+          <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-nomap">
+          {% endif %}
+            <ul>
+              <li>
+                {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
+                {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
+                {% else %} <ion-icon class="ion-iconfont" name="camera"></ion-icon></i> 
+                {% endif %} {{camera}}
+                {% assign lens_strip = lens | strip %}
+                {% if lens_strip.size > 0 %} / {{lens}} {% endif %}
+              </li>
+              {% assign focal_strip = focal | strip %}
+              {% if focal_strip.size > 0 %}    <li><img width="16px" src="{{ site.url }}/images/svg/focal_length.svg"></img>  <span id="focal">{{focal}}</span> mm</li>{% endif %}
+              {% if exposure.size > 0 %} <li><ion-icon class="ion-iconfont" name="stopwatch"></ion-icon>  <span id="exposure">{{exposure}}</span></li>{% endif %}
+              {% if f_number.size > 0 %} <li><ion-icon class="ion-iconfont" name="aperture"></ion-icon>  f/<span id="aperture">{{f_number}}</span></li>{% endif %}
+              {% if iso.size > 0 %}      <li><b>ISO</b>                     <span id="iso">{{iso}}</span></li>{% endif %}
+
+              <li>{% include share-this-links.html %}</li>
+            </ul>
+          </div>
+          
+
+          <div class="photoinfo-col photoinfo-col-3">
+            {% if map_available %}
+            <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
+              <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            </a>
+            {% endif %}
+          </div>
         </div>
-      </div>
-      <div>
-       {% if page.comments %} {% include disqus.html %} {% endif %}
-      </div>
+        <div>
+        {% if page.comments %} {% include disqus.html %} {% endif %}
+        </div>
+    </div>
+    
   </div>
-  
-</div>
 
 
-{% include footer.html %}
+  {% include footer.html %}
 
 
-<script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-<script src="{{ site.url }}/js/plugins/jquery.animsition.min.js"></script>
-<script src="https://use.fontawesome.com/fd9429b8e3.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+  <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+  <script src="{{ site.url }}/js/plugins/jquery.animsition.min.js"></script>
+  <script src="https://use.fontawesome.com/fd9429b8e3.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
 
-<script>
-  window.onload = getExif;
-  var newimg = document.getElementById('picture');
-
-  function getExif() {
-    //EXIF.getData(newimg, function() {
-    //  var orientation = EXIF.getTag(this, "Orientation");
-    //  if (orientation == 6) {
-    //    newimg.className = "entry-feature-image rot90";
-    //  } else if (orientation == 8) {
-    //    newimg.className = "entry-feature-image rot270";
-    //  } else if (orientation == 3) {
-    //    newimg.className = "entry-feature-image rot180";
-    //  }
-    //});
-  };
-
-  getExif();
-
-</script>
-
-<script>
-  var photo = $("#photo");
-  var picture = $("#picture");
-  var prevButton = $("#prev-button");
-  var nextButton = $("#next-button");
-
-
-  if(prevButton != null)
-  {
-    prevButton.click(function (e) {
-        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';    
-    });
-  }
-  
-  if(nextButton != null)
-  {
-    nextButton.click(function (e) {
-      window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
-    });
-  }
-
-  document.onkeydown = function (e) {
-    switch (e.keyCode) {
-      case 37: //left
-        if('{{page.previous_pic}}' !="")
-        {
-          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
-        }
-        break;
-      case 39: //right
-        if('{{page.next_pic}}' !=""){ 
-          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
-        }
-        break;
-    }
-  };
-
-  function fitImageSize(){
-    photo.height("100%");
-    var imageMax = $(window).height()/100*70;
-    var currentContentHeight = photo.height();
-    console.log(imageMax+"  "+currentContentHeight);
-    if(currentContentHeight > imageMax){
-      photo.height(imageMax);
-      photo.width("auto");
-      photo.marginLeft = "auto";
-      photo.height = picture.height;
+  <script>
+    function replaceRationalWithFloat(elem){
+      var elemStr = elem.innerHTML;
+      var decimal = eval(elemStr);
+      elem.innerHTML = decimal.toFixed(1);
     }
 
-  }
-  fitImageSize();
+    
+    replaceRationalWithFloat(document.getElementById('focal'));
+    replaceRationalWithFloat(document.getElementById('aperture'));
+  </script>
+
+  <script>
+    var photo = $("#photo");
+    var picture = $("#picture");
+    var prevButton = $("#prev-button");
+    var nextButton = $("#next-button");
 
 
-  //window.addEventListener('resize', fitImageSize(), true);
-  window.onresize = function(event) {
+    if(prevButton != null)
+    {
+      prevButton.click(function (e) {
+          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';    
+      });
+    }
+    
+    if(nextButton != null)
+    {
+      nextButton.click(function (e) {
+        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+      });
+    }
+
+    document.onkeydown = function (e) {
+      switch (e.keyCode) {
+        case 37: //left
+          if('{{page.previous_pic}}' !="")
+          {
+            window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
+          }
+          break;
+        case 39: //right
+          if('{{page.next_pic}}' !=""){ 
+            window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+          }
+          break;
+      }
+    };
+
+    function fitImageSize(){
+      photo.height("100%");
+      var imageMax = $(window).height()/100*70;
+      var currentContentHeight = photo.height();
+      console.log(imageMax+"  "+currentContentHeight);
+      if(currentContentHeight > imageMax){
+        photo.height(imageMax);
+        photo.width("auto");
+        photo.marginLeft = "auto";
+        photo.height = picture.height;
+      }
+
+    }
     fitImageSize();
-  };
 
-  $(document).ready(function () {
-    fitImageSize();
 
-    //Dynamic Transition Support
-    $(".animsition").animsition({
-      inClass: 'fade-in',
-      outClass: 'fade-out',
-      inDuration: 1500,
-      outDuration: 400,
-      linkElement: '.animsition-link',
-      // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-      loading: true,
-      loadingParentElement: 'body', //animsition wrapper element
-      loadingClass: 'animsition-loading',
-      unSupportCss: [
-        'animation-duration',
-        '-webkit-animation-duration',
-        '-o-animation-duration'
-      ],
-      //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-      //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-      overlay: false,
-      overlayClass: 'animsition-overlay-slide',
-      overlayParentElement: 'body'
+    //window.addEventListener('resize', fitImageSize(), true);
+    window.onresize = function(event) {
+      fitImageSize();
+    };
+
+    $(document).ready(function () {
+      fitImageSize();
+
+      //Dynamic Transition Support
+      $(".animsition").animsition({
+        inClass: 'fade-in',
+        outClass: 'fade-out',
+        inDuration: 1500,
+        outDuration: 400,
+        linkElement: '.animsition-link',
+        // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+        loading: true,
+        loadingParentElement: 'body', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        unSupportCss: [
+          'animation-duration',
+          '-webkit-animation-duration',
+          '-o-animation-duration'
+        ],
+        //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+        //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+        overlay: false,
+        overlayClass: 'animsition-overlay-slide',
+        overlayParentElement: 'body'
+      });
     });
-  });
-</script>
-
+  </script>
+  <script src="https://unpkg.com/ionicons@4.2.6/dist/ionicons.js"></script>
 
 
 </body>
