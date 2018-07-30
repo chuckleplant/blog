@@ -134,6 +134,11 @@ comments: true
             {%- capture iso -%}
             {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {%- endcapture -%}
+
+            {% capture lens %}
+            {% exiftag lens_model, %}{{ page.photo_url }}.jpg{% endexiftag %}
+            {% endcapture %}
+
             <!-- TODO: insert better text, atm duplicate information .. -->
 
             <div style="margin-top:10px;">  
@@ -168,6 +173,8 @@ comments: true
             {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure}}</li>{% endif %}
             {% if f_number.size > 0 %} <li><b>F</b> {{f_number}}</li>{% endif %}
             {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
+
+            {% if lens.size > 0 %}      <li><b>Lens</b> {{lens}}</li>{% endif %}
             <li>{% include share-this-links.html %}</li>
           </ul>
         </div>
