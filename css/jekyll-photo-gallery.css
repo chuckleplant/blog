@@ -139,6 +139,7 @@ right: 15px;
 
 
 .gmap-photo{
+    border-radius: 4px 4px 4px 4px;
     object-fit: cover;
     overflow: hidden;
     flex-grow: 1;
