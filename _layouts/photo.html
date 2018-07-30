@@ -139,6 +139,10 @@ comments: true
             {% exiftag lens_model, %}{{ page.photo_url }}.jpg{% endexiftag %}
             {% endcapture %}
 
+            {% capture focal %}
+            {% exiftag focal_length, %}{{ page.photo_url }}.jpg{% endexiftag %}
+            {% endcapture %}
+
             <!-- TODO: insert better text, atm duplicate information .. -->
 
             <div style="margin-top:10px;">  
@@ -168,13 +172,13 @@ comments: true
               {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
               {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
               {% else %} <i class="fa fa-camera-retro"></i> 
-              {% endif %} {{camera}}
+              {% endif %} {{camera}} / {{lens}}
             </li>
+            {% if focal.size > 0 %}      <li><b>Focal</b> {{focal}}</li>{% endif %}
             {% if exposure.size > 0 %} <li><i class="fa fa-clock-o"></i> {{exposure}}</li>{% endif %}
             {% if f_number.size > 0 %} <li><b>F</b> {{f_number}}</li>{% endif %}
             {% if iso.size > 0 %}      <li><b>ISO</b> {{iso}}</li>{% endif %}
 
-            {% if lens.size > 0 %}      <li><b>Lens</b> {{lens}}</li>{% endif %}
             <li>{% include share-this-links.html %}</li>
           </ul>
         </div>
@@ -183,7 +187,7 @@ comments: true
         <div class="photoinfo-col photoinfo-col-3">
           {% if map_available %}
           <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-            <img width="600" height="160" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
           </a>
           {% endif %}
         </div>

@@ -126,20 +126,25 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+
+/*
+If you want photoinfo cols to be 3 side by side, set percentages
+to sum less than 100%
+*/
+
 .photoinfo-col-1 {
     float: left;
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .photoinfo-col-2 {
-    /*float: left;*/
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .photoinfo-col-2-map{
-    float: left;
+    float: right;
 }
 
 .photoinfo-col-2-nomap{
@@ -148,8 +153,8 @@
 
 .photoinfo-col-3 {
     float: right;
-    width: -webkit-calc(45%);
-    width:         calc(45%);
+    width: -webkit-calc(100%);
+    width:         calc(100%);
 }
 
 
