@@ -20,6 +20,9 @@ owner:
 exclude:
 - README.md
 
+photo_dir:
+- img/albums
+
 include: 
 - _pages
 
