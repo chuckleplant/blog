@@ -126,7 +126,8 @@ module Jekyll
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           if(curr["album"] == text.strip)            
-            @result = @result+'{filename: '"'"''+curr["img"]+''"'"', aspectRatio: '+curr["aspect"].to_s+'},'
+            #@result = @result+'{filename: '"'"''+curr["img"]+''"'"', aspectRatio: '+curr["aspect"].to_s+'},'
+            @result = @result+'{filename: "'+curr["img"]+'", aspectRatio: '+curr["aspect"].to_s+'},'
           end
         }
       end

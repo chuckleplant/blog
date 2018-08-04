@@ -60,26 +60,24 @@ def res_for_height(width, height, desired_height):
     new_width = aspect * desired_height
     return int(new_width), desired_height
 
-def gen_thumb_size(img, thumbheight, thumbdir, fname):
+def gen_thumb_size(img, thumbheight, thumbdir, album, fname):
     tw, th = res_for_height(img.width, img.height, thumbheight)
     img.thumbnail((tw,th), Image.ANTIALIAS)
-    target_dir = os.path.join(thumbnail_path, str(thumbheight))
+    target_dir = os.path.join(thumbnail_path, str(thumbheight), album)
     target_file = os.path.join(target_dir, fname)
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
     img.save(target_file)
 
 
-albums = glob.glob(cur_path+'/../images/photography/*/')
+albums = glob.glob(cur_path+'/../img/albums/*/')
 for album_path in albums:
     generate_yaml_for_album(album_path)
 
 max_pix_count = 3000000
 photo_path = os.path.join(cur_path,"../img/albums")
 thumbnail_path = os.path.join(cur_path,"../img")
-#thumbnail_path = os.path.join(photo_path,"thumbnails")
 extensions = ['jpg', 'JPG', 'JPEG', 'png', 'PNG', 'jpeg']
-target_width = 420
 
 
 for folder, subs, files in os.walk(photo_path):
@@ -87,8 +85,7 @@ for folder, subs, files in os.walk(photo_path):
         abs_file = os.path.join(folder,filename)
         name,ext = os.path.splitext(abs_file)
         if any(filename.endswith(ext) for ext in extensions):       
-            comn_path = os.path.commonprefix([photo_path, abs_file])
-            target_path = thumbnail_path + abs_file.replace(comn_path, "")
+            album_name = os.path.basename(os.path.dirname(abs_file))
             img = Image.open(abs_file)
 
             touched = False
@@ -126,5 +123,5 @@ for folder, subs, files in os.walk(photo_path):
                 img.save(abs_file, exif=exif_bytes)
             # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
 
-            gen_thumb_size(img, 200, thumbnail_path, filename)
-            gen_thumb_size(img, 20, thumbnail_path, filename)
+            gen_thumb_size(img, 200, thumbnail_path, album_name, filename)
+            gen_thumb_size(img, 20, thumbnail_path, album_name, filename)
