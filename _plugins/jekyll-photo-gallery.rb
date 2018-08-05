@@ -60,15 +60,7 @@ module Jekyll
     def generate(site)
       
       photos = get_all_photos()
-      dir = site.config['photo_dir'] || 'photography'
-      puts 'the photo dir is:'
-      puts dir
-
-      # I don't want a photography main page, this generates an album of all pics
-      #site.pages << PhotoList.new(site, site.source, File.join(dir), photos["photos"], "Photography")
-
-      #Reference in site, used for sitemap
-      photoSlugs = Array.new
+      dir = site.config['photo_dir']
 
       photos.each do |photo,details|
         #Iterate through array & return previous, current & next
@@ -90,11 +82,9 @@ module Jekyll
           else
             next_pic = ""
           end
-          photoSlugs << photo_url
           site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description)
         }
       end
-      site.data['photoSlugs'] = photoSlugs
     end
   end
 end
@@ -114,7 +104,6 @@ module Jekyll
 
 
     def initialize(tag_name, text, tokens)
-      #      @result = '<div id="gallery" style="display:none; margin-top: 20px; margin-bottom: 20px;">'
       super
       @result = '<div id="pig"></div>'
       @result = @result + ' <script src="/js/plugins/pig/src/pig.js"></script>'
@@ -125,8 +114,7 @@ module Jekyll
       photos = get_all_photos()
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-          if(curr["album"] == text.strip)            
-            #@result = @result+'{filename: '"'"''+curr["img"]+''"'"', aspectRatio: '+curr["aspect"].to_s+'},'
+          if(curr["album"] == text.strip)
             @result = @result+'{filename: "'+curr["img"]+'", aspectRatio: '+curr["aspect"].to_s+'},'
           end
         }

@@ -20,4 +20,7 @@ Notes on pig gallery.
 
 ...
 photo_dir added to config yaml
+exiftag dir also the same to config yaml
+
+
 

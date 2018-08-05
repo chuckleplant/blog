@@ -48,11 +48,11 @@ comments: true
           <meta itemprop="inLanguage" content="en-US"/>
           <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
           <meta itemprop="name" content="{{page.title}}"/>
-          <meta itemprop="image" content="{{ site.url }}/img/albums/{{ page.photo_url }}.jpg"/>
-          <meta itemprop="thumbnailUrl" content="{{ site.url }}/img/200/{{ page.photo_url }}.jpg"/>
+          <meta itemprop="image" content="{{ site.url }}/img/albums/{{ page.photo_url }}"/>
+          <meta itemprop="thumbnailUrl" content="{{ site.url }}/img/200/{{ page.photo_url }}"/>
           <meta itemprop="description" content="{{page.description}}"/>
           <img id="picture" 
-                src="{{ site.url }}/img/albums/{{ page.photo_url }}.jpg" 
+                src="{{ site.url }}/img/albums/{{ page.photo_url }}" 
                 alt="{{ page.title }}">
 
           {% if page.next_pic != ""%}
@@ -80,7 +80,100 @@ comments: true
       </div>
     </article>
     <div class="wrapper">
+        <!-- Find out whether we have gps info on this picture -->
+        {% capture photo_latitude %}
+        {% exiftag gps.latitude, %}{{ page.photo_url }}{% endexiftag %}
+        {% endcapture %}
+        {% capture photo_longitude %}
+        {% exiftag gps.longitude, %}{{ page.photo_url }}{% endexiftag %}
+        {% endcapture %}
+        {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
+        {% assign map_available = false %}
+        {% else %}
+        {% assign map_available = true %}
+        {% endif %}
 
+        <div class="photoinfo-col-wrapper">
+          <div class="photoinfo-col photoinfo-col-1">
+            <div>
+              <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
+              {% capture photo_date %}
+              {% exiftag date_time_original, %}{{ page.photo_url }}{% endexiftag %}
+              {% endcapture %}
+              {% capture camera %}
+              {% exiftag model, %}{{ page.photo_url }}{% endexiftag %}
+              {% endcapture %}
+              {%- capture exposure -%}                 
+              {% exiftag exposure_time, %}{{ page.photo_url }}{% endexiftag %}
+              {%- endcapture -%}
+              {%- capture f_number -%}
+              {% exiftag f_number, %}{{ page.photo_url }}{% endexiftag %}
+              {%- endcapture -%}
+              {%- capture iso -%}
+              {% exiftag iso_speed_ratings, %}{{ page.photo_url }}{% endexiftag %}
+              {%- endcapture -%}
+              {% capture lens %}
+              {% exiftag lens_model, %}{{ page.photo_url }}{% endexiftag %}
+              {% endcapture %}
+              {% capture focal %}
+              {% exiftag focal_length, %}{{ page.photo_url }}{% endexiftag %}
+              {% endcapture %}
+
+              <!-- TODO: insert better text, atm duplicate information .. -->
+
+              <div style="margin-top:10px;">  
+                Shot on {{photo_date | date_to_long_string }}<br>
+              </div>
+              <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
+
+            </div>
+            <div class="cc40-div">
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img 
+                  alt="Creative Commons Licence" 
+                  style="border-width:0" 
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+              </a>
+            </div>
+          </div>
+
+
+          {% if map_available %}
+          <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-map">
+          {% else %}
+          <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-nomap">
+          {% endif %}
+            <ul>
+              <li>
+                {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
+                {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
+                {% else %} <ion-icon class="ion-iconfont" name="camera"></ion-icon></i> 
+                {% endif %} {{camera}}
+                {% assign lens_strip = lens | strip %}
+                {% if lens_strip.size > 0 %} / {{lens}} {% endif %}
+              </li>
+              {% assign focal_strip = focal | strip %}
+              {% if focal_strip.size > 0 %}    <li><img width="16px" src="{{ site.url }}/images/svg/focal_length.svg"></img>  <span id="focal">{{focal}}</span> mm</li>{% endif %}
+              {% if exposure.size > 0 %} <li><ion-icon class="ion-iconfont" name="stopwatch"></ion-icon>  <span id="exposure">{{exposure}}</span></li>{% endif %}
+              {% if f_number.size > 0 %} <li><ion-icon class="ion-iconfont" name="aperture"></ion-icon>  f/<span id="aperture">{{f_number}}</span></li>{% endif %}
+              {% if iso.size > 0 %}      <li><b>ISO</b>                     <span id="iso">{{iso}}</span></li>{% endif %}
+
+              <li>{% include share-this-links.html %}</li>
+            </ul>
+          </div>
+          
+
+          <div class="photoinfo-col photoinfo-col-3">
+            {% if map_available %}
+            <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
+              <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            </a>
+            {% endif %}
+          </div>
+        </div>
+        <div>
+        {% if page.comments %} {% include disqus.html %} {% endif %}
+        </div>
     </div>
     
   </div>

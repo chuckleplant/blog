@@ -29,6 +29,6 @@ include:
 #Jekyll-Photo-Gallery Settings
 exiftag:
  sources:
-   - images/photography #Set to location of photos
+   - img/albums #Set to location of photos
 
 destination: _deploy
