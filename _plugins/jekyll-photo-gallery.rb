@@ -126,7 +126,7 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @result = '<div id="pig"></div>'
-      @result = @result + ' <script src="/js/plugins/pig/src/pig.js"></script>'
+      @result = @result + ' <script src="/js/plugins/pig/src/pig.min.js"></script>'
 
       @result = @result + ' <script>
                               var imageData = ['
@@ -135,7 +135,7 @@ module Jekyll
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           if(curr["album"] == text.strip)
-            @result = @result+'{filename: "'+curr["img"]+'", aspectRatio: '+curr["aspect"].to_s+'},'
+            @result = @result+'{filename: "'+curr["img"]+'", aspectRatio: '+curr["aspect"].to_s+', url: "'+ '/img/albums/' + curr["album"] +'/'+ curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/"},'
           end
         }
       end
@@ -145,6 +145,7 @@ module Jekyll
                                 urlForSize: function(filename, size) {
                                   return '"'"'/img/'"'"' + size + '"'"'/'"'"' + filename;
                                 },
+                                figureTagName: "a",
                                 spaceBetweenImages: 3,
                                 getImageSize: function(lastWindowWidth) {
                                   console.log("getimagesize");
