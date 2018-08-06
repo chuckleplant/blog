@@ -18,7 +18,7 @@ end
 
 module Jekyll
   class PhotoPage < Page
-    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description)
+    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
       @site = site
       @base = base
       @dir = dir
@@ -34,6 +34,16 @@ module Jekyll
       self.data['description'] = description
       self.data['comments'] = true
       self.data['disqus_identifier'] = album+ '-' +title
+      self.data['latitude'] = latitude
+      self.data['longitude']= longitude
+      self.data['date_time_original'] = date_time_original
+      self.data['cam_model'] = cam_model
+      self.data['lens_model'] = lens_model
+      self.data['exposure'] = exposure
+      self.data['f_number'] = f_number
+      self.data['iso'] = iso
+      self.data['focal_length'] = focal_length
+
     end
   end
 
@@ -66,6 +76,17 @@ module Jekyll
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           pic_album = curr["album"]
           photo_url = curr["img"]
+          
+          latitude = curr["latitude"]
+          longitude = curr["longitude"]
+          date_time_original = curr["date_time_original"]
+          cam_model = curr["cam_model"]
+          lens_model = curr["lens_model"]
+          exposure = curr["exposure"]
+          f_number = curr["f_number"]
+          iso = curr["iso"]
+          focal_length = curr["focal_length"]
+
           title = curr["title"]
           description = curr["description"]
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
@@ -81,7 +102,7 @@ module Jekyll
           else
             next_pic = ""
           end
-          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description)
+          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
         }
       end
     end

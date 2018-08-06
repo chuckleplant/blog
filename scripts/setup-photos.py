@@ -2,6 +2,7 @@ import glob, os, sys, yaml
 from PIL import Image, ExifTags
 import math
 import piexif
+from datetime import datetime
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
 yaml_path = os.path.join(cur_path, '../_data/photos')
@@ -10,14 +11,19 @@ def get_yaml_path(album_name):
     return os.path.join(yaml_path, album_name) + '.yaml'
 
 def get_exif_elem(dict, tag, elem):
-    rational_tuple = [piexif.ExifIFD.ExposureTime, piexif.ExifIFD.FNumber, piexif.ExifIFD.FocalLength]
+    rational_tuple = [piexif.ExifIFD.FNumber, piexif.ExifIFD.FocalLength]
     gps_tuple = [piexif.GPSIFD.GPSLatitude, piexif.GPSIFD.GPSLongitude]
     exif_elem = ''
     if tag in dict:
         if elem in dict[tag]:
             exif_elem = dict[tag][elem]
-            if elem in rational_tuple:
+            if elem is piexif.ExifIFD.ExposureTime:
                 return str(exif_elem[0]) + '/' + str(exif_elem[1])
+            if elem in rational_tuple:
+                return str(float(exif_elem[0]) / float(exif_elem[1]))
+            elif elem is piexif.ExifIFD.DateTimeOriginal:
+                dt = datetime.strptime(exif_elem, '%Y:%m:%d %H:%M:%S')
+                return dt.strftime('%d %B %Y')
             elif elem in gps_tuple:
                 degrees = float(exif_elem[0][0]) / float(exif_elem[0][1])
                 minutes = float(exif_elem[1][0]) / float(exif_elem[1][1])
