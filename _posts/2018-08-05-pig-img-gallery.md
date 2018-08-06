@@ -29,7 +29,7 @@ For the actual PIG code I did have to make the images clickable, I added a `url`
 
 ## How to use this in your Jekyll site
 
-If you'd like to use this image gallery you can grab this commit. It will come in handy in case I change the theme or add too many custom features to my blog. At the moment of writing I'm using the default Jekyll minimal theme.
+If you'd like to use this image gallery you can grab [this commit](https://github.com/chuckleplant/blog/tree/pig-gallery). It will come in handy in case I change the theme or add too many custom features to my blog. At the moment of writing I'm using the default Jekyll minimal theme.
 
 All you need to do to set it up is place your images in the following folder structure:
 
