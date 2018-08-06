@@ -146,14 +146,19 @@ module Jekyll
                                   return '"'"'/img/'"'"' + size + '"'"'/'"'"' + filename;
                                 },
                                 figureTagName: "a",
+                                transitionSpeed: 500,
+                                getMinAspectRatio: function(lastWindowWidth) {
+                                if (lastWindowWidth <= 640)  // Phones
+                                  return 1;
+                                else if (lastWindowWidth <= 1280)  // Tablets
+                                  return 3;
+                                else if (lastWindowWidth <= 1920)  // Laptops
+                                  return 4;
+                                return 5;  // Large desktops
+                              },
                                 spaceBetweenImages: 3,
                                 getImageSize: function(lastWindowWidth) {
-                                  console.log("getimagesize");
-                                  if (lastWindowWidth <= 640)  // Phones
-                                    return 200;
-                                  else if (lastWindowWidth <= 1920) // Tablets and latops
-                                    return 200;
-                                  return 200;  // Large desktops
+                                  return 250;
                                 }
                                 // ...
                               };

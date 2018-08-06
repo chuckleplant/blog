@@ -168,5 +168,5 @@ for folder, subs, files in os.walk(photo_path):
                 img.save(abs_file, exif=exif_bytes)
             # https://coderwall.com/p/nax6gg/fix-jpeg-s-unexpectedly-rotating-when-saved-with-pil
 
-            gen_thumb_size(img, 200, thumbnail_path, album_name, filename)
+            gen_thumb_size(img, 250, thumbnail_path, album_name, filename)
             gen_thumb_size(img, 20, thumbnail_path, album_name, filename)

@@ -7,6 +7,8 @@ comments: true
 disqus_identifier: pigGallery
 ---
 
+A few posts ago I added image galleries. In the menu above you can access albums and the Life Drawing gallery. Initially I used the [Jekyll Photo Gallery](https://github.com/aerobless/jekyll-photo-gallery) by Aerobless, which had many of the features I wanted. I liked specially the generation of a unique page for each photo,
+
 I used the jekyll image gallery from aerobless for my image albums. That code used [Miro Mannino's Justified gallery](http://miromannino.github.io/Justified-Gallery/) to show thumbnails of the pictures. 
 
 However, I noticed that it took some time to load the gallery specially for 
