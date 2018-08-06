@@ -58,7 +58,6 @@ module Jekyll
 
 
     def generate(site)
-      
       photos = get_all_photos()
       dir = site.config['photo_dir']
 

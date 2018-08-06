@@ -1,1129 +1,3667 @@
 photos:
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:18 11:15:01
+  exposure: 1/1000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8180162.jpg
+  iso: 100
+  latitude: 41.2876389
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 2.0764764
   title: P8180162
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:20 05:27:02
+  exposure: 1/1250
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8200327.jpg
+  iso: 1250
+  latitude: 35.685049
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7096996
   title: P8200327
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:20 09:20:22
+  exposure: 1/40
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P8200926.jpg
+  iso: 500
+  latitude: 35.6883954
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7074778
   title: P8200926
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:20 09:42:01
+  exposure: 1/50
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P8200943.jpg
+  iso: 500
+  latitude: 35.68949129999999
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.701897
   title: P8200943
 - album: Japan
   aspect: 0.7503751875937968
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:20 10:08:25
+  exposure: 1/20
+  f_number: 52/10
+  focal_length: 35/1
   img: Japan/P8200949.jpg
+  iso: 500
+  latitude: 35.658924
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7005706
   title: P8200949
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:20 13:10:05
+  exposure: 1/50
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8201052.jpg
+  iso: 400
+  latitude: 35.6582438
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7006405
   title: P8201052
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:21 03:00:44
+  exposure: 1/250
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8211215.jpg
+  iso: 500
+  latitude: 35.7106963
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7953056
   title: P8211215
 - album: Japan
   aspect: 1.6733931240657698
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:21 03:28:06
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8211229.jpg
+  iso: 500
+  latitude: 35.7124905
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7964942
   title: P8211229
 - album: Japan
   aspect: 1.5466954022988506
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:21 06:14:47
+  exposure: 1/2000
+  f_number: 35/10
+  focal_length: 25/1
   img: Japan/P8211572.jpg
+  iso: 400
+  latitude: 35.7140779
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7940295
   title: P8211572
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:21 16:12:08
+  exposure: 1/10
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8211842.jpg
+  iso: 4000
+  latitude: 35.6398777
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.69326130000002
   title: P8211842
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 09:27:45
+  exposure: 1/2500
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8221932.jpg
+  iso: 200
+  latitude: 35.3700105
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.7390969
   title: P8221932
 - album: Japan
   aspect: 1.4574616457461647
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 10:34:12
+  exposure: 1/200
+  f_number: 41/10
+  focal_length: 20/1
   img: Japan/P8221953.jpg
+  iso: 200
+  latitude: 35.3683298
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.73750719999998
   title: P8221953
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 11:19:43
+  exposure: 1/13
+  f_number: 46/10
+  focal_length: 27/1
   img: Japan/P8221977.jpg
+  iso: 200
+  latitude: 35.3790069
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.74446509999999
   title: P8221977
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 21:52:27
+  exposure: 1/4
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8222072.jpg
+  iso: 200
+  latitude: 35.3656749
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.7330206
   title: P8222072
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 22:06:54
+  exposure: 1/50
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8222094.jpg
+  iso: 200
+  latitude: 35.3653922
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.7329747
   title: P8222094
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 22:16:24
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8222135.jpg
+  iso: 200
+  latitude: 35.3653922
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.7329747
   title: P8222135
 - album: Japan
   aspect: 0.7503751875937968
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 22:50:57
+  exposure: 1/125
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8222140.jpg
+  iso: 200
+  latitude: 35.3656309
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.732921
   title: P8222140
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:22 22:55:09
+  exposure: 1/16000
+  f_number: 32/10
+  focal_length: 25/1
   img: Japan/P8222148.jpg
+  iso: 200
+  latitude: 35.3656309
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.732921
   title: P8222148
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 01:47:59
+  exposure: 1/5000
+  f_number: 32/10
+  focal_length: 25/1
   img: Japan/P8232150.jpg
+  iso: 200
+  latitude: 35.3692354
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.7386814
   title: P8232150
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 01:48:15
+  exposure: 1/2000
+  f_number: 32/10
+  focal_length: 25/1
   img: Japan/P8232153.jpg
+  iso: 200
+  latitude: 35.3692354
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.7386814
   title: P8232153
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 03:28:30
+  exposure: 1/400
+  f_number: 100/10
+  focal_length: 12/1
   img: Japan/P8232222.jpg
+  iso: 200
+  latitude: 35.3767926
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.750945
   title: P8232222
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 04:22:18
+  exposure: 1/400
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8232349.jpg
+  iso: 200
+  latitude: 35.3904726
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.74039789999998
   title: P8232349
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 04:47:12
+  exposure: 1/1600
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8232374.jpg
+  iso: 200
+  latitude: 35.3656749
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.7330206
   title: P8232374
 - album: Japan
   aspect: 1.2598833441348023
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:23 13:09:58
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8232438.jpg
+  iso: 200
+  latitude: 35.4976919
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.7706755
   title: P8232438
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 21:04:10
+  exposure: 1/15
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8240105.jpg
+  iso: 640
+  latitude: 35.0291825
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553748
   title: P8240105
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 21:06:48
+  exposure: 1/15
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8240111.jpg
+  iso: 200
+  latitude: 35.0291825
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553748
   title: P8240111
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 21:07:14
+  exposure: 1/10
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8240115.jpg
+  iso: 200
+  latitude: 35.0291825
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553748
   title: P8240115
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 22:34:10
+  exposure: 10/20
+  f_number: 63/10
+  focal_length: 60/1
   img: Japan/P8240324.jpg
+  iso: 6400
+  latitude: 35.029178
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755384
   title: P8240324
 - album: Japan
   aspect: 1.2242811501597444
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 07:47:24
+  exposure: 1/1250
+  f_number: 42/10
+  focal_length: 22/1
   img: Japan/P8242474.jpg
+  iso: 640
+  latitude: 35.0180929
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.67723139999998
   title: P8242474
 - album: Japan
   aspect: 1.1807909604519775
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 07:52:22
+  exposure: 1/60
+  f_number: 56/10
+  focal_length: 46/1
   img: Japan/P8242484.jpg
+  iso: 640
+  latitude: 35.0188791
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.6812219
   title: P8242484
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 09:16:36
+  exposure: 1/250
+  f_number: 56/10
+  focal_length: 52/1
   img: Japan/P8242498.jpg
+  iso: 200
+  latitude: 35.0290832
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7553285
   title: P8242498
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 09:18:11
+  exposure: 1/800
+  f_number: 47/10
+  focal_length: 28/1
   img: Japan/P8242499.jpg
+  iso: 200
+  latitude: 35.0291152
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755264
   title: P8242499
 - album: Japan
   aspect: 1.4705882352941178
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:24 09:23:02
+  exposure: 1/50
+  f_number: 49/10
+  focal_length: 30/1
   img: Japan/P8242503.jpg
+  iso: 200
+  latitude: 35.0291152
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755264
   title: P8242503
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 14:04:36
+  exposure: 1/60
+  f_number: 35/10
+  focal_length: 13/1
   img: Japan/P8250666.jpg
+  iso: 800
+  latitude: 34.6685339
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.5027577
   title: P8250666
 - album: Japan
   aspect: 1.167186525265128
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 14:10:43
+  exposure: 1/60
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8250674.jpg
+  iso: 1000
+  latitude: 34.6685339
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.5027577
   title: P8250674
 - album: Japan
   aspect: 1.2855271774721677
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 14:11:21
+  exposure: 1/60
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8250678.jpg
+  iso: 1250
+  latitude: 34.6685339
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.5027577
   title: P8250678
 - album: Japan
   aspect: 1.2062182741116751
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 18:06:11
+  exposure: 1/1000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8250872.jpg
+  iso: 200
+  latitude: 35.0023237
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7597107
   title: P8250872
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 18:07:17
+  exposure: 1/200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8250874.jpg
+  iso: 200
+  latitude: 35.0023237
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7597107
   title: P8250874
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 18:21:03
+  exposure: 1/60
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8250879.jpg
+  iso: 200
+  latitude: 35.0290342
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7576765
   title: P8250879
 - album: Japan
   aspect: 1.333555703802535
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 19:27:20
+  exposure: 1/60
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8250899.jpg
+  iso: 500
+  latitude: 35.0291825
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553748
   title: P8250899
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 19:39:04
+  exposure: 1/80
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8250921.jpg
+  iso: 200
+  latitude: 35.029178
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.755384
   title: P8250921
 - album: Japan
   aspect: 0.9959654178674352
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 21:22:46
+  exposure: 1/80
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8250953.jpg
+  iso: 200
+  latitude: 35.029178
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.755384
   title: P8250953
 - album: Japan
   aspect: 1.3519140362659503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 21:26:13
+  exposure: 1/125
+  f_number: 20/10
+  focal_length: 25/1
   img: Japan/P8250959.jpg
+  iso: 200
+  latitude: 35.0294644
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7517279
   title: P8250959
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 21:26:43
+  exposure: 1/13
+  f_number: 18/10
+  focal_length: 25/1
   img: Japan/P8250960.jpg
+  iso: 200
+  latitude: 35.0294644
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7517279
   title: P8250960
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 21:38:53
+  exposure: 1/3
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8250987.jpg
+  iso: 1250
+  latitude: 35.029178
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.755384
   title: P8250987
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 21:41:29
+  exposure: 1/60
+  f_number: 49/10
+  focal_length: 96/1
   img: Japan/P8250991.jpg
+  iso: 1250
+  latitude: 35.0394584
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.73339439999998
   title: P8250991
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 22:36:34
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8251020.jpg
+  iso: 1250
+  latitude: 35.029178
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755384
   title: P8251020
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:25 22:37:40
+  exposure: 1/6
+  f_number: 56/10
+  focal_length: 55/1
   img: Japan/P8251023.jpg
+  iso: 200
+  latitude: 35.029178
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755384
   title: P8251023
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 11:49:46
+  exposure: 1/2500
+  f_number: 56/10
+  focal_length: 22/1
   img: Japan/P8260006.jpg
+  iso: 2000
+  latitude: 35.0134007
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.67148279999998
   title: P8260006
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 12:06:16
+  exposure: 1/2000
+  f_number: 56/10
+  focal_length: 17/1
   img: Japan/P8260051.jpg
+  iso: 2000
+  latitude: 35.0134007
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.67148279999998
   title: P8260051
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 12:37:52
+  exposure: 1/125
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260118.jpg
+  iso: 250
+  latitude: 35.0135657
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.6714122
   title: P8260118
 - album: Japan
   aspect: 0.7003383276945384
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 14:03:29
+  exposure: 1/320
+  f_number: 56/10
+  focal_length: 35/1
   img: Japan/P8260207.jpg
+  iso: 250
+  latitude: 35.013218
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.67463089999998
   title: P8260207
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 16:09:17
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260208.jpg
+  iso: 250
+  latitude: 35.0291357
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7552915
   title: P8260208
 - album: Japan
   aspect: 1.7868725868725868
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 16:26:46
+  exposure: 1/320
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260228.jpg
+  iso: 250
+  latitude: 35.0291954
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.755384
   title: P8260228
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 16:39:43
+  exposure: 1/25
+  f_number: 54/10
+  focal_length: 39/1
   img: Japan/P8260261.jpg
+  iso: 640
+  latitude: 35.0291784
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755347
   title: P8260261
 - album: Japan
   aspect: 1.40218878248974
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 17:08:44
+  exposure: 1/40
+  f_number: 50/10
+  focal_length: 66/1
   img: Japan/P8260326.jpg
+  iso: 640
+  latitude: 35.0291869
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553655
   title: P8260326
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 17:23:02
+  exposure: 1/13
+  f_number: 56/10
+  focal_length: 145/1
   img: Japan/P8260339.jpg
+  iso: 640
+  latitude: 35.0291833
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553007
   title: P8260339
 - album: Japan
   aspect: 1.6114369501466275
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 17:24:46
+  exposure: 1/100
+  f_number: 50/10
+  focal_length: 66/1
   img: Japan/P8260340.jpg
+  iso: 640
+  latitude: 35.0291833
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553007
   title: P8260340
 - album: Japan
   aspect: 0.8661290322580645
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 17:25:29
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260343.jpg
+  iso: 640
+  latitude: 35.0291833
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553007
   title: P8260343
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:16:35
+  exposure: 1/20
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8260393.jpg
+  iso: 2500
+  latitude: 35.0291619
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.755273
   title: P8260393
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:21:03
+  exposure: 1/25
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P8260398.jpg
+  iso: 1600
+  latitude: 35.0291486
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7553007
   title: P8260398
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:35:23
+  exposure: 1/640
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260441.jpg
+  iso: 1600
+  latitude: 35.0291268
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.75531
   title: P8260441
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:37:55
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 145/1
   img: Japan/P8260460.jpg
+  iso: 1600
+  latitude: 35.0291268
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.75531
   title: P8260460
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:38:03
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 145/1
   img: Japan/P8260462.jpg
+  iso: 1600
+  latitude: 35.0291268
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.75531
   title: P8260462
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:38:28
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260464.jpg
+  iso: 1600
+  latitude: 35.0291268
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.75531
   title: P8260464
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 18:40:30
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260471.jpg
+  iso: 4000
+  latitude: 35.0291268
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.75531
   title: P8260471
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 19:48:01
+  exposure: 1/6
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260565.jpg
+  iso: 1600
+  latitude: 35.0291175
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553655
   title: P8260565
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 19:48:15
+  exposure: 10/13
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8260567.jpg
+  iso: 1600
+  latitude: 35.0291175
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7553655
   title: P8260567
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 19:53:37
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 53/1
   img: Japan/P8260574.jpg
+  iso: 20000
+  latitude: 35.0291175
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7553655
   title: P8260574
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 20:27:16
+  exposure: 1/25
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8260620.jpg
+  iso: 1600
+  latitude: 35.0291175
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553655
   title: P8260620
 - album: Japan
   aspect: 1.333555703802535
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 20:35:45
+  exposure: 1/20
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8260644.jpg
+  iso: 4000
+  latitude: 35.0291175
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553655
   title: P8260644
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 20:39:20
+  exposure: 1/40
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8260651.jpg
+  iso: 2500
+  latitude: 35.0291175
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553655
   title: P8260651
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 20:41:01
+  exposure: 1/50
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8260653.jpg
+  iso: 2500
+  latitude: 35.0291175
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553655
   title: P8260653
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 20:41:10
+  exposure: 1/50
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8260654.jpg
+  iso: 2500
+  latitude: 35.0291175
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553655
   title: P8260654
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:26 21:05:05
+  exposure: 1/80
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8260689.jpg
+  iso: 2000
+  latitude: 35.029099699999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7558819
   title: P8260689
 - album: Japan
   aspect: 1.988599348534202
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:04:26
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270051.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270051
 - album: Japan
   aspect: 1.4908321579689703
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:05:39
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270058.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270058
 - album: Japan
   aspect: 1.902788844621514
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:05:47
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270059.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270059
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:10:33
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270066.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270066
 - album: Japan
   aspect: 1.4806746310611385
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:11:34
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270071.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270071
 - album: Japan
   aspect: 1.3139072847682118
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:11:49
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270072.jpg
+  iso: 200
+  latitude: 34.680415599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.8186299
   title: P8270072
 - album: Japan
   aspect: 0.9828178694158075
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:23:41
+  exposure: 1/12800
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270096.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270096
 - album: Japan
   aspect: 1.3998632946001368
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:23:48
+  exposure: 1/12800
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270097.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270097
 - album: Japan
   aspect: 0.7502502502502503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:27:39
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270113.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270113
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:28:16
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270114.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270114
 - album: Japan
   aspect: 1.0400707130229818
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:28:31
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270117.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270117
 - album: Japan
   aspect: 1.333555703802535
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:29:33
+  exposure: 1/8000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270123.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.79740329999998
   title: P8270123
 - album: Japan
   aspect: 1.639792899408284
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 14:42:40
+  exposure: 1/500
+  f_number: 55/10
+  focal_length: 138/1
   img: Japan/P8270147.jpg
+  iso: 200
+  latitude: 34.9329362
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.79740329999998
   title: P8270147
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 15:14:03
+  exposure: 1/1250
+  f_number: 43/10
+  focal_length: 23/1
   img: Japan/P8270170.jpg
+  iso: 200
+  latitude: 34.9861179
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7600511
   title: P8270170
 - album: Japan
   aspect: 1.0
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:00:30
+  exposure: 1/1600
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270264.jpg
+  iso: 200
+  latitude: 35.0291139
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7553007
   title: P8270264
 - album: Japan
   aspect: 0.762481089258699
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:33:47
+  exposure: 1/20
+  f_number: 49/10
+  focal_length: 30/1
   img: Japan/P8270280.jpg
+  iso: 320
+  latitude: 34.963452800000006
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.762023
   title: P8270280
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:35:44
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P8270286.jpg
+  iso: 320
+  latitude: 34.9671572
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.77093340000002
   title: P8270286
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:35:56
+  exposure: 1/13
+  f_number: 54/10
+  focal_length: 38/1
   img: Japan/P8270287.jpg
+  iso: 320
+  latitude: 34.9671572
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.77093340000002
   title: P8270287
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:38:13
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8270291.jpg
+  iso: 320
+  latitude: 34.9671572
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.77093340000002
   title: P8270291
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:38:56
+  exposure: 1/40
+  f_number: 48/10
+  focal_length: 82/1
   img: Japan/P8270294.jpg
+  iso: 320
+  latitude: 34.9671572
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.77093340000002
   title: P8270294
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:40:03
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8270298.jpg
+  iso: 320
+  latitude: 34.9671572
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.77093340000002
   title: P8270298
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:47:37
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P8270319.jpg
+  iso: 800
+  latitude: 34.9671572
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.77093340000002
   title: P8270319
 - album: Japan
   aspect: 1.7788906009244991
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:50:13
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 55/1
   img: Japan/P8270323.jpg
+  iso: 800
+  latitude: 34.9670806
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7743322
   title: P8270323
 - album: Japan
   aspect: 1.3442732752846618
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 16:56:15
+  exposure: 1/25
+  f_number: 51/10
+  focal_length: 33/1
   img: Japan/P8270330.jpg
+  iso: 800
+  latitude: 34.9670806
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.7743322
   title: P8270330
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 17:13:37
+  exposure: 1/800
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8270346.jpg
+  iso: 800
+  latitude: 34.966256300000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.77550150000002
   title: P8270346
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 18:18:14
+  exposure: 1/200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270427.jpg
+  iso: 800
+  latitude: 35.029178
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.755384
   title: P8270427
 - album: Japan
   aspect: 1.0509177027827117
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 18:20:03
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270433.jpg
+  iso: 200
+  latitude: 35.029178
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.755384
   title: P8270433
 - album: Japan
   aspect: 1.4434420541290771
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 18:22:07
+  exposure: 1/6400
+  f_number: 42/10
+  focal_length: 49/1
   img: Japan/P8270436.jpg
+  iso: 800
+  latitude: 35.029178
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.755384
   title: P8270436
 - album: Japan
   aspect: 1.0069565217391305
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 18:23:06
+  exposure: 1/250
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P8270439.jpg
+  iso: 200
+  latitude: 35.029178
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.755384
   title: P8270439
 - album: Japan
   aspect: 1.5231646471846043
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 19:41:11
+  exposure: 1/320
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P8270535.jpg
+  iso: 6400
+  latitude: 35.0291865
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7554026
   title: P8270535
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:27 19:50:26
+  exposure: 1/4000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8270546.jpg
+  iso: 6400
+  latitude: 35.0291865
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7554026
   title: P8270546
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:02:25
+  exposure: 1/30
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8280072.jpg
+  iso: 200
+  latitude: 34.9847105
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.7598083
   title: P8280072
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:26:51
+  exposure: 1/100
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8280182.jpg
+  iso: 200
+  latitude: 34.9846591
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.759712
   title: P8280182
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:27:36
+  exposure: 1/80
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8280184.jpg
+  iso: 200
+  latitude: 34.9845773
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.759688
   title: P8280184
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:38:21
+  exposure: 1/15
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P8280217.jpg
+  iso: 640
+  latitude: 34.9846504
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7597528
   title: P8280217
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:40:24
+  exposure: 1/15
+  f_number: 46/10
+  focal_length: 70/1
   img: Japan/P8280226.jpg
+  iso: 640
+  latitude: 34.9846504
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.7597528
   title: P8280226
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 07:53:41
+  exposure: 1/15
+  f_number: 54/10
+  focal_length: 125/1
   img: Japan/P8280264.jpg
+  iso: 400
+  latitude: 34.779631099999996
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.5763203
   title: P8280264
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 08:17:58
+  exposure: 1/100
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8280333.jpg
+  iso: 250
+  latitude: 34.707551300000006
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.49254919999998
   title: P8280333
 - album: Japan
   aspect: 0.7502502502502503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 08:22:37
+  exposure: 1/800
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280349.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280349
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 08:24:24
+  exposure: 1/3200
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280356.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280356
 - album: Japan
   aspect: 1.2891803278688525
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 08:37:15
+  exposure: 1/125
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280415.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280415
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:00:33
+  exposure: 1/100
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280426.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280426
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:01:21
+  exposure: 1/1250
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280427.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280427
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:08:34
+  exposure: 1/500
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280432.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280432
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:14:05
+  exposure: 1/100
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280440.jpg
+  iso: 250
+  latitude: 34.693389599999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.4809259
   title: P8280440
 - album: Japan
   aspect: 1.6995481927710843
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:21:44
+  exposure: 1/100
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280449.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P8280449
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:23:30
+  exposure: 1/100
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280455.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P8280455
 - album: Japan
   aspect: 1.304749340369393
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:27:56
+  exposure: 1/80
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P8280463.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P8280463
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 09:51:53
+  exposure: 1/60
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P8280502.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: ''
   title: P8280502
 - album: Japan
   aspect: 1.3989071038251366
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 11:19:43
+  exposure: 1/400
+  f_number: 49/10
+  focal_length: 89/1
   img: Japan/P8280582.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: ''
   title: P8280582
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:28 12:39:17
+  exposure: 1/400
+  f_number: 40/10
+  focal_length: 25/1
   img: Japan/P8280583.jpg
+  iso: 250
+  latitude: 33.6398688
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.9318758
   title: P8280583
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 08:58:23
+  exposure: 1/160
+  f_number: 51/10
+  focal_length: 33/1
   img: Japan/P8290612.jpg
+  iso: 1000
+  latitude: 33.657367799999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9143775
   title: P8290612
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 09:29:21
+  exposure: 1/2500
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8290692.jpg
+  iso: 1000
+  latitude: 33.6531613
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.92086669999998
   title: P8290692
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 10:56:34
+  exposure: 1/3200
+  f_number: 56/10
+  focal_length: 43/1
   img: Japan/P8290705.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8290705
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 11:39:22
+  exposure: 1/20
+  f_number: 54/10
+  focal_length: 38/1
   img: Japan/P8290728.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8290728
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 11:50:45
+  exposure: 1/13
+  f_number: 50/10
+  focal_length: 32/1
   img: Japan/P8290732.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8290732
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 12:19:53
+  exposure: 1/6400
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8290783.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.9241917
   title: P8290783
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 12:31:12
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P8290805.jpg
+  iso: 1000
+  latitude: 33.6553642
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.9243333
   title: P8290805
 - album: Japan
   aspect: 0.7502502502502503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 12:48:28
+  exposure: 1/5000
+  f_number: 28/10
+  focal_length: 25/1
   img: Japan/P8290837.jpg
+  iso: 1000
+  latitude: 33.6403325
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.93131269999998
   title: P8290837
 - album: Japan
   aspect: 1.1432983323038912
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 12:55:49
+  exposure: 1/3200
+  f_number: 22/10
+  focal_length: 25/1
   img: Japan/P8290893.jpg
+  iso: 1000
+  latitude: 33.6554565
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.92418469999998
   title: P8290893
 - album: Japan
   aspect: 1.2833769633507854
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 12:56:26
+  exposure: 1/3200
+  f_number: 22/10
+  focal_length: 25/1
   img: Japan/P8290901.jpg
+  iso: 1000
+  latitude: 33.6554565
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.92418469999998
   title: P8290901
 - album: Japan
   aspect: 1.333555703802535
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 13:33:37
+  exposure: 1/40
+  f_number: 46/10
+  focal_length: 70/1
   img: Japan/P8290967.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.9241917
   title: P8290967
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 13:44:52
+  exposure: 1/3200
+  f_number: 44/10
+  focal_length: 58/1
   img: Japan/P8290989.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.9241917
   title: P8290989
 - album: Japan
   aspect: 1.469887955182073
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 13:47:32
+  exposure: 1/640
+  f_number: 71/10
+  focal_length: 53/1
   img: Japan/P8291004.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.9241917
   title: P8291004
 - album: Japan
   aspect: 0.9002739726027398
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 13:51:10
+  exposure: 1/1600
+  f_number: 71/10
+  focal_length: 150/1
   img: Japan/P8291015.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 135.9241917
   title: P8291015
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 14:17:25
+  exposure: 1/1250
+  f_number: 71/10
+  focal_length: 35/1
   img: Japan/P8291035.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291035
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 14:31:44
+  exposure: 1/1000
+  f_number: 71/10
+  focal_length: 47/1
   img: Japan/P8291051.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291051
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 14:56:50
+  exposure: 1/4000
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8291077.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291077
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 15:06:52
+  exposure: 1/400
+  f_number: 50/10
+  focal_length: 17/1
   img: Japan/P8291091.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291091
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:12:07
+  exposure: 1/1600
+  f_number: 56/10
+  focal_length: 57/1
   img: Japan/P8291105.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291105
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:15:47
+  exposure: 1/10000
+  f_number: 39/10
+  focal_length: 18/1
   img: Japan/P8291106.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291106
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:17:10
+  exposure: 1/2500
+  f_number: 45/10
+  focal_length: 25/1
   img: Japan/P8291112.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291112
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:20:46
+  exposure: 1/5000
+  f_number: 43/10
+  focal_length: 23/1
   img: Japan/P8291115.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291115
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:22:34
+  exposure: 1/5000
+  f_number: 54/10
+  focal_length: 38/1
   img: Japan/P8291117.jpg
+  iso: 1000
+  latitude: 33.6554648
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9242032
   title: P8291117
 - album: Japan
   aspect: 0.7498749374687343
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:22:49
+  exposure: 1/5000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291120.jpg
+  iso: 1000
+  latitude: 33.6554648
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9242032
   title: P8291120
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:25:26
+  exposure: 1/5000
+  f_number: 42/10
+  focal_length: 22/1
   img: Japan/P8291127.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291127
 - album: Japan
   aspect: 1.0
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:32:37
+  exposure: 1/5000
+  f_number: 41/10
+  focal_length: 20/1
   img: Japan/P8291148.jpg
+  iso: 1000
+  latitude: 33.655429399999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9242032
   title: P8291148
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:34:03
+  exposure: 1/5000
+  f_number: 35/10
+  focal_length: 13/1
   img: Japan/P8291159.jpg
+  iso: 1000
+  latitude: 33.655429399999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9242032
   title: P8291159
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:41:39
+  exposure: 1/1250
+  f_number: 56/10
+  focal_length: 43/1
   img: Japan/P8291162.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291162
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:43:18
+  exposure: 1/1250
+  f_number: 56/10
+  focal_length: 47/1
   img: Japan/P8291163.jpg
+  iso: 1000
+  latitude: 33.6554871
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.924194
   title: P8291163
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:47:16
+  exposure: 1/8000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291176.jpg
+  iso: 1000
+  latitude: 33.6554871
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.924194
   title: P8291176
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:47:16
+  exposure: 1/8000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291177.jpg
+  iso: 1000
+  latitude: 33.6554871
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.924194
   title: P8291177
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:47:16
+  exposure: 1/8000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291178.jpg
+  iso: 1000
+  latitude: 33.6554871
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.924194
   title: P8291178
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 16:47:18
+  exposure: 1/8000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291187.jpg
+  iso: 1000
+  latitude: 33.6554871
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.924194
   title: P8291187
 - album: Japan
   aspect: 1.7788906009244991
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 17:08:16
+  exposure: 1/320
+  f_number: 56/10
+  focal_length: 57/1
   img: Japan/P8291219.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291219
 - album: Japan
   aspect: 1.3886997957794418
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:29 22:41:41
+  exposure: 1/60
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8291227.jpg
+  iso: 1000
+  latitude: 33.6554618
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9241917
   title: P8291227
 - album: Japan
   aspect: 2.6616399622997173
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:30 12:41:20
+  exposure: 1/60
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P8300011.jpg
+  iso: 1000
+  latitude: 34.826410200000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6902457
   title: P8300011
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 11:41:24
+  exposure: 1/3200
+  f_number: 56/10
+  focal_length: 47/1
   img: Japan/P8310047.jpg
+  iso: 1000
+  latitude: 34.847053800000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6439148
   title: P8310047
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 11:50:23
+  exposure: 1/2000
+  f_number: 46/10
+  focal_length: 27/1
   img: Japan/P8310056.jpg
+  iso: 1000
+  latitude: 34.841583400000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6616775
   title: P8310056
 - album: Japan
   aspect: 1.7788906009244991
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 11:53:30
+  exposure: 1/3200
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P8310060.jpg
+  iso: 1000
+  latitude: 34.836043700000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6766748
   title: P8310060
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 12:24:42
+  exposure: 1/10000
+  f_number: 54/10
+  focal_length: 39/1
   img: Japan/P8310091.jpg
+  iso: 1000
+  latitude: 34.8265569
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6901906
   title: P8310091
 - album: Japan
   aspect: 1.7788906009244991
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 12:26:18
+  exposure: 1/2500
+  f_number: 50/10
+  focal_length: 32/1
   img: Japan/P8310092.jpg
+  iso: 1000
+  latitude: 34.826552500000005
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 134.6901815
   title: P8310092
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 12:43:55
+  exposure: 1/6400
+  f_number: 53/10
+  focal_length: 120/1
   img: Japan/P8310108.jpg
+  iso: 1000
+  latitude: 34.8265401
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 134.6906214
   title: P8310108
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 13:32:28
+  exposure: 1/100
+  f_number: 32/10
+  focal_length: 25/1
   img: Japan/P8310172.jpg
+  iso: 1000
+  latitude: 34.3983449
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4760348
   title: P8310172
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 14:00:15
+  exposure: 1/10000
+  f_number: 22/10
+  focal_length: 25/1
   img: Japan/P8310210.jpg
+  iso: 1000
+  latitude: 34.3927965
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4711055
   title: P8310210
 - album: Japan
   aspect: 1.333555703802535
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 14:03:56
+  exposure: 1/16000
+  f_number: 37/10
+  focal_length: 15/1
   img: Japan/P8310218.jpg
+  iso: 1000
+  latitude: 34.3940919
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.46300119999998
   title: P8310218
 - album: Japan
   aspect: 1.3373413493653974
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 15:06:01
+  exposure: 1/1250
+  f_number: 50/10
+  focal_length: 32/1
   img: Japan/P8310224.jpg
+  iso: 1000
+  latitude: 34.3878037
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4389876
   title: P8310224
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 15:19:04
+  exposure: 10/10
+  f_number: 220/10
+  focal_length: 36/1
   img: Japan/P8310250.jpg
+  iso: 200
+  latitude: 34.3879033
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4384406
   title: P8310250
 - album: Japan
   aspect: 1.0
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 15:29:07
+  exposure: 1/125
+  f_number: 80/10
+  focal_length: 42/1
   img: Japan/P8310270.jpg
+  iso: 200
+  latitude: 34.386852499999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4413865
   title: P8310270
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:08:31 15:29:45
+  exposure: 1/250
+  f_number: 80/10
+  focal_length: 50/1
   img: Japan/P8310274.jpg
+  iso: 200
+  latitude: 34.386852499999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4413865
   title: P8310274
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 12:40:26
+  exposure: 1/800
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9010231.jpg
+  iso: 200
+  latitude: 34.3109818
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.3043541
   title: P9010231
 - album: Japan
   aspect: 1.4492350486787204
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:13:51
+  exposure: 1/30
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9010238.jpg
+  iso: 200
+  latitude: 34.410258299999995
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4503001
   title: P9010238
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:22:20
+  exposure: 1/200
+  f_number: 52/10
+  focal_length: 111/1
   img: Japan/P9010258.jpg
+  iso: 200
+  latitude: 34.409677699999996
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.45059759999998
   title: P9010258
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:57:10
+  exposure: 1/500
+  f_number: 49/10
+  focal_length: 96/1
   img: Japan/P9010330.jpg
+  iso: 200
+  latitude: 34.3863617
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4404078
   title: P9010330
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:59:52
+  exposure: 1/25
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P9010345.jpg
+  iso: 400
+  latitude: 34.386354
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4403213
   title: P9010345
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:59:55
+  exposure: 1/25
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P9010346.jpg
+  iso: 400
+  latitude: 34.386354
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4403213
   title: P9010346
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 13:59:57
+  exposure: 1/25
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P9010347.jpg
+  iso: 400
+  latitude: 34.386354
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4403213
   title: P9010347
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 14:09:25
+  exposure: 1/320
+  f_number: 45/10
+  focal_length: 62/1
   img: Japan/P9010364.jpg
+  iso: 400
+  latitude: 34.3863377
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4403598
   title: P9010364
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 14:22:29
+  exposure: 1/500
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9010375.jpg
+  iso: 400
+  latitude: 34.3868992
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4414441
   title: P9010375
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 14:22:33
+  exposure: 1/500
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9010377.jpg
+  iso: 400
+  latitude: 34.3868992
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4414441
   title: P9010377
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 14:22:34
+  exposure: 1/500
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9010378.jpg
+  iso: 400
+  latitude: 34.3868992
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4414441
   title: P9010378
 - album: Japan
   aspect: 1.1972187104930467
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:00:34
+  exposure: 1/25
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9010399.jpg
+  iso: 1250
+  latitude: 34.3869487
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4415785
   title: P9010399
 - album: Japan
   aspect: 0.7503751875937968
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:08:12
+  exposure: 1/2000
+  f_number: 42/10
+  focal_length: 49/1
   img: Japan/P9010403.jpg
+  iso: 400
+  latitude: 34.3869487
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4415785
   title: P9010403
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:12:58
+  exposure: 1/125
+  f_number: 40/10
+  focal_length: 40/1
   img: Japan/P9010410.jpg
+  iso: 400
+  latitude: 34.3869487
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4415785
   title: P9010410
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:23:00
+  exposure: 1/3200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9010428.jpg
+  iso: 400
+  latitude: 34.3869487
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415785
   title: P9010428
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:28:15
+  exposure: 1/4000
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P9010488.jpg
+  iso: 400
+  latitude: 34.3869487
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415785
   title: P9010488
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:46:11
+  exposure: 1/2500
+  f_number: 16/10
+  focal_length: 25/1
   img: Japan/P9010517.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415593
   title: P9010517
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:56:59
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9010562.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415593
   title: P9010562
 - album: Japan
   aspect: 2.519706691109074
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 16:57:07
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9010565.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415593
   title: P9010565
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 17:02:19
+  exposure: 1/200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9010587.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415593
   title: P9010587
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 17:19:33
+  exposure: 1/16000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9010611.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 132.4415593
   title: P9010611
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 17:41:01
+  exposure: 1/1600
+  f_number: 55/10
+  focal_length: 42/1
   img: Japan/P9010634.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4415593
   title: P9010634
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:04:28
+  exposure: 1/2500
+  f_number: 63/10
+  focal_length: 39/1
   img: Japan/P9010698.jpg
+  iso: 200
+  latitude: 34.3869391
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4415593
   title: P9010698
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:24:13
+  exposure: 1/100
+  f_number: 110/10
+  focal_length: 17/1
   img: Japan/P9010755.jpg
+  iso: 200
+  latitude: 34.3869391
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4415593
   title: P9010755
 - album: Japan
   aspect: 1.0
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:37:43
+  exposure: 1/10
+  f_number: 100/10
+  focal_length: 42/1
   img: Japan/P9010796.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 132.4415593
   title: P9010796
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:48:25
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 145/1
   img: Japan/P9010812.jpg
+  iso: 400
+  latitude: 34.3869391
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.4415593
   title: P9010812
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:51:44
+  exposure: 1/13
+  f_number: 56/10
+  focal_length: 74/1
   img: Japan/P9010816.jpg
+  iso: 400
+  latitude: 34.3865765
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.44192660000002
   title: P9010816
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:01 18:52:13
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 40/1
   img: Japan/P9010818.jpg
+  iso: 1600
+  latitude: 34.3865765
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 132.44192660000002
   title: P9010818
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:02 18:14:19
+  exposure: 1/3
+  f_number: 220/10
+  focal_length: 32/1
   img: Japan/P9020010.jpg
+  iso: 1000
+  latitude: 36.5479335
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.67608339999998
   title: P9020010
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:02 10:56:06
+  exposure: 1/16000
+  f_number: 28/10
+  focal_length: 25/1
   img: Japan/P9020857.jpg
+  iso: 1250
+  latitude: 34.7332373
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 135.5003559
   title: P9020857
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:02 11:48:51
+  exposure: 1/5000
+  f_number: 38/10
+  focal_length: 17/1
   img: Japan/P9020902.jpg
+  iso: 1000
+  latitude: 35.0215867
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.853499
   title: P9020902
 - album: Japan
   aspect: 1.6114369501466275
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:02 12:37:46
+  exposure: 1/5000
+  f_number: 39/10
+  focal_length: 18/1
   img: Japan/P9020915.jpg
+  iso: 1000
+  latitude: 35.1431039
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 135.9255629
   title: P9020915
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 08:59:27
+  exposure: 1/640
+  f_number: 56/10
+  focal_length: 50/1
   img: Japan/P9030026.jpg
+  iso: 200
+  latitude: 36.5623308
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6533765
   title: P9030026
 - album: Japan
   aspect: 1.4757894736842105
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 09:12:36
+  exposure: 1/640
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9030031.jpg
+  iso: 200
+  latitude: 36.5623308
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6533765
   title: P9030031
 - album: Japan
   aspect: 1.0394581861012957
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 11:54:51
+  exposure: 1/100
+  f_number: 56/10
+  focal_length: 46/1
   img: Japan/P9030053.jpg
+  iso: 200
+  latitude: 36.5628496
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6557152
   title: P9030053
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 11:58:27
+  exposure: 1/160
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9030060.jpg
+  iso: 200
+  latitude: 36.563187899999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6543373
   title: P9030060
 - album: Japan
   aspect: 1.2271273192578376
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 12:04:44
+  exposure: 1/13
+  f_number: 45/10
+  focal_length: 17/1
   img: Japan/P9030066.jpg
+  iso: 200
+  latitude: 36.5635121
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6550051
   title: P9030066
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 13:16:14
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9030098.jpg
+  iso: 200
+  latitude: 36.5479408
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 136.6761259
   title: P9030098
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 13:37:57
+  exposure: 1/250
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9030113.jpg
+  iso: 200
+  latitude: 36.547923999999995
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 136.67606899999998
   title: P9030113
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 16:59:25
+  exposure: 1/125
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P9030281.jpg
+  iso: 400
+  latitude: 36.5479416
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.6760884
   title: P9030281
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 17:07:40
+  exposure: 1/80
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9030294.jpg
+  iso: 400
+  latitude: 36.5479236
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.67608779999998
   title: P9030294
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 17:18:35
+  exposure: 1/80
+  f_number: 52/10
+  focal_length: 35/1
   img: Japan/P9030310.jpg
+  iso: 400
+  latitude: 36.5479236
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.67608779999998
   title: P9030310
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:03 17:18:41
+  exposure: 1/80
+  f_number: 56/10
+  focal_length: 50/1
   img: Japan/P9030311.jpg
+  iso: 400
+  latitude: 36.5479236
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 136.67608779999998
   title: P9030311
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 12:56:50
+  exposure: 1/3200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040387.jpg
+  iso: 200
+  latitude: 35.6379522
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.6893474
   title: P9040387
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 12:59:40
+  exposure: 1/3200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040391.jpg
+  iso: 200
+  latitude: 35.6379522
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.6893474
   title: P9040391
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:01:54
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040393.jpg
+  iso: 200
+  latitude: 35.6379522
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.6893474
   title: P9040393
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:08:07
+  exposure: 1/2500
+  f_number: 53/10
+  focal_length: 120/1
   img: Japan/P9040400.jpg
+  iso: 200
+  latitude: 35.6379522
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 139.6893474
   title: P9040400
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:34:22
+  exposure: 1/25
+  f_number: 56/10
+  focal_length: 52/1
   img: Japan/P9040423.jpg
+  iso: 200
+  latitude: 36.6435974
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1881394
   title: P9040423
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:36:05
+  exposure: 1/60
+  f_number: 41/10
+  focal_length: 20/1
   img: Japan/P9040426.jpg
+  iso: 250
+  latitude: 36.64378
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1883821
   title: P9040426
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:44:38
+  exposure: 1/200
+  f_number: 56/10
+  focal_length: 32/1
   img: Japan/P9040447.jpg
+  iso: 200
+  latitude: 36.644224
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1882483
   title: P9040447
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:47:43
+  exposure: 1/320
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9040450.jpg
+  iso: 200
+  latitude: 36.644224
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1882483
   title: P9040450
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:49:56
+  exposure: 1/160
+  f_number: 56/10
+  focal_length: 125/1
   img: Japan/P9040457.jpg
+  iso: 200
+  latitude: 36.644224
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1882483
   title: P9040457
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 13:55:29
+  exposure: 1/400
+  f_number: 56/10
+  focal_length: 66/1
   img: Japan/P9040466.jpg
+  iso: 200
+  latitude: 36.653208899999996
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1918556
   title: P9040466
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 16:16:06
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040555.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902464
   title: P9040555
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 16:17:55
+  exposure: 1/500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040561.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902464
   title: P9040561
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 16:50:48
+  exposure: 1/1250
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040564.jpg
+  iso: 320
+  latitude: 36.6540209
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902449
   title: P9040564
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 17:35:44
+  exposure: 1/400
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040565.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902464
   title: P9040565
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:04 17:37:15
+  exposure: 1/400
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9040566.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902464
   title: P9040566
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 11:46:45
+  exposure: 1/2000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9050019.jpg
+  iso: 320
+  latitude: 36.6437799
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1875665
   title: P9050019
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:13:01
+  exposure: 1/320
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9050042.jpg
+  iso: 200
+  latitude: 36.643740799999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1873529
   title: P9050042
 - album: Japan
   aspect: 1.5873362445414847
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:27:10
+  exposure: 1/1250
+  f_number: 51/10
+  focal_length: 105/1
   img: Japan/P9050058.jpg
+  iso: 320
+  latitude: 36.6438199
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1881491
   title: P9050058
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:35:30
+  exposure: 1/500
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9050089.jpg
+  iso: 320
+  latitude: 36.644224
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1882483
   title: P9050089
 - album: Japan
   aspect: 1.2096569250317661
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:41:38
+  exposure: 1/1250
+  f_number: 49/10
+  focal_length: 96/1
   img: Japan/P9050125.jpg
+  iso: 320
+  latitude: 36.644224
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1882483
   title: P9050125
 - album: Japan
   aspect: 1.8957836117740652
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:46:40
+  exposure: 1/640
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9050157.jpg
+  iso: 320
+  latitude: 36.644224
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1882483
   title: P9050157
 - album: Japan
   aspect: 0.9839541547277937
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:49:03
+  exposure: 1/800
+  f_number: 55/10
+  focal_length: 140/1
   img: Japan/P9050174.jpg
+  iso: 320
+  latitude: 36.652864799999996
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1915281
   title: P9050174
 - album: Japan
   aspect: 1.1821608040201006
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 12:54:18
+  exposure: 1/1250
+  f_number: 56/10
+  focal_length: 150/1
   img: Japan/P9050192.jpg
+  iso: 320
+  latitude: 36.652864799999996
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 138.1915281
   title: P9050192
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:13:31
+  exposure: 1/640
+  f_number: 56/10
+  focal_length: 52/1
   img: Japan/P9050276.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050276
 - album: Japan
   aspect: 1.0929951690821256
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:21:49
+  exposure: 1/400
+  f_number: 56/10
+  focal_length: 43/1
   img: Japan/P9050337.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050337
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:21:51
+  exposure: 1/400
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9050338.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050338
 - album: Japan
   aspect: 1.5163584637268848
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:29:48
+  exposure: 1/200
+  f_number: 56/10
+  focal_length: 43/1
   img: Japan/P9050379.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050379
 - album: Japan
   aspect: 1.1321450522433927
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:30:20
+  exposure: 1/200
+  f_number: 56/10
+  focal_length: 52/1
   img: Japan/P9050387.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050387
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:31:45
+  exposure: 1/320
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9050392.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050392
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:53:33
+  exposure: 1/30
+  f_number: 36/10
+  focal_length: 14/1
   img: Japan/P9050430.jpg
+  iso: 320
+  latitude: 36.6540448
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050430
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 13:53:40
+  exposure: 1/15
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P9050431.jpg
+  iso: 320
+  latitude: 36.6540448
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902464
   title: P9050431
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 14:35:32
+  exposure: 1/13
+  f_number: 56/10
+  focal_length: 53/1
   img: Japan/P9050433.jpg
+  iso: 320
+  latitude: 36.6540228
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 138.1902561
   title: P9050433
 - album: Japan
   aspect: 0.7502502502502503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 16:28:48
+  exposure: 1/1000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9050475.jpg
+  iso: 320
+  latitude: 36.654027299999996
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902464
   title: P9050475
 - album: Japan
   aspect: 1.4968197879858658
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:05 16:59:07
+  exposure: 1/1000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9050482.jpg
+  iso: 320
+  latitude: 36.6540228
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 138.1902561
   title: P9050482
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 10:18:51
+  exposure: 1/2000
+  f_number: 35/10
+  focal_length: 12/1
   img: Japan/P9070510.jpg
+  iso: 1250
+  latitude: 35.7109789
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7969737
   title: P9070510
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 11:26:52
+  exposure: 1/60
+  f_number: 49/10
+  focal_length: 30/1
   img: Japan/P9070518.jpg
+  iso: 1250
+  latitude: 35.686358999999996
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7665232
   title: P9070518
 - album: Japan
   aspect: 1.5650289017341041
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 13:16:45
+  exposure: 1/125
+  f_number: 56/10
+  focal_length: 60/1
   img: Japan/P9070530.jpg
+  iso: 500
+  latitude: 35.7300261
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.7165488
   title: P9070530
 - album: Japan
   aspect: 1.102486355366889
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 20:27:08
+  exposure: 1/30
+  f_number: 36/10
+  focal_length: 14/1
   img: Japan/P9070571.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.68290199999998
   title: P9070571
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 21:12:34
+  exposure: 1/25
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9070580.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9070580
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 21:16:49
+  exposure: 1/25
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9070585.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9070585
 - album: Japan
   aspect: 1.8765822784810127
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:07 21:17:18
+  exposure: 1/40
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9070588.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9070588
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 12:42:41
+  exposure: 1/3200
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080644.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9080644
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 12:44:13
+  exposure: 1/2500
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080648.jpg
+  iso: 200
+  latitude: 35.687489199999995
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.6826926
   title: P9080648
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 12:47:42
+  exposure: 1/5000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080662.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9080662
 - album: Japan
   aspect: 2.037098103874691
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 12:58:17
+  exposure: 1/1000
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080693.jpg
+  iso: 200
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9080693
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 13:10:32
+  exposure: 1/200
+  f_number: 50/10
+  focal_length: 102/1
   img: Japan/P9080714.jpg
+  iso: 200
+  latitude: 35.6875345
+  lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
+  longitude: 139.6829009
   title: P9080714
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 13:33:28
+  exposure: 1/13
+  f_number: 71/10
+  focal_length: 22/1
   img: Japan/P9080783.jpg
+  iso: 200
+  latitude: 35.6888054
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.6819549
   title: P9080783
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 21:24:58
+  exposure: 1/50
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080894.jpg
+  iso: 200
+  latitude: 35.6628201
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7734695
   title: P9080894
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 21:52:42
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080963.jpg
+  iso: 640
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9080963
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 21:54:10
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080985.jpg
+  iso: 640
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9080985
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 21:55:39
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9080996.jpg
+  iso: 640
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9080996
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 21:58:58
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081042.jpg
+  iso: 640
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9081042
 - album: Japan
   aspect: 1.5138592750533049
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 22:47:01
+  exposure: 1/15
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081208.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9081208
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 22:48:00
+  exposure: 1/60
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081213.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9081213
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 22:55:03
+  exposure: 1/40
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081223.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9081223
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 23:03:38
+  exposure: 1/60
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081306.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: ''
   title: P9081306
 - album: Japan
   aspect: 1.4248275862068966
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:08 23:28:06
+  exposure: 1/50
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9081355.jpg
+  iso: 320
+  latitude: 35.6663029
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7705693
   title: P9081355
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 01:36:51
+  exposure: 1/25
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091362.jpg
+  iso: 320
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9091362
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 01:37:42
+  exposure: 1/25
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091364.jpg
+  iso: 320
+  latitude: 35.68752859999999
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.68290199999998
   title: P9091364
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 05:53:29
+  exposure: 1/40
+  f_number: 56/10
+  focal_length: 44/1
   img: Japan/P9091412.jpg
+  iso: 1250
+  latitude: 35.6887287
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: 139.70069039999998
   title: P9091412
 - album: Japan
   aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 05:57:28
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091420.jpg
+  iso: 500
+  latitude: 35.6885148
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7007602
   title: P9091420
 - album: Japan
   aspect: 1.33422281521014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 06:01:34
+  exposure: 1/160
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091435.jpg
+  iso: 500
+  latitude: 35.6884855
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7009995
   title: P9091435
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 06:04:15
+  exposure: 1/1600
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091446.jpg
+  iso: 200
+  latitude: 35.6884855
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7009995
   title: P9091446
 - album: Japan
   aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 2017:09:09 06:07:45
+  exposure: 1/1250
+  f_number: 14/10
+  focal_length: 25/1
   img: Japan/P9091456.jpg
+  iso: 200
+  latitude: 35.6884935
+  lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
+  longitude: 139.7010195
   title: P9091456
