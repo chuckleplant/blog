@@ -48,11 +48,11 @@ comments: true
           <meta itemprop="inLanguage" content="en-US"/>
           <meta itemprop="url" content="{{ site.url }}{{ page.url }}"/>
           <meta itemprop="name" content="{{page.title}}"/>
-          <meta itemprop="image" content="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg"/>
-          <meta itemprop="thumbnailUrl" content="{{ site.url }}/images/photography/thumbnails/{{ page.photo_url }}.jpg"/>
+          <meta itemprop="image" content="{{ site.url }}/img/albums/{{ page.photo_url }}"/>
+          <meta itemprop="thumbnailUrl" content="{{ site.url }}/img/200/{{ page.photo_url }}"/>
           <meta itemprop="description" content="{{page.description}}"/>
           <img id="picture" 
-                src="{{ site.url }}/images/photography/{{ page.photo_url }}.jpg" 
+                src="{{ site.url }}/img/albums/{{ page.photo_url }}" 
                 alt="{{ page.title }}">
 
           {% if page.next_pic != ""%}
@@ -80,15 +80,9 @@ comments: true
       </div>
     </article>
     <div class="wrapper">
-
         <!-- Find out whether we have gps info on this picture -->
-        {% capture photo_latitude %}
-        {% exiftag gps.latitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-        {% endcapture %}
-        {% capture photo_longitude %}
-        {% exiftag gps.longitude, %}{{ page.photo_url }}.jpg{% endexiftag %}
-        {% endcapture %}
-        {% if photo_latitude contains "ERROR" or photo_longitude contains "ERROR" %}       
+
+        {% if page.longitude.size == 0 or page.latitude.size == 0 %}       
         {% assign map_available = false %}
         {% else %}
         {% assign map_available = true %}
@@ -98,32 +92,12 @@ comments: true
           <div class="photoinfo-col photoinfo-col-1">
             <div>
               <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
-              {% capture photo_date %}
-              {% exiftag date_time_original, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {% endcapture %}
-              {% capture camera %}
-              {% exiftag model, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {% endcapture %}
-              {%- capture exposure -%}                 
-              {% exiftag exposure_time, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {%- endcapture -%}
-              {%- capture f_number -%}
-              {% exiftag f_number, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {%- endcapture -%}
-              {%- capture iso -%}
-              {% exiftag iso_speed_ratings, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {%- endcapture -%}
-              {% capture lens %}
-              {% exiftag lens_model, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {% endcapture %}
-              {% capture focal %}
-              {% exiftag focal_length, %}{{ page.photo_url }}.jpg{% endexiftag %}
-              {% endcapture %}
+
 
               <!-- TODO: insert better text, atm duplicate information .. -->
 
               <div style="margin-top:10px;">  
-                Shot on {{photo_date | date_to_long_string }}<br>
+                Shot on {{page.date_time_original }}<br>
               </div>
               <span class="author" itemprop="author">by <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{site.owner.name }}</a></span></span>
 
@@ -146,18 +120,18 @@ comments: true
           {% endif %}
             <ul>
               <li>
-                {% if camera contains 'iPhone' %} <i class="fa fa-mobile"></i> 
-                {% elsif camera contains 'PlayStation' %} <i class="fab fa-playstation"></i>
+                {% if page.cam_model contains 'iPhone' %} <i class="fa fa-mobile"></i> 
+                {% elsif page.cam_model contains 'PlayStation' %} <i class="fab fa-playstation"></i>
                 {% else %} <ion-icon class="ion-iconfont" name="camera"></ion-icon></i> 
-                {% endif %} {{camera}}
-                {% assign lens_strip = lens | strip %}
-                {% if lens_strip.size > 0 %} / {{lens}} {% endif %}
+                {% endif %} {{page.cam_model}}
+                {% assign lens_strip = page.lens_model | strip %}
+                {% if lens_strip.size > 0 %} / {{page.lens_model}} {% endif %}
               </li>
-              {% assign focal_strip = focal | strip %}
-              {% if focal_strip.size > 0 %}    <li><img width="16px" src="{{ site.url }}/images/svg/focal_length.svg"></img>  <span id="focal">{{focal}}</span> mm</li>{% endif %}
-              {% if exposure.size > 0 %} <li><ion-icon class="ion-iconfont" name="stopwatch"></ion-icon>  <span id="exposure">{{exposure}}</span></li>{% endif %}
-              {% if f_number.size > 0 %} <li><ion-icon class="ion-iconfont" name="aperture"></ion-icon>  f/<span id="aperture">{{f_number}}</span></li>{% endif %}
-              {% if iso.size > 0 %}      <li><b>ISO</b>                     <span id="iso">{{iso}}</span></li>{% endif %}
+              {% assign focal_strip = page.focal_length | strip %}
+              {% if focal_strip.size > 0 %}    <li><img width="16px" src="{{ site.url }}/images/svg/focal_length.svg"></img>  <span id="focal">{{page.focal_length}}</span> mm</li>{% endif %}
+              {% if page.exposure.size > 0 %} <li><ion-icon class="ion-iconfont" name="stopwatch"></ion-icon>  <span id="exposure">{{page.exposure}}</span></li>{% endif %}
+              {% if page.f_number.size > 0 %} <li><ion-icon class="ion-iconfont" name="aperture"></ion-icon>  f/<span id="aperture">{{page.f_number}}</span></li>{% endif %}              
+              {% if page.iso.size > 0 %}      <li><b>ISO</b>                     <span id="iso">{{page.iso}}</span></li>{% endif %}
 
               <li>{% include share-this-links.html %}</li>
             </ul>
@@ -166,8 +140,8 @@ comments: true
 
           <div class="photoinfo-col photoinfo-col-3">
             {% if map_available %}
-            <a href="https://www.google.ch/maps/place/{{photo_latitude|strip}},{{photo_longitude|strip}}" target="_blank">
-              <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{photo_latitude|strip}},{{photo_longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
+            <a href="https://www.google.ch/maps/place/{{page.latitude|strip}},{{page.longitude|strip}}" target="_blank">
+              <img width="600" height="200" class="gmap-photo" src="https://maps.googleapis.com/maps/api/staticmap?zoom=11&size=600x210&markers=color:0xff6a30%7Clabel:S%7C{{page.latitude|strip}},{{page.longitude|strip}}&scale=2&key=AIzaSyBJmHVqjFvCrmQ5TY-xFxSRmiwKJ1ii47I">
             </a>
             {% endif %}
           </div>
@@ -187,19 +161,6 @@ comments: true
   <script src="{{ site.url }}/js/plugins/jquery.animsition.min.js"></script>
   <script src="https://use.fontawesome.com/fd9429b8e3.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
-
-  <script>
-    function replaceRationalWithFloat(elem){
-      var elemStr = elem.innerHTML;
-      var decimal = eval(elemStr);
-      elem.innerHTML = decimal.toFixed(1);
-    }
-
-    
-    replaceRationalWithFloat(document.getElementById('focal'));
-    replaceRationalWithFloat(document.getElementById('aperture'));
-  </script>
-
   <script>
     var photo = $("#photo");
     var picture = $("#picture");
@@ -210,14 +171,14 @@ comments: true
     if(prevButton != null)
     {
       prevButton.click(function (e) {
-          window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';    
+          window.location.href = '{{ site.url }}/img/albums/{{page.album}}/{{page.previous_pic}}';    
       });
     }
     
     if(nextButton != null)
     {
       nextButton.click(function (e) {
-        window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+        window.location.href = '{{ site.url }}/img/albums/{{page.album}}/{{page.next_pic}}';
       });
     }
 
@@ -226,12 +187,12 @@ comments: true
         case 37: //left
           if('{{page.previous_pic}}' !="")
           {
-            window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.previous_pic}}';
+            window.location.href = '{{ site.url }}/img/albums/{{page.album}}/{{page.previous_pic}}';
           }
           break;
         case 39: //right
           if('{{page.next_pic}}' !=""){ 
-            window.location.href = '{{ site.url }}/photography/{{page.album}}/{{page.next_pic}}';
+            window.location.href = '{{ site.url }}/img/albums/{{page.album}}/{{page.next_pic}}';
           }
           break;
       }

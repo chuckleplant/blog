@@ -20,12 +20,15 @@ owner:
 exclude:
 - README.md
 
+photo_dir:
+- img/albums
+
 include: 
 - _pages
 
 #Jekyll-Photo-Gallery Settings
 exiftag:
  sources:
-   - images/photography #Set to location of photos
+   - img/albums #Set to location of photos
 
 destination: _deploy

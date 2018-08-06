@@ -18,7 +18,7 @@ end
 
 module Jekyll
   class PhotoPage < Page
-    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description)
+    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
       @site = site
       @base = base
       @dir = dir
@@ -34,6 +34,16 @@ module Jekyll
       self.data['description'] = description
       self.data['comments'] = true
       self.data['disqus_identifier'] = album+ '-' +title
+      self.data['latitude'] = latitude
+      self.data['longitude']= longitude
+      self.data['date_time_original'] = date_time_original
+      self.data['cam_model'] = cam_model
+      self.data['lens_model'] = lens_model
+      self.data['exposure'] = exposure
+      self.data['f_number'] = f_number
+      self.data['iso'] = iso
+      self.data['focal_length'] = focal_length
+
     end
   end
 
@@ -58,20 +68,25 @@ module Jekyll
 
 
     def generate(site)
-      
       photos = get_all_photos()
-      dir = site.config['photo_dir'] || 'photography'
-
-      site.pages << PhotoList.new(site, site.source, File.join(dir), photos["photos"], "Photography")
-
-      #Reference in site, used for sitemap
-      photoSlugs = Array.new
+      dir = site.config['photo_dir']
 
       photos.each do |photo,details|
         #Iterate through array & return previous, current & next
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           pic_album = curr["album"]
           photo_url = curr["img"]
+          
+          latitude = curr["latitude"]
+          longitude = curr["longitude"]
+          date_time_original = curr["date_time_original"]
+          cam_model = curr["cam_model"]
+          lens_model = curr["lens_model"]
+          exposure = curr["exposure"]
+          f_number = curr["f_number"]
+          iso = curr["iso"]
+          focal_length = curr["focal_length"]
+
           title = curr["title"]
           description = curr["description"]
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
@@ -81,41 +96,15 @@ module Jekyll
           else
             previous_pic = ""
           end
+
           if(nxt != nil  && nxt["album"] == curr["album"])
             next_pic = nxt["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')
           else
             next_pic = ""
           end
-          photoSlugs << photo_url
-          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description)
+          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
         }
       end
-      site.data['photoSlugs'] = photoSlugs
-
-      ##Create a array containing all countries
-      #countryArray = Array.new
-      #photos.each do |photo,details|
-      #  [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-      #    photoCountry = curr["country"]
-      #    countryArray.push(photoCountry)
-      #  }
-      #end
-      #countryArray = countryArray.uniq
-#
-      #countryArray.each do |name|
-      #  photosPerCountry = Array.new
-      #  countrySlug = name.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-      #  photos.each do |photo, details|
-      #    [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-      #      if(curr["country"] == name)
-      #        photosPerCountry.push(curr)
-      #      end
-      #    }
-      #  end
-#
-      #  #Make page
-      #  site.pages << PhotoList.new(site, site.source, File.join('photography', countrySlug), #photosPerCountry, name)
-      #end
     end
   end
 end
@@ -126,6 +115,8 @@ module TextFilter
   end
 end
 
+
+
 Liquid::Template.register_filter(TextFilter)
 
 module Jekyll
@@ -134,47 +125,46 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @result = '<div id="gallery" style="display:none; margin-top: 20px; margin-bottom: 20px;">'
-      #photos = YAML::load_file('_data/photos.yaml')
+      @result = '<div id="pig"></div>'
+      @result = @result + ' <script src="/js/plugins/pig/src/pig.min.js"></script>'
+
+      @result = @result + ' <script>
+                              var imageData = ['
+#
       photos = get_all_photos()
       photos.each do |photo, details|
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
-        if(curr["album"] == text.strip)
-            width, height = Dimensions.dimensions(Dir.pwd + '/images/photography/thumbnails/'+curr["img"]+'.jpg')
-            @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
-                                      <a target="_blank" itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["album"]+'/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
-                                        <img  width="'+width.to_s+'" height="'+height.to_s+'" alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
-                                        <meta itemprop="name" content="'+curr["title"]+'" />
-                                        <meta itemprop="isFamilyFriendly" content="true" />
-                                        <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
-                                          <div itemprop="sameAs" href="https://chuckleplant.github.io/about">
-                                            <meta itemprop="name" content="Sergio Basurco"/>
-                                          </div>
-                                        </div>
-                                      </a>
-                                    </div>'
+          if(curr["album"] == text.strip)
+            @result = @result+'{filename: "'+curr["img"]+'", aspectRatio: '+curr["aspect"].to_s+', url: "'+ '/img/albums/' + curr["album"] +'/'+ curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/"},'
           end
         }
       end
-      @result = @result + '</div>'
-
-      #If you want to configure each album gallery individually you can remove this script
-      #and add it in the template/post directly.
-      @result = @result + '<script>
-                              window.onload=function(){
-                                  $("#gallery").justifiedGallery({
-                                      rowHeight : 180,
-                                      maxRowHeight: 0,
-                                      margins : 3,
-                                      border : 0,
-                                      fixedHeight: false,
-                                      lastRow : \'nojustify\',
-                                      captions: true,
-                                      waitThumbnailsLoad: false
-                                  });
-                                  $("#gallery").fadeIn(500);
-                              }
-                          </script>'
+                       
+      @result = @result + '];
+                              var options = {
+                                urlForSize: function(filename, size) {
+                                  return '"'"'/img/'"'"' + size + '"'"'/'"'"' + filename;
+                                },
+                                figureTagName: "a",
+                                transitionSpeed: 500,
+                                getMinAspectRatio: function(lastWindowWidth) {
+                                if (lastWindowWidth <= 640)  // Phones
+                                  return 1;
+                                else if (lastWindowWidth <= 1280)  // Tablets
+                                  return 3;
+                                else if (lastWindowWidth <= 1920)  // Laptops
+                                  return 4;
+                                return 5;  // Large desktops
+                              },
+                                spaceBetweenImages: 3,
+                                getImageSize: function(lastWindowWidth) {
+                                  return 250;
+                                }
+                                // ...
+                              };
+                          
+                              var pig = new Pig(imageData, options).enable();
+                            </script>'
     end
 
     def render(context)
@@ -182,4 +172,5 @@ module Jekyll
     end
   end
 end
+
 Liquid::Template.register_tag('includeGallery', Jekyll::IncludeGalleryTag)

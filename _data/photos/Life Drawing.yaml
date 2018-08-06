@@ -1,163 +1,703 @@
 photos:
 - album: Life Drawing
-  img: Life Drawing/P7200001
+  aspect: 0.7431557989049278
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '49.0'
+  img: Life Drawing/P7200001.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200001
 - album: Life Drawing
-  img: Life Drawing/P7200002
+  aspect: 0.8172323759791122
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '55.0'
+  img: Life Drawing/P7200002.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200002
 - album: Life Drawing
-  img: Life Drawing/P7200003
+  aspect: 1.0973986690865094
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '6.3'
+  focal_length: '52.0'
+  img: Life Drawing/P7200003.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200003
 - album: Life Drawing
-  img: Life Drawing/P7200004
+  aspect: 0.8154327424400417
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '6.3'
+  focal_length: '52.0'
+  img: Life Drawing/P7200004.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200004
 - album: Life Drawing
-  img: Life Drawing/P7200006
+  aspect: 0.801862390067253
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '6.3'
+  focal_length: '47.0'
+  img: Life Drawing/P7200006.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200006
 - album: Life Drawing
-  img: Life Drawing/P7200008
+  aspect: 1.3728010825439783
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '5.6'
+  focal_length: '44.0'
+  img: Life Drawing/P7200008.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200008
 - album: Life Drawing
-  img: Life Drawing/P7200009
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '5.6'
+  focal_length: '52.0'
+  img: Life Drawing/P7200009.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200009
 - album: Life Drawing
-  img: Life Drawing/P7200010
+  aspect: 1.2470967741935484
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '44.0'
+  img: Life Drawing/P7200010.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200010
 - album: Life Drawing
-  img: Life Drawing/P7200011
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '57.0'
+  img: Life Drawing/P7200011.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200011
 - album: Life Drawing
-  img: Life Drawing/P7200012
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '49.0'
+  img: Life Drawing/P7200012.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200012
 - album: Life Drawing
-  img: Life Drawing/P7200013
+  aspect: 1.6087912087912088
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '43.0'
+  img: Life Drawing/P7200013.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200013
 - album: Life Drawing
-  img: Life Drawing/P7200014
+  aspect: 1.203422053231939
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '55.0'
+  img: Life Drawing/P7200014.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200014
 - album: Life Drawing
-  img: Life Drawing/P7200016
+  aspect: 1.1855345911949686
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '50.0'
+  img: Life Drawing/P7200016.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200016
 - album: Life Drawing
-  img: Life Drawing/P7200017
+  aspect: 1.3870748299319728
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '40.0'
+  img: Life Drawing/P7200017.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200017
 - album: Life Drawing
-  img: Life Drawing/P7200019
+  aspect: 0.8381808566895822
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '5.6'
+  focal_length: '60.0'
+  img: Life Drawing/P7200019.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200019
 - album: Life Drawing
-  img: Life Drawing/P7200020
+  aspect: 1.4158075601374571
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '5.6'
+  focal_length: '40.0'
+  img: Life Drawing/P7200020.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200020
 - album: Life Drawing
-  img: Life Drawing/P7200022
+  aspect: 1.1127361365021329
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '5.6'
+  focal_length: '40.0'
+  img: Life Drawing/P7200022.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200022
 - album: Life Drawing
-  img: Life Drawing/P7200023
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '49.0'
+  img: Life Drawing/P7200023.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200023
 - album: Life Drawing
-  img: Life Drawing/P7200025
+  aspect: 0.6691871455576559
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '32.0'
+  img: Life Drawing/P7200025.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200025
 - album: Life Drawing
-  img: Life Drawing/P7200027
+  aspect: 0.8078920041536864
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '32.0'
+  img: Life Drawing/P7200027.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200027
 - album: Life Drawing
-  img: Life Drawing/P7200028
+  aspect: 1.1166056166056166
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '40.0'
+  img: Life Drawing/P7200028.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200028
 - album: Life Drawing
-  img: Life Drawing/P7200031
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '49.0'
+  img: Life Drawing/P7200031.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200031
 - album: Life Drawing
-  img: Life Drawing/P7200032
+  aspect: 0.6568352059925093
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '55.0'
+  img: Life Drawing/P7200032.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200032
 - album: Life Drawing
-  img: Life Drawing/P7200033
+  aspect: 1.0215995329830707
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '44.0'
+  img: Life Drawing/P7200033.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200033
 - album: Life Drawing
-  img: Life Drawing/P7200034
+  aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '44.0'
+  img: Life Drawing/P7200034.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200034
 - album: Life Drawing
-  img: Life Drawing/P7200035
+  aspect: 1.0163075131042516
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/30
+  f_number: '6.3'
+  focal_length: '43.0'
+  img: Life Drawing/P7200035.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200035
 - album: Life Drawing
-  img: Life Drawing/P7200036
+  aspect: 1.210292249047014
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '43.0'
+  img: Life Drawing/P7200036.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200036
 - album: Life Drawing
-  img: Life Drawing/P7200037
+  aspect: 1.4943502824858756
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '43.0'
+  img: Life Drawing/P7200037.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200037
 - album: Life Drawing
-  img: Life Drawing/P7200038
+  aspect: 1.3480885311871227
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '44.0'
+  img: Life Drawing/P7200038.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200038
 - album: Life Drawing
-  img: Life Drawing/P7200039
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '60.0'
+  img: Life Drawing/P7200039.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200039
 - album: Life Drawing
-  img: Life Drawing/P7200040
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/25
+  f_number: '6.3'
+  focal_length: '47.0'
+  img: Life Drawing/P7200040.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200040
 - album: Life Drawing
-  img: Life Drawing/P7200041
+  aspect: 1.4925899788285109
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.4'
+  focal_length: '39.0'
+  img: Life Drawing/P7200041.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200041
 - album: Life Drawing
-  img: Life Drawing/P7200042
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '52.0'
+  img: Life Drawing/P7200042.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200042
 - album: Life Drawing
-  img: Life Drawing/P7200043
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '44.0'
+  img: Life Drawing/P7200043.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200043
 - album: Life Drawing
-  img: Life Drawing/P7200045
+  aspect: 1.6437037037037037
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '50.0'
+  img: Life Drawing/P7200045.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200045
 - album: Life Drawing
-  img: Life Drawing/P7200046
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '47.0'
+  img: Life Drawing/P7200046.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200046
 - album: Life Drawing
-  img: Life Drawing/P7200047
+  aspect: 0.6421296296296296
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.0'
+  focal_length: '27.0'
+  img: Life Drawing/P7200047.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200047
 - album: Life Drawing
-  img: Life Drawing/P7200048
+  aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.0'
+  focal_length: '28.0'
+  img: Life Drawing/P7200048.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200048
 - album: Life Drawing
-  img: Life Drawing/P7200049
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '43.0'
+  img: Life Drawing/P7200049.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200049
 - album: Life Drawing
-  img: Life Drawing/P7200050
+  aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '50.0'
+  img: Life Drawing/P7200050.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200050
 - album: Life Drawing
-  img: Life Drawing/P7200051
+  aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '43.0'
+  img: Life Drawing/P7200051.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200051
 - album: Life Drawing
-  img: Life Drawing/P7200052
+  aspect: 1.278902677988243
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '50.0'
+  img: Life Drawing/P7200052.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200052
 - album: Life Drawing
-  img: Life Drawing/P7200053
+  aspect: 0.8134445023449713
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '60.0'
+  img: Life Drawing/P7200053.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200053
 - album: Life Drawing
-  img: Life Drawing/P7200054
+  aspect: 1.0087006960556844
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '25.0'
+  img: Life Drawing/P7200054.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200054
 - album: Life Drawing
-  img: Life Drawing/P7200055
+  aspect: 0.7325753830944143
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '22.0'
+  img: Life Drawing/P7200055.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200055
 - album: Life Drawing
-  img: Life Drawing/P7200056
+  aspect: 1.8296875
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '22.0'
+  img: Life Drawing/P7200056.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200056
 - album: Life Drawing
-  img: Life Drawing/P7200057
+  aspect: 1.3519140362659503
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '22.0'
+  img: Life Drawing/P7200057.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200057
 - album: Life Drawing
-  img: Life Drawing/P7200058
+  aspect: 0.7317193675889329
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '25.0'
+  img: Life Drawing/P7200058.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200058
 - album: Life Drawing
-  img: Life Drawing/P7200059
+  aspect: 0.75
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '25.0'
+  img: Life Drawing/P7200059.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200059
 - album: Life Drawing
-  img: Life Drawing/P7200060
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '25.0'
+  img: Life Drawing/P7200060.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200060
 - album: Life Drawing
-  img: Life Drawing/P7200061
+  aspect: 1.371447902571042
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '23.0'
+  img: Life Drawing/P7200061.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200061
 - album: Life Drawing
-  img: Life Drawing/P7200062
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 20 July 2018
+  exposure: 1/20
+  f_number: '5.6'
+  focal_length: '27.0'
+  img: Life Drawing/P7200062.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
   title: P7200062
 - album: Life Drawing
-  img: Life Drawing/P8010015
+  aspect: 0.6748932130991931
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 01 August 2018
+  exposure: 1/1250
+  f_number: '1.8'
+  focal_length: '17.0'
+  img: Life Drawing/P8010015.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
+  longitude: ''
   title: P8010015
 - album: Life Drawing
-  img: Life Drawing/P8010017
+  aspect: 0.7452642073778664
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 01 August 2018
+  exposure: 1/1250
+  f_number: '1.8'
+  focal_length: '17.0'
+  img: Life Drawing/P8010017.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
+  longitude: ''
   title: P8010017

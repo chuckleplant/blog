@@ -1,0 +1,3 @@
+[submodule "js/plugins/pig"]
+	path = js/plugins/pig
+	url = https://github.com/chuckleplant/pig.js.git
