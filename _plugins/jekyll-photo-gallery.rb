@@ -66,17 +66,14 @@ module Jekyll
   class PhotoPageGenerator < Generator
     safe true
 
-
     def generate(site)
       photos = get_all_photos()
       dir = site.config['photo_dir']
-
       photos.each do |photo,details|
         #Iterate through array & return previous, current & next
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           pic_album = curr["album"]
           photo_url = curr["img"]
-          
           latitude = curr["latitude"]
           longitude = curr["longitude"]
           date_time_original = curr["date_time_original"]
@@ -86,7 +83,6 @@ module Jekyll
           f_number = curr["f_number"]
           iso = curr["iso"]
           focal_length = curr["focal_length"]
-
           title = curr["title"]
           description = curr["description"]
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
