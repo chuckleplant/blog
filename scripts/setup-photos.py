@@ -7,9 +7,6 @@ from datetime import datetime
 cur_path = os.path.dirname(os.path.realpath(__file__))
 yaml_path = os.path.join(cur_path, '../_data/photos')
 
-def get_yaml_path(album_name):
-    return os.path.join(yaml_path, album_name) + '.yaml'
-
 def get_exif_elem(dict, tag, elem):
     rational_tuple = [piexif.ExifIFD.FNumber, piexif.ExifIFD.FocalLength]
     gps_tuple = [piexif.GPSIFD.GPSLatitude, piexif.GPSIFD.GPSLongitude]
@@ -33,45 +30,83 @@ def get_exif_elem(dict, tag, elem):
                 return exif_elem
     return exif_elem
 
-def generate_yaml(album_name, album_path):
-    print 'Generating YAML'
-    photos_in_album = []
-    for file in sorted(glob.glob(album_path+'/*')):
-        im = Image.open(file)
-        width,height = im.size
-        photo_aspect = float(width)/float(height)
 
-        exif_dict = piexif.load(file)
-
-        latitude = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLatitude)
-        longitude = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
-        date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
-        cam_model = get_exif_elem(exif_dict,"0th",piexif.ImageIFD.Model)
-        lens_model = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.LensModel)
-        exposure = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.ExposureTime)
-        f_number = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.FNumber)
-        iso = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.ISOSpeedRatings)
-        focal_length = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.FocalLength)
-
-        photo_title = os.path.basename(file)
-        photo_img = album_name + '/' + photo_title
-        photo_album = album_name
+class BlogPhoto(object):
+    def __init__(self, filename, album_name):
+        exif_dict = piexif.load(filename)
+        width              = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelXDimension)
+        height             = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelYDimension)
+        self.aspect             = float(width)/float(height)
+        self.latitude           = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLatitude)
+        self.longitude          = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
+        self.timestamp          = datetime.strptime(exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal], '%Y:%m:%d %H:%M:%S')
+        self.date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
+        self.cam_model          = get_exif_elem(exif_dict,"0th",piexif.ImageIFD.Model)
+        self.lens_model         = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.LensModel)
+        self.exposure           = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.ExposureTime)
+        self.f_number           = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.FNumber)
+        self.iso                = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.ISOSpeedRatings)
+        self.focal_length       = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.FocalLength)
+        self.photo_title        = os.path.basename(filename)
+        self.photo_img          = album_name + '/' + self.photo_title
+        self.photo_album        = album_name
+    
+    def get_yaml(self):
         photo_obj_yaml = dict(
-            title = os.path.splitext(os.path.basename(photo_title))[0],
-            img = photo_img,
-            album = photo_album,
-            aspect = photo_aspect,
-            latitude = latitude,
-            longitude = longitude,
-            date_time_original = date_time_original,
-            cam_model = cam_model,
-            lens_model = lens_model,
-            exposure = exposure,
-            f_number = f_number,
-            iso = iso,
-            focal_length = focal_length
+            title = os.path.splitext(os.path.basename(self.photo_title))[0],
+            img = self.photo_img,
+            album = self.photo_album,
+            aspect = self.aspect,
+            latitude = self.latitude,
+            longitude = self.longitude,
+            date_time_original = self.date_time_original,
+            cam_model = self.cam_model,
+            lens_model = self.lens_model,
+            exposure = self.exposure,
+            f_number = self.f_number,
+            iso = self.iso,
+            focal_length = self.focal_length
         )
-        photos_in_album.append(photo_obj_yaml)
+        return photo_obj_yaml
+
+    def __eq__( self, other ):
+        return self.timestamp == other.timestamp
+    def __lt__( self, other ):
+        return self.timestamp < other.timestamp
+    def __le__( self, other ):
+        return self.timestamp <= other.timestamp
+    def __gt__( self, other ):
+        return self.timestamp > other.timestamp
+    def __ge__( self, other ):
+        return self.timestamp >= other.timestamp
+    def __ne__( self, other ):
+        return self.timestamp != other.timestamp
+
+
+def get_yaml_path(album_name):
+    return os.path.join(yaml_path, album_name) + '.yaml'
+    
+
+def generate_yaml(album_name, album_path, image_paths):
+    print 'Generating YAML for ' + album_name
+    reverse = False
+    options_path = os.path.join(album_path,"options.yaml")
+    if os.path.isfile(options_path):
+        with open(options_path, 'r') as options_file:
+            options = yaml.load(options_file)
+            reverse = options['reverse']
+
+    photos_in_album = []
+    blog_photos = []
+
+    for file in image_paths:
+        blog_photo = BlogPhoto(file, album_name)
+        blog_photos.append(blog_photo)
+
+    blog_photos.sort(reverse=reverse)
+    for bp in blog_photos:
+        photos_in_album.append(bp.get_yaml())
+
     photo_yaml = dict(
         photos = photos_in_album
     )
@@ -90,8 +125,7 @@ def generate_yaml_for_album(album_path):
         print 'not this one'
         return
     album_name = os.path.basename(os.path.normpath(album_path))
-    types = ('*.jpg', '*.png', '*.jpeg', '*.JPG', '*.JPEG')
-    generate_yaml(album_name, album_path)
+    generate_yaml(album_name, album_path, images)
 
 def res_for_pix_count(width, height, pixcount):
     aspect = float(width) / float(height)
