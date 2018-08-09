@@ -1,5 +1,31 @@
 photos:
 - album: Life Drawing
+  aspect: 1.3333333333333333
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 09 August 2018
+  exposure: 1/30
+  f_number: '5.6'
+  focal_length: '52.0'
+  img: Life Drawing/P8090103.jpg
+  iso: 250
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
+  title: P8090103
+- album: Life Drawing
+  aspect: 0.8050314465408805
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 09 August 2018
+  exposure: 1/50
+  f_number: '5.5'
+  focal_length: '40.0'
+  img: Life Drawing/P8090102.jpg
+  iso: 200
+  latitude: ''
+  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  longitude: ''
+  title: P8090102
+- album: Life Drawing
   aspect: 0.7452642073778664
   cam_model: 'E-M5MarkII      '
   date_time_original: 01 August 2018
