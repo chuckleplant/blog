@@ -34,8 +34,10 @@ def get_exif_elem(dict, tag, elem):
 class BlogPhoto(object):
     def __init__(self, filename, album_name):
         exif_dict = piexif.load(filename)
-        width              = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelXDimension)
-        height             = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelYDimension)
+        im = Image.open(filename)
+        width,height = im.size
+        #width              = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelXDimension)
+        #height             = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelYDimension)
         self.aspect             = float(width)/float(height)
         self.latitude           = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLatitude)
         self.longitude          = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
