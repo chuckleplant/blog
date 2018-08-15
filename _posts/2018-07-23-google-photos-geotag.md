@@ -7,7 +7,9 @@ comments: true
 disqus_identifier: geotagPython
 ---
 
-> Who controls the past controls the future. Who controls the present controls the past.
+> He who controls the past controls the future. He who controls the present controls the past.
+>
+> -- George Orwell, 1984
 
 
 [Here](https://github.com/chuckleplant/blog/blob/master/scripts/location-geotag.py)'s a script that runs on Python that can add GPS tags to your photos (jpg) given your Google location history. You have to download the location history from [https://takeout.google.com/](https://takeout.google.com/) and run:
@@ -26,9 +28,9 @@ I use Google Photos for keeping the thousands if not hundreds of thousands of pi
 
 One feature I like is geotagging. Google Photos will use your location history to deduce where the photo was taken. Then they'll show you a nice map when visiting the image and you'll go *'Oh look I've been there!'*
 
-However, I noticed that when exporting the photos out of Google, you don't get the approximate geotag as metadata in your JPEG. This bothers me because the image gallery I'm using also shows you a small map if the image has GPS data in it.
+However, I noticed that when exporting the photos out of Google, you don't get the approximate geotag as metadata in your JPEG. This bothers me because the image gallery I'm using also shows you a small map if the image has GPS data in it ([check it out!]({% post_url 2018-07-23-japan-trip %})). 
 
-After some research I found that it's actually not possible to export the geotags. I did find that you can actually download your whole location history, all the location data Google has on you. It's a lot of data depending on how long you've used a smartphone.
+After some research I found that it's actually not possible to export the geotags from Google Photos. I did find that you can actually download your whole location history, all the location data Google has on you. It's a lot of data depending on how long you've used a smartphone.
 
 {% include image.html file="posts/gdatum.png" description="Get all the data Google has on you from [https://takeout.google.com/](https://takeout.google.com/). The list goes on and on." %}
 
@@ -69,14 +71,17 @@ The Google export looks like this:
 
 I loaded the JSON and created a custom `Location` class which just registered the GPS info and the timestamp. I converted the timestamps to seconds when loading them. I also defined some operators to be able to sort and search the locations list.
 
-> *Update:* The current implementation omits altitude because I only cared for the 2D map. I will update the script to include as much GPS information as possible.
-
 ~~~ python
 #
 # Note I construct directly from the JSON dictionary
 #
 class Location(object):
     def __init__(self, d={}):
+        self.timestamp = None
+        self.latitude = None
+        self.longitude = None
+        self.altitude = 0
+
         for key in d:
             if key == 'timestampMs':
                 self.timestamp = int(d[key]) / 1000
@@ -84,6 +89,8 @@ class Location(object):
                 self.latitude = d[key]
             elif key == 'longitudeE7':
                 self.longitude = d[key]
+            elif key == 'altitude':
+                self.altitude = d[key]
 
     def __eq__( self, other ):
         return self.timestamp == other.timestamp
@@ -99,13 +106,12 @@ class Location(object):
         return self.timestamp != other.timestamp
 ~~~
 
-Using the [bisect](https://docs.python.org/2/library/bisect.html) python module I could have O(log n) search times, which is as good as I can hope for. I had to reverse the locations because Google exports them in descending timestamp order. 
+Using the [bisect](https://docs.python.org/2/library/bisect.html) python module I could have $$O(\log{}n)$$ search times, which is as good as I can hope for. I had to reverse the locations because Google exports them in descending timestamp order. 
 
 I got the timestamp from my images using PIL black magic `image._getexif()[36867]`. And then it was a matter of finding the location with the closest timestamp to my image. From [SO](https://stackoverflow.com/a/12141511/2628257):
 
 ~~~ python
 def find_closest_in_time(locations, a_location):
-    print 'Finding closest element'
     pos = bisect_left(locations, a_location)
     if pos == 0:
         return locations[0]
@@ -128,10 +134,18 @@ I also added a time threshold of a couple of hours, any location out of that thr
 #
 # piexif library usage to add GPS info to an image
 #
+approx_location = find_closest_in_time(my_locations, curr_loc)
+hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
+
 if(hours_away < hours_threshold):
-    exif_dict = piexif.load(image_file)    
+    # Google stores these as x-e7
+    lat_f = float(approx_location.latitude) / 10000000.0
+    lon_f = float(approx_location.longitude) / 10000000.0
+    
+    exif_dict = piexif.load(image_file)        
     exif_dict["GPS"][piexif.GPSIFD.GPSVersionID] = (2, 0, 0, 0)
-    exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 1
+    exif_dict["GPS"][piexif.GPSIFD.GPSAltitudeRef] = 0 if approx_location.altitude > 0 else 1        
+    exif_dict["GPS"][piexif.GPSIFD.GPSAltitude] = change_to_rational(abs(approx_location.altitude))
     exif_dict["GPS"][piexif.GPSIFD.GPSLatitudeRef] = 'S' if lat_f < 0 else 'N'
     exif_dict["GPS"][piexif.GPSIFD.GPSLongitudeRef] = 'W' if lon_f < 0 else 'E'
 
@@ -139,7 +153,6 @@ if(hours_away < hours_threshold):
     lng_deg = to_deg(lon_f, ["W", "E"])
     exiv_lat = (change_to_rational(lat_deg[0]), change_to_rational(lat_deg[1]), change_to_rational(lat_deg[2]))
     exiv_lng = (change_to_rational(lng_deg[0]), change_to_rational(lng_deg[1]), change_to_rational(lng_deg[2]))
-
     exif_dict["GPS"][piexif.GPSIFD.GPSLatitude] = exiv_lat
     exif_dict["GPS"][piexif.GPSIFD.GPSLongitude] = exiv_lng
     
