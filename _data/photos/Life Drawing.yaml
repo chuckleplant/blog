@@ -1,5 +1,57 @@
 photos:
 - album: Life Drawing
+  aspect: 0.7834427057041898
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 21 August 2018
+  exposure: 1/60
+  f_number: '5.6'
+  focal_length: '43.0'
+  img: Life Drawing/P8210589.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: P8210589
+- album: Life Drawing
+  aspect: 0.7452642073778664
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 21 August 2018
+  exposure: 1/40
+  f_number: '5.4'
+  focal_length: '39.0'
+  img: Life Drawing/P8210587.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: P8210587
+- album: Life Drawing
+  aspect: 0.6688710439300898
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 21 August 2018
+  exposure: 1/50
+  f_number: '5.5'
+  focal_length: '40.0'
+  img: Life Drawing/P8210585.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: P8210585
+- album: Life Drawing
+  aspect: 0.7747839349262837
+  cam_model: 'E-M5MarkII      '
+  date_time_original: 21 August 2018
+  exposure: 1/50
+  f_number: '5.5'
+  focal_length: '40.0'
+  img: Life Drawing/P8210584.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: P8210584
+- album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
   date_time_original: 09 August 2018
