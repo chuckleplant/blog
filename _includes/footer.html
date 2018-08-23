@@ -14,17 +14,26 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.owner.github %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {%assign ghurl = "https://github.com/" | append: site.owner.github %}
+            {% include icon-sn.html username=site.owner.github url=ghurl svgfile="github-square-brands.svg" %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.owner.linkedin %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% assign liurl = "https://www.linkedin.com/in/" | append: site.owner.linkedin %}
+            {% include icon-sn.html username="LinkedIn" url=liurl svgfile="linkedin-brands.svg" %}
           </li>
           {% endif %}
+
+          {% if site.owner.twitter %}
+          <li>
+            {% assign twit_url = "https://twitter.com/" | append: site.owner.twitter %}
+            {% include icon-sn.html username=site.owner.twitter url=twit_url svgfile="icon-twitter.svg" %}
+          </li>
+          {% endif %}        
         </ul>
       </div>
 

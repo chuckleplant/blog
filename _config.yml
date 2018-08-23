@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Chuck LePlant
-github_username: chuckleplant
+
 description: > # this means to ignore newlines until "baseurl:"
     Sergio Basurco's personal portfolio. I'm a software developer based in Barcelona. Have fun browsing my little projects.
 email: sergio.basurco@gmail.com
@@ -16,6 +16,7 @@ owner:
     email: sergio.basurco@gmail.com
     github: chuckleplant
     twitter: SergioBasurco
+    linkedin: sergiobasurco
 
 exclude:
 - README.md
