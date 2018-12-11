@@ -6,11 +6,19 @@ permalink: /about/
 [<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>](https://www.linkedin.com/in/sergiobasurco/) 
 [<i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i>](http://stackoverflow.com/users/story/2628257)
 
-I'm Sergio Basurco, a software developer based in Barcelona.
+<center>
+{% include image.html file="minichess.JPG" description="I lost within a minute, I'm terrible at chess." %}
+</center>
 
-I'm currently creating next-gen experiences for video surveillance. I was previously working with touchless interfaces for neural networks (actual brains) visualization. I'm interested in all there is. Fond of C++ and recently in a relationship with python.
+<br/>
 
-Future goals are videogame development, deeper understanding of storytelling and experiences from any media. For long I've devoured comic books, games and movies. Now, I'm trying to digest them.
+I'm Sergio Basurco, game developer.
+
+I recently moved to Madrid pursuing my carrer in the games industry. I'm now part of the Tequila Works team, makers of RiME and other tasteful titles.
+
+Before that I was creating next-gen experiences for video surveillance. I also worked with touchless interfaces for neural networks (actual brains) visualization.
+
+In my free time I both create small pieces of 2D art and study the intricacies of game programming/design.
 
 This is my portfolio and creative getaway.
 
