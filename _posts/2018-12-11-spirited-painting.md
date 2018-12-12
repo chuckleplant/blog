@@ -9,9 +9,9 @@ disqus_identifier: spiritedPainting
 
 > To Jennifer, with love.
 
-I painted a scene from Spirited Away in a small canvas. This image appears within a long scene in which Chihiro takes a train. The scene gives the viewer a break and portrays the protagonist's journey from childhood to adulthood.
+This image appears within a long scene in which Chihiro takes a train. The scene gives the viewer a break and portrays the protagonist's journey from childhood to adulthood.
 
-This shot appears for just a few seconds. It's a beautifully composed image that instantly takes us in and leaves us wondering.
+This shot appears for just a few seconds. It's a beautifully composed image that instantly takes you in and leaves you wondering.
 
 A small cozy house in a lonely island. In the foreground we see a very welcoming scene, while in the back some dark clouds are creeping in. In the horizon, darkness and light meet separated by a very thin line.
 
