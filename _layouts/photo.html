@@ -89,10 +89,15 @@ comments: true
         {% endif %}
 
         <div class="photoinfo-col-wrapper">
+
+
+          {% if page.user_comment.size > 0 %}
+          <div class="photoUserComment"> {{page.user_comment | replace: "ASCII", "" | replace: "UNICODE", "" }} </div>
+          {% endif %}
+
           <div class="photoinfo-col photoinfo-col-1">
             <div>
               <h2 style="margin-bottom: 0px; margin-top: 0px;">{{page.title}}</h2>
-
 
               <!-- TODO: insert better text, atm duplicate information .. -->
 
@@ -111,7 +116,6 @@ comments: true
               </a>
             </div>
           </div>
-
 
           {% if map_available %}
           <div class="photoinfo-col photoinfo-col-2 photoInfo2 photoinfo-col-2-map">
@@ -133,7 +137,7 @@ comments: true
               {% if page.f_number.size > 0 %} <li><ion-icon class="ion-iconfont" name="aperture"></ion-icon>  f/<span id="aperture">{{page.f_number}}</span></li>{% endif %}              
               {% if page.iso.size > 0 %}      <li><b>ISO</b>                     <span id="iso">{{page.iso}}</span></li>{% endif %}
 
-              <li>{% include share-this-links.html %}</li>
+              <li>{% include share-this-links.html %}</li>            
             </ul>
           </div>
           

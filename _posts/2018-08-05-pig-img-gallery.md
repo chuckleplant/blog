@@ -19,7 +19,7 @@ The image layout acts in a similar way to how YouTube does for videos, it keeps 
 
 {% include image.html file="photo-page.png" description="The photo page shows all relevant information from each image. The map static image was changed to occupy the blog's wrapper width." %}
 
-A big change on performance was precomputing all the exif data to be used in the photo page. In the original JPG these were called via Liquid script when generating the page. This happened each time Jekyll was built. Given that I made a script to set up photos and thumbnails in Pytho, I also made it so that all the required exif data was pregenerated just once. It is saved to a YAML file and used directly by Jekyll. The site generation time was basically halved by this.
+A big change on performance was precomputing all the exif data to be used in the photo page. In the original JPG these were called via Liquid script when generating the page. This happened each time Jekyll was built. Given that I made a script to set up photos and thumbnails in Python, I also made it so that all the required exif data was pregenerated just once. It is saved to a YAML file and used directly by Jekyll. The site generation time was basically halved by this.
 
 ## Changes to Progressive Image Grid
 

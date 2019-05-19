@@ -55,19 +55,24 @@ class Location(object):
         return self.timestamp != other.timestamp
 
 def find_closest_in_time(locations, a_location):
-    pos = bisect_left(locations, a_location)
+    pos = bisect_left(locations, a_location)    
     if pos == 0:
         return locations[0]
-    if pos == len(locations):
+    if pos == len(locations):        
         return locations[-1]
     
     before = locations[pos - 1]
     after = locations[pos]
+
     if after.timestamp - a_location.timestamp < a_location.timestamp - before.timestamp:
        return after
     else:
        return before
 
+
+def print_epoch(epoch_time):
+    print datetime.datetime.fromtimestamp(epoch_time).strftime("%Y:%m:%d %H:%M:%S")
+    
 
 # https://gist.github.com/c060604/8a51f8999be12fc2be498e9ca56adc72
 
@@ -121,22 +126,25 @@ for location in location_array:
     a_location = Location(location)
     my_locations.append(a_location)
 
-print 'Reversing locations list'
-my_locations = list(reversed(my_locations))
+#print 'Reversing locations list'
+#my_locations = list(reversed(my_locations))
+my_locations = list(my_locations)
 
 included_extenstions = ['jpg', 'JPG', 'jpeg', 'JPEG']
 file_names = [fn for fn in os.listdir(image_dir) if any(fn.endswith(ext) for ext in included_extenstions)]
 
-for image_file in file_names:
+for image_file in file_names:    
     image_file = os.path.join(image_dir, image_file)
     image = Image.open(image_file)
-    time_exif = image._getexif()[36867]
-    time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())
+    time_exif = image._getexif()[36867]    
+    time_str = datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S")
+    time_jpeg_unix = time.mktime(datetime.datetime.strptime(time_exif, "%Y:%m:%d %H:%M:%S").timetuple())    
     curr_loc = Location()
     curr_loc.timestamp = int(time_jpeg_unix)
-    approx_location = find_closest_in_time(my_locations, curr_loc)
+    approx_location = find_closest_in_time(my_locations, curr_loc)    
     hours_away = abs(approx_location.timestamp - time_jpeg_unix) / 3600
 
+    print image_file , " .. " , hours_away
     if(hours_away < hours_threshold):
         lat_f = float(approx_location.latitude) / 10000000.0
         lon_f = float(approx_location.longitude) / 10000000.0
@@ -157,5 +165,5 @@ for image_file in file_names:
         
         exif_bytes = piexif.dump(exif_dict)
         image.save(image_file, exif=exif_bytes)
-    else:
-        print 'Time threshold surpassed'
+    #else:
+        #print 'Time threshold surpassed'

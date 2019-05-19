@@ -18,7 +18,7 @@ end
 
 module Jekyll
   class PhotoPage < Page
-    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
+    def initialize(site, base, dir, photo_url, album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length, user_comment)
       @site = site
       @base = base
       @dir = dir
@@ -43,6 +43,7 @@ module Jekyll
       self.data['f_number'] = f_number
       self.data['iso'] = iso
       self.data['focal_length'] = focal_length
+      self.data['user_comment'] = user_comment
 
     end
   end
@@ -85,6 +86,8 @@ module Jekyll
           focal_length = curr["focal_length"]
           title = curr["title"]
           description = curr["description"]
+          user_comment = curr["user_comment"]
+
           title_stub = title.strip.gsub(' ', '-').gsub(/[^\w-]/, '') #remove non-alpha and replace spaces with hyphens
           title_stub = pic_album+'/'+title_stub
           if(prev != nil && prev["album"] == curr["album"])
@@ -98,7 +101,7 @@ module Jekyll
           else
             next_pic = ""
           end
-          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length)
+          site.pages << PhotoPage.new(site, site.source, File.join(dir, title_stub), photo_url, pic_album, previous_pic, next_pic, title, description, latitude, longitude, date_time_original, cam_model, lens_model, exposure, f_number, iso, focal_length, user_comment)
         }
       end
     end

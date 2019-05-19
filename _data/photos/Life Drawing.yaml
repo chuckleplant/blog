@@ -1,5 +1,145 @@
 photos:
 - album: Life Drawing
+  aspect: 1.4710047201618341
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190669.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190669
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.7036333412491095
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190668.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190668
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.6643031784841076
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190667.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190667
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.7061348144407977
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190665.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190665
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 1.29521625163827
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190663.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190663
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.8407134071340714
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190661.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190661
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.5590812934421275
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190660.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190660
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.8805924097500771
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/640
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190659.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190659
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 1.0518975024326955
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/800
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190657.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190657
+  user_comment: !!python/unicode ''
+- album: Life Drawing
+  aspect: 0.9555084745762712
+  cam_model: E-M5MarkII
+  date_time_original: 19 May 2019
+  exposure: 1/800
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Life Drawing/P5190656.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: P5190656
+  user_comment: !!python/unicode ''
+- album: Life Drawing
   aspect: 0.6811248808388942
   cam_model: 'E-M5MarkII      '
   date_time_original: 23 September 2018
@@ -12,6 +152,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230011
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7375992063492064
   cam_model: 'E-M5MarkII      '
@@ -25,6 +166,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230010
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 1.469887955182073
   cam_model: 'E-M5MarkII      '
@@ -38,6 +180,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230009
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.8464399574920297
   cam_model: 'E-M5MarkII      '
@@ -51,6 +194,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230008
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7963917525773195
   cam_model: 'E-M5MarkII      '
@@ -64,6 +208,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230007
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.8512793176972282
   cam_model: 'E-M5MarkII      '
@@ -77,6 +222,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230006
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7824310520939735
   cam_model: 'E-M5MarkII      '
@@ -90,6 +236,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230005
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.8696822832525579
   cam_model: 'E-M5MarkII      '
@@ -103,6 +250,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230004
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 1.53180843459614
   cam_model: 'E-M5MarkII      '
@@ -116,6 +264,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230003
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 1.4757894736842105
   cam_model: 'E-M5MarkII      '
@@ -129,6 +278,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230002
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -142,6 +292,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P9230001
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7837423312883436
   cam_model: 'E-M5MarkII      '
@@ -155,6 +306,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P8210589
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7452642073778664
   cam_model: 'E-M5MarkII      '
@@ -168,6 +320,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P8210587
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.6688710439300898
   cam_model: 'E-M5MarkII      '
@@ -181,6 +334,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P8210585
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 0.7747839349262837
   cam_model: 'E-M5MarkII      '
@@ -194,6 +348,7 @@ photos:
   lens_model: LUMIX G VARIO 12-60/F3.5-5.6
   longitude: ''
   title: P8210584
+  user_comment: !!python/unicode ''
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -207,6 +362,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P8090103
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.805181347150259
   cam_model: 'E-M5MarkII      '
@@ -220,6 +378,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P8090102
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.7452642073778664
   cam_model: 'E-M5MarkII      '
@@ -233,6 +394,9 @@ photos:
   lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
   longitude: ''
   title: P8010017
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.6748932130991931
   cam_model: 'E-M5MarkII      '
@@ -246,6 +410,9 @@ photos:
   lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
   longitude: ''
   title: P8010015
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -259,6 +426,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200062
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.371447902571042
   cam_model: 'E-M5MarkII      '
@@ -272,6 +442,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200061
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -285,6 +458,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200060
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -298,6 +474,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200059
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.7317193675889329
   cam_model: 'E-M5MarkII      '
@@ -311,6 +490,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200058
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3519140362659503
   cam_model: 'E-M5MarkII      '
@@ -324,6 +506,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200057
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.8296875
   cam_model: 'E-M5MarkII      '
@@ -337,6 +522,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200056
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.7325753830944143
   cam_model: 'E-M5MarkII      '
@@ -350,6 +538,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200055
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.0087006960556844
   cam_model: 'E-M5MarkII      '
@@ -363,6 +554,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200054
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.8134445023449713
   cam_model: 'E-M5MarkII      '
@@ -376,6 +570,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200053
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.278902677988243
   cam_model: 'E-M5MarkII      '
@@ -389,6 +586,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200052
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -402,6 +602,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200051
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -415,6 +618,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200050
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -428,6 +634,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200049
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -441,6 +650,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200048
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.6421296296296296
   cam_model: 'E-M5MarkII      '
@@ -454,6 +666,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200047
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -467,6 +682,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200046
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.6437037037037037
   cam_model: 'E-M5MarkII      '
@@ -480,6 +698,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200045
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -493,6 +714,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200043
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -506,6 +730,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200042
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.4925899788285109
   cam_model: 'E-M5MarkII      '
@@ -519,6 +746,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200041
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -532,6 +762,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200040
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -545,6 +778,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200039
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3480885311871227
   cam_model: 'E-M5MarkII      '
@@ -558,6 +794,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200038
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.4943502824858756
   cam_model: 'E-M5MarkII      '
@@ -571,6 +810,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200037
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.210292249047014
   cam_model: 'E-M5MarkII      '
@@ -584,6 +826,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200036
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.0163075131042516
   cam_model: 'E-M5MarkII      '
@@ -597,6 +842,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200035
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -610,6 +858,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200034
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.0215995329830707
   cam_model: 'E-M5MarkII      '
@@ -623,6 +874,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200033
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.6568352059925093
   cam_model: 'E-M5MarkII      '
@@ -636,6 +890,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200032
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -649,6 +906,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200031
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.1166056166056166
   cam_model: 'E-M5MarkII      '
@@ -662,6 +922,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200028
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.8078920041536864
   cam_model: 'E-M5MarkII      '
@@ -675,6 +938,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200027
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.6691871455576559
   cam_model: 'E-M5MarkII      '
@@ -688,6 +954,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200025
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -701,6 +970,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200023
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.1127361365021329
   cam_model: 'E-M5MarkII      '
@@ -714,6 +986,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200022
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.4158075601374571
   cam_model: 'E-M5MarkII      '
@@ -727,6 +1002,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200020
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.8381808566895822
   cam_model: 'E-M5MarkII      '
@@ -740,6 +1018,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200019
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3870748299319728
   cam_model: 'E-M5MarkII      '
@@ -753,6 +1034,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200017
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.1855345911949686
   cam_model: 'E-M5MarkII      '
@@ -766,6 +1050,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200016
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.203422053231939
   cam_model: 'E-M5MarkII      '
@@ -779,6 +1066,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200014
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.6087912087912088
   cam_model: 'E-M5MarkII      '
@@ -792,6 +1082,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200013
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -805,6 +1098,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200012
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -818,6 +1114,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200011
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.2470967741935484
   cam_model: 'E-M5MarkII      '
@@ -831,6 +1130,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200010
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -844,6 +1146,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200009
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.3728010825439783
   cam_model: 'E-M5MarkII      '
@@ -857,6 +1162,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200008
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.801862390067253
   cam_model: 'E-M5MarkII      '
@@ -870,6 +1178,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200006
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.8154327424400417
   cam_model: 'E-M5MarkII      '
@@ -883,6 +1194,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200004
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 1.0973986690865094
   cam_model: 'E-M5MarkII      '
@@ -896,6 +1210,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200003
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.8172323759791122
   cam_model: 'E-M5MarkII      '
@@ -909,6 +1226,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200002
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Life Drawing
   aspect: 0.7431557989049278
   cam_model: 'E-M5MarkII      '
@@ -922,3 +1242,6 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: ''
   title: P7200001
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "

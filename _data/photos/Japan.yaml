@@ -12,6 +12,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 2.0764764
   title: P8180162
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -25,6 +28,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7096996
   title: P8200327
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -38,6 +44,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7074778
   title: P8200926
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -51,6 +60,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.701897
   title: P8200943
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7503751875937968
   cam_model: 'E-M5MarkII      '
@@ -64,6 +76,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7005706
   title: P8200949
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -77,6 +92,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7006405
   title: P8201052
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -90,6 +108,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7953056
   title: P8211215
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.6733931240657698
   cam_model: 'E-M5MarkII      '
@@ -103,6 +124,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7964942
   title: P8211229
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5466954022988506
   cam_model: 'E-M5MarkII      '
@@ -116,6 +140,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7940295
   title: P8211572
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -129,6 +156,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.69326130000002
   title: P8211842
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -142,6 +172,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.7390969
   title: P8221932
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4574616457461647
   cam_model: 'E-M5MarkII      '
@@ -155,6 +188,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.73750719999998
   title: P8221953
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -168,6 +204,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.74446509999999
   title: P8221977
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -181,6 +220,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.7330206
   title: P8222072
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -194,6 +236,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.7329747
   title: P8222094
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -207,6 +252,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.7329747
   title: P8222135
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7503751875937968
   cam_model: 'E-M5MarkII      '
@@ -220,6 +268,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.732921
   title: P8222140
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -233,6 +284,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.732921
   title: P8222148
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -246,6 +300,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.7386814
   title: P8232150
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -259,6 +316,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.7386814
   title: P8232153
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -272,6 +332,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.750945
   title: P8232222
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -285,6 +348,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.74039789999998
   title: P8232349
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -298,6 +364,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.7330206
   title: P8232374
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2598833441348023
   cam_model: 'E-M5MarkII      '
@@ -311,6 +380,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.7706755
   title: P8232438
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2242811501597444
   cam_model: 'E-M5MarkII      '
@@ -324,6 +396,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.67723139999998
   title: P8242474
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.1807909604519775
   cam_model: 'E-M5MarkII      '
@@ -337,6 +412,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.6812219
   title: P8242484
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -350,6 +428,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7553285
   title: P8242498
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -363,6 +444,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755264
   title: P8242499
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4705882352941178
   cam_model: 'E-M5MarkII      '
@@ -376,6 +460,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755264
   title: P8242503
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -389,6 +476,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553748
   title: P8240105
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -402,6 +492,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553748
   title: P8240111
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -415,6 +508,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553748
   title: P8240115
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -428,6 +524,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755384
   title: P8240324
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -441,6 +540,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.5027577
   title: P8250666
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.167186525265128
   cam_model: 'E-M5MarkII      '
@@ -454,6 +556,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.5027577
   title: P8250674
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2855271774721677
   cam_model: 'E-M5MarkII      '
@@ -467,6 +572,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.5027577
   title: P8250678
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2062182741116751
   cam_model: 'E-M5MarkII      '
@@ -480,6 +588,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7597107
   title: P8250872
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -493,6 +604,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7597107
   title: P8250874
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -506,6 +620,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7576765
   title: P8250879
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.333555703802535
   cam_model: 'E-M5MarkII      '
@@ -519,6 +636,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553748
   title: P8250899
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -532,6 +652,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.755384
   title: P8250921
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.9959654178674352
   cam_model: 'E-M5MarkII      '
@@ -545,6 +668,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.755384
   title: P8250953
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3519140362659503
   cam_model: 'E-M5MarkII      '
@@ -558,6 +684,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7517279
   title: P8250959
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -571,6 +700,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7517279
   title: P8250960
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -584,6 +716,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.755384
   title: P8250987
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -597,6 +732,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.73339439999998
   title: P8250991
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -610,6 +748,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755384
   title: P8251020
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -623,6 +764,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755384
   title: P8251023
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -636,6 +780,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.67148279999998
   title: P8260006
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -649,6 +796,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.67148279999998
   title: P8260051
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -662,6 +812,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.6714122
   title: P8260118
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7003383276945384
   cam_model: 'E-M5MarkII      '
@@ -675,6 +828,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.67463089999998
   title: P8260207
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -688,6 +844,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7552915
   title: P8260208
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.7868725868725868
   cam_model: 'E-M5MarkII      '
@@ -701,6 +860,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.755384
   title: P8260228
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -714,6 +876,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755347
   title: P8260261
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.40218878248974
   cam_model: 'E-M5MarkII      '
@@ -727,6 +892,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553655
   title: P8260326
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -740,6 +908,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553007
   title: P8260339
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.6114369501466275
   cam_model: 'E-M5MarkII      '
@@ -753,6 +924,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553007
   title: P8260340
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.8661290322580645
   cam_model: 'E-M5MarkII      '
@@ -766,6 +940,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553007
   title: P8260343
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -779,6 +956,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.755273
   title: P8260393
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -792,6 +972,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7553007
   title: P8260398
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -805,6 +988,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.75531
   title: P8260441
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -818,6 +1004,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.75531
   title: P8260460
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -831,6 +1020,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.75531
   title: P8260462
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -844,6 +1036,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.75531
   title: P8260464
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -857,6 +1052,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.75531
   title: P8260471
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -870,6 +1068,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553655
   title: P8260565
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -883,6 +1084,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7553655
   title: P8260567
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -896,6 +1100,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7553655
   title: P8260574
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -909,6 +1116,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553655
   title: P8260620
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.333555703802535
   cam_model: 'E-M5MarkII      '
@@ -922,6 +1132,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553655
   title: P8260644
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -935,6 +1148,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553655
   title: P8260651
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -948,6 +1164,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553655
   title: P8260653
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -961,6 +1180,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553655
   title: P8260654
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -974,6 +1196,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7558819
   title: P8260689
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.988599348534202
   cam_model: 'E-M5MarkII      '
@@ -987,6 +1212,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270051
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4908321579689703
   cam_model: 'E-M5MarkII      '
@@ -1000,6 +1228,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270058
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.902788844621514
   cam_model: 'E-M5MarkII      '
@@ -1013,6 +1244,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270059
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1026,6 +1260,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270066
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4806746310611385
   cam_model: 'E-M5MarkII      '
@@ -1039,6 +1276,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270071
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3139072847682118
   cam_model: 'E-M5MarkII      '
@@ -1052,6 +1292,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.8186299
   title: P8270072
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.9828178694158075
   cam_model: 'E-M5MarkII      '
@@ -1065,6 +1308,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270096
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3998632946001368
   cam_model: 'E-M5MarkII      '
@@ -1078,6 +1324,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270097
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7502502502502503
   cam_model: 'E-M5MarkII      '
@@ -1091,6 +1340,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270113
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1104,6 +1356,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270114
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0400707130229818
   cam_model: 'E-M5MarkII      '
@@ -1117,6 +1372,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270117
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.333555703802535
   cam_model: 'E-M5MarkII      '
@@ -1130,6 +1388,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.79740329999998
   title: P8270123
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.639792899408284
   cam_model: 'E-M5MarkII      '
@@ -1143,6 +1404,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.79740329999998
   title: P8270147
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1156,6 +1420,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7600511
   title: P8270170
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0
   cam_model: 'E-M5MarkII      '
@@ -1169,6 +1436,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7553007
   title: P8270264
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.762481089258699
   cam_model: 'E-M5MarkII      '
@@ -1182,6 +1452,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.762023
   title: P8270280
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1195,6 +1468,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.77093340000002
   title: P8270286
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1208,6 +1484,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.77093340000002
   title: P8270287
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1221,6 +1500,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.77093340000002
   title: P8270291
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1234,6 +1516,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.77093340000002
   title: P8270294
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1247,6 +1532,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.77093340000002
   title: P8270298
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -1260,6 +1548,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.77093340000002
   title: P8270319
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.7788906009244991
   cam_model: 'E-M5MarkII      '
@@ -1273,6 +1564,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7743322
   title: P8270323
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3442732752846618
   cam_model: 'E-M5MarkII      '
@@ -1286,6 +1580,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.7743322
   title: P8270330
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1299,6 +1596,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.77550150000002
   title: P8270346
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1312,6 +1612,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.755384
   title: P8270427
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0509177027827117
   cam_model: 'E-M5MarkII      '
@@ -1325,6 +1628,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.755384
   title: P8270433
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4434420541290771
   cam_model: 'E-M5MarkII      '
@@ -1338,6 +1644,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.755384
   title: P8270436
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0069565217391305
   cam_model: 'E-M5MarkII      '
@@ -1351,6 +1660,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.755384
   title: P8270439
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5231646471846043
   cam_model: 'E-M5MarkII      '
@@ -1364,6 +1676,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7554026
   title: P8270535
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1377,6 +1692,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7554026
   title: P8270546
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1390,6 +1708,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.7598083
   title: P8280072
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1403,6 +1724,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.759712
   title: P8280182
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1416,6 +1740,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.759688
   title: P8280184
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1429,6 +1756,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7597528
   title: P8280217
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1442,6 +1772,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.7597528
   title: P8280226
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1455,6 +1788,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.5763203
   title: P8280264
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1468,6 +1804,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.49254919999998
   title: P8280333
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7502502502502503
   cam_model: 'E-M5MarkII      '
@@ -1481,6 +1820,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280349
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1494,6 +1836,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280356
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2891803278688525
   cam_model: 'E-M5MarkII      '
@@ -1507,6 +1852,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280415
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1520,6 +1868,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280426
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1533,6 +1884,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280427
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1546,6 +1900,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280432
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1559,6 +1916,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.4809259
   title: P8280440
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.6995481927710843
   cam_model: 'E-M5MarkII      '
@@ -1572,6 +1932,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P8280449
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1585,6 +1948,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P8280455
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.304749340369393
   cam_model: 'E-M5MarkII      '
@@ -1598,6 +1964,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P8280463
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1611,6 +1980,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: ''
   title: P8280502
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3989071038251366
   cam_model: 'E-M5MarkII      '
@@ -1624,6 +1996,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: ''
   title: P8280582
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1637,6 +2012,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.9318758
   title: P8280583
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1650,6 +2028,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9143775
   title: P8290612
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -1663,6 +2044,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.92086669999998
   title: P8290692
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1676,6 +2060,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8290705
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1689,6 +2076,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8290728
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1702,6 +2092,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8290732
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1715,6 +2108,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.9241917
   title: P8290783
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1728,6 +2124,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.9243333
   title: P8290805
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7502502502502503
   cam_model: 'E-M5MarkII      '
@@ -1741,6 +2140,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.93131269999998
   title: P8290837
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.1432983323038912
   cam_model: 'E-M5MarkII      '
@@ -1754,6 +2156,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.92418469999998
   title: P8290893
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2833769633507854
   cam_model: 'E-M5MarkII      '
@@ -1767,6 +2172,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.92418469999998
   title: P8290901
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.333555703802535
   cam_model: 'E-M5MarkII      '
@@ -1780,6 +2188,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.9241917
   title: P8290967
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1793,6 +2204,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.9241917
   title: P8290989
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.469887955182073
   cam_model: 'E-M5MarkII      '
@@ -1806,6 +2220,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.9241917
   title: P8291004
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.9002739726027398
   cam_model: 'E-M5MarkII      '
@@ -1819,6 +2236,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 135.9241917
   title: P8291015
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1832,6 +2252,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291035
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1845,6 +2268,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291051
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1858,6 +2284,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291077
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1871,6 +2300,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291091
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1884,6 +2316,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291105
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1897,6 +2332,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291106
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -1910,6 +2348,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291112
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -1923,6 +2364,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291115
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1936,6 +2380,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9242032
   title: P8291117
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7498749374687343
   cam_model: 'E-M5MarkII      '
@@ -1949,6 +2396,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9242032
   title: P8291120
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -1962,6 +2412,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291127
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0
   cam_model: 'E-M5MarkII      '
@@ -1975,6 +2428,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9242032
   title: P8291148
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -1988,6 +2444,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9242032
   title: P8291159
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2001,6 +2460,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291162
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2014,6 +2476,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.924194
   title: P8291163
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2027,6 +2492,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.924194
   title: P8291178
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2040,6 +2508,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.924194
   title: P8291176
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2053,6 +2524,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.924194
   title: P8291177
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2066,6 +2540,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.924194
   title: P8291187
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.7788906009244991
   cam_model: 'E-M5MarkII      '
@@ -2079,6 +2556,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291219
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3886997957794418
   cam_model: 'E-M5MarkII      '
@@ -2092,6 +2572,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9241917
   title: P8291227
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 2.6616399622997173
   cam_model: 'E-M5MarkII      '
@@ -2105,6 +2588,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6902457
   title: P8300011
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2118,6 +2604,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6439148
   title: P8310047
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2131,6 +2620,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6616775
   title: P8310056
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.7788906009244991
   cam_model: 'E-M5MarkII      '
@@ -2144,6 +2636,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6766748
   title: P8310060
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2157,6 +2652,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6901906
   title: P8310091
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.7788906009244991
   cam_model: 'E-M5MarkII      '
@@ -2170,6 +2668,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 134.6901815
   title: P8310092
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2183,6 +2684,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 134.6906214
   title: P8310108
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2196,6 +2700,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4760348
   title: P8310172
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2209,6 +2716,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4711055
   title: P8310210
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.333555703802535
   cam_model: 'E-M5MarkII      '
@@ -2222,6 +2732,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.46300119999998
   title: P8310218
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3373413493653974
   cam_model: 'E-M5MarkII      '
@@ -2235,6 +2748,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4389876
   title: P8310224
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -2248,6 +2764,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4384406
   title: P8310250
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0
   cam_model: 'E-M5MarkII      '
@@ -2261,6 +2780,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4413865
   title: P8310270
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2274,6 +2796,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4413865
   title: P8310274
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2287,6 +2812,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.3043541
   title: P9010231
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4492350486787204
   cam_model: 'E-M5MarkII      '
@@ -2300,6 +2828,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4503001
   title: P9010238
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2313,6 +2844,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.45059759999998
   title: P9010258
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2326,6 +2860,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4404078
   title: P9010330
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2339,6 +2876,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4403213
   title: P9010345
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2352,6 +2892,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4403213
   title: P9010346
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2365,6 +2908,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4403213
   title: P9010347
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2378,6 +2924,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4403598
   title: P9010364
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2391,6 +2940,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4414441
   title: P9010375
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2404,6 +2956,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4414441
   title: P9010377
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2417,6 +2972,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4414441
   title: P9010378
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.1972187104930467
   cam_model: 'E-M5MarkII      '
@@ -2430,6 +2988,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4415785
   title: P9010399
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7503751875937968
   cam_model: 'E-M5MarkII      '
@@ -2443,6 +3004,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4415785
   title: P9010403
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2456,6 +3020,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4415785
   title: P9010410
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2469,6 +3036,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415785
   title: P9010428
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2482,6 +3052,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415785
   title: P9010488
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2495,6 +3068,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415593
   title: P9010517
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2508,6 +3084,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415593
   title: P9010562
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 2.519706691109074
   cam_model: 'E-M5MarkII      '
@@ -2521,6 +3100,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415593
   title: P9010565
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2534,6 +3116,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415593
   title: P9010587
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2547,6 +3132,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 132.4415593
   title: P9010611
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2560,6 +3148,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4415593
   title: P9010634
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2573,6 +3164,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4415593
   title: P9010698
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2586,6 +3180,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4415593
   title: P9010755
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0
   cam_model: 'E-M5MarkII      '
@@ -2599,6 +3196,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 132.4415593
   title: P9010796
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2612,6 +3212,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.4415593
   title: P9010812
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2625,6 +3228,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.44192660000002
   title: P9010816
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2638,6 +3244,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 132.44192660000002
   title: P9010818
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2651,6 +3260,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 135.5003559
   title: P9020857
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2664,6 +3276,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.853499
   title: P9020902
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.6114369501466275
   cam_model: 'E-M5MarkII      '
@@ -2677,6 +3292,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 135.9255629
   title: P9020915
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2690,6 +3308,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.67608339999998
   title: P9020010
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2703,6 +3324,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6533765
   title: P9030026
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4757894736842105
   cam_model: 'E-M5MarkII      '
@@ -2716,6 +3340,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6533765
   title: P9030031
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0394581861012957
   cam_model: 'E-M5MarkII      '
@@ -2729,6 +3356,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6557152
   title: P9030053
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2742,6 +3372,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6543373
   title: P9030060
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2271273192578376
   cam_model: 'E-M5MarkII      '
@@ -2755,6 +3388,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6550051
   title: P9030066
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2768,6 +3404,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 136.6761259
   title: P9030098
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2781,6 +3420,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 136.67606899999998
   title: P9030113
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2794,6 +3436,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.6760884
   title: P9030281
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2807,6 +3452,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.67608779999998
   title: P9030294
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2820,6 +3468,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.67608779999998
   title: P9030310
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2833,6 +3484,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 136.67608779999998
   title: P9030311
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2846,6 +3500,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.6893474
   title: P9040387
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2859,6 +3516,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.6893474
   title: P9040391
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2872,6 +3532,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.6893474
   title: P9040393
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2885,6 +3548,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 139.6893474
   title: P9040400
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2898,6 +3564,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1881394
   title: P9040423
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2911,6 +3580,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1883821
   title: P9040426
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2924,6 +3596,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1882483
   title: P9040447
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2937,6 +3612,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1882483
   title: P9040450
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2950,6 +3628,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1882483
   title: P9040457
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2963,6 +3644,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1918556
   title: P9040466
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -2976,6 +3660,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902464
   title: P9040555
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -2989,6 +3676,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902464
   title: P9040561
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3002,6 +3692,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902449
   title: P9040564
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3015,6 +3708,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902464
   title: P9040565
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3028,6 +3724,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902464
   title: P9040566
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3041,6 +3740,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1875665
   title: P9050019
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3054,6 +3756,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1873529
   title: P9050042
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5873362445414847
   cam_model: 'E-M5MarkII      '
@@ -3067,6 +3772,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1881491
   title: P9050058
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3080,6 +3788,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1882483
   title: P9050089
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.2096569250317661
   cam_model: 'E-M5MarkII      '
@@ -3093,6 +3804,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1882483
   title: P9050125
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.8957836117740652
   cam_model: 'E-M5MarkII      '
@@ -3106,6 +3820,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1882483
   title: P9050157
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.9839541547277937
   cam_model: 'E-M5MarkII      '
@@ -3119,6 +3836,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1915281
   title: P9050174
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.1821608040201006
   cam_model: 'E-M5MarkII      '
@@ -3132,6 +3852,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 138.1915281
   title: P9050192
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3145,6 +3868,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050276
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.0929951690821256
   cam_model: 'E-M5MarkII      '
@@ -3158,6 +3884,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050337
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3171,6 +3900,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050338
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5163584637268848
   cam_model: 'E-M5MarkII      '
@@ -3184,6 +3916,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050379
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.1321450522433927
   cam_model: 'E-M5MarkII      '
@@ -3197,6 +3932,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050387
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3210,6 +3948,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050392
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3223,6 +3964,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050430
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3236,6 +3980,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902464
   title: P9050431
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3249,6 +3996,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 138.1902561
   title: P9050433
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.7502502502502503
   cam_model: 'E-M5MarkII      '
@@ -3262,6 +4012,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902464
   title: P9050475
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4968197879858658
   cam_model: 'E-M5MarkII      '
@@ -3275,6 +4028,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 138.1902561
   title: P9050482
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3288,6 +4044,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7969737
   title: P9070510
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3301,6 +4060,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7665232
   title: P9070518
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5650289017341041
   cam_model: 'E-M5MarkII      '
@@ -3314,6 +4076,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.7165488
   title: P9070530
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.102486355366889
   cam_model: 'E-M5MarkII      '
@@ -3327,6 +4092,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.68290199999998
   title: P9070571
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3340,6 +4108,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9070580
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -3353,6 +4124,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9070585
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.8765822784810127
   cam_model: 'E-M5MarkII      '
@@ -3366,6 +4140,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9070588
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3379,6 +4156,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9080644
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3392,6 +4172,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.6826926
   title: P9080648
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3405,6 +4188,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9080662
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 2.037098103874691
   cam_model: 'E-M5MarkII      '
@@ -3418,6 +4204,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9080693
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3431,6 +4220,9 @@ photos:
   lens_model: "OLYMPUS M.40-150mm F4.0-5.6 R\0\0"
   longitude: 139.6829009
   title: P9080714
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3444,6 +4236,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.6819549
   title: P9080783
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3457,6 +4252,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7734695
   title: P9080894
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3470,6 +4268,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9080963
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3483,6 +4284,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9080985
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3496,6 +4300,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9080996
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3509,6 +4316,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9081042
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.5138592750533049
   cam_model: 'E-M5MarkII      '
@@ -3522,6 +4332,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9081208
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3535,6 +4348,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9081213
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3548,6 +4364,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9081223
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3561,6 +4380,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: ''
   title: P9081306
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.4248275862068966
   cam_model: 'E-M5MarkII      '
@@ -3574,6 +4396,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7705693
   title: P9081355
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3587,6 +4412,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9091362
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3600,6 +4428,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.68290199999998
   title: P9091364
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3613,6 +4444,9 @@ photos:
   lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
   longitude: 139.70069039999998
   title: P9091412
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 0.75
   cam_model: 'E-M5MarkII      '
@@ -3626,6 +4460,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7007602
   title: P9091420
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.33422281521014
   cam_model: 'E-M5MarkII      '
@@ -3639,6 +4476,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7009995
   title: P9091435
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3652,6 +4492,9 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7009995
   title: P9091446
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "
 - album: Japan
   aspect: 1.3333333333333333
   cam_model: 'E-M5MarkII      '
@@ -3665,3 +4508,6 @@ photos:
   lens_model: "LEICA DG SUMMILUX 25/F1.4 \0\0\0\0\0"
   longitude: 139.7010195
   title: P9091456
+  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
+    \                                                                            \
+    \          "

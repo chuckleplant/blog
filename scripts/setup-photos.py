@@ -43,6 +43,7 @@ class BlogPhoto(object):
         self.longitude          = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
         self.timestamp          = datetime.strptime(exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal], '%Y:%m:%d %H:%M:%S')
         self.date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
+        self.user_comment       = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.UserComment)
         self.cam_model          = get_exif_elem(exif_dict,"0th",piexif.ImageIFD.Model)
         self.lens_model         = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.LensModel)
         self.exposure           = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.ExposureTime)
@@ -62,6 +63,7 @@ class BlogPhoto(object):
             latitude = self.latitude,
             longitude = self.longitude,
             date_time_original = self.date_time_original,
+            user_comment = self.user_comment.decode("utf-8").replace(u" \u0019", "\'"),            
             cam_model = self.cam_model,
             lens_model = self.lens_model,
             exposure = self.exposure,
