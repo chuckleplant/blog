@@ -249,14 +249,14 @@ photos:
   exposure: 1/640
   f_number: '1.4'
   focal_length: '25.0'
-  img: Snaps/Last light in Bucharest.jpg
+  img: Snaps/Last light on a building.jpg
   iso: 200
   latitude: 42.7064637
   lens_model: LEICA DG SUMMILUX 25/F1.4
   longitude: 23.3292203
-  title: Last light in Bucharest
+  title: Last light on a building
   user_comment: !!python/unicode "ASCII\0\0\0The orange rays give a nice contrast\
-    \ against a cloudy sky."
+    \ against a rainy sky."
 - album: Snaps
   aspect: 0.8566666666666667
   cam_model: E-M5MarkII
