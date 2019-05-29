@@ -33,3 +33,6 @@ exiftag:
    - img/albums #Set to location of photos
 
 destination: _deploy
+
+plugins:
+   - jekyll-feed
