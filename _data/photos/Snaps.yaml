@@ -204,12 +204,12 @@ photos:
   exposure: 1/250
   f_number: '1.4'
   focal_length: '25.0'
-  img: Snaps/Stare_.jpg
+  img: Snaps/Stare.jpg
   iso: 200
   latitude: 42.6896609
   lens_model: LEICA DG SUMMILUX 25/F1.4
   longitude: 23.3057659
-  title: Stare_
+  title: Stare
   user_comment: !!python/unicode "ASCII\0\0\0Wonder what this guys' story is. Sitting\
     \ under the morning sun by the Boyana Church, Sofia."
 - album: Snaps
@@ -272,6 +272,236 @@ photos:
   title: Old yellow bricks
   user_comment: !!python/unicode "ASCII\0\0\0Yellow cobblestone road in Sofia."
 - album: Snaps
+  aspect: 1.2706766917293233
+  cam_model: E-M5MarkII
+  date_time_original: 26 June 2018
+  exposure: 1/1250
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Istanbul street.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: Istanbul street
+  user_comment: !!python/unicode ''
+- album: Snaps
+  aspect: 1.3331043956043955
+  cam_model: E-M5MarkII
+  date_time_original: 26 June 2018
+  exposure: 1/4000
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Flags.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: Flags
+  user_comment: !!python/unicode "ASCII\0\0\0A man selling turkish flags."
+- album: Snaps
+  aspect: 0.75
+  cam_model: E-M5MarkII
+  date_time_original: 27 June 2018
+  exposure: 1/80
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Lamp.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: Lamp
+  user_comment: !!python/unicode "ASCII\0\0\0It's a lamp."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/3
+  f_number: '6.3'
+  focal_length: '62.0'
+  img: Snaps/Istanbul moon.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  longitude: ''
+  title: Istanbul moon
+  user_comment: !!python/unicode "ASCII\0\0\0Heat and moonlight."
+- album: Snaps
+  aspect: 1.2555183946488295
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/320
+  f_number: '8.0'
+  focal_length: '60.0'
+  img: Snaps/Young fishermen.jpg
+  iso: 400
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Young fishermen
+  user_comment: !!python/unicode "ASCII\0\0\0Two boys fishing."
+- album: Snaps
+  aspect: 1.355072463768116
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/250
+  f_number: '11.0'
+  focal_length: '44.0'
+  img: Snaps/Swoosh.jpg
+  iso: 400
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Swoosh
+  user_comment: !!python/unicode "ASCII\0\0\0Almost got my camera hooked and thrown\
+    \ into the water. Wonder what kind of fish would bite."
+- album: Snaps
+  aspect: 0.8493333333333334
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/1600
+  f_number: '10.0'
+  focal_length: '60.0'
+  img: Snaps/Fishing lines.jpg
+  iso: 400
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Fishing lines
+  user_comment: !!python/unicode "ASCII\0\0\0Lots of lines crossing in this picture."
+- album: Snaps
+  aspect: 1.3770739064856712
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/400
+  f_number: '11.0'
+  focal_length: '12.0'
+  img: Snaps/Fishing line.jpg
+  iso: 400
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Fishing line
+  user_comment: !!python/unicode "ASCII\0\0\0The guy in the red raincoat brings the\
+    \ picture together."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/80
+  f_number: '14.0'
+  focal_length: '55.0'
+  img: Snaps/Tire.jpg
+  iso: 400
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Tire
+  user_comment: !!python/unicode "ASCII\0\0\0It's resting because it's tired."
+- album: Snaps
+  aspect: 2.032820512820513
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/30
+  f_number: '4.0'
+  focal_length: '25.0'
+  img: Snaps/Wrap up.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: Wrap up
+  user_comment: !!python/unicode "ASCII\0\0\0Time to clean up and go home."
+- album: Snaps
+  aspect: 1.554001554001554
+  cam_model: E-M5MarkII
+  date_time_original: 28 June 2018
+  exposure: 1/30
+  f_number: '2.2'
+  focal_length: '25.0'
+  img: Snaps/Cat on blue.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LEICA DG SUMMILUX 25/F1.4
+  longitude: ''
+  title: Cat on blue
+  user_comment: !!python/unicode "ASCII\0\0\0Posting pictures of cats feels like cheating."
+- album: Snaps
+  aspect: 1.4712460063897763
+  cam_model: E-M5MarkII
+  date_time_original: 12 August 2018
+  exposure: 1/100
+  f_number: '1.8'
+  focal_length: '17.0'
+  img: Snaps/Palm grove.jpg
+  iso: 200
+  latitude: ''
+  lens_model: OLYMPUS M.17mm F1.8
+  longitude: ''
+  title: Palm grove
+  user_comment: !!python/unicode "ASCII\0\0\0Far away grove framed by a nearby one."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 12 August 2018
+  exposure: 1/1600
+  f_number: '5.6'
+  focal_length: '52.0'
+  img: Snaps/Morning clouds.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Morning clouds
+  user_comment: !!python/unicode "ASCII\0\0\0Woke up early nearby swamped fields.\
+    \ Traded my blood for a few pics with the local mosquitoes."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 12 August 2018
+  exposure: 1/80
+  f_number: '5.6'
+  focal_length: '60.0'
+  img: Snaps/Morning dew.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Morning dew
+  user_comment: !!python/unicode "ASCII\0\0\0Drops and spiderwebs."
+- album: Snaps
+  aspect: 0.750126454223571
+  cam_model: E-M5MarkII
+  date_time_original: 12 August 2018
+  exposure: 1/1250
+  f_number: '4.5'
+  focal_length: '22.0'
+  img: Snaps/Yellow and palm.jpg
+  iso: 200
+  latitude: ''
+  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  longitude: ''
+  title: Yellow and palm
+  user_comment: !!python/unicode "ASCII\0\0\0Yellow car under a flourished palm tree.\
+    \ Hashtag worthy stamp."
+- album: Snaps
+  aspect: 1.7788906009244991
+  cam_model: E5823
+  date_time_original: 15 October 2018
+  exposure: 1/500
+  f_number: '2.0'
+  focal_length: '4.23'
+  img: Snaps/Sea mist.jpg
+  iso: 40
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Sea mist
+  user_comment: !!python/unicode "ASCII\0\0\0Here you can really see the water particles\
+    \ floating above the water, creating a beautiful mist. A couple surfers are venturing\
+    \ into the sea."
+- album: Snaps
   aspect: 1.7788906009244991
   cam_model: E5823
   date_time_original: 15 October 2018
@@ -289,3 +519,31 @@ photos:
     \ sea that gave a bright golden light to the whole horizon. I managed to take\
     \ this with my phone, I wish I'd had my camera with me. The view was absolutely\
     \ stunning."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 03 February 2019
+  exposure: 1/400
+  f_number: '4.0'
+  focal_length: '40.0'
+  img: Snaps/Last light in Madrid.jpg
+  iso: 200
+  latitude: ''
+  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  longitude: ''
+  title: Last light in Madrid
+  user_comment: !!python/unicode "ASCII\0\0\0Orange giants waving the sun goodbye."
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: E-M5MarkII
+  date_time_original: 21 April 2019
+  exposure: 1/640
+  f_number: '1.8'
+  focal_length: '17.0'
+  img: Snaps/Spring.jpg
+  iso: 200
+  latitude: ''
+  lens_model: OLYMPUS M.17mm F1.8
+  longitude: ''
+  title: Spring
+  user_comment: !!python/unicode "ASCII\0\0\0Tiny flower thriving."
