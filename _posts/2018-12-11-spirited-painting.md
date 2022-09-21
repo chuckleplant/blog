@@ -7,8 +7,6 @@ comments: true
 disqus_identifier: spiritedPainting
 ---
 
-> To Jennifer, with love.
-
 This image appears within a long scene in which Chihiro takes a train. The scene gives the viewer a break and portrays the protagonist's journey from childhood to adulthood.
 
 This shot appears for just a few seconds. It's a beautifully composed image that instantly takes you in and leaves you wondering.
