@@ -1,6 +1,6 @@
 photos:
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 11675/1000000
@@ -42,7 +42,7 @@ photos:
   title: IMG_20200828_102443
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 15083/1000000
@@ -84,7 +84,7 @@ photos:
   title: IMG_20200828_102518
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 12143/1000000
@@ -98,7 +98,7 @@ photos:
   title: IMG_20200828_102525
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 11760/1000000
@@ -112,7 +112,7 @@ photos:
   title: IMG_20200828_102532
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 11590/1000000
@@ -140,7 +140,7 @@ photos:
   title: IMG_20200828_102612
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -154,7 +154,7 @@ photos:
   title: IMG_20200828_102630
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -182,7 +182,7 @@ photos:
   title: IMG_20200828_102705
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 16660/1000000
@@ -196,7 +196,7 @@ photos:
   title: IMG_20200828_102720
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 16660/1000000
@@ -252,7 +252,7 @@ photos:
   title: IMG_20200828_102757
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 16660/1000000
@@ -266,7 +266,7 @@ photos:
   title: IMG_20200828_102809
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 16660/1000000
@@ -280,7 +280,7 @@ photos:
   title: IMG_20200828_102816
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 16660/1000000
@@ -294,7 +294,7 @@ photos:
   title: IMG_20200828_102825
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 11930/1000000
@@ -350,7 +350,7 @@ photos:
   title: IMG_20200828_102923
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -364,7 +364,7 @@ photos:
   title: IMG_20200828_102938
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -378,7 +378,7 @@ photos:
   title: IMG_20200828_102948
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -392,7 +392,7 @@ photos:
   title: IMG_20200828_102955
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -420,7 +420,7 @@ photos:
   title: IMG_20200828_103016
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -448,7 +448,7 @@ photos:
   title: IMG_20200828_103049
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -476,7 +476,7 @@ photos:
   title: IMG_20200828_103120
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -504,7 +504,7 @@ photos:
   title: IMG_20200828_103136
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -518,7 +518,7 @@ photos:
   title: IMG_20200828_103146
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -532,7 +532,7 @@ photos:
   title: IMG_20200828_103158
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.158399470899471
+  aspect: 1.158483530142946
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -546,7 +546,7 @@ photos:
   title: IMG_20200828_103211
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -602,7 +602,7 @@ photos:
   title: IMG_20200828_103258
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -616,7 +616,7 @@ photos:
   title: IMG_20200828_103302
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -630,7 +630,7 @@ photos:
   title: IMG_20200828_103308
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -644,7 +644,7 @@ photos:
   title: IMG_20200828_103313
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -686,7 +686,7 @@ photos:
   title: IMG_20200828_103343
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -700,7 +700,7 @@ photos:
   title: IMG_20200828_103353
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8309/1000000
@@ -728,7 +728,7 @@ photos:
   title: IMG_20200828_103432
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 8437/1000000
@@ -742,7 +742,7 @@ photos:
   title: IMG_20200828_103442
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 9970/1000000
@@ -756,7 +756,7 @@ photos:
   title: IMG_20200828_103504
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 9970/1000000
@@ -770,7 +770,7 @@ photos:
   title: IMG_20200828_103543
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 9970/1000000
@@ -826,7 +826,7 @@ photos:
   title: IMG_20200828_103706
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
-  aspect: 1.3333333333333333
+  aspect: 0.75
   cam_model: Pixel 3
   date_time_original: 28 August 2020
   exposure: 9970/1000000
