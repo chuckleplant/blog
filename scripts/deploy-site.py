@@ -19,7 +19,7 @@ shutil.rmtree(thumbnail_dir, ignore_errors=True)
 execfile(setup_photos_script)
 
 if args.push:
-    call(['jekyll', 'build', '--destination','_site'])
+    call(['bundle','exec','jekyll', 'build', '--destination','_site'])
     repo = git.Repo(search_parent_directories=True)
     sha = repo.head.object.hexsha
     os.chdir(site_dir)

@@ -14,7 +14,9 @@ permalink: /about/
 
 I'm Sergio Basurco, game developer.
 
-I recently moved to Madrid pursuing my carrer in the games industry. I'm now part of the Tequila Works team, makers of RiME and other tasteful titles.
+I've specialized as an animation programmer, I've spent most of my gamedev career crafting locomotion systems and animation related code. I'm currently back home working at Smilegate Barcelona making AAA games.
+
+Before that I worked at Tequila Works and shipped Gylt, I also worked in undisclosed titles.
 
 Before that I was creating next-gen experiences for video surveillance. I also worked with touchless interfaces for neural networks (actual brains) visualization.
 
