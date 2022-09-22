@@ -8,9 +8,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Springy.jpg
   iso: 292
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Springy
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -22,9 +22,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Surrounded.jpg
   iso: 258
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Surrounded
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -36,9 +36,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/UI Wedges.jpg
   iso: 285
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: UI Wedges
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -50,9 +50,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Door.jpg
   iso: 307
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Door
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -64,9 +64,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Ball Hand.jpg
   iso: 349
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Ball Hand
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -78,9 +78,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Twitter.jpg
   iso: 355
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Twitter
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -92,9 +92,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Doggo.jpg
   iso: 296
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Doggo
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -106,9 +106,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Mario Maybe.jpg
   iso: 270
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Mario Maybe
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -120,9 +120,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Earth.jpg
   iso: 235
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Earth
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -134,9 +134,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Batman.jpg
   iso: 367
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Batman
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -148,9 +148,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Architecture.jpg
   iso: 445
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Architecture
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -162,9 +162,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Pinky.jpg
   iso: 393
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Pinky
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -176,9 +176,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Avocadudes.jpg
   iso: 332
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Avocadudes
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -190,9 +190,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Eyescrew.jpg
   iso: 267
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Eyescrew
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -204,9 +204,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Eye in mouth.jpg
   iso: 330
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Eye in mouth
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -218,9 +218,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Plane.jpg
   iso: 449
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Plane
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -232,9 +232,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Pyramidst.jpg
   iso: 404
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Pyramidst
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -246,9 +246,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Aboatcado.jpg
   iso: 284
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Aboatcado
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -260,9 +260,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Chachacha.jpg
   iso: 236
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Chachacha
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -274,9 +274,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Battery.jpg
   iso: 223
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Battery
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -288,9 +288,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Avocat.jpg
   iso: 222
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Avocat
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -302,9 +302,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/In motion.jpg
   iso: 287
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: In motion
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -316,9 +316,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Smash.jpg
   iso: 267
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Smash
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -330,9 +330,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Lava Tears.jpg
   iso: 273
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Lava Tears
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -344,9 +344,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Ventana Avise Cerrado.jpg
   iso: 225
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Ventana Avise Cerrado
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -358,9 +358,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Horns.jpg
   iso: 450
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Horns
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -372,9 +372,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Eye Closeup.jpg
   iso: 355
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Eye Closeup
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -386,9 +386,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Angel Toad.jpg
   iso: 284
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Angel Toad
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -400,9 +400,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Tilting Bird.jpg
   iso: 343
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Tilting Bird
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -414,9 +414,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Hawkish.jpg
   iso: 351
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Hawkish
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -428,9 +428,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Plankton.jpg
   iso: 308
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Plankton
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -442,9 +442,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Dinosaur.jpg
   iso: 375
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Dinosaur
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -456,9 +456,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Puppet.jpg
   iso: 284
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Puppet
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -470,9 +470,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Fire Extinguisher Diegetic.jpg
   iso: 349
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Fire Extinguisher Diegetic
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -484,9 +484,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Devil.jpg
   iso: 341
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Devil
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -498,9 +498,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Gylt Title.jpg
   iso: 379
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Gylt Title
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -512,9 +512,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Tattoed.jpg
   iso: 326
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Tattoed
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -526,9 +526,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Tapetum.jpg
   iso: 314
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Tapetum
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -540,9 +540,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Bowser Maybe.jpg
   iso: 412
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Bowser Maybe
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -554,9 +554,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Bird.jpg
   iso: 385
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Bird
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -568,9 +568,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Gun Hands.jpg
   iso: 306
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Gun Hands
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -582,9 +582,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Hide'n'seek.jpg
   iso: 373
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Hide'n'seek
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -596,9 +596,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Hammer Wedge.jpg
   iso: 290
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Hammer Wedge
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -610,9 +610,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Rarebit.jpg
   iso: 265
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Rarebit
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -624,9 +624,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Snake Mammal.jpg
   iso: 371
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Snake Mammal
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -638,9 +638,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Interesing Owl.jpg
   iso: 256
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Interesing Owl
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -652,9 +652,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/A dude.jpg
   iso: 284
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: A dude
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -666,9 +666,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Maze.jpg
   iso: 377
-  latitude: 40.42270555555555
+  latitude: ''
   lens_model: ''
-  longitude: 3.718338888888889
+  longitude: ''
   title: Maze
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -680,9 +680,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Tarel.jpg
   iso: 276
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Tarel
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -694,9 +694,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Monkey Island-ish Pirate.jpg
   iso: 316
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Monkey Island-ish Pirate
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -708,9 +708,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Abstract ship.jpg
   iso: 312
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Abstract ship
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -722,9 +722,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Rimewitness.jpg
   iso: 290
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Rimewitness
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -736,9 +736,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Banach-Tarski.jpg
   iso: 231
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Banach-Tarski
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -750,9 +750,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Parrot Viking.jpg
   iso: 260
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Parrot Viking
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -764,9 +764,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Comic.jpg
   iso: 287
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Comic
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -778,9 +778,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Skulled.jpg
   iso: 279
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Skulled
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -792,9 +792,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Barbarian Blob.jpg
   iso: 214
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Barbarian Blob
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -806,9 +806,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Psychic Cowboy Draft.jpg
   iso: 142
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Psychic Cowboy Draft
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -820,9 +820,9 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Psychic Cowboy.jpg
   iso: 185
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Psychic Cowboy
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
@@ -834,8 +834,8 @@ photos:
   focal_length: '4.44'
   img: Tequila Doodles/Muay Thai Cleric.jpg
   iso: 189
-  latitude: 40.42270277777777
+  latitude: ''
   lens_model: ''
-  longitude: 3.718325
+  longitude: ''
   title: Muay Thai Cleric
   user_comment: !!python/unicode ''

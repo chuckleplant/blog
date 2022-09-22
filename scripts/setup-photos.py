@@ -32,7 +32,7 @@ def get_exif_elem(dict, tag, elem):
 
 
 class BlogPhoto(object):
-    def __init__(self, filename, album_name):
+    def __init__(self, filename, album_name, removeGPS):
         exif_dict = piexif.load(filename)
         im = Image.open(filename)
         width,height = im.size
@@ -53,7 +53,10 @@ class BlogPhoto(object):
         self.photo_title        = os.path.basename(filename)
         self.photo_img          = album_name + '/' + self.photo_title
         self.photo_album        = album_name
-    
+        if removeGPS:
+            self.latitude = ''
+            self.longitude = ''
+
     def get_yaml(self):
         photo_obj_yaml = dict(
             title = os.path.splitext(os.path.basename(self.photo_title))[0],
@@ -95,17 +98,22 @@ def get_yaml_path(album_name):
 def generate_yaml(album_name, album_path, image_paths):
     print 'Generating YAML for ' + album_name
     reverse = False
+    removeGPS = False
     options_path = os.path.join(album_path,"options.yaml")
     if os.path.isfile(options_path):
         with open(options_path, 'r') as options_file:
             options = yaml.load(options_file)
-            reverse = options['reverse']
+            if 'reverse' in options:
+                reverse = options['reverse']
+            if 'removeGPS' in options:
+                removeGPS = options['removeGPS']
+
 
     photos_in_album = []
     blog_photos = []
 
     for file in image_paths:
-        blog_photo = BlogPhoto(file, album_name)
+        blog_photo = BlogPhoto(file, album_name, removeGPS)
         blog_photos.append(blog_photo)
 
     blog_photos.sort(reverse=reverse)

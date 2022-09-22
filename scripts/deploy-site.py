@@ -48,7 +48,8 @@ if args.push:
             copy_tree(site_dir, web_dir)
             web_commit_ret = call(['git','cma','deploying from '+web_sha])
             if web_commit_ret is 0:
-                print 'Web Deployment success'
+                if call(['git','push']) is 0:
+                    print 'Web Deployment succes'
         else:
             print 'Deployment failed, could not push'
     else:
