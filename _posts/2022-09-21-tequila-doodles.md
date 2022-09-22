@@ -7,6 +7,6 @@ comments: true
 disqus_identifier: TequilaDoodles
 ---
 
-Little doodles that I drew while working at Tequila Works in Madrid. I blame long compilation times and inspiring ideas floating around the office. Some of the drawings are related to Gylt, a game I managed to ship for Google Stadia. Other drawings are just random thoughts and abstract ideas.
+Little doodles that I drew while working at Tequila Works in Madrid. I blame long compilation times and a cloud of creativity floating around the office. Some are related to Gylt, a game I managed to ship for Google Stadia. Others are just rough drawings made absent-mindedly.
 
 {% includeGallery Tequila Doodles %}

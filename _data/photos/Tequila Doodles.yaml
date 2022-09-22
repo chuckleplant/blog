@@ -258,12 +258,12 @@ photos:
   exposure: 16660/1000000
   f_number: '1.8'
   focal_length: '4.44'
-  img: !!python/str "Tequila Doodles/Chachacha\u0301.jpg"
+  img: Tequila Doodles/Chachacha.jpg
   iso: 236
   latitude: 40.42270555555555
   lens_model: ''
   longitude: 3.718338888888889
-  title: !!python/str "Chachacha\u0301"
+  title: Chachacha
   user_comment: !!python/unicode ''
 - album: Tequila Doodles
   aspect: 0.75
