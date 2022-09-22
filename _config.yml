@@ -10,6 +10,10 @@ sass:
 
 url: https://chuckleplant.github.io
 
+author:
+  name: Sergio Basurco
+  twitter: SergioBasurco
+
 owner:
     disqus-shortname: sergiobasurco
     name: Sergio Basurco
