@@ -36,3 +36,4 @@ destination: _deploy
 
 plugins:
    - jekyll-feed
+   - jekyll-seo-tag
