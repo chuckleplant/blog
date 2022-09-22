@@ -100,6 +100,7 @@
  * Site footer
  */
 .site-footer {
+    background-color: $palette-1;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -115,6 +116,10 @@
     margin-left: 0;
 }
 
+.contact-list-title
+{
+    font-weight: 200;    
+}
 .photoinfo-col-wrapper {
     display: inline-block;
     margin-top: 20px;  
@@ -162,7 +167,8 @@ to sum less than 100%
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    background-color: $palette-1;
+    color: $palette-bg;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
