@@ -35,8 +35,8 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  lighten($grey-color, 25%);
 
 // Width of the content area
-//$content-width:    950px;
-$content-width:    70%;
+$content-width:    max(66vw,950px);
+//$content-width:    85%;
 
 $on-palm:          600px;
 $on-laptop:        800px;
