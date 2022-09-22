@@ -14,17 +14,29 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// color variables : huemint.com
+$palette-bg: #e8e6ea;
+$palette-fg:#ddb563;
+$palette-1: #2b3949;
+$palette-2: #f47c2d;
 
-$grey-color:       #828282;
+
+// https://huemint.com/website-1/#palette=e8e6ea-2b3949-f47c2d
+
+$text-color:      $palette-1;
+$background-color: $palette-bg;
+$brand-color:      $palette-2;
+
+$palette-1-clicked: darken($palette-1, 10%);
+$palette-2-clicked: darken($palette-2, 10%);
+
+$grey-color:       $palette-1;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  lighten($grey-color, 25%);
 
 // Width of the content area
-$content-width:    950px;
-//$content-width:    85%;
+//$content-width:    950px;
+$content-width:    70%;
 
 $on-palm:          600px;
 $on-laptop:        800px;
