@@ -23,9 +23,15 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-
+.spacer {
+    flex: 1;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
