@@ -1,8 +1,13 @@
+$code-bg: darken($palette-1, 3%);
+
 .highlight {
+  //max-height: 30rem; this causes issues with div overlapping next section for some reason
   border-radius: 0.5rem;
-  background: #282828;
+  --box-shadow-color: black;
+  box-shadow: inset 0 0 0.75rem var(--box-shadow-color);
+  background: $code-bg;
   .highlighter-rouge & {
-    background: #282828;
+    background: $code-bg;
   }
 }
 
@@ -10,11 +15,11 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #fbf1c7;
-  background-color: #282828;
+  background-color: $code-bg;
 }
 .highlight .err {
   color: #fb4934;
-  background-color: #282828;
+  background-color: $code-bg;
   font-weight: bold;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
@@ -35,11 +40,11 @@
 }
 .highlight .gi {
   color: #b8bb26;
-  background-color: #282828;
+  background-color: $code-bg;
 }
 .highlight .gd {
   color: #fb4934;
-  background-color: #282828;
+  background-color: $code-bg;
 }
 .highlight .gh {
   color: #b8bb26;
