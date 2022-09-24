@@ -103,6 +103,9 @@
     background-color: $palette-1;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    position: relative;
+    width: 100vw;
+    bottom: 0;
 }
 
 .footer-heading {
