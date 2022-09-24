@@ -8,6 +8,10 @@ email: sergio.basurco@gmail.com
 sass: 
     style: compressed
 
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
 url: https://chuckleplant.github.io
 
 author:
