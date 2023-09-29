@@ -1,7 +1,8 @@
 photos:
 - album: Snaps
   aspect: 1.0
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 25 May 2019
   exposure: 1/250
   f_number: '1.4'
@@ -9,15 +10,16 @@ photos:
   img: Snaps/Blue flower.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Blue flower
-  user_comment: !!python/unicode "ASCII\0\0\0I like to think this is just one flower\
-    \ animated on a single frame. It starts looking down and then dramatically looking\
-    \ at the camera for impact."
+  user_comment: I like to think this is just one flower animated on a single frame.
+    It starts looking down and then dramatically looking at the camera for impact.
 - album: Snaps
   aspect: 1.3870748299319728
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 25 May 2019
   exposure: 1/400
   f_number: '1.4'
@@ -25,14 +27,15 @@ photos:
   img: Snaps/Flower cloud.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Flower cloud
-  user_comment: !!python/unicode "ASCII\0\0\0The flowers cast a soft shadow putting\
-    \ themselves in the spotlight."
+  user_comment: The flowers cast a soft shadow putting themselves in the spotlight.
 - album: Snaps
   aspect: 1.5536357091432684
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 11 May 2019
   exposure: 1/1600
   f_number: '1.4'
@@ -40,13 +43,15 @@ photos:
   img: Snaps/Focused dancer.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Focused dancer
-  user_comment: !!python/unicode "ASCII\0\0\0She looks the good kind of scared."
+  user_comment: She looks the good kind of scared.
 - album: Snaps
   aspect: 0.7801020408163265
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 11 May 2019
   exposure: 1/400
   f_number: '4.0'
@@ -54,13 +59,15 @@ photos:
   img: Snaps/Binary system.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: Binary system
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Snaps
   aspect: 1.7839506172839505
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 11 May 2019
   exposure: 1/320
   f_number: '4.0'
@@ -68,14 +75,15 @@ photos:
   img: Snaps/Stance.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: Stance
-  user_comment: "UNICODE\0G\0e\0t\0t\0i\0n\0g\0 \0r\0e\0a\0d\0y\0 \0f\0o\0r\0 \0t\0\
-    h\0e\0 \0D\0a\0n\0s\0\xE0\0,\0 \0V\0a\0l\0e\0n\0c\0i\0a\0.\0"
+  user_comment: "Getting ready for the Dans\xE0, Valencia."
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 21 April 2019
   exposure: 1/640
   f_number: '1.8'
@@ -83,13 +91,15 @@ photos:
   img: Snaps/Spring.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: Spring
-  user_comment: !!python/unicode "ASCII\0\0\0Tiny flower thriving."
+  user_comment: Tiny flower thriving.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 03 February 2019
   exposure: 1/400
   f_number: '4.0'
@@ -97,13 +107,15 @@ photos:
   img: Snaps/Last light in Madrid.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjQwLTE1MG1tIEY0LjAtNS42IFI=
   longitude: ''
   title: Last light in Madrid
-  user_comment: !!python/unicode "ASCII\0\0\0Orange giants waving the sun goodbye."
+  user_comment: Orange giants waving the sun goodbye.
 - album: Snaps
   aspect: 1.7788906009244991
-  cam_model: E5823
+  cam_model: !!binary |
+    RTU4MjM=
   date_time_original: 15 October 2018
   exposure: 1/400
   f_number: '2.0'
@@ -114,14 +126,14 @@ photos:
   lens_model: ''
   longitude: 2.2477377
   title: Morning after a storm
-  user_comment: !!python/unicode "ASCII\0\0\0The previous night a storm fell hard\
-    \ by the beach. The winds destroyed the dock and left a floating mist above the\
-    \ sea that gave a bright golden light to the whole horizon. I managed to take\
-    \ this with my phone, I wish I'd had my camera with me. The view was absolutely\
-    \ stunning."
+  user_comment: The previous night a storm fell hard by the beach. The winds destroyed
+    the dock and left a floating mist above the sea that gave a bright golden light
+    to the whole horizon. I managed to take this with my phone, I wish I'd had my
+    camera with me. The view was absolutely stunning.
 - album: Snaps
   aspect: 1.7788906009244991
-  cam_model: E5823
+  cam_model: !!binary |
+    RTU4MjM=
   date_time_original: 15 October 2018
   exposure: 1/500
   f_number: '2.0'
@@ -132,12 +144,12 @@ photos:
   lens_model: ''
   longitude: ''
   title: Sea mist
-  user_comment: !!python/unicode "ASCII\0\0\0Here you can really see the water particles\
-    \ floating above the water, creating a beautiful mist. A couple surfers are venturing\
-    \ into the sea."
+  user_comment: Here you can really see the water particles floating above the water,
+    creating a beautiful mist. A couple surfers are venturing into the sea.
 - album: Snaps
   aspect: 0.750126454223571
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 12 August 2018
   exposure: 1/1250
   f_number: '4.5'
@@ -145,14 +157,15 @@ photos:
   img: Snaps/Yellow and palm.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Yellow and palm
-  user_comment: !!python/unicode "ASCII\0\0\0Yellow car under a flourished palm tree.\
-    \ Hashtag worthy stamp."
+  user_comment: Yellow car under a flourished palm tree. Hashtag worthy stamp.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 12 August 2018
   exposure: 1/80
   f_number: '5.6'
@@ -160,13 +173,15 @@ photos:
   img: Snaps/Morning dew.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Morning dew
-  user_comment: !!python/unicode "ASCII\0\0\0Drops and spiderwebs."
+  user_comment: Drops and spiderwebs.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 12 August 2018
   exposure: 1/1600
   f_number: '5.6'
@@ -174,14 +189,16 @@ photos:
   img: Snaps/Morning clouds.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Morning clouds
-  user_comment: !!python/unicode "ASCII\0\0\0Woke up early nearby swamped fields.\
-    \ Traded my blood for a few pics with the local mosquitoes."
+  user_comment: Woke up early nearby swamped fields. Traded my blood for a few pics
+    with the local mosquitoes.
 - album: Snaps
   aspect: 1.4712460063897763
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 12 August 2018
   exposure: 1/100
   f_number: '1.8'
@@ -189,13 +206,15 @@ photos:
   img: Snaps/Palm grove.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: Palm grove
-  user_comment: !!python/unicode "ASCII\0\0\0Far away grove framed by a nearby one."
+  user_comment: Far away grove framed by a nearby one.
 - album: Snaps
   aspect: 1.554001554001554
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/30
   f_number: '2.2'
@@ -203,13 +222,15 @@ photos:
   img: Snaps/Cat on blue.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Cat on blue
-  user_comment: !!python/unicode "ASCII\0\0\0Posting pictures of cats feels like cheating."
+  user_comment: Posting pictures of cats feels like cheating.
 - album: Snaps
   aspect: 2.032820512820513
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/30
   f_number: '4.0'
@@ -217,13 +238,15 @@ photos:
   img: Snaps/Wrap up.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Wrap up
-  user_comment: !!python/unicode "ASCII\0\0\0Time to clean up and go home."
+  user_comment: Time to clean up and go home.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/80
   f_number: '14.0'
@@ -231,13 +254,15 @@ photos:
   img: Snaps/Tire.jpg
   iso: 400
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Tire
-  user_comment: !!python/unicode "ASCII\0\0\0It's resting because it's tired."
+  user_comment: It's resting because it's tired.
 - album: Snaps
   aspect: 1.3770739064856712
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/400
   f_number: '11.0'
@@ -245,14 +270,15 @@ photos:
   img: Snaps/Fishing line.jpg
   iso: 400
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Fishing line
-  user_comment: !!python/unicode "ASCII\0\0\0The guy in the red raincoat brings the\
-    \ picture together."
+  user_comment: The guy in the red raincoat brings the picture together.
 - album: Snaps
   aspect: 0.8493333333333334
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/1600
   f_number: '10.0'
@@ -260,13 +286,15 @@ photos:
   img: Snaps/Fishing lines.jpg
   iso: 400
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Fishing lines
-  user_comment: !!python/unicode "ASCII\0\0\0Lots of lines crossing in this picture."
+  user_comment: Lots of lines crossing in this picture.
 - album: Snaps
   aspect: 1.355072463768116
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/250
   f_number: '11.0'
@@ -274,14 +302,16 @@ photos:
   img: Snaps/Swoosh.jpg
   iso: 400
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Swoosh
-  user_comment: !!python/unicode "ASCII\0\0\0Almost got my camera hooked and thrown\
-    \ into the water. Wonder what kind of fish would bite."
+  user_comment: Almost got my camera hooked and thrown into the water. Wonder what
+    kind of fish would bite.
 - album: Snaps
   aspect: 1.2555183946488295
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/320
   f_number: '8.0'
@@ -289,13 +319,15 @@ photos:
   img: Snaps/Young fishermen.jpg
   iso: 400
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: Young fishermen
-  user_comment: !!python/unicode "ASCII\0\0\0Two boys fishing."
+  user_comment: Two boys fishing.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 28 June 2018
   exposure: 1/3
   f_number: '6.3'
@@ -303,13 +335,15 @@ photos:
   img: Snaps/Istanbul moon.jpg
   iso: 1600
   latitude: ''
-  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjQwLTE1MG1tIEY0LjAtNS42IFI=
   longitude: ''
   title: Istanbul moon
-  user_comment: !!python/unicode "ASCII\0\0\0Heat and moonlight."
+  user_comment: Heat and moonlight.
 - album: Snaps
   aspect: 0.75
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 27 June 2018
   exposure: 1/80
   f_number: '1.4'
@@ -317,13 +351,15 @@ photos:
   img: Snaps/Lamp.jpg
   iso: 1600
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Lamp
-  user_comment: !!python/unicode "ASCII\0\0\0It's a lamp."
+  user_comment: It's a lamp.
 - album: Snaps
   aspect: 1.3331043956043955
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 26 June 2018
   exposure: 1/4000
   f_number: '1.4'
@@ -331,13 +367,15 @@ photos:
   img: Snaps/Flags.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Flags
-  user_comment: !!python/unicode "ASCII\0\0\0A man selling turkish flags."
+  user_comment: A man selling turkish flags.
 - album: Snaps
   aspect: 1.2706766917293233
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 26 June 2018
   exposure: 1/1250
   f_number: '1.4'
@@ -345,13 +383,15 @@ photos:
   img: Snaps/Istanbul street.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: Istanbul street
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Snaps
   aspect: 0.8566666666666667
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 25 June 2018
   exposure: 1/8000
   f_number: '1.4'
@@ -359,13 +399,15 @@ photos:
   img: Snaps/Old yellow bricks.jpg
   iso: 100
   latitude: 42.699788
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 23.3315917
   title: Old yellow bricks
-  user_comment: !!python/unicode "ASCII\0\0\0Yellow cobblestone road in Sofia."
+  user_comment: Yellow cobblestone road in Sofia.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 24 June 2018
   exposure: 1/640
   f_number: '1.4'
@@ -373,14 +415,15 @@ photos:
   img: Snaps/Last light on a building.jpg
   iso: 200
   latitude: 42.7064637
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 23.3292203
   title: Last light on a building
-  user_comment: !!python/unicode "ASCII\0\0\0The orange rays give a nice contrast\
-    \ against a rainy sky."
+  user_comment: The orange rays give a nice contrast against a rainy sky.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 24 June 2018
   exposure: 1/5000
   f_number: '1.4'
@@ -388,14 +431,15 @@ photos:
   img: Snaps/Beverage on a table.jpg
   iso: 200
   latitude: 42.712232500000006
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 23.3205574
   title: Beverage on a table
-  user_comment: !!python/unicode "ASCII\0\0\0Whatever this bottle held was peed a\
-    \ long time ago."
+  user_comment: Whatever this bottle held was peed a long time ago.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 24 June 2018
   exposure: 1/3200
   f_number: '1.4'
@@ -403,14 +447,15 @@ photos:
   img: Snaps/Globe playground.jpg
   iso: 200
   latitude: 42.7107971
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 23.3185675
   title: Globe playground
-  user_comment: !!python/unicode "ASCII\0\0\0Nature's slowly taking back this abadoned\
-    \ playground."
+  user_comment: Nature's slowly taking back this abadoned playground.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 24 June 2018
   exposure: 1/250
   f_number: '1.4'
@@ -418,14 +463,16 @@ photos:
   img: Snaps/Stare.jpg
   iso: 200
   latitude: 42.6896609
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 23.3057659
   title: Stare
-  user_comment: !!python/unicode "ASCII\0\0\0Wonder what this guys' story is. Sitting\
-    \ under the morning sun by the Boyana Church, Sofia."
+  user_comment: Wonder what this guys' story is. Sitting under the morning sun by
+    the Boyana Church, Sofia.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 22 June 2018
   exposure: 1/8000
   f_number: '1.4'
@@ -433,15 +480,16 @@ photos:
   img: Snaps/View from Bran Castle.jpg
   iso: 100
   latitude: 45.5152106
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 25.368264800000002
   title: View from Bran Castle
-  user_comment: !!python/unicode "ASCII\0\0\0Arguably more stunning than the castle\
-    \ itself. Love how the buildings in the foreground couldn't agree on the color\
-    \ for the roof."
+  user_comment: Arguably more stunning than the castle itself. Love how the buildings
+    in the foreground couldn't agree on the color for the roof.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 21 June 2018
   exposure: 1/8000
   f_number: '1.8'
@@ -449,14 +497,16 @@ photos:
   img: Snaps/Ghimbav railroad officer.jpg
   iso: 200
   latitude: 45.676876
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: 25.5135491
   title: Ghimbav railroad officer
-  user_comment: !!python/unicode "ASCII\0\0\0Managed to capture this railroad worker\
-    \ while the train was passing full speed by the Ghimbav station."
+  user_comment: Managed to capture this railroad worker while the train was passing
+    full speed by the Ghimbav station.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 20 June 2018
   exposure: 1/2000
   f_number: '1.8'
@@ -464,15 +514,16 @@ photos:
   img: Snaps/Sunset clouds from a hill.jpg
   iso: 200
   latitude: 47.4911951
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: 19.0451896
   title: Sunset clouds from a hill
-  user_comment: !!python/unicode "ASCII\0\0\0Sunsets and clouds never disappoint.\
-    \ Took this coming down from a hill in Budapest. The Buda castle rises above the\
-    \ skyline."
+  user_comment: Sunsets and clouds never disappoint. Took this coming down from a
+    hill in Budapest. The Buda castle rises above the skyline.
 - album: Snaps
   aspect: 1.6619508562918839
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 20 June 2018
   exposure: 1/5000
   f_number: '1.8'
@@ -480,14 +531,16 @@ photos:
   img: Snaps/Budapest.jpg
   iso: 200
   latitude: 47.4960024
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: 19.048583500000003
   title: Budapest
-  user_comment: !!python/unicode "ASCII\0\0\0I have to say Budapest is one of the\
-    \ prettiest, out of a postcard european big cities I've ever been to."
+  user_comment: I have to say Budapest is one of the prettiest, out of a postcard
+    european big cities I've ever been to.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 20 June 2018
   exposure: 1/400
   f_number: '4.6'
@@ -495,14 +548,15 @@ photos:
   img: Snaps/Vibrant reed.jpg
   iso: 200
   latitude: 47.5339289
-  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjQwLTE1MG1tIEY0LjAtNS42IFI=
   longitude: 19.0510905
   title: Vibrant reed
-  user_comment: !!python/unicode "ASCII\0\0\0Riverside hot dog during an afternoon\
-    \ walk by Margaret Island, Budapest."
+  user_comment: Riverside hot dog during an afternoon walk by Margaret Island, Budapest.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 20 June 2018
   exposure: 1/200
   f_number: '5.2'
@@ -510,15 +564,16 @@ photos:
   img: Snaps/Bike rental.jpg
   iso: 200
   latitude: 47.5279771
-  lens_model: OLYMPUS M.40-150mm F4.0-5.6 R
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjQwLTE1MG1tIEY0LjAtNS42IFI=
   longitude: 19.047604600000003
   title: Bike rental
-  user_comment: !!python/unicode "ASCII\0\0\0Caught two ladies biking through the\
-    \ park under the sun. The red canopy seems to be giving the tree on the right\
-    \ a redish tint."
+  user_comment: Caught two ladies biking through the park under the sun. The red canopy
+    seems to be giving the tree on the right a redish tint.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 18 June 2018
   exposure: 1/13
   f_number: '1.4'
@@ -526,14 +581,16 @@ photos:
   img: Snaps/Japanese restaurant at Budapest.jpg
   iso: 200
   latitude: 47.5007287
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 19.047181600000002
   title: Japanese restaurant at Budapest
-  user_comment: !!python/unicode "ASCII\0\0\0The restaurant was completely empty.\
-    \ The lights were very dim and the japanese neon lettering stood out."
+  user_comment: The restaurant was completely empty. The lights were very dim and
+    the japanese neon lettering stood out.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 18 June 2018
   exposure: 1/13
   f_number: '1.4'
@@ -541,14 +598,16 @@ photos:
   img: Snaps/Light leaking.jpg
   iso: 200
   latitude: 47.5004729
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 19.0503311
   title: Light leaking
-  user_comment: !!python/unicode "ASCII\0\0\0Light leaking through the dark at a closed\
-    \ store. I really liked how it shun the stands."
+  user_comment: Light leaking through the dark at a closed store. I really liked how
+    it shun the stands.
 - album: Snaps
   aspect: 0.75
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 18 June 2018
   exposure: 1/80
   f_number: '1.4'
@@ -556,13 +615,15 @@ photos:
   img: Snaps/Budapest eye on water.jpg
   iso: 200
   latitude: 47.4986424
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 19.0534036
   title: Budapest eye on water
-  user_comment: !!python/unicode "ASCII\0\0\0A steamy reflection of the Budapest eye."
+  user_comment: A steamy reflection of the Budapest eye.
 - album: Snaps
   aspect: 1.3333333333333333
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 18 June 2018
   exposure: 1/80
   f_number: '1.4'
@@ -570,14 +631,15 @@ photos:
   img: Snaps/Danubius fountain.jpg
   iso: 200
   latitude: 47.4981212
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: 19.0523199
   title: Danubius fountain
-  user_comment: !!python/unicode "ASCII\0\0\0Budapest eye behind one of the statues\
-    \ in the Danubius fountain. Thoughtful."
+  user_comment: Budapest eye behind one of the statues in the Danubius fountain. Thoughtful.
 - album: Snaps
   aspect: 1.5
-  cam_model: Canon EOS 1000D
+  cam_model: !!binary |
+    Q2Fub24gRU9TIDEwMDBE
   date_time_original: 05 August 2017
   exposure: 1/100
   f_number: '10.0'
@@ -588,12 +650,12 @@ photos:
   lens_model: ''
   longitude: 2.2201021
   title: Abandoned hut
-  user_comment: !!python/unicode "ASCII\0\0\0Inside an abandoned hut, the area below\
-    \ was cluttered with debris and graffiti. It was nice to see a cleaner wall hit\
-    \ by the sun."
+  user_comment: Inside an abandoned hut, the area below was cluttered with debris
+    and graffiti. It was nice to see a cleaner wall hit by the sun.
 - album: Snaps
   aspect: 1.5
-  cam_model: Canon EOS 1000D
+  cam_model: !!binary |
+    Q2Fub24gRU9TIDEwMDBE
   date_time_original: 05 August 2017
   exposure: 1/200
   f_number: '7.1'
@@ -604,11 +666,11 @@ photos:
   lens_model: ''
   longitude: 2.2265877
   title: Suncomb
-  user_comment: !!python/unicode "ASCII\0\0\0First light. Hike through Montigala with\
-    \ Mila."
+  user_comment: First light. Hike through Montigala with Mila.
 - album: Snaps
   aspect: 1.4985855728429986
-  cam_model: Canon EOS 1000D
+  cam_model: !!binary |
+    Q2Fub24gRU9TIDEwMDBE
   date_time_original: 03 August 2017
   exposure: 1/40
   f_number: '4.0'
@@ -619,5 +681,5 @@ photos:
   lens_model: ''
   longitude: 2.2235128
   title: Skate afternoon
-  user_comment: !!python/unicode "ASCII\0\0\0Late afternoon shot at Los Planos, Badalona.\
-    \ I like how the black skyline highlights the two subjects."
+  user_comment: Late afternoon shot at Los Planos, Badalona. I like how the black
+    skyline highlights the two subjects.

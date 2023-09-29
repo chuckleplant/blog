@@ -1,7 +1,8 @@
 photos:
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 11675/1000000
   f_number: '1.8'
@@ -12,10 +13,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Springy
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 12868/1000000
   f_number: '1.8'
@@ -26,10 +28,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Surrounded
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 14402/1000000
   f_number: '1.8'
@@ -40,10 +43,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: UI Wedges
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 15083/1000000
   f_number: '1.8'
@@ -54,10 +58,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Door
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 17040/1000000
   f_number: '1.8'
@@ -68,10 +73,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Ball Hand
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 15767/1000000
   f_number: '1.8'
@@ -82,10 +88,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Twitter
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 12143/1000000
   f_number: '1.8'
@@ -96,10 +103,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Doggo
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 11760/1000000
   f_number: '1.8'
@@ -110,10 +118,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Mario Maybe
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 11590/1000000
   f_number: '1.8'
@@ -124,10 +133,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Earth
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -138,10 +148,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Batman
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -152,10 +163,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Architecture
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -166,10 +178,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Pinky
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -180,10 +193,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Avocadudes
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -194,10 +208,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Eyescrew
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -208,10 +223,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Eye in mouth
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -222,10 +238,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Plane
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -236,10 +253,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Pyramidst
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -250,10 +268,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Aboatcado
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -264,10 +283,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Chachacha
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -278,10 +298,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Battery
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -292,10 +313,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Avocat
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 11930/1000000
   f_number: '1.8'
@@ -306,10 +328,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: In motion
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 10823/1000000
   f_number: '1.8'
@@ -320,10 +343,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Smash
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 10993/1000000
   f_number: '1.8'
@@ -334,10 +358,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Lava Tears
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 16660/1000000
   f_number: '1.8'
@@ -348,10 +373,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Ventana Avise Cerrado
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -362,10 +388,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Horns
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -376,10 +403,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Eye Closeup
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -390,10 +418,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Angel Toad
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -404,10 +433,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tilting Bird
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -418,10 +448,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Hawkish
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -432,10 +463,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Plankton
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -446,10 +478,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Dinosaur
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -460,10 +493,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Puppet
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -474,10 +508,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Fire Extinguisher Diegetic
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -488,10 +523,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Devil
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -502,10 +538,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Gylt Title
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -516,10 +553,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tattoed
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -530,10 +568,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tapetum
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.158483530142946
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -544,10 +583,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Bowser Maybe
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -558,10 +598,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Bird
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -572,10 +613,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Gun Hands
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -586,10 +628,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Hide'n'seek
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -600,10 +643,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Hammer Wedge
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -614,10 +658,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Rarebit
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -628,10 +673,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Snake Mammal
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -642,10 +688,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Interesing Owl
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -656,10 +703,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: A dude
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -670,10 +718,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Maze
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -684,10 +733,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tarel
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -698,10 +748,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Monkey Island-ish Pirate
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8309/1000000
   f_number: '1.8'
@@ -712,10 +763,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Abstract ship
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 11462/1000000
   f_number: '1.8'
@@ -726,10 +778,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Rimewitness
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 8437/1000000
   f_number: '1.8'
@@ -740,10 +793,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Banach-Tarski
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9970/1000000
   f_number: '1.8'
@@ -754,10 +808,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Parrot Viking
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9970/1000000
   f_number: '1.8'
@@ -768,10 +823,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Comic
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9970/1000000
   f_number: '1.8'
@@ -782,10 +838,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Skulled
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9926/1000000
   f_number: '1.8'
@@ -796,10 +853,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Barbarian Blob
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9885/1000000
   f_number: '1.8'
@@ -810,10 +868,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Psychic Cowboy Draft
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 1.3333333333333333
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9587/1000000
   f_number: '1.8'
@@ -824,10 +883,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Psychic Cowboy
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Tequila Doodles
   aspect: 0.75
-  cam_model: Pixel 3
+  cam_model: !!binary |
+    UGl4ZWwgMw==
   date_time_original: 28 August 2020
   exposure: 9970/1000000
   f_number: '1.8'
@@ -838,4 +898,4 @@ photos:
   lens_model: ''
   longitude: ''
   title: Muay Thai Cleric
-  user_comment: !!python/unicode ''
+  user_comment: ''

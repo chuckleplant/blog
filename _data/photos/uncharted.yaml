@@ -1,7 +1,8 @@
 photos:
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 29 May 2017
   exposure: ''
   f_number: ''
@@ -12,10 +13,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Deep stare
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 May 2017
   exposure: ''
   f_number: ''
@@ -26,10 +28,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: No you didn't
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 May 2017
   exposure: ''
   f_number: ''
@@ -40,10 +43,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Lamp
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 31 May 2017
   exposure: ''
   f_number: ''
@@ -54,10 +58,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Lemon dream
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 June 2017
   exposure: ''
   f_number: ''
@@ -68,10 +73,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Hallway light
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 June 2017
   exposure: ''
   f_number: ''
@@ -82,10 +88,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Fulfilled
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 June 2017
   exposure: ''
   f_number: ''
@@ -96,10 +103,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Lighter
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 June 2017
   exposure: ''
   f_number: ''
@@ -110,10 +118,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Sunset arc
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 June 2017
   exposure: ''
   f_number: ''
@@ -124,10 +133,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: A little dance
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 11 June 2017
   exposure: ''
   f_number: ''
@@ -138,10 +148,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Dry structure
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 11 June 2017
   exposure: ''
   f_number: ''
@@ -152,10 +163,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Mist and weed
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 11 June 2017
   exposure: ''
   f_number: ''
@@ -166,10 +178,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Chilly
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 11 June 2017
   exposure: ''
   f_number: ''
@@ -180,10 +193,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: I wanted the walky
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 12 June 2017
   exposure: ''
   f_number: ''
@@ -194,10 +208,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Long fall
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -208,10 +223,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Fresh 90's album
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -222,10 +238,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Within trees
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -236,10 +253,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Blinded again
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -250,10 +268,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Pupil
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -264,10 +283,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Flick these
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -278,10 +298,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: What's that smell
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -292,10 +313,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: It wasn't me
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -306,10 +328,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Orange rectangle
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -320,10 +343,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Comic jump
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 18 June 2017
   exposure: ''
   f_number: ''
@@ -334,10 +358,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Cave arc
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 22 June 2017
   exposure: ''
   f_number: ''
@@ -348,10 +373,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Grainy mountain
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 22 June 2017
   exposure: ''
   f_number: ''
@@ -362,10 +388,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Shower
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -376,10 +403,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Who's doing this
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -390,10 +418,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Sorry mate
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -404,10 +433,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: National geographic
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -418,10 +448,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tree between bricks
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -432,10 +463,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Zenit jump
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -446,10 +478,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Tombstones
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -460,10 +493,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Three friends
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -474,10 +508,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Cross in field
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -488,10 +523,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Arcway
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -502,10 +538,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Soft light
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -516,10 +553,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Romantic comedy shot
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -530,10 +568,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Bourne shot
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -544,10 +583,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Don't throw me fruit
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -558,10 +598,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Moist
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 25 June 2017
   exposure: ''
   f_number: ''
@@ -572,10 +613,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Guybrush
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 26 June 2017
   exposure: ''
   f_number: ''
@@ -586,10 +628,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Light through water
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 26 June 2017
   exposure: ''
   f_number: ''
@@ -600,10 +643,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Underwater arc
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 26 June 2017
   exposure: ''
   f_number: ''
@@ -614,10 +658,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Nate swimming
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 26 June 2017
   exposure: ''
   f_number: ''
@@ -628,10 +673,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Duel shot
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 26 June 2017
   exposure: ''
   f_number: ''
@@ -642,10 +688,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Contrasty rock
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -656,10 +703,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Jungle arc
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -670,10 +718,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: An eye
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -684,10 +733,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Cave frame
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -698,10 +748,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Blue postcard
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -712,10 +763,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Rock
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -726,10 +778,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Flowers under arc
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 27 June 2017
   exposure: ''
   f_number: ''
@@ -740,10 +793,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: I love arcs
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 29 June 2017
   exposure: ''
   f_number: ''
@@ -754,10 +808,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Cinematic dialogue Nate
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 29 June 2017
   exposure: ''
   f_number: ''
@@ -768,10 +823,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Cinematic Samuel
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 29 June 2017
   exposure: ''
   f_number: ''
@@ -782,10 +838,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Do you even swim
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 29 June 2017
   exposure: ''
   f_number: ''
@@ -796,10 +853,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Guybrush Threepstone
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -810,10 +868,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Stormy weather
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -824,10 +883,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Sepia or cloudy sunset
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -838,10 +898,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Plant over hole
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -852,10 +913,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Wet and red
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -866,10 +928,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Windy rain
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -880,10 +943,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: The bear
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 30 June 2017
   exposure: ''
   f_number: ''
@@ -894,10 +958,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Humid landscape and scary rock
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -908,10 +973,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Corridor
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -922,10 +988,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Nature finds a way
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -936,10 +1003,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Mugs with secrets
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -950,10 +1018,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Once cozy always cozy
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -964,10 +1033,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Old patio
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -978,10 +1048,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Light facing dark
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -992,10 +1063,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Defaced library
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 01 July 2017
   exposure: ''
   f_number: ''
@@ -1006,10 +1078,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Him again
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 02 July 2017
   exposure: ''
   f_number: ''
@@ -1020,10 +1093,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Moonlight
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 04 July 2017
   exposure: ''
   f_number: ''
@@ -1034,10 +1108,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Blinded
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 04 July 2017
   exposure: ''
   f_number: ''
@@ -1048,10 +1123,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Big helmet
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 07 July 2017
   exposure: ''
   f_number: ''
@@ -1062,10 +1138,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: The smallest island
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 07 July 2017
   exposure: ''
   f_number: ''
@@ -1076,10 +1153,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Hanging out
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 07 July 2017
   exposure: ''
   f_number: ''
@@ -1090,10 +1168,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Crows
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 08 July 2017
   exposure: ''
   f_number: ''
@@ -1104,10 +1183,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: So many coins here
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 08 July 2017
   exposure: ''
   f_number: ''
@@ -1118,10 +1198,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Just sneezed
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 08 July 2017
   exposure: ''
   f_number: ''
@@ -1132,10 +1213,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Flower carpet
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 08 July 2017
   exposure: ''
   f_number: ''
@@ -1146,10 +1228,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Statue
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1160,10 +1243,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Torch
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1174,10 +1258,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Pierced eardrums
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1188,10 +1273,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Reading hieroglyphs
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1202,10 +1288,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Heard something
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1216,10 +1303,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Stupid Goonies
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1230,10 +1318,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Please put that out
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1244,10 +1333,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Red flags
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1258,10 +1348,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Shipwreck dusk
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1272,10 +1363,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Patio guardian
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1286,10 +1378,11 @@ photos:
   lens_model: ''
   longitude: ''
   title: Catching some air
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Uncharted
   aspect: 1.7777777777777777
-  cam_model: PlayStation(R)4
+  cam_model: !!binary |
+    UGxheVN0YXRpb24oUik0
   date_time_original: 09 July 2017
   exposure: ''
   f_number: ''
@@ -1300,4 +1393,4 @@ photos:
   lens_model: ''
   longitude: ''
   title: Doesn't get much cozier
-  user_comment: !!python/unicode ''
+  user_comment: ''

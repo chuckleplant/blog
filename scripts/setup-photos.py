@@ -1,11 +1,27 @@
-import glob, os, sys, yaml
-from PIL import Image, ExifTags
+import glob, os, yaml, sys
+from PIL import Image
+from PIL.Image import Resampling
 import math
 import piexif
 from datetime import datetime
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
 yaml_path = os.path.join(cur_path, '../_data/photos')
+
+def decode_usercomment(data):
+    # First 8 bytes specify encoding
+    encoding_prefix = data[:8]
+
+    # Check the encoding based on prefix and decode accordingly
+    if encoding_prefix == b'ASCII\x00\x00\x00':
+        return data[8:].decode('ascii')
+    elif encoding_prefix == b'UNICODE\x00':
+        return data[8:].decode('utf-16')
+    elif encoding_prefix == b'\x00\x00\x00\x00\x00\x00\x00\x00':
+        return ""
+    else:
+        # Return raw data if encoding is unknown
+        return data[8:]
 
 def get_exif_elem(dict, tag, elem):
     rational_tuple = [piexif.ExifIFD.FNumber, piexif.ExifIFD.FocalLength]
@@ -19,8 +35,11 @@ def get_exif_elem(dict, tag, elem):
             if elem in rational_tuple:
                 return str(float(exif_elem[0]) / float(exif_elem[1]))
             elif elem is piexif.ExifIFD.DateTimeOriginal:
-                dt = datetime.strptime(exif_elem, '%Y:%m:%d %H:%M:%S')
+                dt = datetime.strptime(exif_elem.decode('utf-8'), '%Y:%m:%d %H:%M:%S')
                 return dt.strftime('%d %B %Y')
+            elif elem is piexif.ExifIFD.UserComment:
+                decoded_usercomment = decode_usercomment(exif_elem)
+                return decoded_usercomment
             elif elem in gps_tuple:
                 degrees = float(exif_elem[0][0]) / float(exif_elem[0][1])
                 minutes = float(exif_elem[1][0]) / float(exif_elem[1][1])
@@ -36,12 +55,10 @@ class BlogPhoto(object):
         exif_dict = piexif.load(filename)
         im = Image.open(filename)
         width,height = im.size
-        #width              = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelXDimension)
-        #height             = get_exif_elem(exif_dict, "Exif", piexif.ExifIFD.PixelYDimension)
         self.aspect             = float(width)/float(height)
         self.latitude           = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLatitude)
         self.longitude          = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
-        self.timestamp          = datetime.strptime(exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal], '%Y:%m:%d %H:%M:%S')
+        self.timestamp          = datetime.strptime((exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal]).decode('utf-8'), '%Y:%m:%d %H:%M:%S')
         self.date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
         self.user_comment       = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.UserComment)
         self.cam_model          = get_exif_elem(exif_dict,"0th",piexif.ImageIFD.Model)
@@ -66,8 +83,7 @@ class BlogPhoto(object):
             latitude = self.latitude,
             longitude = self.longitude,
             date_time_original = self.date_time_original,
-            #user_comment = self.user_comment.decode("utf-8").replace(u" \u0019", "\'"),            
-            user_comment = self.user_comment.decode("latin-1"),            
+            user_comment = self.user_comment,
             cam_model = self.cam_model,
             lens_model = self.lens_model,
             exposure = self.exposure,
@@ -96,13 +112,13 @@ def get_yaml_path(album_name):
     
 
 def generate_yaml(album_name, album_path, image_paths):
-    print 'Generating YAML for ' + album_name
+    print ('Generating YAML for ' + album_name)
     reverse = False
     removeGPS = False
     options_path = os.path.join(album_path,"options.yaml")
     if os.path.isfile(options_path):
         with open(options_path, 'r') as options_file:
-            options = yaml.load(options_file)
+            options = yaml.load(options_file, Loader=yaml.FullLoader)
             if 'reverse' in options:
                 reverse = options['reverse']
             if 'removeGPS' in options:
@@ -128,14 +144,16 @@ def generate_yaml(album_name, album_path, image_paths):
 
 def generate_yaml_for_album(album_path):
     images = []
-    types = ('*.jpg', '*.png', '*.jpeg', '*.JPG', '*.JPEG')
+    types = ('*.jpg', '*.png', '*.jpeg')
+    if sys.platform != "win32":
+        types += ('*.JPG', '*.PNG', '*.JPEG')
     for extension in types:
         images.extend(glob.glob(os.path.join(album_path, extension)))
     if len(images) == 0:
-        print 'No images in album , ' + album_path
+        print ('No images in album , ' + album_path)
         return
     elif "thumbnails" in album_path:
-        print 'not this one'
+        print ('not this one')
         return
     album_name = os.path.basename(os.path.normpath(album_path))
     generate_yaml(album_name, album_path, images)
@@ -154,7 +172,7 @@ def res_for_height(width, height, desired_height):
 
 def gen_thumb_size(img, thumbheight, thumbdir, album, fname):
     tw, th = res_for_height(img.width, img.height, thumbheight)
-    img.thumbnail((tw,th), Image.ANTIALIAS)
+    img.thumbnail((tw,th), Resampling.LANCZOS)
     target_dir = os.path.join(thumbnail_path, str(thumbheight), album)
     target_file = os.path.join(target_dir, fname)
     if not os.path.exists(target_dir):
@@ -208,7 +226,7 @@ for folder, subs, files in os.walk(photo_path):
             if numpix > max_pix_count:
                 w, h = res_for_pix_count(width, height, max_pix_count)
                 img.thumbnail((w,h), Image.ANTIALIAS)
-                print 'Resized %s' % filename
+                print ('Resized %s' % filename)
                 touched = True
 
             if touched:

@@ -1,35 +1,188 @@
 photos:
 - album: Life Drawing
   aspect: 0.75
-  cam_model: E-M5MarkII
-  date_time_original: 06 January 2020
-  exposure: 1/800
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 9970/1000000
   f_number: '1.8'
-  focal_length: '17.0'
-  img: Life Drawing/P1060163.jpg
-  iso: 200
+  focal_length: '4.44'
+  img: Life Drawing/Muay Thai Cleric.jpg
+  iso: 189
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: ''
   longitude: ''
-  title: P1060163
-  user_comment: !!python/unicode ''
+  title: Muay Thai Cleric
+  user_comment: ''
 - album: Life Drawing
-  aspect: 1.0661896243291593
-  cam_model: E-M5MarkII
-  date_time_original: 06 January 2020
-  exposure: 1/800
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 9587/1000000
   f_number: '1.8'
-  focal_length: '17.0'
-  img: Life Drawing/P1060162.jpg
-  iso: 200
+  focal_length: '4.44'
+  img: Life Drawing/Psychic Cowboy.jpg
+  iso: 185
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: ''
   longitude: ''
-  title: P1060162
-  user_comment: !!python/unicode ''
+  title: Psychic Cowboy
+  user_comment: ''
+- album: Life Drawing
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 9926/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Barbarian Blob.jpg
+  iso: 214
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Barbarian Blob
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.75
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 8309/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Monkey Island-ish Pirate.jpg
+  iso: 316
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Monkey Island-ish Pirate
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 8309/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Interesing Owl.jpg
+  iso: 256
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Interesing Owl
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 8309/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Rarebit.jpg
+  iso: 265
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Rarebit
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 8309/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Tapetum.jpg
+  iso: 314
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Tapetum
+  user_comment: ''
+- album: Life Drawing
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 8309/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Dinosaur.jpg
+  iso: 375
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Dinosaur
+  user_comment: ''
+- album: Life Drawing
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 10993/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Lava Tears.jpg
+  iso: 273
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Lava Tears
+  user_comment: ''
+- album: Life Drawing
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 10823/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Smash.jpg
+  iso: 267
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Smash
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 16660/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Avocat.jpg
+  iso: 222
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Avocat
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    UGl4ZWwgMw==
+  date_time_original: 28 August 2020
+  exposure: 11760/1000000
+  f_number: '1.8'
+  focal_length: '4.44'
+  img: Life Drawing/Mario Maybe.jpg
+  iso: 270
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Mario Maybe
+  user_comment: ''
+- album: Life Drawing
+  aspect: 0.75
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 06 January 2020
   exposure: 1/800
   f_number: '1.8'
@@ -37,13 +190,15 @@ photos:
   img: Life Drawing/P1060159.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: P1060159
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.75
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 06 January 2020
   exposure: 1/800
   f_number: '1.8'
@@ -51,41 +206,15 @@ photos:
   img: Life Drawing/P1060158.jpg
   iso: 200
   latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOA==
   longitude: ''
   title: P1060158
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 1.4570727718724448
-  cam_model: E-M5MarkII
-  date_time_original: 06 January 2020
-  exposure: 1/800
-  f_number: '1.8'
-  focal_length: '17.0'
-  img: Life Drawing/P1060150.jpg
-  iso: 200
-  latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
-  longitude: ''
-  title: P1060150
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 1.5260528194147038
-  cam_model: E-M5MarkII
-  date_time_original: 06 January 2020
-  exposure: 1/800
-  f_number: '1.8'
-  focal_length: '17.0'
-  img: Life Drawing/P1060149.jpg
-  iso: 200
-  latitude: ''
-  lens_model: OLYMPUS M.17mm F1.8
-  longitude: ''
-  title: P1060149
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.5127840909090908
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 02 June 2019
   exposure: 1/160
   f_number: '1.4'
@@ -93,27 +222,15 @@ photos:
   img: Life Drawing/P6020673.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P6020673
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.7677125506072875
-  cam_model: E-M5MarkII
-  date_time_original: 02 June 2019
-  exposure: 1/160
-  f_number: '1.4'
-  focal_length: '25.0'
-  img: Life Drawing/P6020671.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
-  longitude: ''
-  title: P6020671
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3251329787234043
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 02 June 2019
   exposure: 1/320
   f_number: '1.4'
@@ -121,13 +238,15 @@ photos:
   img: Life Drawing/P6020670.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P6020670
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.4716187806587246
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 19 May 2019
   exposure: 1/640
   f_number: '1.4'
@@ -135,27 +254,15 @@ photos:
   img: Life Drawing/P5190669.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P5190669
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.7038293746970431
-  cam_model: E-M5MarkII
-  date_time_original: 19 May 2019
-  exposure: 1/640
-  f_number: '1.4'
-  focal_length: '25.0'
-  img: Life Drawing/P5190668.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
-  longitude: ''
-  title: P5190668
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.6643126177024482
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 19 May 2019
   exposure: 1/640
   f_number: '1.4'
@@ -163,13 +270,15 @@ photos:
   img: Life Drawing/P5190667.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P5190667
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7063106796116505
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 19 May 2019
   exposure: 1/640
   f_number: '1.4'
@@ -177,13 +286,15 @@ photos:
   img: Life Drawing/P5190665.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P5190665
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8411016949152542
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 19 May 2019
   exposure: 1/640
   f_number: '1.4'
@@ -191,41 +302,15 @@ photos:
   img: Life Drawing/P5190661.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P5190661
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.8807588075880759
-  cam_model: E-M5MarkII
-  date_time_original: 19 May 2019
-  exposure: 1/640
-  f_number: '1.4'
-  focal_length: '25.0'
-  img: Life Drawing/P5190659.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
-  longitude: ''
-  title: P5190659
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 1.052132701421801
-  cam_model: E-M5MarkII
-  date_time_original: 19 May 2019
-  exposure: 1/800
-  f_number: '1.4'
-  focal_length: '25.0'
-  img: Life Drawing/P5190657.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
-  longitude: ''
-  title: P5190657
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.955957086391869
-  cam_model: E-M5MarkII
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
   date_time_original: 19 May 2019
   exposure: 1/800
   f_number: '1.4'
@@ -233,13 +318,15 @@ photos:
   img: Life Drawing/P5190656.jpg
   iso: 200
   latitude: ''
-  lens_model: LEICA DG SUMMILUX 25/F1.4
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
   longitude: ''
   title: P5190656
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.6811248808388942
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/40
   f_number: '5.0'
@@ -247,27 +334,15 @@ photos:
   img: Life Drawing/P9230011.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230011
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.7375992063492064
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 23 September 2018
-  exposure: 1/40
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230010.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P9230010
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.469887955182073
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/40
   f_number: '5.0'
@@ -275,27 +350,15 @@ photos:
   img: Life Drawing/P9230009.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230009
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.8464399574920297
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 23 September 2018
-  exposure: 1/40
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230008.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P9230008
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7963917525773195
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/40
   f_number: '5.0'
@@ -303,13 +366,15 @@ photos:
   img: Life Drawing/P9230007.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230007
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8512793176972282
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/30
   f_number: '5.0'
@@ -317,27 +382,15 @@ photos:
   img: Life Drawing/P9230006.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230006
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.7824310520939735
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 23 September 2018
-  exposure: 1/30
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230005.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P9230005
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8696822832525579
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/30
   f_number: '5.0'
@@ -345,27 +398,15 @@ photos:
   img: Life Drawing/P9230004.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230004
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 1.53180843459614
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 23 September 2018
-  exposure: 1/30
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230003.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P9230003
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.4757894736842105
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 23 September 2018
   exposure: 1/30
   f_number: '5.0'
@@ -373,27 +414,15 @@ photos:
   img: Life Drawing/P9230002.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P9230002
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.75
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 23 September 2018
-  exposure: 1/30
-  f_number: '4.9'
-  focal_length: '30.0'
-  img: Life Drawing/P9230001.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P9230001
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7837423312883436
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 21 August 2018
   exposure: 1/60
   f_number: '5.6'
@@ -401,27 +430,15 @@ photos:
   img: Life Drawing/P8210589.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P8210589
-  user_comment: !!python/unicode ''
-- album: Life Drawing
-  aspect: 0.6688710439300898
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 21 August 2018
-  exposure: 1/50
-  f_number: '5.5'
-  focal_length: '40.0'
-  img: Life Drawing/P8210585.jpg
-  iso: 200
-  latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
-  longitude: ''
-  title: P8210585
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7747839349262837
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 21 August 2018
   exposure: 1/50
   f_number: '5.5'
@@ -429,13 +446,15 @@ photos:
   img: Life Drawing/P8210584.jpg
   iso: 200
   latitude: ''
-  lens_model: LUMIX G VARIO 12-60/F3.5-5.6
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
   longitude: ''
   title: P8210584
-  user_comment: !!python/unicode ''
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 09 August 2018
   exposure: 1/30
   f_number: '5.6'
@@ -443,31 +462,15 @@ photos:
   img: Life Drawing/P8090103.jpg
   iso: 250
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P8090103
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 0.805181347150259
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 09 August 2018
-  exposure: 1/50
-  f_number: '5.5'
-  focal_length: '40.0'
-  img: Life Drawing/P8090102.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P8090102
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7452642073778664
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 01 August 2018
   exposure: 1/1250
   f_number: '1.8'
@@ -475,15 +478,15 @@ photos:
   img: Life Drawing/P8010017.jpg
   iso: 200
   latitude: ''
-  lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOAAAAAAAAAAAAAAAAA==
   longitude: ''
   title: P8010017
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.6748932130991931
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 01 August 2018
   exposure: 1/1250
   f_number: '1.8'
@@ -491,31 +494,15 @@ photos:
   img: Life Drawing/P8010015.jpg
   iso: 200
   latitude: ''
-  lens_model: "OLYMPUS M.17mm F1.8\0\0\0\0\0\0\0\0\0\0\0\0"
+  lens_model: !!binary |
+    T0xZTVBVUyBNLjE3bW0gRjEuOAAAAAAAAAAAAAAAAA==
   longitude: ''
   title: P8010015
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '27.0'
-  img: Life Drawing/P7200062.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200062
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.371447902571042
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -523,15 +510,15 @@ photos:
   img: Life Drawing/P7200061.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200061
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -539,79 +526,15 @@ photos:
   img: Life Drawing/P7200060.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200060
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 0.75
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '25.0'
-  img: Life Drawing/P7200059.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200059
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 0.7317193675889329
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '25.0'
-  img: Life Drawing/P7200058.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200058
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.3519140362659503
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '22.0'
-  img: Life Drawing/P7200057.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200057
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.8296875
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '22.0'
-  img: Life Drawing/P7200056.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200056
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.7325753830944143
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -619,31 +542,15 @@ photos:
   img: Life Drawing/P7200055.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200055
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.0087006960556844
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '25.0'
-  img: Life Drawing/P7200054.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200054
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8134445023449713
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -651,31 +558,15 @@ photos:
   img: Life Drawing/P7200053.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200053
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.278902677988243
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '50.0'
-  img: Life Drawing/P7200052.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200052
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -683,15 +574,15 @@ photos:
   img: Life Drawing/P7200049.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200049
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.75
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.0'
@@ -699,47 +590,15 @@ photos:
   img: Life Drawing/P7200048.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200048
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.6437037037037037
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '50.0'
-  img: Life Drawing/P7200045.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200045
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '44.0'
-  img: Life Drawing/P7200043.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200043
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -747,31 +606,15 @@ photos:
   img: Life Drawing/P7200042.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200042
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.4925899788285109
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.4'
-  focal_length: '39.0'
-  img: Life Drawing/P7200041.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200041
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '6.3'
@@ -779,31 +622,15 @@ photos:
   img: Life Drawing/P7200040.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200040
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.4943502824858756
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/25
-  f_number: '6.3'
-  focal_length: '43.0'
-  img: Life Drawing/P7200037.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200037
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.210292249047014
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '6.3'
@@ -811,15 +638,15 @@ photos:
   img: Life Drawing/P7200036.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200036
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.0163075131042516
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '6.3'
@@ -827,31 +654,15 @@ photos:
   img: Life Drawing/P7200035.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200035
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.0215995329830707
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/30
-  f_number: '5.6'
-  focal_length: '44.0'
-  img: Life Drawing/P7200033.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200033
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.6568352059925093
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '5.6'
@@ -859,15 +670,15 @@ photos:
   img: Life Drawing/P7200032.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200032
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.1166056166056166
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '5.6'
@@ -875,15 +686,15 @@ photos:
   img: Life Drawing/P7200028.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200028
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8078920041536864
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '5.6'
@@ -891,15 +702,15 @@ photos:
   img: Life Drawing/P7200027.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200027
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.6691871455576559
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '5.6'
@@ -907,15 +718,15 @@ photos:
   img: Life Drawing/P7200025.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200025
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/30
   f_number: '5.6'
@@ -923,15 +734,15 @@ photos:
   img: Life Drawing/P7200023.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200023
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.1127361365021329
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '5.6'
@@ -939,15 +750,15 @@ photos:
   img: Life Drawing/P7200022.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200022
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.4158075601374571
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '5.6'
@@ -955,15 +766,15 @@ photos:
   img: Life Drawing/P7200020.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200020
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8381808566895822
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '5.6'
@@ -971,15 +782,15 @@ photos:
   img: Life Drawing/P7200019.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200019
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.1855345911949686
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -987,31 +798,15 @@ photos:
   img: Life Drawing/P7200016.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200016
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.6087912087912088
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '43.0'
-  img: Life Drawing/P7200013.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200013
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -1019,31 +814,15 @@ photos:
   img: Life Drawing/P7200012.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200012
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/20
-  f_number: '5.6'
-  focal_length: '57.0'
-  img: Life Drawing/P7200011.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200011
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.2470967741935484
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '5.6'
@@ -1051,15 +830,15 @@ photos:
   img: Life Drawing/P7200010.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200010
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 1.3333333333333333
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '5.6'
@@ -1067,31 +846,15 @@ photos:
   img: Life Drawing/P7200009.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200009
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 1.3728010825439783
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/25
-  f_number: '5.6'
-  focal_length: '44.0'
-  img: Life Drawing/P7200008.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200008
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.801862390067253
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '6.3'
@@ -1099,15 +862,15 @@ photos:
   img: Life Drawing/P7200006.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200006
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8154327424400417
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/20
   f_number: '6.3'
@@ -1115,15 +878,15 @@ photos:
   img: Life Drawing/P7200004.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200004
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
 - album: Life Drawing
   aspect: 0.8172323759791122
-  cam_model: 'E-M5MarkII      '
+  cam_model: !!binary |
+    RS1NNU1hcmtJSSAgICAgIA==
   date_time_original: 20 July 2018
   exposure: 1/25
   f_number: '6.3'
@@ -1131,25 +894,8 @@ photos:
   img: Life Drawing/P7200002.jpg
   iso: 200
   latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200002
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
-- album: Life Drawing
-  aspect: 0.7431557989049278
-  cam_model: 'E-M5MarkII      '
-  date_time_original: 20 July 2018
-  exposure: 1/25
-  f_number: '6.3'
-  focal_length: '49.0'
-  img: Life Drawing/P7200001.jpg
-  iso: 200
-  latitude: ''
-  lens_model: "LUMIX G VARIO 12-60/F3.5-5.6\0\0\0"
-  longitude: ''
-  title: P7200001
-  user_comment: !!python/unicode "\0\0\0\0\0\0\0\0                               \
-    \                                                                            \
-    \          "
+  user_comment: ''
