@@ -43,26 +43,15 @@ if args.push:
     print("\nAdd to git repo and commit")
     git_commit_ret = call(['git','commit', '-am', 'deploying from '+sha])
     if git_commit_ret == 0:
-        print("git commit -am success ?")
-        exit()
-        if call(['git','push']) == 0:
-            print ('Blog push success')
-            web_repo = git.Repo(search_parent_directories=True)
-            web_sha = web_repo.head.object.hexsha
-            web_dir = os.path.join(root_dir,'../website')
-            os.chdir(web_dir)
-            old_content = os.listdir(web_dir)
-            for clean_up in old_content:
-                if not clean_up.endswith('.git'):    
-                    remove(clean_up)
-            copy_tree(site_dir, web_dir)
-            print("Copied to website repo, ready to submit")
-            #web_commit_ret = call(['git','commit', '-am','deploying from '+web_sha])
-            #if web_commit_ret == 0:
-             #   if call(['git','push']) == 0:
-              #      print ('Web Deployment succes')
-        else:
-            print ('Deployment failed, could not push')
+        print("Commited to blog repo, ready to submit")
+        web_dir = os.path.join(root_dir,'../website')
+        os.chdir(web_dir)
+        old_content = os.listdir(web_dir)
+        for clean_up in old_content:
+            if not clean_up.endswith('.git'):    
+                remove(clean_up)
+        copy_tree(site_dir, web_dir)
+        print("Copied to website repo, ready to submit")
     else:
         print ('Deployment failed, could not commit _site')
 else:
