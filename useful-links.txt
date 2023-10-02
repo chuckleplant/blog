@@ -1,0 +1,2 @@
+To run jekyll on windows
+https://medium.com/ruby-on-rails-web-application-development/install-rmagick-gem-on-windows-7-8-10-imagemagick-6-9-4-q16-hdri-5492c3fef202
