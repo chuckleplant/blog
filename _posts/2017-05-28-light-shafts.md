@@ -5,6 +5,8 @@ date: 2017-05-28
 icon: eye
 comments: true
 disqus_identifier: McShafty
+image:
+    path: "images/red-dead-shaft.png"
 ---
 
 > This post is greatly based on the [Nvidia GPU Gem on volumetric light scattering](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch13.html). Here I walk you through the formulae and core concepts. I highly recommend reading that one instead, and come back only if you couldn't follow, or for fun.

@@ -5,6 +5,8 @@ date:   2018-07-23
 tags: [google,gps,geotag,python,exif,jpeg,creepy,photography]
 comments: true
 disqus_identifier: geotagPython
+image:
+    path: "images/posts/geotag-gphotos.png"
 ---
 
 > He who controls the past controls the future. He who controls the present controls the past.

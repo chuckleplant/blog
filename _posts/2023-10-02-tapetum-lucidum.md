@@ -5,6 +5,9 @@ date:   2023-10-02
 tags: [unreal,unreal engine,UE5,GYLT,Stadia,VFX]
 comments: true
 disqus_identifier: TapetumLucidum
+image: 
+    path: "images/racheye.jpg"
+excerpt: "Gylt was the first game I worked at. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers."
 ---
 
 [Gylt](https://store.steampowered.com/app/2206210/GYLT/) was the first game I worked at. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers.

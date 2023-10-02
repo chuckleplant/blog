@@ -180,6 +180,65 @@ pre {
 }
 
 
+.card {
+    width: 100%;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    margin: $spacing-unit 0;
+    display: flex;
+    flex-direction: row;  // On larger screens, items sit side by side.
+    background-color: rgba(0, 0, 0, 0.033);
+
+    @include media-query($on-laptop) {
+        flex-direction: column; // On mobile and smaller screens, items stack vertically.
+    }
+}
+
+.card-text {
+    padding: $spacing-unit;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-meta { 
+    margin-top: auto;
+}
+
+.card-image {
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 38.1%; 
+    min-height: 200px;
+    backface-visibility: hidden;
+    transform: translateZ(0); // Ensures GPU rendering for smoother transitions.
+    transition: all 0.3s ease; // Adjust as necessary.
+
+    @include media-query($on-laptop) {
+        order: -1; // On smaller screens, the image is displayed first, before the text.
+        flex-basis: auto; // Reset the width for smaller screens.
+        width: 100%; // Image occupies full width on smaller screens.
+    }
+}
+
+.card-link {
+    text-decoration: none; // Removes underline
+    color: inherit; // Inherits the parent's text color
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    .card {
+        transition: transform 0.1s; // Adds a quick scaling effect on hover for feedback
+
+        &:hover {
+            transform: scale(1.02); // Slightly enlarges the card on hover
+        }
+    }
+}
+
 
 /**
  * Clearfix

@@ -5,9 +5,11 @@ date:   2018-08-06
 tags: [meta,jekyll,images]
 comments: true
 disqus_identifier: pigGallery
+image:
+    path: "images/photo-page.png"
 ---
 
-A few posts ago I added image galleries. In the menu above you can access albums and the Life Drawing gallery. Initially I used the [Jekyll Photo Gallery](https://github.com/aerobless/jekyll-photo-gallery) (JPG) by Theo Winter, which had many of the features I wanted. I liked specially the generation of a unique page for each photo and the google maps thumbnail generation. The JPG used the [Justified Gallery](http://miromannino.github.io/Justified-Gallery/) by Miro Mannino to show a grid of images.
+A few posts ago I added image galleries. Initially I used the [Jekyll Photo Gallery](https://github.com/aerobless/jekyll-photo-gallery) (JPG) by Theo Winter, which had many of the features I wanted. I liked specially the generation of a unique page for each photo and the google maps thumbnail generation. The JPG used the [Justified Gallery](http://miromannino.github.io/Justified-Gallery/) by Miro Mannino to show a grid of images.
 
 I noticed that for a great amount of images the site took too much time to load. After a small search I found the [Progressive Image Grid](https://github.com/schlosser/pig.js) (PIG) by Dan Schlosser, this gallery could load an absurd amount of images without much effort. It does this by loading and unloading the images, buffering them based on the user's browsing direction.
 
