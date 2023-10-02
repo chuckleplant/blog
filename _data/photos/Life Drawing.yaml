@@ -187,22 +187,6 @@ photos:
   exposure: 1/800
   f_number: '1.8'
   focal_length: '17.0'
-  img: Life Drawing/P1060159.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    T0xZTVBVUyBNLjE3bW0gRjEuOA==
-  longitude: ''
-  title: P1060159
-  user_comment: ''
-- album: Life Drawing
-  aspect: 0.75
-  cam_model: !!binary |
-    RS1NNU1hcmtJSQ==
-  date_time_original: 06 January 2020
-  exposure: 1/800
-  f_number: '1.8'
-  focal_length: '17.0'
   img: Life Drawing/P1060158.jpg
   iso: 200
   latitude: ''
@@ -324,22 +308,6 @@ photos:
   title: P5190656
   user_comment: ''
 - album: Life Drawing
-  aspect: 0.6811248808388942
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 23 September 2018
-  exposure: 1/40
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230011.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
-  longitude: ''
-  title: P9230011
-  user_comment: ''
-- album: Life Drawing
   aspect: 1.469887955182073
   cam_model: !!binary |
     RS1NNU1hcmtJSSAgICAgIA==
@@ -404,38 +372,6 @@ photos:
   title: P9230004
   user_comment: ''
 - album: Life Drawing
-  aspect: 1.4757894736842105
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 23 September 2018
-  exposure: 1/30
-  f_number: '5.0'
-  focal_length: '32.0'
-  img: Life Drawing/P9230002.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
-  longitude: ''
-  title: P9230002
-  user_comment: ''
-- album: Life Drawing
-  aspect: 0.7837423312883436
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 21 August 2018
-  exposure: 1/60
-  f_number: '5.6'
-  focal_length: '43.0'
-  img: Life Drawing/P8210589.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
-  longitude: ''
-  title: P8210589
-  user_comment: ''
-- album: Life Drawing
   aspect: 0.7747839349262837
   cam_model: !!binary |
     RS1NNU1hcmtJSSAgICAgIA==
@@ -466,22 +402,6 @@ photos:
     TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P8090103
-  user_comment: ''
-- album: Life Drawing
-  aspect: 0.7452642073778664
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 01 August 2018
-  exposure: 1/1250
-  f_number: '1.8'
-  focal_length: '17.0'
-  img: Life Drawing/P8010017.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    T0xZTVBVUyBNLjE3bW0gRjEuOAAAAAAAAAAAAAAAAA==
-  longitude: ''
-  title: P8010017
   user_comment: ''
 - album: Life Drawing
   aspect: 0.6748932130991931
@@ -628,54 +548,6 @@ photos:
   title: P7200040
   user_comment: ''
 - album: Life Drawing
-  aspect: 1.210292249047014
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 20 July 2018
-  exposure: 1/25
-  f_number: '6.3'
-  focal_length: '43.0'
-  img: Life Drawing/P7200036.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
-  longitude: ''
-  title: P7200036
-  user_comment: ''
-- album: Life Drawing
-  aspect: 1.0163075131042516
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 20 July 2018
-  exposure: 1/30
-  f_number: '6.3'
-  focal_length: '43.0'
-  img: Life Drawing/P7200035.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
-  longitude: ''
-  title: P7200035
-  user_comment: ''
-- album: Life Drawing
-  aspect: 0.6568352059925093
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 20 July 2018
-  exposure: 1/30
-  f_number: '5.6'
-  focal_length: '55.0'
-  img: Life Drawing/P7200032.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
-  longitude: ''
-  title: P7200032
-  user_comment: ''
-- album: Life Drawing
   aspect: 1.1166056166056166
   cam_model: !!binary |
     RS1NNU1hcmtJSSAgICAgIA==
@@ -770,22 +642,6 @@ photos:
     TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
   longitude: ''
   title: P7200020
-  user_comment: ''
-- album: Life Drawing
-  aspect: 0.8381808566895822
-  cam_model: !!binary |
-    RS1NNU1hcmtJSSAgICAgIA==
-  date_time_original: 20 July 2018
-  exposure: 1/25
-  f_number: '5.6'
-  focal_length: '60.0'
-  img: Life Drawing/P7200019.jpg
-  iso: 200
-  latitude: ''
-  lens_model: !!binary |
-    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNgAAAA==
-  longitude: ''
-  title: P7200019
   user_comment: ''
 - album: Life Drawing
   aspect: 1.1855345911949686
