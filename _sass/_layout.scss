@@ -99,14 +99,29 @@
 /**
  * Site footer
  */
-.site-footer {
+ .site-footer {
     background-color: $palette-1;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     position: relative;
     width: 100%;
     bottom: 0;
+
+    // Text color for the general footer content
+    color: $footer-fg;
+
+    a {
+        color: $footer-fg;  // Link colors in the footer
+        &:hover {
+            color: $footer-hover;  // Hover color for links in the footer
+        }
+    }
+
+    .contact-list-title {
+        color: $footer-fg;  // The title color in the contact list
+    }
 }
+
 
 .footer-heading {
     font-size: 18px;
