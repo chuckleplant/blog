@@ -32,6 +32,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.8.0)
@@ -73,6 +74,7 @@ DEPENDENCIES
   exifr
   jekyll (~> 3.9.2)
   jekyll-feed
+  jekyll-paginate
   jekyll-seo-tag
   kramdown-parser-gfm
   rmagick

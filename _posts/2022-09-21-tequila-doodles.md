@@ -6,7 +6,7 @@ tags: [drawing,gamedev,album]
 comments: true
 disqus_identifier: TequilaDoodles
 image:
-  path: /img/albums/Tequila Doodles/Smash.jpg
+  path: img/600/Smash.jpg
 ---
 
 Little doodles that I drew while working at Tequila Works in Madrid. I blame compilation times and a cloud of creativity floating around the office. Some are related to Gylt, a game we shipped for Google Stadia. Others are just rough drawings made absent-mindedly.

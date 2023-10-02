@@ -45,3 +45,9 @@ destination: _deploy
 plugins:
    - jekyll-feed
    - jekyll-seo-tag
+   - jekyll-paginate
+
+# jekyll-paginate plugin config
+#
+paginate: 5  # number of posts per page
+paginate_path: "page:num"  # the pagination path, e.g., /page2

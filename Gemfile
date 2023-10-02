@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "kramdown-parser-gfm"
   gem "dimensions"
   gem "webrick"
+  gem 'jekyll-paginate'
 end

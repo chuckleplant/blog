@@ -7,17 +7,15 @@ layout: default
     <h1 class="page-heading">Posts</h1>
     
     <div class="wrapper">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %} <!-- Changed site.posts to paginator.posts -->
         {% if post.layout != 'album' %}
         
-        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link"> <!-- The entire card is now wrapped in this anchor tag -->
+        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link">
             <div class="card">
                 
                 <!-- Text Section -->
                 <div class="card-text">
-                    <h2>
-                        {{ post.title }} <!-- Removed the inner anchor around the title since the entire card is now clickable -->
-                    </h2>
+                    <h2>{{ post.title }}</h2>
                     
                     {% if post.excerpt %}
                     <p>{{ post.excerpt | strip_html }}</p>
@@ -28,15 +26,31 @@ layout: default
                         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                     </div>
                 </div>
+
                 
                 <!-- Image Section -->
-                <div class="card-image" style="background-image: url('{{ post.image.path | prepend: site.baseurl }}')"></div>
+                <div class="card-image" style="background-image: url('{{ site.url }}/{{ post.image.path}}')"></div>
                 
             </div>
-        </a> <!-- Closing the anchor tag -->
+        </a>
 
         {% endif %}
         {% endfor %}
+
+        <!-- Pagination links -->
+        <div class="pagination">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+            {% else %}
+                <span class="previous">Newer</span>
+            {% endif %}
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+            {% else %}
+                <span class="next">Older</span>
+            {% endif %}
+        </div>
+
     </div>
     
     <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

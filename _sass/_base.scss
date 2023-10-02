@@ -182,13 +182,14 @@ pre {
 
 .card {
     width: 100%;
-    border: 1px solid $grey-color-light;
+    border: 0.1rem solid darken($palette-bg, 10%);
     border-radius: 0.5rem;
     margin: $spacing-unit 0;
     display: flex;
     flex-direction: row;  // On larger screens, items sit side by side.
     background-color: rgba(0, 0, 0, 0.033);
     overflow: hidden;
+    transition: background-color 0.25s ease, transform 0.1s;
 
     @include media-query($on-laptop) {
         flex-direction: column; // On mobile and smaller screens, items stack vertically.
@@ -232,11 +233,15 @@ pre {
         text-decoration: none;
     }
 
-    .card {
-        transition: transform 0.1s; // Adds a quick scaling effect on hover for feedback
+    .card {        
+        
+
 
         &:hover {
             transform: scale(1.02); // Slightly enlarges the card on hover
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 0.1rem solid lighten($palette-fg, 10%);
+            background-color: rgba(255, 227, 136, 0.158);
         }
     }
 }
