@@ -1,5 +1,19 @@
 photos:
 - album: Life Drawing
+  aspect: 1.1723329425556859
+  cam_model: ''
+  date_time_original: 02 October 2023
+  exposure: ''
+  f_number: ''
+  focal_length: ''
+  img: Life Drawing/Zoo Visit.jpg
+  iso: ''
+  latitude: ''
+  lens_model: ''
+  longitude: ''
+  title: Zoo Visit
+  user_comment: ''
+- album: Life Drawing
   aspect: 0.75
   cam_model: !!binary |
     UGl4ZWwgMw==

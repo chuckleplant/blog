@@ -58,8 +58,13 @@ class BlogPhoto(object):
         self.aspect             = float(width)/float(height)
         self.latitude           = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLatitude)
         self.longitude          = get_exif_elem(exif_dict,"GPS",piexif.GPSIFD.GPSLongitude)
-        self.timestamp          = datetime.strptime((exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal]).decode('utf-8'), '%Y:%m:%d %H:%M:%S')
-        self.date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
+        try:
+            self.timestamp = datetime.strptime((exif_dict["Exif"][piexif.ExifIFD.DateTimeOriginal]).decode('utf-8'), '%Y:%m:%d %H:%M:%S')
+            self.date_time_original = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.DateTimeOriginal)
+        except KeyError:
+            self.timestamp = datetime.fromtimestamp(os.path.getmtime(filename))
+            dt_obj = datetime.fromtimestamp(os.path.getmtime(filename))
+            self.date_time_original = dt_obj.strftime('%d %B %Y')
         self.user_comment       = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.UserComment)
         self.cam_model          = get_exif_elem(exif_dict,"0th",piexif.ImageIFD.Model)
         self.lens_model         = get_exif_elem(exif_dict,"Exif",piexif.ExifIFD.LensModel)
