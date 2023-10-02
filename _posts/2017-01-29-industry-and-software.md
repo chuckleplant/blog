@@ -6,7 +6,7 @@ icon: wpexplorer
 comments: true
 disqus_identifier: IndustrySoftware
 image:
-    path: "images/dat-sleeve.jpg"
+    path: "img/600/dat-sleeve.jpg"
 ---
 
 

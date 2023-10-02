@@ -183,11 +183,12 @@ pre {
 .card {
     width: 100%;
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin: $spacing-unit 0;
     display: flex;
     flex-direction: row;  // On larger screens, items sit side by side.
     background-color: rgba(0, 0, 0, 0.033);
+    overflow: hidden;
 
     @include media-query($on-laptop) {
         flex-direction: column; // On mobile and smaller screens, items stack vertically.
