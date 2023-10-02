@@ -200,17 +200,16 @@ def process_blog_images(workspace_root='.'):
             lines = file.readlines()
             front_matter = ''.join(lines[1:lines.index('---\n', 1)])
             data = yaml.safe_load(front_matter)
-            image_path = data.get('image', {}).get('path')
+            image_path =  data.get('image', {}).get('path')
 
             if image_path:
                 # Ensure that the image exists
-                absolute_image_path = os.path.join(workspace_root, image_path)
-                
+                absolute_image_path = os.path.join(workspace_root, image_path.lstrip('/'))
+
                 # Check if the resized image already exists in the img/600 folder
                 resized_image_folder = os.path.join(workspace_root, 'img/600')
                 output_path = os.path.join(resized_image_folder, os.path.basename(image_path))
                 if os.path.exists(output_path):
-                    print(f"Resized image for {post} already exists at {output_path}. Skipping.")
                     continue
 
                 if os.path.exists(absolute_image_path):
@@ -224,13 +223,16 @@ def process_blog_images(workspace_root='.'):
                         os.makedirs(resized_image_folder, exist_ok=True)
                         img_resized.save(output_path)
                         print(f"Saved resized image for {post} to {output_path}")
+                        
                 else:
                     print(f"Image path {absolute_image_path} does not exist for post {post}")
             else:
                 print(f"{post_path} did not specify an image.")
 
+
+print("Generating post title card images.")
 process_blog_images(os.path.join(cur_path, ".."))
-exit()
+
 
 albums = glob.glob(cur_path+'/../img/albums/*/')
 for album_path in albums:
