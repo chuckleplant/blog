@@ -42,12 +42,12 @@ layout: default
             {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
             {% else %}
-                <span class="previous">Newer</span>
+                <span class="previous">◱</span>
             {% endif %}
             {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path }}" class="next">Older</a>
             {% else %}
-                <span class="next">Older</span>
+                <span class="next">◲</span>
             {% endif %}
         </div>
 
