@@ -178,20 +178,45 @@ pre {
     }
 }
 
-
 .card {
     width: 100%;
     border: 0.1rem solid darken($palette-bg, 10%);
     border-radius: 0.5rem;
     margin: $spacing-unit 0;
     display: flex;
-    flex-direction: row;  // On larger screens, items sit side by side.
+    flex-direction: row;
     background-color: rgba(0, 0, 0, 0.033);
     overflow: hidden;
-    transition: background-color 0.25s ease, transform 0.1s;
+    position: relative; // Added to contain the shine effect
+    transition: background-color 0.05s ease-in, transform 0.05s;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%; // Pushed entirely off the card by default
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(255,255,255,0.25), rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+        transform: skewX(-25deg);
+        transition: left 0.75s ease-in-out;
+        opacity: 0;
+    }
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 0.1rem solid lighten($palette-fg, 10%);
+        background-color: rgba(255, 227, 136, 0.158);
+        
+        &::after {
+            left: 150%; // Move the shine across the card
+            opacity: 1;
+        }
+    }
 
     @include media-query($on-laptop) {
-        flex-direction: column; // On mobile and smaller screens, items stack vertically.
+        flex-direction: column;
     }
 }
 
@@ -213,37 +238,30 @@ pre {
     flex: 0 0 38.1%; 
     min-height: 200px;
     backface-visibility: hidden;
-    transform: translateZ(0); // Ensures GPU rendering for smoother transitions.
-    transition: all 0.3s ease; // Adjust as necessary.
+    transform: translateZ(0);
+    transition: all 0.3s ease;
 
     @include media-query($on-laptop) {
-        order: -1; // On smaller screens, the image is displayed first, before the text.
-        flex-basis: auto; // Reset the width for smaller screens.
-        width: 100%; // Image occupies full width on smaller screens.
+        order: -1;
+        flex-basis: auto;
+        width: 100%;
     }
 }
 
-
 .card-link {
-    text-decoration: none; // Removes underline
-    color: inherit; // Inherits the parent's text color
+    text-decoration: none;
+    color: inherit;
 
     &:hover {
         text-decoration: none;
     }
-
-    .card {        
-        
-
-
-        &:hover {
-            transform: scale(1.02); // Slightly enlarges the card on hover
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border: 0.1rem solid lighten($palette-fg, 10%);
-            background-color: rgba(255, 227, 136, 0.158);
-        }
-    }
 }
+
+@keyframes shineEffect {
+    from { left: -100%; }
+    to { left: 150%; }
+}
+
 
 
 /**
