@@ -12,8 +12,6 @@ excerpt: "Gylt was the first game I worked at. It was a spooky one, the art styl
 
 [Gylt](https://store.steampowered.com/app/2206210/GYLT/) was the first game I worked at. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers.
 
-{% include image.html file="gylt-eye.png" description="Personal rendition of The Observers. These are docile beings that can block your path. They will also rudely stare." %}
-
 One day, while playing the game, I walked into Bachman School. The game took place mostly at night time. There is something alrady terrifying about high schools at night. Right after you walk in through the main entrance, there is a hallway. You can barely see anything and once you're deep into the room you can start to see a group of Observers blocking your path.
 
 At this point in the game I already had my flashlight with me. The flashlight was Sally's main weapon agains, well, darkness. And I had a little aha moment. **It would be great if I could already see moving eyes glowing in the darkness when I first walked by that gloomy corridor**. This simple and insignificant idea took me on a developer side-quest.

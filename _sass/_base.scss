@@ -200,7 +200,7 @@ pre {
         background: linear-gradient(45deg, rgba(255,255,255,0.0), rgba(255,255,255,0.0), rgba(255,255,255,0.0));
         transform: skewX(-25deg);
         opacity: 0;
-        transition: left 0.8s ease-in-out, background-color 0.8s ease-in, opacity ease-in;
+        transition: left 0.8s ease-in-out, background-image 0.8s ease-in, opacity ease-in;
     }
 
     &:hover {

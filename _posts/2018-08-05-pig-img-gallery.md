@@ -6,7 +6,7 @@ tags: [meta,jekyll,images]
 comments: true
 disqus_identifier: pigGallery
 image:
-    path: "images/photo-page.png"
+    path: "img/600/photo-page.png"
 ---
 
 A few posts ago I added image galleries. Initially I used the [Jekyll Photo Gallery](https://github.com/aerobless/jekyll-photo-gallery) (JPG) by Theo Winter, which had many of the features I wanted. I liked specially the generation of a unique page for each photo and the google maps thumbnail generation. The JPG used the [Justified Gallery](http://miromannino.github.io/Justified-Gallery/) by Miro Mannino to show a grid of images.

@@ -6,7 +6,7 @@ tags: [painting,art,images,movies,movie,acrylic]
 comments: true
 disqus_identifier: spiritedPainting
 image:
-    path: "images/spirited.png"
+    path: "img/600/spirited.png"
 ---
 
 This image appears within a long scene in which Chihiro takes a train. The scene gives the viewer a break and portrays the protagonist's journey from childhood to adulthood.
