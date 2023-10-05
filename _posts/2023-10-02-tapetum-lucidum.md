@@ -16,11 +16,11 @@ One day, while playing the game, I walked into Bachman School. The game took pla
 
 At this point in the game I already had my flashlight with me. The flashlight was Sally's main weapon agains, well, darkness. And I had a little aha moment. **It would be great if I could already see moving eyes glowing in the darkness when I first walked by that gloomy corridor**. This simple and insignificant idea took me on a developer side-quest.
 
-First I pestered my lead Raul, who brushed it off telling me that there were other priorities and that it wasn't our department. Fair enough. Later I asked Simon, who was the lead VFX for the project. He was on board but told me "I like the idea buddy, but this needs to be approved by the art director". Alright then, a few days later I found our art director Cesar and I gave him a little pitch. I even did some research and found that this eye glow is called [*Tapetum Lucidum*](https://en.wikipedia.org/wiki/Tapetum_lucidum).
+First I pestered my lead Raul, who brushed it off telling me that there were other priorities and that it wasn't our department. Fair enough. Later I asked Simon, who was the lead VFX for the project. He was on board but told me "I like the idea buddy, but this needs to be approved by the art director". Alright then, a few days later I found our art director Oscar and I gave him a little pitch. I even did some research and found that this eye glow is called [*Tapetum Lucidum*](https://en.wikipedia.org/wiki/Tapetum_lucidum).
 
 {% include image.html file="racheye.jpg" description="Tapetum Lucidum is a layer of tissue in the eye that reflects visible light. They used a cool practical effect in Blade Runner to capture this without any CGI." %}
 
-Cesar finally gave in and gave me a solid *maybe*. It certainly wasn't the first thing on his list. This was **outrageous**. How could we have huge eyes, a flashlight as the main weapon, and not have this!? I sat on it for a few days until it dawned on me that I could just go and do it myself.
+Oscar finally gave in and gave me a solid *maybe*. It certainly wasn't the first thing on his list. This was **outrageous**. How could we have huge eyes, a flashlight as the main weapon, and not have this!? I sat on it for a few days until it dawned on me that I could just go and do it myself.
 
 It was a nice excuse to toy with materials. The logic behind it was quite simple, if the light source and the Observer's eyes aligned with the camera's forward vector, the eye then can reflect back light towards the camera and have a slight glow. Nothing a dot product and an emissive material cannot fix.
 
