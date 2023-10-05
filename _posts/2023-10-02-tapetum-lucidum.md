@@ -10,11 +10,11 @@ image:
 excerpt: "Gylt was the first game I worked at. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers."
 ---
 
-[Gylt](https://store.steampowered.com/app/2206210/GYLT/) was the first game I worked at. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers.
+[Gylt](https://store.steampowered.com/app/2206210/GYLT/) was the first game I worked on. It was a spooky one, the art style inspired by Laika movies (Coraline, Kubo). Every now and then you could find these weird looking tentacles with huge eyes pulsating in the darkness. They were called The Observers.
 
-One day, while playing the game, I walked into Bachman School. The game took place mostly at night time. There is something alrady terrifying about high schools at night. Right after you walk in through the main entrance, there is a hallway. You can barely see anything and once you're deep into the room you can start to see a group of Observers blocking your path.
+One day, while playing the game, I walked into Bachman School. The game took place mostly at night time. There is something already terrifying about high schools at night. Right after you walk in through the main entrance, there is a hallway. You can barely see anything and once you're deep into the room you can start to see a group of Observers blocking your path.
 
-At this point in the game I already had my flashlight with me. The flashlight was Sally's main weapon agains, well, darkness. And I had a little aha moment. **It would be great if I could already see moving eyes glowing in the darkness when I first walked by that gloomy corridor**. This simple and insignificant idea took me on a developer side-quest.
+At this point in the game I already had my flashlight with me. The flashlight was Sally's main weapon against, well, darkness. And I had a little aha moment. **It would be great if I could already see moving eyes glowing in the darkness when I first walked by that gloomy corridor**. This simple and insignificant idea took me on a developer side-quest.
 
 First I pestered my lead Raul, who brushed it off telling me that there were other priorities and that it wasn't our department. Fair enough. Later I asked Simon, who was the lead VFX for the project. He was on board but told me "I like the idea buddy, but this needs to be approved by the art director". Alright then, a few days later I found our art director Oscar and I gave him a little pitch. I even did some research and found that this eye glow is called [*Tapetum Lucidum*](https://en.wikipedia.org/wiki/Tapetum_lucidum).
 
@@ -32,4 +32,4 @@ I showed it to Simon and he was into it. He was visibly amused by a newly hired 
 
 It's still one of my favorite game dev moments. Something sparks your imagination and once an idea forms it's hard for you to let it go. *An idea is like a virus, resilient, highly contagious*. I really hope someone noticed while playing the game. I had a blast with this tiny feature.
 
-Always hire a prototype to be the salesperson of your idea.
+Always use a prototype to sell your idea.
