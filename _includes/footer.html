@@ -12,21 +12,21 @@
           {% if site.owner.github %}
           <li>
             {%assign ghurl = "https://github.com/" | append: site.owner.github %}
-            {% include icon-sn.html username=site.owner.github url=ghurl svgfile="github-square-brands.svg" %}
+            {% include icon-sn.html username=site.owner.github url=ghurl icon="github" %}
           </li>
           {% endif %}
 
           {% if site.owner.linkedin %}
           <li>
             {% assign liurl = "https://www.linkedin.com/in/" | append: site.owner.linkedin %}
-            {% include icon-sn.html username="LinkedIn" url=liurl svgfile="linkedin-brands.svg" %}
+            {% include icon-sn.html username="LinkedIn" url=liurl icon="linkedin" %}
           </li>
           {% endif %}
 
           {% if site.owner.twitter %}
           <li>
             {% assign twit_url = "https://twitter.com/" | append: site.owner.twitter %}
-            {% include icon-sn.html username=site.owner.twitter url=twit_url svgfile="icon-twitter.svg" %}
+            {% include icon-sn.html username=site.owner.twitter url=twit_url icon="twitter" %}
           </li>
           {% endif %}        
         </ul>

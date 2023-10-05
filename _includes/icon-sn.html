@@ -1,4 +1,9 @@
 <a href="{{ include.url }}">
-    <span class="icon ">{% include {{include.svgfile}} %}</span>
+    <span class="icon">
+        <svg>
+            {% include svg-symbols.svg %}
+            <use xlink:href="#{{ include.icon }}"></use>
+        </svg>
+    </span>
     <span class="username">{{ include.username }}</span>
 </a>

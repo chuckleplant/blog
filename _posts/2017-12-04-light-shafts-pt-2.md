@@ -6,7 +6,7 @@ icon: sun-o
 comments: true
 disqus_identifier: Shaft!
 image:
-    path: "images/red-dead-shaft.png"
+    path: "img/600/red-dead-shaft.png"
 ---
 
 > Continuation of [Isaac Hayes Wallpaper Generator - Volumetric light scattering, 1 of 2]({% post_url 2017-05-28-light-shafts %})
