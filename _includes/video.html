@@ -2,7 +2,7 @@
 <div class="image-container">
     <div class="Container">
         <div class="Content">
-            <video autoplay="autoplay" loop="loop" style="width: {{ include.width | default: '100%' }}">
+            <video controls autoplay="autoplay" loop="loop" style="width: {{ include.width | default: '100%' }}">
                 <source src="{{include.source}}" type="video/mp4">
             </video>            
         </div>

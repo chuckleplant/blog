@@ -225,6 +225,10 @@ pre {
             left: 150%; // Move the shine across the card
             opacity: 1;
         }
+
+        .card-image{
+            filter: contrast(100%);
+        }
     }
 
     @include media-query($on-laptop) {
@@ -261,8 +265,8 @@ pre {
         > svg {
             display: inline-block;
             vertical-align: middle;
-            width: 1.275rem;
-            height: 1.275rem;            
+            width: 1.3rem;
+            height: 1.3rem;            
         }
     }
 }
@@ -274,8 +278,8 @@ pre {
     min-height: 200px;
     backface-visibility: hidden;
     transform: translateZ(0);
-    transition: all 0.3s ease;
-
+    transition: all 0.3s ease;    
+    
     @include media-query($on-laptop) {
         order: -1;
         flex-basis: auto;

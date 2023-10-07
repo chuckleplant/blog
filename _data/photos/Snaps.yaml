@@ -1,5 +1,88 @@
 photos:
 - album: Snaps
+  aspect: 1.599707815924032
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 30 April 2023
+  exposure: 1/500
+  f_number: '16.0'
+  focal_length: '23.0'
+  img: Snaps/Sweating hills.jpg
+  iso: 200
+  latitude: ''
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
+  longitude: ''
+  title: Sweating hills
+  user_comment: A hill in Scotland, it was probably raining. The hills had these few
+    chimneys of evaporation. Some sheep were going about their business.
+- album: Snaps
+  aspect: 2.3998211091234345
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 30 April 2023
+  exposure: 1/160
+  f_number: '4.0'
+  focal_length: '12.0'
+  img: Snaps/Mirror Ness.jpg
+  iso: 320
+  latitude: ''
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
+  longitude: ''
+  title: Mirror Ness
+  user_comment: Our guide that day told us that in forty years he had never seen Loch
+    Ness so calm. It was by far the biggest mirror I have seen in my life. The mountain
+    line looked like an infinite flying saucer.
+- album: Snaps
+  aspect: 1.333555703802535
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 29 April 2023
+  exposure: 1/8000
+  f_number: '2.0'
+  focal_length: '25.0'
+  img: Snaps/Hairy coo.jpg
+  iso: 200
+  latitude: ''
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
+  longitude: ''
+  title: Hairy coo
+  user_comment: Highlands cow (coo). Scotland sure is pretty.
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 01 October 2022
+  exposure: 4/10
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Night concert.jpg
+  iso: 200
+  latitude: ''
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
+  longitude: ''
+  title: Night concert
+  user_comment: A cozy concert at Konvent 0.
+- album: Snaps
+  aspect: 1.4979195561719834
+  cam_model: !!binary |
+    TklLT04gRDc1MA==
+  date_time_original: 31 October 2020
+  exposure: 1/250
+  f_number: '2.8'
+  focal_length: '200.0'
+  img: Snaps/Roller.jpg
+  iso: 5000
+  latitude: ''
+  lens_model: !!binary |
+    ODAuMC0yMDAuMCBtbSBmLzIuOA==
+  longitude: ''
+  title: Roller
+  user_comment: Rollerskater gliding in front of a staircase by Badalona beach.
+- album: Snaps
   aspect: 1.0
   cam_model: !!binary |
     RS1NNU1hcmtJSQ==
@@ -636,6 +719,72 @@ photos:
   longitude: 19.0523199
   title: Danubius fountain
   user_comment: Budapest eye behind one of the statues in the Danubius fountain. Thoughtful.
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 07 September 2017
+  exposure: 1/25
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Spooky offices.jpg
+  iso: 200
+  latitude: ''
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
+  longitude: ''
+  title: Spooky offices
+  user_comment: A skyscrapper surrounded by mist, or clouds.
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 26 August 2017
+  exposure: 1/25
+  f_number: '1.4'
+  focal_length: '25.0'
+  img: Snaps/Japanese Boatman.jpg
+  iso: 1600
+  latitude: ''
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
+  longitude: ''
+  title: Japanese Boatman
+  user_comment: One of my all time favorite shots. A man slowly rowing at a very warm
+    and calm night.
+- album: Snaps
+  aspect: 1.3618598382749325
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 25 August 2017
+  exposure: 1/60
+  f_number: '3.5'
+  focal_length: '12.0'
+  img: Snaps/Pasarse de la raya.jpg
+  iso: 1250
+  latitude: ''
+  lens_model: !!binary |
+    TFVNSVggRyBWQVJJTyAxMi02MC9GMy41LTUuNg==
+  longitude: ''
+  title: Pasarse de la raya
+  user_comment: Lucky shot at some aquarium in Japan.
+- album: Snaps
+  aspect: 1.3333333333333333
+  cam_model: !!binary |
+    RS1NNU1hcmtJSQ==
+  date_time_original: 23 August 2017
+  exposure: 1/2000
+  f_number: '3.2'
+  focal_length: '25.0'
+  img: Snaps/Up Fuji.jpg
+  iso: 200
+  latitude: ''
+  lens_model: !!binary |
+    TEVJQ0EgREcgU1VNTUlMVVggMjUvRjEuNA==
+  longitude: ''
+  title: Up Fuji
+  user_comment: Dozer climbing Mount Fuji. I agree with the famous saying - A wise
+    man climbs Fuji once. Only a fool climbs it twice.
 - album: Snaps
   aspect: 1.5
   cam_model: !!binary |

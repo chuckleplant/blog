@@ -126,17 +126,17 @@
 
 
     // Text color for the general footer content
-    color: lighten($palette-brand, 5%);
+    color: lighten($palette-brand, 25%);
 
     a {
-        color: lighten($palette-brand, 5%);
+        color: lighten($palette-brand, 25%);
         &:hover {
             color: $palette-highlight;  // Hover color for links in the footer
         }
     }
 
     .contact-list-title {
-        color: lighten($palette-brand, 7%);
+        color: lighten($palette-brand, 25%);
     }
 }
 
@@ -324,6 +324,8 @@ to sum less than 100%
     letter-spacing: -1px;
     line-height: 1;
     font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -332,7 +334,7 @@ to sum less than 100%
 
 .post-content {
     color: $palette-text;
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;  
 
     h2 {
         font-size: 32px;
