@@ -18,31 +18,17 @@ $palette-bg:        #e8e6ea;
 $palette-bg-accent: #a6b6de;
 $palette-dark:      #2b3949;
 $palette-darkest:   #000100;
-$palette-accent:    #c76625;
+$palette-brand:    #c76625;
 $palette-highlight: #e9ab00;
 
 // autumn https://huemint.com/website-3/#palette=e8e6ea-a6b6de-2b3949-000100-c76625-f6cf00
 // https://huemint.com/website-1/#palette=e8e6ea-2b3949-f47c2d
 
-$text-color:      $palette-dark;
-$background-color: $palette-bg;
-$brand-color:      $palette-accent;
-
-$palette-dark-clicked: darken($palette-dark, 10%);
-$palette-accent-clicked: darken($palette-accent, 10%);
-
-$grey-color:       $palette-dark;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  lighten($grey-color, 25%);
-
 // Width of the content area
 $content-width:    max(50vw,950px);
-//$content-width:    85%;
 
 $on-palm:          750px;
 $on-laptop:        800px;
-
-
 
 // Use media queries like this:
 // @include media-query($on-palm) {

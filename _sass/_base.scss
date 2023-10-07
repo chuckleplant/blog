@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: $palette-dark;
+    background-color: $palette-bg;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -97,15 +97,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $palette-brand;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 10%);
+        color: darken($palette-brand, 10%);
     }
 
     &:hover {
-        color: darken($palette-accent,5%);
+        color: darken($palette-brand,5%);
         text-decoration: underline;
     }
 }
@@ -116,8 +116,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $palette-dark;
+    border-left: 4px solid $palette-bg-accent;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -164,8 +164,6 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -183,6 +181,14 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+
+    ::selection {
+        background-color: rgba($palette-bg-accent, 0.33);
+    }
+    
+    ::-moz-selection {
+        background-color: rgba($palette-bg-accent, 0.33);
+    }    
 }
 
 .card {
@@ -215,7 +221,7 @@ pre {
         transform: scale(1.03);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border: 0.1rem solid lighten($palette-highlight, 10%);
-        background-color: rgba(255, 227, 136, 0.158);
+        background-color: rgba(lighten($palette-highlight,10%), 0.1); // rgba(235, 180, 2, 0.164);
         z-index: 1;
         
         &::after {
@@ -315,7 +321,7 @@ pre {
         height: 18px;
         vertical-align: middle;
         path {
-            fill: $palette-accent;
+            fill: $palette-brand;
         }
     }
 }

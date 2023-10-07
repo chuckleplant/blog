@@ -1,8 +1,7 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 0.25rem solid $grey-color-dark;
+.site-header {    
     border-bottom: 0.1rem solid darken($palette-bg, 10%);
     min-height: 1rem;
     background-color: rgba(0, 0, 0, 0.015);
@@ -12,7 +11,7 @@
     position: relative;
 
     &:hover {
-        border-bottom: 0.1rem solid lighten($palette-highlight, 10%);
+        border-bottom: 0.1rem solid $palette-bg-accent;
     }
 }
 
@@ -28,7 +27,7 @@
     &:hover {
         text-decoration: none;
         .title-dot{
-            color: $palette-accent;
+            color: $palette-highlight;
         }
     }
 
@@ -38,11 +37,6 @@
         font-size: 4rem;
         color: $palette-bg-accent;
         transition: color 0.3s ease;      
-    }
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
     }
 }
 
@@ -57,7 +51,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $palette-dark;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -70,8 +64,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $palette-bg;
+        border: 1px solid $palette-bg-accent;
         border-radius: 5px;
         text-align: right;
 
@@ -89,7 +83,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $palette-dark;
                 }
             }
         }
@@ -123,24 +117,26 @@
  */
  .site-footer {
     background-color: $palette-dark;
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $palette-bg-accent;
     padding: $spacing-unit 0;
     position: relative;
     width: 100%;
     bottom: 0;
 
+
+
     // Text color for the general footer content
-    color: $palette-accent;
+    color: lighten($palette-brand, 5%);
 
     a {
-        color: $palette-accent;  // Link colors in the footer
+        color: lighten($palette-brand, 5%);
         &:hover {
             color: $palette-highlight;  // Hover color for links in the footer
         }
     }
 
     .contact-list-title {
-        color: $palette-accent;  // The title color in the contact list
+        color: lighten($palette-brand, 7%);
     }
 }
 
@@ -208,7 +204,7 @@ to sum less than 100%
 .footer-col-wrapper {
     font-size: 15px;
     background-color: $palette-dark;
-    color: $palette-bg;
+    color: $palette-highlight;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -231,6 +227,7 @@ to sum less than 100%
 }
 
 .footer-col-3 {
+    color: $palette-bg;
     float: left;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
@@ -306,21 +303,12 @@ to sum less than 100%
 .post-meta {
     font-size: $small-font-size;
     color: $palette-dark;
-    ::selection {
-        background-color: #f6cf00;  /* Color when text is selected */
-    }
-
-    ::-moz-selection {
-        background-color: #f6cf00;
-    }
 }
 
 .post-link {
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts
@@ -337,14 +325,6 @@ to sum less than 100%
     line-height: 1;
     font-weight: 600;
 
-    ::selection {
-        background-color: #f6cf00;  /* Color when text is selected */
-    }
-
-    ::-moz-selection {
-        background-color: #f6cf00;
-    }
-
     @include media-query($on-laptop) {
         font-size: 36px;
     }
@@ -353,14 +333,6 @@ to sum less than 100%
 .post-content {
     color: $palette-dark;
     margin-bottom: $spacing-unit;
-
-    ::selection {
-        background-color: #f6cf00;  /* Color when text is selected */
-    }
-
-    ::-moz-selection {
-        background-color: #f6cf00;
-    }
 
     h2 {
         font-size: 32px;
