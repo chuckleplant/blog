@@ -9,7 +9,7 @@ layout: default
     <div class="wrapper">
         {% for post in paginator.posts %} <!-- Changed site.posts to paginator.posts -->
         {% if post.layout != 'album' %}
-        
+        {% capture svg_symbols %}{% include svg-symbols.svg %}{% endcapture %}
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link">
             <div class="card">
                 
@@ -23,8 +23,20 @@ layout: default
                     
                     <!-- Date always at the bottom -->
                     <div class="card-meta">
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <!-- Icons at bottom right corner -->
+                        <div class="card-tags">
+                            {% for tag in post.tags %}
+                                {% assign svg_string = 'symbol id="' | append: tag | append: '"' %}
+                                {% if svg_symbols contains svg_string %}
+                                    <svg title="{{ tag }}">
+                                        <use xlink:href="#{{ tag }}"></use>
+                                    </svg>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
                     </div>
+
                 </div>
                 
                 <!-- Image Section  -->

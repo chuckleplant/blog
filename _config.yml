@@ -1,6 +1,6 @@
 ### your site title here
 
-title: Chuck LePlant
+title: chuckleplant
 
 description: > # this means to ignore newlines until "baseurl:"
     Sergio Basurco's personal portfolio. I'm a game developer based in Barcelona. Have fun browsing my little projects.
@@ -28,6 +28,9 @@ owner:
 
 exclude:
 - README.md
+- .gitignore
+- _site
+- _deploy
 
 photo_dir:
 - img/albums

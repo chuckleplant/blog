@@ -105,7 +105,7 @@ a {
     }
 
     &:hover {
-        color: darken($palette-2,5%);
+        color: darken($palette-accent,5%);
         text-decoration: underline;
     }
 }
@@ -136,11 +136,18 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-
-    //background-color: #eef;
+    //border: 1px solid darken($palette-bg, 5%);
+    border-radius: 0.1rem;
 }
+
+// inline code
+code.language-plaintext.highlighter-rouge {
+    background-color: darken($palette-bg, 8%);  /* or your desired background color */
+    padding: 2px 4px;  /* optional: for a bit of padding */
+    border-radius: 4px;  /* optional: for rounded corners */
+    color: $palette-darkest;
+}
+
 
 code {
     padding: 1px 5px;
@@ -185,10 +192,11 @@ pre {
     margin: $spacing-unit 0;
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.033);
+    background-color: darken($palette-bg, 3.1415%);
     overflow: hidden;
     position: relative; // Added to contain the shine effect
     transition: background-color 0.05s ease-in, transform 0.05s;
+    will-change: transform;
 
     &::after {
         content: '';
@@ -206,8 +214,9 @@ pre {
     &:hover {
         transform: scale(1.03);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border: 0.1rem solid lighten($palette-fg, 10%);
+        border: 0.1rem solid lighten($palette-highlight, 10%);
         background-color: rgba(255, 227, 136, 0.158);
+        z-index: 1;
         
         &::after {
             background: linear-gradient(45deg, rgba(255,255,255,0.25), rgba(255,255,255,0.5), rgba(255,255,255,0.25));
@@ -219,6 +228,7 @@ pre {
     @include media-query($on-laptop) {
         flex-direction: column;
     }
+
 }
 
 .card-text {
@@ -226,11 +236,33 @@ pre {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
-.card-meta { 
+
+.card-meta {
     margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: $small-font-size;
+    
+    .card-tags {
+        align-items: center;
+        position: absolute;
+        bottom: .1rem;
+        right: 10px;
+        display: flex;
+        gap: .25rem; // Spacing between icons
+
+        > svg {
+            display: inline-block;
+            vertical-align: middle;
+            width: 1.275rem;
+            height: 1.275rem;            
+        }
+    }
 }
 
 .card-image {
@@ -258,13 +290,6 @@ pre {
     }
 }
 
-@keyframes shineEffect {
-    from { left: -100%; }
-    to { left: 150%; }
-}
-
-
-
 /**
  * Clearfix
  */
@@ -290,12 +315,10 @@ pre {
         height: 18px;
         vertical-align: middle;
         path {
-            fill: $palette-2;
+            fill: $palette-accent;
         }
     }
 }
-
-
 
 /* How to make an image center (vertically & horizontally) inside a bigger div*/
 /* http://stackoverflow.com/a/19206463 */
@@ -317,3 +340,4 @@ pre {
     display: inline-block;
     vertical-align: middle;
 }
+

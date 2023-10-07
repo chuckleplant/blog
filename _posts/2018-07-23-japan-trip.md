@@ -2,7 +2,7 @@
 layout: post
 title:  "Trip to Japan"
 date:   2018-07-23
-tags: [album,photography,japan]
+tags: [album,photography,japan,world]
 comments: true
 disqus_identifier: NihonAlbum
 image:

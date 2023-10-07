@@ -2,7 +2,7 @@
 layout: post
 title:  "Photo geotagging using your Google location history"
 date:   2018-07-23
-tags: [google,gps,geotag,python,exif,jpeg,creepy,photography]
+tags: [google,location,geotag,python,exif,jpeg,code,photography]
 comments: true
 disqus_identifier: geotagPython
 image:

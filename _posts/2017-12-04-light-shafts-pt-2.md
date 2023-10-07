@@ -2,7 +2,7 @@
 layout: post
 title: Isaac Hayes Wallpaper Generator - Volumetric light scattering, 2 of 2
 date: 2017-12-04
-icon: sun-o
+tags: [sun,code]
 comments: true
 disqus_identifier: Shaft!
 image:
@@ -69,10 +69,7 @@ But, should games aim for physical realism? I don't think so. As a means to tran
 
 # Isaac Hayes Wallpaper Generator
 
-
-<video autoplay="autoplay" loop="loop" width="100%">
-    <source src="/videos/rdrgif.mp4" type="video/mp4">
-</video>
+{% include video.html source="/videos/rdrgif.mp4" %}
 
 Whithout further ado I present the [Isaac Hayes Wallpaper Generator](/emscripten/isaac_hayes_wg/IsaacWallpaper.html)[^2]. You can tweak light intensity, background color. You can also upload your own image (with transparency) to play with it and pierce your own eyes with the power of the sun, or not, your call.[^3]$$^,$$[^4]
 

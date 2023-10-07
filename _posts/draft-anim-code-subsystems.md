@@ -7,8 +7,8 @@ comments: true
 disqus_identifier: animSubsystems
 ---
 
-Node that encompasses other nodes.
-Subsystem and nodes as components. Think of example of what to do.
-Ping pong turn in place / double buffer idea
-Motion matching, find animations
-Motion warping jump wall to wall?
+(/) Node that encompasses other nodes.
+    Subsystem and nodes as components. Think of example of what to do.
+    Ping pong turn in place / double buffer idea
+    Motion matching, find animations
+    Motion warping jump wall to wall?

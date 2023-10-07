@@ -2,7 +2,7 @@
 layout: post
 title:  "Tequila Doodles"
 date:   2022-09-21
-tags: [drawing,gamedev,album]
+tags: [drawing,gamedev,album,art]
 comments: true
 disqus_identifier: TequilaDoodles
 image:

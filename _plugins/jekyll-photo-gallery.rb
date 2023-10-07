@@ -124,7 +124,7 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @result = '<div id="pig"></div>'
+      @result = '<div class="pig-gallery" id="pig"></div>'
       @result = @result + ' <script src="/js/plugins/pig/src/pig.min.js"></script>'
 
       @result = @result + ' <script>

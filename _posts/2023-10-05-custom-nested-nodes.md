@@ -2,16 +2,16 @@
 layout: post
 title:  "Anim Blueprint logic in Code"
 date:   2023-10-05
-tags: [unreal,unreal engine,UE5,animation,animation programming,code-example]
+tags: [unreal,animation,code]
 comments: true
 disqus_identifier: nestedABPNodes
 image: 
     path: "img/600/hades-nodes.png"
 ---
 
-Blueprints represent us humans. C++ represents the Gods of Olympus, who envy Blueprints because of their mortality. Blueprints live a happy and simple life, and they dream of one day being as powerful as Code. C++, on the other hand, is doomed to an eternity of pain. Even though they're weak and hideous, Blueprints get to play with the mortals. This is why Code despises Blueprints and looks down on them from the heights of Mount Performance.
+Blueprints represent us humans. C++ represents the Gods of Olympus, who envy Blueprints because of their mortality. Blueprints live a happy and simple life, and they dream of one day being as powerful as the Gods. C++, on the other hand, is doomed to an eternity of pain. Even though they're weak and hideous, Blueprints get to play with the mortals. This is why Code despises Blueprints and looks down on them from the heights of Mount Performance.
 
-I've been playing Hades.
+*I've been playing Hades.*
 
 Here I'll show you how to use Anim Blueprint nodes from code. Is that worth doing? Not usually, it's way simpler to do it from Blueprint. But it's a handy tool in case you want to hide some complexity under the hood and expose only a pretty node in the editor.
 
@@ -72,7 +72,7 @@ private:
 
 On initialization, we will connect the pins under the hood. We have to make sure that `mBlendNode` is initialized since this node already has some pins that need to be connected. Since this node is now hidden from the user we must connect them in code. Note that `mBlendNode` already contains `FPoseLink` references, we can just copy ours to them since these are simple structs representing runtime animation pins.
 
-To connect any two existing AnimNodes we must always do this via their `FPoseLink`. We're connecting mBlend to mModifyCurve by calling `SetLinkNode`. This is the same as dragging the pose pin in the Editor. From this point onwards we can forget about `mBlend` since the leading node is now `mModifyCurve`. Notice how we call `Initialize_AnyThread` on `mModifyCurve`, but not on `mBlend` since it will get called due to the connection we just made.
+To connect any two existing AnimNodes we do this via their `FPoseLink`. We're connecting mBlend to mModifyCurve by calling `SetLinkNode`. This is the same as dragging the pose pin in the Editor. From this point onwards we can forget about `mBlend` since the leading node is now `mModifyCurve`. Notice how we call `Initialize_AnyThread` on `mModifyCurve`, but not on `mBlend`.
 
 ~~~ cpp 
 void FAnimNode_NestedNodes::Initialize_AnyThread(const FAnimationInitializeContext& Context)
@@ -98,7 +98,7 @@ void FAnimNode_NestedNodes::Initialize_AnyThread(const FAnimationInitializeConte
 }
 ~~~
 
-For the `Update` and `Evaluate` methods we only have to bypass to the anim node that we're using internally. We will also update the blend weight based on the curve that we exposed as a `UPROPERTY`. Finally, we will update the exposed curve value as a runtime animation curve.
+For the Update and Evaluate methods we only have to bypass to the anim node that we're using internally. We will also update the blend weight based on the curve that we exposed as a `UPROPERTY`. Finally, we will update the exposed curve value as a runtime animation curve.
 
 It's important to note that no matter how many nodes we're using, **you only have to update and evaluate one of them**, the one that gives you the output pose for your custom node. This one will update and evaluate any pose links that you've connected to them recursively.
 
@@ -138,7 +138,9 @@ void FAnimNode_NestedNodes::GatherDebugData(FNodeDebugData& DebugData)
 }
 ~~~
 
-{% include image.html file="posts/nested-nodes-debug.png" description="Using the `showdebug ANIMATION` command we can see all debug data reported by AnimNodes. In our case we added the curve time and the weight that's being output as an Animation Curve." %}
+Using the `showdebug ANIMATION` command we can see all debug data reported by AnimNodes. In our case we added the curve time and the weight that's being output as an Animation Curve.
+
+{% include image.html file="posts/nested-nodes-debug.png" %}
 
 Finally, here's how we evaluate the curve asset in order to blend from one pose to another. We only need to take care of looping the curve evaluation over time. The `FAnimationUpdateContext` contains the DeltaTime required for this evaluation. We will also update the curve value on `mModifyCurve`.
 
@@ -167,6 +169,4 @@ void FAnimNode_NestedNodes::UpdateBlendWeight(const FAnimationUpdateContext& Con
 
 All that remains is for users to use our new Anim Node and connect some animations to it. Clicking on the new **Blend by Curve** node will show the Curve asset reference in the Details panel. Our update function will evaluate the curve over time and set the blend weight to our internal Blend node. Note that I renamed the node title from NestedNodes to Blend by Curve to make it fancier.
 
-<video autoplay="autoplay" loop="loop" width="100%">
-    <source src="/videos/nested-nodes-abp.mp4" type="video/mp4">
-</video>
+{% include video.html source="/videos/nested-nodes-abp.mp4" %}

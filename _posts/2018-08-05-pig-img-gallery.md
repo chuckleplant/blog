@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll pig image gallery"
 date:   2018-08-06
-tags: [meta,jekyll,images]
+tags: [meta,jekyll,code,blog]
 comments: true
 disqus_identifier: pigGallery
 image:

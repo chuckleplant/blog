@@ -3,37 +3,35 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
+//$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto Serif', serif;
+$base-font-size:   18px;
+$base-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
 // color variables : huemint.com
-$palette-bg: #e8e6ea;
-$palette-fg:#bd9035;
-$palette-1: #2b3949;
-$palette-2: #c76625;
+$palette-bg:        #e8e6ea;
+$palette-bg-accent: #a6b6de;
+$palette-dark:      #2b3949;
+$palette-darkest:   #000100;
+$palette-accent:    #c76625;
+$palette-highlight: #e9ab00;
 
-$footer-fg: #f19e67;
-$footer-hover: #ebc16e;
-
-
+// autumn https://huemint.com/website-3/#palette=e8e6ea-a6b6de-2b3949-000100-c76625-f6cf00
 // https://huemint.com/website-1/#palette=e8e6ea-2b3949-f47c2d
 
-$text-color:      $palette-1;
+$text-color:      $palette-dark;
 $background-color: $palette-bg;
-$brand-color:      $palette-2;
+$brand-color:      $palette-accent;
 
-$palette-1-clicked: darken($palette-1, 10%);
-$palette-2-clicked: darken($palette-2, 10%);
+$palette-dark-clicked: darken($palette-dark, 10%);
+$palette-accent-clicked: darken($palette-accent, 10%);
 
-$grey-color:       $palette-1;
+$grey-color:       $palette-dark;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  lighten($grey-color, 25%);
 
@@ -41,7 +39,7 @@ $grey-color-dark:  lighten($grey-color, 25%);
 $content-width:    max(50vw,950px);
 //$content-width:    85%;
 
-$on-palm:          600px;
+$on-palm:          750px;
 $on-laptop:        800px;
 
 

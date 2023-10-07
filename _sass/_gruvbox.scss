@@ -1,4 +1,4 @@
-$code-bg: darken($palette-1, 3%);
+$code-bg: darken($palette-dark, 3%);
 
 .highlight {
   //max-height: 30rem; this causes issues with div overlapping next section for some reason
@@ -8,6 +8,8 @@ $code-bg: darken($palette-1, 3%);
   background: $code-bg;
   .highlighter-rouge & {
     background: $code-bg;
+    margin-bottom: $embedded-content-margin;
+    margin-top: $embedded-content-margin;
   }
 }
 

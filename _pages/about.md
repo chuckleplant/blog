@@ -10,8 +10,6 @@ permalink: /about/
 {% include image.html file="minichess.JPG" description="I lost within a minute, I'm terrible at chess." %}
 </center>
 
-<br/>
-
 I'm Sergio Basurco, game developer.
 
 I've specialized as an animation programmer, I've spent most of my gamedev career crafting locomotion systems and animation related code. I'm currently back home working at Smilegate Barcelona making AAA games.

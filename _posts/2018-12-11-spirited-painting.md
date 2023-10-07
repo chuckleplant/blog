@@ -2,7 +2,7 @@
 layout: post
 title:  "Glimpse from Spirited Away"
 date:   2018-12-11
-tags: [painting,art,images,movies,movie,acrylic]
+tags: [painting,art,images,movies,acrylic]
 comments: true
 disqus_identifier: spiritedPainting
 image:

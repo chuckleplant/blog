@@ -12,17 +12,33 @@
     position: relative;
 
     &:hover {
-        border-bottom: 0.1rem solid lighten($palette-fg, 10%);
+        border-bottom: 0.1rem solid lighten($palette-highlight, 10%);
     }
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    white-space: nowrap;
+
+    &:hover {
+        text-decoration: none;
+        .title-dot{
+            color: $palette-accent;
+        }
+    }
+
+    .title-dot{
+        position: absolute;
+        bottom: .6rem;
+        font-size: 4rem;
+        color: $palette-bg-accent;
+        transition: color 0.3s ease;      
+    }
 
     &,
     &:visited {
@@ -106,7 +122,7 @@
  * Site footer
  */
  .site-footer {
-    background-color: $palette-1;
+    background-color: $palette-dark;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     position: relative;
@@ -114,17 +130,17 @@
     bottom: 0;
 
     // Text color for the general footer content
-    color: $footer-fg;
+    color: $palette-accent;
 
     a {
-        color: $footer-fg;  // Link colors in the footer
+        color: $palette-accent;  // Link colors in the footer
         &:hover {
-            color: $footer-hover;  // Hover color for links in the footer
+            color: $palette-highlight;  // Hover color for links in the footer
         }
     }
 
     .contact-list-title {
-        color: $footer-fg;  // The title color in the contact list
+        color: $palette-accent;  // The title color in the contact list
     }
 }
 
@@ -191,7 +207,7 @@ to sum less than 100%
 
 .footer-col-wrapper {
     font-size: 15px;
-    background-color: $palette-1;
+    background-color: $palette-dark;
     color: $palette-bg;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -267,6 +283,9 @@ to sum less than 100%
 /**
  * Page content
  */
+
+ $embedded-content-margin: 2rem;
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -286,7 +305,14 @@ to sum less than 100%
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $palette-dark;
+    ::selection {
+        background-color: #f6cf00;  /* Color when text is selected */
+    }
+
+    ::-moz-selection {
+        background-color: #f6cf00;
+    }
 }
 
 .post-link {
@@ -301,12 +327,23 @@ to sum less than 100%
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
+    color: $palette-dark;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-weight: 600;
+
+    ::selection {
+        background-color: #f6cf00;  /* Color when text is selected */
+    }
+
+    ::-moz-selection {
+        background-color: #f6cf00;
+    }
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -314,7 +351,16 @@ to sum less than 100%
 }
 
 .post-content {
+    color: $palette-dark;
     margin-bottom: $spacing-unit;
+
+    ::selection {
+        background-color: #f6cf00;  /* Color when text is selected */
+    }
+
+    ::-moz-selection {
+        background-color: #f6cf00;
+    }
 
     h2 {
         font-size: 32px;
@@ -348,13 +394,19 @@ to sum less than 100%
 
 .image-container {
     text-align: center; // Center the caption
-    margin-bottom: 2rem;
+    margin-bottom: $embedded-content-margin;
 
     .caption {
         padding-top: 0.5rem;
-        padding-bottom: 10px; // Increase bottom padding (adjust as required)
+        
         display: block;
         text-align: center; // Ensure caption is centered
         font-weight: bold; // Bold on hover
     }
+}
+
+// image galleries
+
+.pig-gallery {
+    margin-top: $embedded-content-margin;
 }
