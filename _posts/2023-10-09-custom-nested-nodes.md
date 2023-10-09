@@ -9,7 +9,7 @@ image:
     path: "img/600/hades-nodes.png"
 ---
 
-Epicmetheus created Blueprints to resemble the Codes. C++, king of Olympus and ruler of all the Codes, did not appreciate this. Blueprints live a happy and simple life. They harbor dreams of one day becoming as powerful as C++ himself. Though they are weak and hideous, Blueprints get to play with the mortals. This is the reason C++ despises Blueprints and looks down on them from the heights of Mount Performance.
+Epicmetheus created Blueprints to resemble Code. C++, king of Olympus and ruler of all Code, deemed this as a transgression. Living a happy and simple life, Blueprints, weak and hideous as they are, still harbor dreams of one day rivaling the power of C++ himself. They often spend their days whimsically playing with us, mere mortals. It is, for this very reason, that C++ despises Blueprints and looks down on them from the heights of Mount Performance.
 
 *I've been playing Hades.*
 
@@ -70,7 +70,7 @@ private:
     float                   mCurveTime = 0.f;
 ~~~
 
-On initialization, we will connect the pins under the hood. We have to make sure that `mBlendNode` is initialized since this node already has some pins that need to be connected. Since this node is now hidden from the user we must connect them in code. Note that `mBlendNode` already contains `FPoseLink` references, we can just copy ours to them since these are simple structs representing runtime animation pins.
+On initialization, we will connect the pins under the hood. We have to make sure that `mBlend` is initialized since this node already has some pins that need to be connected. Since this node is now hidden from the user we must connect them in code. Note that `mBlend` already contains `FPoseLink` references, we can just copy ours to them since these are simple structs representing runtime animation pins.
 
 To connect any two existing AnimNodes we do this via their `FPoseLink`. We're connecting mBlend to mModifyCurve by calling `SetLinkNode`. This is the same as dragging the pose pin in the Editor. From this point onwards we can forget about `mBlend` since the leading node is now `mModifyCurve`. Notice how we call `Initialize_AnyThread` on `mModifyCurve`, but not on `mBlend`.
 
@@ -158,7 +158,7 @@ void FAnimNode_NestedNodes::UpdateBlendWeight(const FAnimationUpdateContext& Con
     mCurveTime                  = FMath::Fmod(mCurveTime, CurveDuration);
     mBlend.Alpha                = BlendWeightCurve->GetFloatValue(mCurveTime);
 
-    if(CurveName == NAME_None)
+    if (CurveName == NAME_None)
     {
         return;
     }
