@@ -24,7 +24,7 @@ Oscar finally gave in and gave me a solid *maybe*. It certainly wasn't the first
 
 It was a nice excuse to toy with materials. The logic behind it was quite simple, if the light source and the Observer's eyes aligned with the camera's forward vector, the eye then can reflect back light towards the camera and have a slight glow. Nothing a dot product and an emissive material cannot fix.
 
-{% include image.html file="material-tapetum-mockup.png" description="You've probably seen reflective tape in those construction worker vests. The idea here is the same. If light source direction aligns with your eye, the tapetum will bounce the light back to you." %}
+{% include image.html file="material-tapetum-mockup.png" description="You've probably seen reflective tape in those construction worker vests. The idea here is the same. If light source direction aligns with your eye, the tapetum will bounce the light back to you." background='none' %}
 
 I showed it to Simon and he was into it. He was visibly amused by a newly hired gameplay programmer showing him a rudimentary visual effect. He even gave me some feedback and we iterated it for a while. I was working on this separate dark level when I found a few minutes to spare. He later kindly took the material and gave it some magic VFX touches and *voilà*, it was in the game.
 

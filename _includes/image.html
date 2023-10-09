@@ -1,8 +1,15 @@
+<style>
+    .audiovisual {
+        margin: 5px;
+        border-radius: .5rem;
+    }
+</style>
 
 <div class="image-container">
     <div class="Container">
         <div class="Content">
-            <img class="audiovisual" src="/images/{{ include.file }}" alt="{{ include.description }}" style="width: {{ include.width | default: 'auto' }};">
+            <img class="audiovisual" src="/images/{{ include.file }}" alt="{{ include.description }}" 
+                 style="width: {{ include.width | default: 'auto' }}{% if include.background != 'none' %}; background-color: var(--image-background){% endif %};">
         </div>
     </div>
     <span class="caption" style="font-size: 80%"><i>{{ include.description }}</i></span>

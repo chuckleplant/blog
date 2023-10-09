@@ -361,11 +361,28 @@ to sum less than 100%
     }
 }
 
-.audiovisual {
-    margin: 5px;    
-    background-color: var(--image-background);
-    border-radius: .5rem;
+.post-colored-text {
+    text-shadow: 
+        -1px    -1px    3px var(--colored-text-outline), 
+        1px     -1px    3px var(--colored-text-outline), 
+        -1px    1px     3px var(--colored-text-outline), 
+        1px     1px     3px var(--colored-text-outline);
 }
+
+.MathJax span{
+    filter: drop-shadow(.5px .5px .35px var(--formula-outline));
+}
+
+// .audiovisual {
+//     margin: 5px;    
+//     background-color: var(--image-background);
+//     border-radius: .5rem;
+// }
+
+// .audiovisual {
+//     margin: 5px;    
+//     border-radius: .5rem;
+// }
 
 .image-container {
     text-align: center; // Center the caption

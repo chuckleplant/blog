@@ -24,7 +24,7 @@ html {
     --brand-darkened-10                   : #894214;
     --brand-darkened-5                    : #a04d17;
     --background-accent                   : #a6b6de;
-    --background-darkened-8               : #d4d0d7;
+    --plaintext-background                : #cac4ced1;
     --contrast                            : #000100;
     --bg-accent-opacity-33                : rgba(166, 182, 222, 0.33);
     --background-darkened-10              : #cfcad3;
@@ -36,38 +36,44 @@ html {
     --brand-lightened-25                  : #e99a66;
     --white-opacity-25                    : rgba(255, 255, 255, 0.25);
     --code-bg                             : #25313f;
+    --colored-text-outline                : #ffffff00;
+    --formula-outline                     : #ffffff00;
+    --plaintext                           : #0f0e08;
 }
   
-// @media (prefers-color-scheme: dark) {
-//     html {
-//         --text: #e8e6ea;
-//         --footer-bg: #0e0e10;
-//         --footer-text: #e8e6ea;
-//         --footer-brand: #e99a66;
-//         --background: #383535;
-//         --image-background : #ffffff;
-//         --brand: #ffb289;
-//         --brand-darkened-10: #ff9c70;
-//         --brand-darkened-5: #ffa782;
-//         --background-accent: #374466;
-//         --background-darkened-8: #28282a;
-//         --contrast: #ffffff;
-//         --bg-accent-opacity-33: #a6b6de67;
-//         --background-darkened-10: #2a2a2c;
-//         --background-darkened-pi: #242426;
-//         --highlight-lightened-10: #ffb040;
-//         --post-card-hovered: rgb(53 25 10 / 46%);
-//         --black-opacity-15: rgba(255, 255, 255, 0.015);
-//         --highlight: #a6b6de;
-//         --brand-lightened-25: #ff6e40;
-//         --white-opacity-25: rgba(0, 0, 0, 0.25);
-//         --code-bg: #231e1e;
-//     }
-// }
+@media (prefers-color-scheme: dark) {
+    html {
+        --text                    : #e8e6ea;
+        --footer-bg               : #0e0e10;
+        --footer-text             : #e8e6ea;
+        --footer-brand            : #e99a66;
+        --background              : #383535;
+        --image-background        : #ffffff;
+        --brand                   : #ffb289;
+        --brand-darkened-10       : #ff9c70;
+        --brand-darkened-5        : #ffa782;
+        --background-accent       : #374466;
+        --plaintext-background    : #28282a;
+        --contrast                : #ffffff;
+        --bg-accent-opacity-33    : #a6b6de67;
+        --background-darkened-10  : #2a2a2c;
+        --background-darkened-pi  : #242426;
+        --highlight-lightened-10  : #ffb040;
+        --post-card-hovered       : rgb(53 25 10 / 46%);
+        --black-opacity-15        : rgba(255, 255, 255, 0.015);
+        --highlight               : #a6b6de;
+        --brand-lightened-25      : #ff6e40;
+        --white-opacity-25        : rgba(0, 0, 0, 0.25);
+        --code-bg                 : #231e1e;
+        --colored-text-outline    : #0e0e10;
+        --formula-outline         : #0e0e1070;
+        --plaintext               : #fbe496;
+
+    }
+}
 
 // autumn   https://huemint.com/website-3/#palette=e8e6ea-a6b6de-2b3949-000100-c76625-f6cf00
 // dark     https://huemint.com/website-2/#palette=1d2021-a6b6de-e99a66-b9aa9c
-
 
 // Width of the content area
 $content-width:    max(50vw,950px);

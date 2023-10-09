@@ -41,7 +41,7 @@ We need to account for all objects occluding each beam of light. For this render
 
 Eq. 3 computes, for a whole ray, the accumulated light value based on the media it traverses. What we'll do is march on screen space, accumulating by sampling along the ray's path towards any given pixel.
 
-{% include image.html file="cheating-shaft.png" description="Each dot represents a sample, we omit the samples that have an occluder. This makes the pixels with no ocluders (on screen space) be brighter." %}
+{% include image.html file="cheating-shaft.png" description="Each dot represents a sample, we omit the samples that have an occluder. This makes the pixels with no ocluders (on screen space) be brighter." background='none' %}
 
 ## The sum
 
