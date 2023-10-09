@@ -30,7 +30,7 @@ Early on, people tried to apply hardware production chains to software. It was t
 
 Sounds familiar? 
 
-![waterfall-diagram]({{site.baseurl}}/images/waterfall.png)
+{% include image.html file="waterfall.png" %}
 
 Behold the [waterfall software model](https://en.wikipedia.org/wiki/Waterfall_model). This is the one I learnt during my years in university. I actually thought that's how all companies would be making software, because why would you not?
 
@@ -44,7 +44,7 @@ Now let's find the conflict in our story. Why would the solid Waterfall...well, 
 
 ## The artist
 
-![mindingme]({{site.baseurl}}/images/dat-sleeve.jpg)
+{% include image.html file="dat-sleeve.jpg" %}
 
 Ask Apple who's more important when making the iPhone, is it the designers from California, or the assemblers from China?
 
@@ -54,7 +54,7 @@ I remember wondering whether I wanted to be a programmer, the hardworking guy wr
 
 Now I just thought of my job as *developer*, the guy doing software development whatever it takes. And I believe that's what these roles have turned into.
 
-![iterative-diagram]({{site.baseurl}}/images/iterative.png)
+{% include image.html file="iterative.png" %}
 
 ## A new contender
 
@@ -63,8 +63,6 @@ I believe it was the guys tired of hitting nails, who came up with this revoluti
 Newborn companies are famous for giving developers commodities, levelling the various roles in a project. Tech leads get their hands dirty with the team.
 
 The key concept is treating development as a creative process, beyond labels and roles, new methodologies give somewhat more freedom to the developer to just code and deploy things that work. 
-
-
 
 ## Aftermath
 

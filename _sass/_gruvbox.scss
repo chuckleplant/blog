@@ -1,4 +1,4 @@
-$code-bg: darken($palette-text, 3%);
+$code-bg: var(--code-bg);
 
 .highlight {
   //max-height: 30rem; this causes issues with div overlapping next section for some reason

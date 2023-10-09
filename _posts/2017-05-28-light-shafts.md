@@ -25,15 +25,14 @@ For the sake of me actually playing videogames instead of just being mesmerized 
 
 My hope here is to give any reader a shallow but thorough overview of computer graphics rendering and physically based rendering effects. These two concepts are rather tangent, in the sense that computer graphics will not use the actual physical formulae, but hacky approximations.
 
-
-
 ## Rendering equation review
 
-![renderineq]({{site.baseurl}}/images/rendering-equation-drawing.png)
+> This drawing and explanation were featured in [CHI'22: ACM Conference on Human Factors in Computing Systems](https://programs.sigchi.org/chi/2022/program/content/68734).
 
+![renderineq]({{site.baseurl}}/images/rendering-eq-light-dark.png)
 
 $$
-\definecolor{steadyblue}{RGB}{0,76,212} %004CD4
+\definecolor{steadyblue}{RGB}{58, 125, 242} %3a7df2
 \definecolor{lobster}{RGB}{185,138,162} %B98AA2
 \definecolor{mars}{RGB}{255,165,44} %FFA52C
 \definecolor{rosamund}{RGB}{198,73,255} %C649FF
@@ -43,9 +42,9 @@ $$
 \definecolor{sea}{RGB}{41,153,124}  %29997C 
 \definecolor{flower}{RGB}{255,85,149} %FF5595
 
-\color{steadyblue}{L_{\text{o}}(\mathbf x,\, \omega_{\text{o}})} \color{black}{\,=\,} \color{mars}{L_e(\mathbf x,\, \omega_{\text{o}})} \color{black}{\ +\,} \color{bleu}{\int_\Omega} \color{flower}{f_r(\mathbf x,\, \omega_{\text{i}},\, \omega_{\text{o}})\,} \color{rosamund}{L_{\text{i}}(\mathbf x,\, \omega_{\text{i}})\,} \color{pistacho}{(\omega_{\text{i}}\,\cdot\,\mathbf n)\,} \color{bleu}{\operatorname d \omega_{\text{i}}}$$
+\textcolor{steadyblue}{L_{\text{o}}(\mathbf x,\, \omega_{\text{o}})} {\,=\,} \textcolor{mars}{L_e(\mathbf x,\, \omega_{\text{o}})} {\ +\,} \textcolor{bleu}{\int_\Omega} \textcolor{flower}{f_r(\mathbf x,\, \omega_{\text{i}},\, \omega_{\text{o}})\,} \textcolor{rosamund}{L_{\text{i}}(\mathbf x,\, \omega_{\text{i}})\,} \textcolor{pistacho}{(\omega_{\text{i}}\,\cdot\,\mathbf n)\,} \textcolor{bleu}{\operatorname d \omega_{\text{i}}}$$
 
-To find <font color="#004CD4">the light towards the viewer from a specific point</font>, we sum the <font color="#FFA52C">light emitted from such point</font> plus <font color="#49D6FF">the integral within the unit hemisphere</font> of <font color="#C649FF">the light coming from a any given direction</font> multiplied by the <font color="#FF5595">chances of such light rays bouncing towards the viewer</font>[^100] and also by <font color="#76A327">the irradiance factor over the normal at the point</font>.[^1]$$^,$$[^2]
+To find <font color="#3a7df2">the light towards the viewer from a specific point</font>, we sum the <font color="#FFA52C">light emitted from such point</font> plus <font color="#49D6FF">the integral within the unit hemisphere</font> of <font color="#C649FF">the light coming from a any given direction</font> multiplied by the <font color="#FF5595">chances of such light rays bouncing towards the viewer</font>[^100] and also by <font color="#76A327">the irradiance factor over the normal at the point</font>.[^1]$$^,$$[^2]
 
 Note that <font color="C649FF">incoming light</font> is also computed by that very formula, which makes this exhaustingly recursive.
 
@@ -67,7 +66,7 @@ $$I=I_\text{o} · e^{-\tau s}$$
 
 This helps us understand how scattering is first modelled in Nvidia's GPU gem on volumetric light scattering[^7]. Let $$s$$ be the distance through the media and $$\theta$$ the angle between the viewer and the light beam:
 
-![scattering-terms]({{site.baseurl}}/images/rendering-scatter-terms.png)
+{% include image.html file="rendering-scatter-terms.png" %}
 
 $$
 \definecolor{steadyblue}{RGB}{0,76,212} %004CD4
@@ -80,7 +79,7 @@ $$
 \definecolor{sea}{RGB}{41,153,124}  %29997C 
 \definecolor{greenbean}{RGB}{76,153,0}  %4C9900 
 
-\color{red}{L(s,\,\theta)} \color{black}{\,=\,} \color{steadyblue}{L_\text{o}} \color{rosamund}{\,e^{-\tau s}} \color{black}{\,+\,} \frac{1}{\tau} \color{orange}{\,E_{sun}} \color{greenbean}{\,S(\theta)} \color{black}{\,(1 \,-\, } \color{rosamund}{e^{-\tau s}}\color{black}{)}$$
+\textcolor{red}{L(s,\,\theta)} {\,=\,} \textcolor{steadyblue}{L_\text{o}} \textcolor{rosamund}{\,e^{-\tau s}} {\,+\,} \frac{1}{\tau} \textcolor{orange}{\,E_{sun}} \textcolor{greenbean}{\,S(\theta)} {\,(1 \,-\, } \textcolor{rosamund}{e^{-\tau s}}{)}$$
 
 The <font color="FF0000">light accounting for volumetric scattering</font> is a linear interpolation <font color="C649FF">weighed by the extinction constant</font>. Note how we interpolate between the <font color="004CD4">light computed at a given point</font> and the light due to scattering, which is a product of the <font color="FFAF00">source illumination</font> from the sun (or light source) and the <font color="4C9900">angular scattering term</font> according to Rayleigh and Mie properties.
 
@@ -96,7 +95,7 @@ This means Rayleigh scattering bounces off smaller wavelengths, such as the blue
 
 Last but not least, we need to take occluders into the equation. Let $$\phi$$ represent the ray from the light emitter towards the observed point:
 
-$$L(s,\,\theta,\,\phi) = (1 \,-\, \color{orange}{D(\phi)}\color{black}{)} \color{red}{\,L(s,\,\theta)}$$
+$$L(s,\,\theta,\,\phi) = (1 \,-\, \textcolor{orange}{D(\phi)}{)} \textcolor{red}{\,L(s,\,\theta)}$$
 
 Is the light accounting for both <font color="FF0000">volumetric light scattering</font> and <font color="FFA600">the opacity term of all occluders</font>, which is the total opacity of the ocluders along the ray. 
 

@@ -13,16 +13,61 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-// color variables : huemint.com
-$palette-bg:        #e8e6ea;
-$palette-bg-accent: #a6b6de;
-$palette-text:      #2b3949;
-$palette-contrast:  #000100;
-$palette-brand:     #b6581a;
-$palette-highlight: #e9ab00;
+html {
+    --text                                : #2b3949;
+    --footer-bg                           : #2b3949;
+    --footer-text                         : #e8e6ea;
+    --footer-brand                        : #e99a66;
+    --background                          : #e8e6ea;
+    --image-background                    : #e8e6ea;
+    --brand                               : #b6581a;
+    --brand-darkened-10                   : #894214;
+    --brand-darkened-5                    : #a04d17;
+    --background-accent                   : #a6b6de;
+    --background-darkened-8               : #d4d0d7;
+    --contrast                            : #000100;
+    --bg-accent-opacity-33                : rgba(166, 182, 222, 0.33);
+    --background-darkened-10              : #cfcad3;
+    --background-darkened-pi              : #e0dde3;
+    --highlight-lightened-10              : #ffc31d;
+    --post-card-hovered                   : rgba(255, 195, 29, 0.1);
+    --black-opacity-15                    : rgba(0, 0, 0, 0.015);
+    --highlight                           : #e9ab00;
+    --brand-lightened-25                  : #e99a66;
+    --white-opacity-25                    : rgba(255, 255, 255, 0.25);
+    --code-bg                             : #25313f;
+}
+  
+// @media (prefers-color-scheme: dark) {
+//     html {
+//         --text: #e8e6ea;
+//         --footer-bg: #0e0e10;
+//         --footer-text: #e8e6ea;
+//         --footer-brand: #e99a66;
+//         --background: #383535;
+//         --image-background : #ffffff;
+//         --brand: #ffb289;
+//         --brand-darkened-10: #ff9c70;
+//         --brand-darkened-5: #ffa782;
+//         --background-accent: #374466;
+//         --background-darkened-8: #28282a;
+//         --contrast: #ffffff;
+//         --bg-accent-opacity-33: #a6b6de67;
+//         --background-darkened-10: #2a2a2c;
+//         --background-darkened-pi: #242426;
+//         --highlight-lightened-10: #ffb040;
+//         --post-card-hovered: rgb(53 25 10 / 46%);
+//         --black-opacity-15: rgba(255, 255, 255, 0.015);
+//         --highlight: #a6b6de;
+//         --brand-lightened-25: #ff6e40;
+//         --white-opacity-25: rgba(0, 0, 0, 0.25);
+//         --code-bg: #231e1e;
+//     }
+// }
 
-// autumn https://huemint.com/website-3/#palette=e8e6ea-a6b6de-2b3949-000100-c76625-f6cf00
-// https://huemint.com/website-1/#palette=e8e6ea-2b3949-f47c2d
+// autumn   https://huemint.com/website-3/#palette=e8e6ea-a6b6de-2b3949-000100-c76625-f6cf00
+// dark     https://huemint.com/website-2/#palette=1d2021-a6b6de-e99a66-b9aa9c
+
 
 // Width of the content area
 $content-width:    max(50vw,950px);

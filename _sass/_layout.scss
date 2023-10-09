@@ -2,17 +2,13 @@
  * Site header
  */
 .site-header {    
-    border-bottom: 0.1rem solid darken($palette-bg, 10%);
+    border-bottom: 0.1rem solid var(--background-darkened-10);
     min-height: 1rem;
-    background-color: rgba(0, 0, 0, 0.015);
+    background-color: var(--background-darkened-pi);
     transition: border-bottom 0.25s ease;
     
     // Positioning context for the mobile navigation icon
     position: relative;
-
-    &:hover {
-        border-bottom: 0.1rem solid $palette-bg-accent;
-    }
 }
 
 .site-title {
@@ -27,7 +23,7 @@
     &:hover {
         text-decoration: none;
         .title-dot{
-            color: $palette-highlight;
+            color: var(--highlight);
         }
     }
 
@@ -35,7 +31,7 @@
         position: absolute;
         bottom: .6rem;
         font-size: 4rem;
-        color: $palette-bg-accent;
+        color: var(--background-accent);
         transition: color 0.3s ease;      
     }
 }
@@ -51,7 +47,7 @@
     }
 
     .page-link {
-        color: $palette-text;
+        color: var(--text);
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -64,8 +60,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $palette-bg;
-        border: 1px solid $palette-bg-accent;
+        background-color: var(--background);
+        border: 1px solid var(--background-accent);
         border-radius: 5px;
         text-align: right;
 
@@ -83,7 +79,7 @@
                 height: 15px;
 
                 path {
-                    fill: $palette-text;
+                    fill: var(--text);
                 }
             }
         }
@@ -116,8 +112,7 @@
  * Site footer
  */
  .site-footer {
-    background-color: $palette-text;
-    border-top: 1px solid $palette-bg-accent;
+    background-color: var(--footer-bg);    
     padding: $spacing-unit 0;
     position: relative;
     width: 100%;
@@ -126,17 +121,17 @@
 
 
     // Text color for the general footer content
-    color: lighten($palette-brand, 25%);
+    color: var(--brand-lightened-25);
 
     a {
-        color: lighten($palette-brand, 25%);
+        color: var(--footer-brand);
         &:hover {
-            color: $palette-highlight;  // Hover color for links in the footer
+            color: var(--highlight);  // Hover color for links in the footer
         }
     }
 
     .contact-list-title {
-        color: lighten($palette-brand, 25%);
+        color: var(--footer-brand);
     }
 }
 
@@ -203,8 +198,8 @@ to sum less than 100%
 
 .footer-col-wrapper {
     font-size: 15px;
-    background-color: $palette-text;
-    color: $palette-highlight;
+    //background-color: var(--text);
+    color: var(--highlight);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -227,7 +222,7 @@ to sum less than 100%
 }
 
 .footer-col-3 {
-    color: $palette-bg;
+    color: var(--footer-text);
     float: left;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
@@ -284,12 +279,17 @@ to sum less than 100%
  $embedded-content-margin: 2rem;
 
 .page-content {
-    padding: $spacing-unit 0;
+    padding-bottom: $spacing-unit;
+    padding-top: $spacing-unit;
 }
 
 .page-heading {
     font-size: 20px;
 }
+
+// .post {
+//     margin-top: 3rem;
+// }
 
 .post-list {
     margin-left: 0;
@@ -302,7 +302,7 @@ to sum less than 100%
 
 .post-meta {
     font-size: $small-font-size;
-    color: $palette-text;
+    color: var(--text);
 }
 
 .post-link {
@@ -319,7 +319,7 @@ to sum less than 100%
 }
 
 .post-title {
-    color: $palette-text;
+    color: var(--text);
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -333,7 +333,7 @@ to sum less than 100%
 }
 
 .post-content {
-    color: $palette-text;
+    color: var(--text);
     margin-bottom: $spacing-unit;  
 
     h2 {
@@ -361,14 +361,16 @@ to sum less than 100%
     }
 }
 
-
-.imagedropshadow {
-    padding: 5px;    
+.audiovisual {
+    margin: 5px;    
+    background-color: var(--image-background);
+    border-radius: .5rem;
 }
 
 .image-container {
     text-align: center; // Center the caption
     margin-bottom: $embedded-content-margin;
+    margin-top: $embedded-content-margin;
 
     .caption {
         padding-top: 0.5rem;
