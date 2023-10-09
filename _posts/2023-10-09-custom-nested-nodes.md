@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Anim Blueprint logic in Code"
+title:  "Anim Blueprint Logic in Code"
 date:   2023-10-09
 tags: [unreal,animation,code]
 comments: true
