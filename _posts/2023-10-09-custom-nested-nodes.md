@@ -9,7 +9,7 @@ image:
     path: "img/600/hades-nodes.png"
 ---
 
-Blueprints represent us humans. C++ represents the Gods of Olympus, who created Blueprints. Blueprints live a happy and simple life, and they dream of one day being as powerful as the Gods. C++, on the other hand, is doomed to an eternity of pain. Even though they're weak and hideous, Blueprints get to play with the mortals. This is why Code despises Blueprints and looks down on them from the heights of Mount Performance.
+Epicmetheus created Blueprints to resemble the Codes. C++, king of Olympus and ruler of all the Codes, did not appreciate this. Blueprints live a happy and simple life. They harbor dreams of one day becoming as powerful as C++ himself. Though they are weak and hideous, Blueprints get to play with the mortals. This is the reason C++ despises Blueprints and looks down on them from the heights of Mount Performance.
 
 *I've been playing Hades.*
 
