@@ -12,7 +12,7 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 
-url: https://chuckleplant.github.io
+url: "https://blog.chuckleplant.com"
 
 author:
   name: Sergio Basurco
