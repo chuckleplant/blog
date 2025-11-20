@@ -14,3 +14,15 @@
 * Pillow
 * piexif
 * pyyaml
+
+## Running locally
+
+* Create `_config_private.yml` (ignored by git) for secrets:
+  ```yaml
+  google_maps_api_key: "YOUR_KEY"
+  google_maps_map_id: "YOUR_MAP_ID"
+  ```
+* Serve the site with both configs so the private values are picked up:
+  ```
+  bundle exec jekyll serve --config _config.yml,_config_private.yml
+  ```

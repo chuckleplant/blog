@@ -2,3 +2,4 @@ _site/
 _deploy/
 .sass-cache/
 .jekyll-metadata
+_config_private.yml

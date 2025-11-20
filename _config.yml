@@ -14,6 +14,9 @@ kramdown:
 
 url: "https://blog.chuckleplant.com"
 
+google_maps_api_key: "" # override in a private config file when building locally
+google_maps_map_id: "" # optional custom Map ID, set via private config
+
 author:
   name: Sergio Basurco
   twitter: SergioBasurco

@@ -23,6 +23,11 @@ root_dir = os.path.join(script_dir,'..')
 thumbnail_dir = os.path.join(root_dir, 'images/photography/thumbnails')
 site_dir = os.path.join(root_dir,'_site')
 setup_photos_script = os.path.join(root_dir, 'scripts/setup-photos.py')
+config_files = ['_config.yml']
+private_config = os.path.join(root_dir, '_config_private.yml')
+if os.path.isfile(private_config):
+    config_files.append('_config_private.yml')
+config_arg = ','.join(config_files)
 
 
 os.chdir(root_dir)
@@ -33,9 +38,9 @@ with open(setup_photos_script, 'r') as f:
 if args.push:
     print("\nBuild Jekyll site")
     if sys.platform != "win32":
-        call(['bundle','exec','jekyll', 'build', '--destination','_site'])
+        call(['bundle','exec','jekyll', 'build', '--config', config_arg, '--destination','_site'])
     else:
-        os.system('bundle exec jekyll build --destination _site')
+        os.system(f'bundle exec jekyll build --config {config_arg} --destination _site')
     repo = git.Repo(search_parent_directories=True)
     sha = repo.head.object.hexsha
     os.chdir(site_dir)
