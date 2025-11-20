@@ -26,3 +26,10 @@
   ```
   bundle exec jekyll serve --config _config.yml,_config_private.yml
   ```
+* If you prefer just building with auto-regeneration:
+  ```
+  bundle exec jekyll build --watch --config _config.yml,_config_private.yml
+  ```
+
+# Deploy to the other repo
+py scripts\deploy-site.py --push
